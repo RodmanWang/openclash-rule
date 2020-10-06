@@ -1,0 +1,10 @@
+payload:
+# > custom
+  - DOMAIN-KEYWORD,.btbtt.
+  - DOMAIN-SUFFIX,rarbgmirror.com
+  - DOMAIN-SUFFIX,lastpass.com
+  - DOMAIN-SUFFIX,synocommunity.com
+  - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,kernel.org
+  - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,fifaaddict.com
