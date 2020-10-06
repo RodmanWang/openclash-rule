@@ -2,7 +2,6 @@ payload:
 # > Beplay
   - DOMAIN-KEYWORD,beplay
 # > Blizzard
-  
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
@@ -16,7 +15,6 @@ payload:
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
 # > Sony PSX
-  
 # > TeamViewer
   - IP-CIDR,185.188.32.0/24,no-resolve
   - IP-CIDR,185.188.33.0/24,no-resolve
@@ -285,7 +283,6 @@ payload:
 # > 360
   - DOMAIN-SUFFIX,qhres.com
 # > Alibaba
-  
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,dingtalk.com
@@ -361,8 +358,6 @@ payload:
   - DOMAIN-SUFFIX,windowsupdate.com
   - DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
-  
-  
   - DOMAIN-SUFFIX,127.net
   - DOMAIN-SUFFIX,163yun.com
   - DOMAIN-SUFFIX,lofter.com
@@ -385,9 +380,6 @@ payload:
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN-SUFFIX,steamstat.us
-  
-  
-  
   - DOMAIN-SUFFIX,idqqimg.com
   - DOMAIN-SUFFIX,igamecj.com
   - DOMAIN-SUFFIX,myapp.com
@@ -396,7 +388,6 @@ payload:
   - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN,file-igamecj.akamaized.net
 # > YYeTs
-  
   - DOMAIN-SUFFIX,jstucdn.com
   - DOMAIN-SUFFIX,zimuzu.io
   - DOMAIN-SUFFIX,zmz2019.com

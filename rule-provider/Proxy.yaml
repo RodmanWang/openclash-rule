@@ -430,7 +430,6 @@ payload:
   - DOMAIN-SUFFIX,vsco.co
   - DOMAIN-SUFFIX,xfinity.com
   - DOMAIN-SUFFIX,zattoo.com
-  - USER-AGENT,Roam*
 # >> TestFlight
   - DOMAIN,testflight.apple.com
 # >> Apple URL Shortener
@@ -582,7 +581,6 @@ payload:
 # > Tesla
   - DOMAIN-KEYWORD,tesla
 # > Zooba
-  - USER-AGENT,battleroyale*
 # > Top blocked sites
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
@@ -1039,7 +1037,6 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
 # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
-  - USER-AGENT,WhatsApp*
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,dropbox

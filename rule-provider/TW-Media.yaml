@@ -1,6 +1,5 @@
 payload:
 # > Bahamut
-  - USER-AGENT,Anime*
   - DOMAIN-SUFFIX,bahamut.com.tw
   - DOMAIN-SUFFIX,gamer.com.tw
   - DOMAIN,gamer-cds.cdn.hinet.net
@@ -10,16 +9,11 @@ payload:
   - DOMAIN-SUFFIX,litv.tv
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 # > KKTV
-  - USER-AGENT,KKTV*
-  - USER-AGENT,com.kktv.ios.kktv*
   - DOMAIN-SUFFIX,kktv.com.tw
   - DOMAIN-SUFFIX,kktv.me
   - DOMAIN,kktv-theater.kk.stream
 # > JOOX
-  - USER-AGENT,WeMusic*
-  - USER-AGENT,JOOX*
   - DOMAIN-SUFFIX,joox.com
 # > 华文电视
-  - USER-AGENT,HWTVMobile*
   - DOMAIN-SUFFIX,5itv.tv
   - DOMAIN-SUFFIX,ocnttv.com

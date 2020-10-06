@@ -3,7 +3,6 @@ payload:
   - DOMAIN-SUFFIX,dler.cloud
 # > Apple CDN
   - PROCESS-NAME,storedownloadd
-  - USER-AGENT,com.apple.appstored*
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,appldnld.apple.com
@@ -30,7 +29,6 @@ payload:
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
 # > Steam
-  - USER-AGENT,Steam*
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
 # > UUBooster
@@ -41,7 +39,6 @@ payload:
   - DOMAIN-SUFFIX,windowsupdate.com
 # > Xunlei
   - URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-  - USER-AGENT,%E8%BF%85%E9%9B%B7
   - PROCESS-NAME,DownloadService
   - DOMAIN-SUFFIX,xunlei.com
   - DOMAIN-KEYWORD,XLLiveUD.
@@ -94,8 +91,6 @@ payload:
   - DOMAIN-SUFFIX,smtp
   - URL-REGEX,(Subject|HELO|SMTP)
 # > General
-  - USER-AGENT,coffeecorp*
-  - USER-AGENT,restaurant-mobile*
   - DOMAIN,app.adjust.com
   - DOMAIN-SUFFIX,googletraveladservices.com
 # > Tencent
