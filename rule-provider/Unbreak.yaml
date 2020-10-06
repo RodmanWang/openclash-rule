@@ -38,7 +38,6 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
 # > Xunlei
-  - URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
   - PROCESS-NAME,DownloadService
   - DOMAIN-SUFFIX,xunlei.com
   - DOMAIN-KEYWORD,XLLiveUD.
@@ -54,7 +53,6 @@ payload:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
 # 360
-  - URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
   - PROCESS-NAME,Weiyun
 # bt
   - DOMAIN-KEYWORD,aria2
@@ -89,7 +87,6 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,smtp
-  - URL-REGEX,(Subject|HELO|SMTP)
 # > General
   - DOMAIN,app.adjust.com
   - DOMAIN-SUFFIX,googletraveladservices.com
