@@ -576,3 +576,5 @@ payload:
   - DOMAIN,doh.pub
   - DOMAIN,dns.alidns.com
   - DOMAIN,dns.rubyfish.cn
+# > other  
+  - DOMAIN-SUFFIX,chinaz.com
