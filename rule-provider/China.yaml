@@ -578,3 +578,4 @@ payload:
   - DOMAIN,dns.rubyfish.cn
 # > other  
   - DOMAIN-SUFFIX,chinaz.com
+  - DOMAIN-SUFFIX,keepa.com
