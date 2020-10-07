@@ -386,6 +386,7 @@ payload:
   - DOMAIN-SUFFIX,servicewechat.com
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN,file-igamecj.akamaized.net
 # > YYeTs
   - DOMAIN-SUFFIX,jstucdn.com
@@ -486,8 +487,12 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
+# > DNS
+  - DOMAIN,dns.pub
+  - DOMAIN,doh.pub
+  - DOMAIN,dns.alidns.com
+  - DOMAIN,dns.rubyfish.cn
 # > Other
-  - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,360in.com
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,accuweather.com
@@ -571,11 +576,8 @@ payload:
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,cdn.angruo.com
   - DOMAIN-SUFFIX,gwdang.com
-# > DNS
-  - DOMAIN,dns.pub
-  - DOMAIN,doh.pub
-  - DOMAIN,dns.alidns.com
-  - DOMAIN,dns.rubyfish.cn
-# > other  
   - DOMAIN-SUFFIX,chinaz.com
   - DOMAIN-SUFFIX,keepa.com
+  - DOMAIN,time.ys7.com
+  - DOMAIN-SUFFIX,razersynapse.com
+  - DOMAIN-SUFFIX,cn
