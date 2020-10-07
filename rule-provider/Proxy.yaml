@@ -1177,3 +1177,4 @@ payload:
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,fifaaddict.com
   - DOMAIN-SUFFIX,tampermonkey.net
+  - DOMAIN-SUFFIX,letsencrypt.org
