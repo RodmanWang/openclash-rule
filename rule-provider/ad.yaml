@@ -1,6 +1,5 @@
 payload:
 #VER=20201010211032
-#TOTAL_LINES=39852
   - DOMAIN-SUFFIX,cda.0-shiny.com
   - DOMAIN-SUFFIX,00-gov.cn
   - DOMAIN-SUFFIX,001union.com
@@ -39886,8 +39885,8 @@ payload:
   - DOMAIN-KEYWORD,usage
   - DOMAIN-KEYWORD,wlmonitor
   - DOMAIN-KEYWORD,zjtoolbar
-  - # 常见互联网公司广告域名
-  - # Google
+# 常见互联网公司广告域名
+# Google
   - DOMAIN-SUFFIX,admob.com
   - DOMAIN-SUFFIX,ads.gmodules.com
   - DOMAIN-SUFFIX,ads.google.com
@@ -39907,7 +39906,7 @@ payload:
   - DOMAIN-SUFFIX,pagead.google.com
   - DOMAIN-SUFFIX,pagead.l.google.com
   - DOMAIN-SUFFIX,service.urchin.com
-  - # 广告联盟-国内****************
+# 广告联盟-国内****************
   - DOMAIN-SUFFIX,09mk.cn
   - DOMAIN-SUFFIX,100peng.com
   - DOMAIN-SUFFIX,114la.com
@@ -40303,7 +40302,7 @@ payload:
   - DOMAIN-SUFFIX,zhjfad.com
   - DOMAIN-SUFFIX,zqzxz.com
   - DOMAIN-SUFFIX,zzsx8.com
-  - # 广告联盟-国外****************
+# 广告联盟-国外****************
   - DOMAIN-SUFFIX,acuityplatform.com
   - DOMAIN-SUFFIX,ad-stir.com
   - DOMAIN-SUFFIX,ad-survey.com
@@ -40457,7 +40456,7 @@ payload:
   - DOMAIN-SUFFIX,yengo.com
   - DOMAIN-SUFFIX,zedo.com
   - DOMAIN-SUFFIX,zemanta.com
-  - # 垃圾站点****************
+# 垃圾站点****************
   - DOMAIN-SUFFIX,11h5.com
   - DOMAIN-SUFFIX,1kxun.mobi
   - DOMAIN-SUFFIX,26zsd.cn
@@ -40475,7 +40474,7 @@ payload:
   - DOMAIN-SUFFIX,zantainet.com
   - DOMAIN-SUFFIX,dh54wf.xyz
   - DOMAIN-SUFFIX,g2q3e.cn
-  - # 运营商广告****************
+# 运营商广告****************
   - DOMAIN-SUFFIX,114so.cn
   - DOMAIN-SUFFIX,go.10086.cn
   - DOMAIN-SUFFIX,hivedata.cc
