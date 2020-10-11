@@ -39,7 +39,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
 # > Xunlei
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 USER-AGENT,%E8%BF%85%E9%9B%B7
 PROCESS-NAME,DownloadService
 DOMAIN-SUFFIX,xunlei.com
@@ -56,7 +55,6 @@ PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
 # 360
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 PROCESS-NAME,Weiyun
 # bt
 DOMAIN-KEYWORD,aria2
@@ -66,7 +64,6 @@ DOMAIN-KEYWORD,info_hash
 DOMAIN-KEYWORD,peer_id
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
-
 # > Private Tracker
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
@@ -92,11 +89,7 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,smtp
-URL-REGEX,(Subject|HELO|SMTP)
-# Unbreak
 # > General
-USER-AGENT,coffeecorp*
-USER-AGENT,restaurant-mobile*
 DOMAIN,app.adjust.com
 DOMAIN-SUFFIX,googletraveladservices.com
 # > Tencent
@@ -112,3 +105,11 @@ DOMAIN-SUFFIX,ping.pe
 # > Alibaba
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
+# > USER-AGENT
+USER-AGENT,coffeecorp*
+USER-AGENT,restaurant-mobile*
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
