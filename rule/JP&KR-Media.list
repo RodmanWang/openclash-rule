@@ -1,5 +1,4 @@
 # > AbemaTV
-USER-AGENT,AbemaTV*
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,akamaized.net
@@ -12,7 +11,6 @@ DOMAIN,linear-abematv.akamaized.net
 # > Hulu JP
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.jp
-japonx.com
 # > Japonx
 DOMAIN-KEYWORD,japonx
 DOMAIN-KEYWORD,japronx

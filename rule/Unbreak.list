@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,emby-best.xeton.dev
 DOMAIN-SUFFIX,dler.cloud
 # > Apple CDN
 PROCESS-NAME,storedownloadd
-USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
 DOMAIN,api.smoot.apple.cn
 DOMAIN,appldnld.apple.com
@@ -44,7 +43,6 @@ DOMAIN-SUFFIX,invoice.mugglepay.com
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 # > Steam
-USER-AGENT,Steam*
 DOMAIN-SUFFIX,pinyuncloud.com
 DOMAIN-SUFFIX,steamcontent.com
 # > UUBooster
@@ -54,7 +52,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
 # > Xunlei
-USER-AGENT,%E8%BF%85%E9%9B%B7
 PROCESS-NAME,DownloadService
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-KEYWORD,XLLiveUD.
@@ -104,6 +101,7 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,smtp
+# > General
 DOMAIN,app.adjust.com
 DOMAIN-SUFFIX,googletraveladservices.com
 # > Tencent

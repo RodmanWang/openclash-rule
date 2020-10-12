@@ -1,8 +1,7 @@
+payload:
 # > Beplay
 DOMAIN-KEYWORD,beplay
-
 # > Blizzard
-USER-AGENT,hearthstone*
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
@@ -16,7 +15,6 @@ DOMAIN-SUFFIX,edu.cn
 DOMAIN-SUFFIX,p4pfile.com
 DOMAIN-SUFFIX,zmzfile.com
 # > Sony PSX
-USER-AGENT,RemotePlay*
 # > TeamViewer
 IP-CIDR,185.188.32.0/24,no-resolve
 IP-CIDR,185.188.33.0/24,no-resolve
@@ -26,7 +24,6 @@ IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
 IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
-
 # > Apple API
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
@@ -38,7 +35,6 @@ IP-CIDR,144.178.48.0/20,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
-
 # > Tencent
 IP-CIDR,182.254.116.0/24,no-resolve
 DOMAIN-SUFFIX,12306.cn
@@ -284,17 +280,9 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmz002.com
-# China Area Network
 # > 360
 DOMAIN-SUFFIX,qhres.com
-# > Akamai
-# DOMAIN-SUFFIX,akamai.net
-# DOMAIN-SUFFIX,akamaiedge.net
-# DOMAIN-SUFFIX,akamaihd.net
-# DOMAIN-SUFFIX,akamaistream.net
-# DOMAIN-SUFFIX,akamaized.net
 # > Alibaba
-USER-AGENT,%E4%BC%98%E9%85%B7*
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alikunlun.com
 DOMAIN-SUFFIX,dingtalk.com
@@ -370,8 +358,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,lofter.com
@@ -394,18 +380,15 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamstat.us
-USER-AGENT,MicroMessenger%20Client
-USER-AGENT,WeChat*
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
 DOMAIN-SUFFIX,myapp.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tencent-cloud.com
 DOMAIN,file-igamecj.akamaized.net
 # > YYeTs
-USER-AGENT,YYeTs*
 DOMAIN-SUFFIX,jstucdn.com
 DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zmz2019.com
@@ -424,7 +407,6 @@ DOMAIN-SUFFIX,ipv6-test.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 # > Speed Test
-# DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # > Private Tracker
@@ -505,13 +487,246 @@ DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
+# > DNS
+DOMAIN,dns.pub
+DOMAIN,doh.pub
+DOMAIN,dns.alidns.com
+DOMAIN,dns.rubyfish.cn
+# 中国云服务商ip端
+# 阿里
+IP-CIDR,8.128.0.0/10,no-resolve
+IP-CIDR,8.208.0.0/12,no-resolve
+IP-CIDR,14.1.112.0/22,no-resolve
+IP-CIDR,41.222.240.0/22,no-resolve
+IP-CIDR,41.223.119.0/24,no-resolve
+IP-CIDR,43.242.168.0/22,no-resolve
+IP-CIDR,45.112.212.0/22,no-resolve
+IP-CIDR,47.52.0.0/16,no-resolve
+IP-CIDR,47.56.0.0/15,no-resolve
+IP-CIDR,47.74.0.0/15,no-resolve
+IP-CIDR,47.76.0.0/14,no-resolve
+IP-CIDR,47.80.0.0/12,no-resolve
+IP-CIDR,47.235.0.0/16,no-resolve
+IP-CIDR,47.236.0.0/14,no-resolve
+IP-CIDR,47.240.0.0/14,no-resolve
+IP-CIDR,47.244.0.0/15,no-resolve
+IP-CIDR,47.246.0.0/16,no-resolve
+IP-CIDR,47.250.0.0/15,no-resolve
+IP-CIDR,47.252.0.0/15,no-resolve
+IP-CIDR,47.254.0.0/16,no-resolve
+IP-CIDR,59.82.0.0/20,no-resolve
+IP-CIDR,59.82.240.0/21,no-resolve
+IP-CIDR,59.82.248.0/22,no-resolve
+IP-CIDR,72.254.0.0/16,no-resolve
+IP-CIDR,103.38.56.0/22,no-resolve
+IP-CIDR,103.52.76.0/22,no-resolve
+IP-CIDR,103.206.40.0/22,no-resolve
+IP-CIDR,110.76.21.0/24,no-resolve
+IP-CIDR,110.76.23.0/24,no-resolve
+IP-CIDR,112.125.0.0/17,no-resolve
+IP-CIDR,116.251.64.0/18,no-resolve
+IP-CIDR,119.38.208.0/20,no-resolve
+IP-CIDR,119.38.224.0/20,no-resolve
+IP-CIDR,119.42.224.0/20,no-resolve
+IP-CIDR,139.95.0.0/16,no-resolve
+IP-CIDR,140.205.1.0/24,no-resolve
+IP-CIDR,140.205.122.0/24,no-resolve
+IP-CIDR,147.139.0.0/16,no-resolve
+IP-CIDR,149.129.0.0/16,no-resolve
+IP-CIDR,155.102.0.0/16,no-resolve
+IP-CIDR,161.117.0.0/16,no-resolve
+IP-CIDR,163.181.0.0/16,no-resolve
+IP-CIDR,170.33.0.0/16,no-resolve
+IP-CIDR,198.11.128.0/18,no-resolve
+IP-CIDR,205.204.96.0/19,no-resolve
+# 腾讯 qq
+IP-CIDR,19.28.0.0/23,no-resolve
+IP-CIDR,45.40.192.0/19,no-resolve
+IP-CIDR,49.51.0.0/16,no-resolve
+IP-CIDR,62.234.0.0/16,no-resolve
+IP-CIDR,94.191.0.0/17,no-resolve
+IP-CIDR,103.7.28.0/22,no-resolve
+IP-CIDR,103.116.50.0/23,no-resolve
+IP-CIDR,103.231.60.0/24,no-resolve
+IP-CIDR,109.244.0.0/16,no-resolve
+IP-CIDR,111.30.128.0/21,no-resolve
+IP-CIDR,111.30.136.0/24,no-resolve
+IP-CIDR,111.30.139.0/24,no-resolve
+IP-CIDR,111.30.140.0/23,no-resolve
+IP-CIDR,115.159.0.0/16,no-resolve
+IP-CIDR,119.28.0.0/15,no-resolve
+IP-CIDR,120.88.56.0/23,no-resolve
+IP-CIDR,121.51.0.0/16,no-resolve
+IP-CIDR,129.28.0.0/16,no-resolve
+IP-CIDR,129.204.0.0/16,no-resolve
+IP-CIDR,129.211.0.0/16,no-resolve
+IP-CIDR,132.232.0.0/16,no-resolve
+IP-CIDR,134.175.0.0/16,no-resolve
+IP-CIDR,146.56.192.0/18,no-resolve
+IP-CIDR,148.70.0.0/16,no-resolve
+IP-CIDR,150.109.0.0/16,no-resolve
+IP-CIDR,152.136.0.0/16,no-resolve
+IP-CIDR,162.14.0.0/16,no-resolve
+IP-CIDR,162.62.0.0/16,no-resolve
+IP-CIDR,170.106.130.0/24,no-resolve
+IP-CIDR,182.254.0.0/16,no-resolve
+IP-CIDR,188.131.128.0/17,no-resolve
+IP-CIDR,203.195.128.0/17,no-resolve
+IP-CIDR,203.205.128.0/17,no-resolve
+IP-CIDR,210.4.138.0/24,no-resolve
+IP-CIDR,211.152.128.0/23,no-resolve
+IP-CIDR,211.152.132.0/23,no-resolve
+IP-CIDR,211.152.148.0/23,no-resolve
+IP-CIDR,212.64.0.0/17,no-resolve
+IP-CIDR,212.129.128.0/17,no-resolve
+# 百度 Baidu
+IP-CIDR,45.113.192.0/22,no-resolve
+IP-CIDR,63.217.23.0/24,no-resolve
+IP-CIDR,63.243.252.0/24,no-resolve
+IP-CIDR,103.235.44.0/22,no-resolve
+IP-CIDR,104.193.88.0/22,no-resolve
+IP-CIDR,106.12.0.0/15,no-resolve
+IP-CIDR,114.28.224.0/20,no-resolve
+IP-CIDR,119.63.192.0/21,no-resolve
+IP-CIDR,180.76.0.0/24,no-resolve
+IP-CIDR,180.76.0.0/16,no-resolve
+IP-CIDR,182.61.0.0/16,no-resolve
+IP-CIDR,185.10.104.0/22,no-resolve
+IP-CIDR,202.46.48.0/20,no-resolve
+IP-CIDR,203.90.238.0/24,no-resolve
+# 华为 huwei
+IP-CIDR,43.254.0.0/22,no-resolve
+IP-CIDR,45.249.212.0/22,no-resolve
+IP-CIDR,49.4.0.0/17,no-resolve
+IP-CIDR,78.101.192.0/19,no-resolve
+IP-CIDR,78.101.224.0/20,no-resolve
+IP-CIDR,81.52.161.0/24,no-resolve
+IP-CIDR,85.97.220.0/22,no-resolve
+IP-CIDR,103.31.200.0/22,no-resolve
+IP-CIDR,103.69.140.0/23,no-resolve
+IP-CIDR,103.218.216.0/22,no-resolve
+IP-CIDR,114.115.128.0/17,no-resolve
+IP-CIDR,114.116.0.0/16,no-resolve
+IP-CIDR,116.63.128.0/18,no-resolve
+IP-CIDR,116.66.184.0/22,no-resolve
+IP-CIDR,116.71.96.0/20,no-resolve
+IP-CIDR,116.71.128.0/21,no-resolve
+IP-CIDR,116.71.136.0/22,no-resolve
+IP-CIDR,116.71.141.0/24,no-resolve
+IP-CIDR,116.71.142.0/24,no-resolve
+IP-CIDR,116.71.243.0/24,no-resolve
+IP-CIDR,116.71.244.0/24,no-resolve
+IP-CIDR,116.71.251.0/24,no-resolve
+IP-CIDR,117.78.0.0/18,no-resolve
+IP-CIDR,119.3.0.0/16,no-resolve
+IP-CIDR,119.8.0.0/21,no-resolve
+IP-CIDR,119.8.32.0/19,no-resolve
+IP-CIDR,121.36.0.0/17,no-resolve
+IP-CIDR,121.36.128.0/18,no-resolve
+IP-CIDR,121.37.0.0/17,no-resolve
+IP-CIDR,122.112.128.0/17,no-resolve
+IP-CIDR,139.9.0.0/18,no-resolve
+IP-CIDR,139.9.64.0/19,no-resolve
+IP-CIDR,139.9.100.0/22,no-resolve
+IP-CIDR,139.9.104.0/21,no-resolve
+IP-CIDR,139.9.112.0/20,no-resolve
+IP-CIDR,139.9.128.0/18,no-resolve
+IP-CIDR,139.9.192.0/19,no-resolve
+IP-CIDR,139.9.224.0/20,no-resolve
+IP-CIDR,139.9.240.0/21,no-resolve
+IP-CIDR,139.9.248.0/22,no-resolve
+IP-CIDR,139.159.128.0/19,no-resolve
+IP-CIDR,139.159.160.0/22,no-resolve
+IP-CIDR,139.159.164.0/23,no-resolve
+IP-CIDR,139.159.168.0/21,no-resolve
+IP-CIDR,139.159.176.0/20,no-resolve
+IP-CIDR,139.159.192.0/18,no-resolve
+IP-CIDR,159.138.0.0/18,no-resolve
+IP-CIDR,159.138.64.0/21,no-resolve
+IP-CIDR,159.138.79.0/24,no-resolve
+IP-CIDR,159.138.80.0/20,no-resolve
+IP-CIDR,159.138.96.0/20,no-resolve
+IP-CIDR,159.138.112.0/21,no-resolve
+IP-CIDR,159.138.125.0/24,no-resolve
+IP-CIDR,159.138.128.0/18,no-resolve
+IP-CIDR,159.138.192.0/20,no-resolve
+IP-CIDR,159.138.223.0/24,no-resolve
+IP-CIDR,159.138.224.0/19,no-resolve
+IP-CIDR,168.195.92.0/22,no-resolve
+IP-CIDR,185.176.76.0/22,no-resolve
+IP-CIDR,197.199.0.0/18,no-resolve
+IP-CIDR,197.210.163.0/24,no-resolve
+IP-CIDR,197.252.1.0/24,no-resolve
+IP-CIDR,197.252.2.0/23,no-resolve
+IP-CIDR,197.252.4.0/22,no-resolve
+IP-CIDR,197.252.8.0/21,no-resolve
+IP-CIDR,200.32.52.0/24,no-resolve
+IP-CIDR,200.32.54.0/24,no-resolve
+IP-CIDR,200.32.57.0/24,no-resolve
+IP-CIDR,203.135.0.0/22,no-resolve
+IP-CIDR,203.135.4.0/23,no-resolve
+IP-CIDR,203.135.8.0/23,no-resolve
+IP-CIDR,203.135.11.0/24,no-resolve
+IP-CIDR,203.135.13.0/24,no-resolve
+IP-CIDR,203.135.20.0/24,no-resolve
+IP-CIDR,203.135.22.0/23,no-resolve
+IP-CIDR,203.135.24.0/23,no-resolve
+IP-CIDR,203.135.26.0/24,no-resolve
+IP-CIDR,203.135.29.0/24,no-resolve
+IP-CIDR,203.135.33.0/24,no-resolve
+IP-CIDR,203.135.38.0/23,no-resolve
+IP-CIDR,203.135.40.0/24,no-resolve
+IP-CIDR,203.135.43.0/24,no-resolve
+IP-CIDR,203.135.48.0/24,no-resolve
+IP-CIDR,203.135.50.0/24,no-resolve
+# 网易 NetEase
+IP-CIDR,42.186.0.0/16,no-resolve
+IP-CIDR,45.127.128.0/22,no-resolve
+IP-CIDR,45.195.24.0/24,no-resolve
+IP-CIDR,45.253.132.0/22,no-resolve
+IP-CIDR,45.253.240.0/22,no-resolve
+IP-CIDR,45.254.48.0/23,no-resolve
+IP-CIDR,59.111.0.0/20,no-resolve
+IP-CIDR,59.111.128.0/17,no-resolve
+IP-CIDR,103.71.120.0/21,no-resolve
+IP-CIDR,103.71.128.0/22,no-resolve
+IP-CIDR,103.71.196.0/22,no-resolve
+IP-CIDR,103.71.200.0/22,no-resolve
+IP-CIDR,103.72.12.0/22,no-resolve
+IP-CIDR,103.72.18.0/23,no-resolve
+IP-CIDR,103.72.24.0/22,no-resolve
+IP-CIDR,103.72.28.0/23,no-resolve
+IP-CIDR,103.72.38.0/23,no-resolve
+IP-CIDR,103.72.40.0/23,no-resolve
+IP-CIDR,103.72.44.0/22,no-resolve
+IP-CIDR,103.72.48.0/21,no-resolve
+IP-CIDR,103.72.128.0/21,no-resolve
+IP-CIDR,103.74.24.0/21,no-resolve
+IP-CIDR,103.74.48.0/22,no-resolve
+IP-CIDR,103.126.92.0/22,no-resolve
+IP-CIDR,103.129.252.0/22,no-resolve
+IP-CIDR,103.131.252.0/22,no-resolve
+IP-CIDR,103.135.240.0/22,no-resolve
+IP-CIDR,103.196.64.0/22,no-resolve
+IP-CIDR,106.2.32.0/19,no-resolve
+IP-CIDR,106.2.64.0/18,no-resolve
+IP-CIDR,114.113.196.0/22,no-resolve
+IP-CIDR,114.113.200.0/22,no-resolve
+IP-CIDR,115.236.112.0/20,no-resolve
+IP-CIDR,115.238.76.0/22,no-resolve
+IP-CIDR,123.58.160.0/19,no-resolve
+IP-CIDR,223.252.192.0/19,no-resolve
+# 360
+IP-CIDR,101.198.128.0/18,no-resolve
+IP-CIDR,101.198.192.0/19,no-resolve
+IP-CIDR,101.199.196.0/22 ,no-resolve 
 # > Other
-DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,360in.com
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,accuweather.com
 DOMAIN-SUFFIX,aicoinstorge.com
 DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,asus.com
 DOMAIN-SUFFIX,b612.net
 DOMAIN-SUFFIX,bdatu.com
 DOMAIN-SUFFIX,beitaichufang.com
@@ -590,10 +805,8 @@ DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,cdn.angruo.com
 DOMAIN-SUFFIX,gwdang.com
-# > DNS
-DOMAIN,dns.pub
-DOMAIN,doh.pub
-DOMAIN,dns.alidns.com
-dns.rubyfish.cn
-# > CN
+DOMAIN-SUFFIX,chinaz.com
+DOMAIN-SUFFIX,keepa.com
+DOMAIN,time.ys7.com
+DOMAIN-SUFFIX,razersynapse.com
 DOMAIN-SUFFIX,cn

@@ -1,8 +1,6 @@
-# 内容：中国IP地址段
-# 来源：https://github.com/17mon/china_ip_list/
-# 更新：2020-09-07 23:25:21
-# 数量：5970条
-
+# > 内容：中国IP地址段
+# > 更新：2020-09-07 23:25:21
+# > 数量：5970条
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
 IP-CIDR,1.0.8.0/21,no-resolve
