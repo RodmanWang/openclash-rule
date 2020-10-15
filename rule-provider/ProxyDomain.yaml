@@ -1100,3 +1100,4 @@ payload:
   - DOMAIN-SUFFIX,fifaaddict.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,letsencrypt.org
+  - DOMAIN-SUFFIX,keepa.com
