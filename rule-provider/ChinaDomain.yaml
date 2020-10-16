@@ -726,6 +726,8 @@ payload:
   - DOMAIN-SUFFIX,accuweather.com
   - DOMAIN-SUFFIX,aicoinstorge.com
   - DOMAIN-SUFFIX,amd.com
+  - DOMAIN,amd.systemrequirementslab.com
+  - DOMAIN,example.org
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,b612.net
   - DOMAIN-SUFFIX,bdatu.com
