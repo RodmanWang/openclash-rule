@@ -101,7 +101,10 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,smtp
+# > SMTP
+  - DOMAIN-KEYWORD,SMTP
+  - DOMAIN-KEYWORD,HELO
+  - DOMAIN-KEYWORD,Subject
 # > General
   - DOMAIN,app.adjust.com
   - DOMAIN-SUFFIX,googletraveladservices.com
