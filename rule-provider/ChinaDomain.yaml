@@ -812,3 +812,4 @@ payload:
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,cn
   - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,jice.io
