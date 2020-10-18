@@ -487,11 +487,6 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
-# > DNS
-  - DOMAIN,dns.pub
-  - DOMAIN,doh.pub
-  - DOMAIN,dns.alidns.com
-  - DOMAIN,dns.rubyfish.cn
 # > 中国云服务商ip端
 # > 阿里
   - IP-CIDR,8.128.0.0/10,no-resolve
