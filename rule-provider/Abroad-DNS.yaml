@@ -9,5 +9,3 @@ payload:
   - DOMAIN,doh.opendns.com
   - DOMAIN,dns.google
   - DOMAIN-SUFFIX,cloudflare-dns.com
-# > Google-CN
-  - IP-CIDR,203.208.32.0/19,no-resolve
