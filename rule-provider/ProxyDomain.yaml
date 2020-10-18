@@ -1,56 +1,13 @@
 payload:
-# > Google
-  - DOMAIN-SUFFIX,ampproject.org
-  - DOMAIN-SUFFIX,appspot.com
-  - DOMAIN-SUFFIX,blogger.com
-  - DOMAIN-SUFFIX,getoutline.org
-  - DOMAIN-SUFFIX,gvt0.com
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt3.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,blogspot
 # > Youtube
   - DOMAIN-KEYWORD,youtube
-  - DOMAIN,yt3.ggpht.com
-  - DOMAIN-SUFFIX,app-measurement.com
-  - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,ytimg.com
-# > Telegram
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,tx.me
-  - DOMAIN-SUFFIX,tdesktop.com
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telegram.org
-# > Microsoft
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-SUFFIX,azure.com
-  - DOMAIN-SUFFIX,fabric.io
-  - DOMAIN-SUFFIX,files.1drv.com
-  - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,live.com
-  - DOMAIN-SUFFIX,live.net
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,mesh.com
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,microsoft-tst.com
-  - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,p.sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,skype.com
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-  - DOMAIN-SUFFIX,storage.msn.com
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN,fonts.gstatic.com
 # > Facebook
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,fb.com
@@ -68,6 +25,13 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-KEYWORD,facebook
+  - DOMAIN-SUFFIX,facebook.br
+  - DOMAIN-SUFFIX,facebook.design
+  - DOMAIN-SUFFIX,facebook.hu
+  - DOMAIN-SUFFIX,facebook.in
+  - DOMAIN-SUFFIX,facebook.nl
+  - DOMAIN-SUFFIX,facebook.se
+  - DOMAIN-SUFFIX,facebookmail.com
 # > Twitter
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,periscope.tv
@@ -77,11 +41,130 @@ payload:
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-KEYWORD,twitter
+# > Google
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,getoutline.org
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-SUFFIX,abc.xyz
+  - DOMAIN-SUFFIX,advertisercommunity.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidify.com
+  - DOMAIN-SUFFIX,dialogflow.com
+  - DOMAIN-SUFFIX,autodraw.com
+  - DOMAIN-SUFFIX,capitalg.com
+  - DOMAIN-SUFFIX,certificate-transparency.org
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromeexperiments.com
+  - DOMAIN-SUFFIX,chromestatus.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,creativelab5.com
+  - DOMAIN-SUFFIX,debug.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,getmdl.io
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,gmodules.com
+  - DOMAIN-SUFFIX,godoc.org
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gv.com
+  - DOMAIN-SUFFIX,gwtproject.org
+  - DOMAIN-SUFFIX,itasoftware.com
+  - DOMAIN-SUFFIX,madewithcode.com
+  - DOMAIN-SUFFIX,material.io
+  - DOMAIN-SUFFIX,page.link
+  - DOMAIN-SUFFIX,polymer-project.org
+  - DOMAIN-SUFFIX,admin.recaptcha.net
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,shattered.io
+  - DOMAIN-SUFFIX,synergyse.com
+  - DOMAIN-SUFFIX,telephony.goog
+  - DOMAIN-SUFFIX,tensorflow.org
+  - DOMAIN-SUFFIX,tfhub.dev
+  - DOMAIN-SUFFIX,tiltbrush.com
+  - DOMAIN-SUFFIX,waveprotocol.org
+  - DOMAIN-SUFFIX,waymo.com
+  - DOMAIN-SUFFIX,webmproject.org
+  - DOMAIN-SUFFIX,webrtc.org
+  - DOMAIN-SUFFIX,whatbrowser.org
+  - DOMAIN-SUFFIX,widevine.com
+  - DOMAIN-SUFFIX,x.company
+# > Microsoft
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,1drv.ms
+  - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN,az416426.vo.msecnd.net
+  - DOMAIN,az668014.vo.msecnd.net
+# > Telegram
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telesco.pe
 # > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-scdn.net
   - DOMAIN-SUFFIX,naver.jp
+  - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,nhncorp.jp
+# > Apple
+  - DOMAIN,testflight.apple.com
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,hls.itunes.apple.com
+  - DOMAIN,apps.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,api-glb-sea.smoot.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-SUFFIX,cloudcone.com.cn
+  - DOMAIN-SUFFIX,inkbunny.net
+  - DOMAIN-SUFFIX,metapix.net
+  - DOMAIN-SUFFIX,s3.amazonaws.com
+  - DOMAIN-SUFFIX,zaobao.com.sg
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,beta.music.apple.com
+# > Sony
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# > Spark
+  - DOMAIN-SUFFIX,api.amplitude.com
+  - DOMAIN-SUFFIX,app.smartmailcloud.com
+  - DOMAIN-SUFFIX,gate.hockeyapp.net
+  - DOMAIN-SUFFIX,smartmailcloud.com
+# > Tesla
+  - DOMAIN-KEYWORD,tesla
+# > V2EX
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-KEYWORD,dlercloud
+# > Akamai
+  - DOMAIN,a248.e.akamai.net
+  - DOMAIN,a771.dscq.akamai.net
+# > Amazon CloudFront
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net
 # > Other
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,520cc.cc
@@ -276,7 +359,6 @@ payload:
   - DOMAIN-SUFFIX,on.cc
   - DOMAIN-SUFFIX,orientaldaily.com.my
   - DOMAIN-SUFFIX,overcast.fm
-  - DOMAIN,doh.opendns.com
   - DOMAIN-SUFFIX,paltalk.com
   - DOMAIN-SUFFIX,pao-pao.net
   - DOMAIN-SUFFIX,parsevideo.com
@@ -325,6 +407,7 @@ payload:
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,ssrcloud.org
   - DOMAIN-SUFFIX,startpage.com
+  - DOMAIN-SUFFIX,steamcommunity.com
   - DOMAIN-SUFFIX,steemit.com
   - DOMAIN-SUFFIX,steemitwallet.com
   - DOMAIN-SUFFIX,t66y.com
@@ -376,16 +459,10 @@ payload:
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,xnxx.es
-  - DOMAIN-SUFFIX,xnxx-cdn.com
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,xvideos.es
-  - DOMAIN-SUFFIX,xvideos-cdn.com
+  - DOMAIN-KEYWORD,.xnxx.
+  - DOMAIN-KEYWORD,.xvideos*.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
-  - DOMAIN-SUFFIX,yandex.com
-  - DOMAIN-SUFFIX,yandex.net
   - DOMAIN-SUFFIX,ycombinator.com
   - DOMAIN-SUFFIX,yesasia.com
   - DOMAIN-SUFFIX,yes-news.com
@@ -400,12 +477,7 @@ payload:
   - DOMAIN-KEYWORD,jav
   - DOMAIN-KEYWORD,pinterest
   - DOMAIN-KEYWORD,porn
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phprcdn.com
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,pornhubpremium.com
   - DOMAIN-KEYWORD,wikileaks
-# (Region-Restricted Access Denied)
   - DOMAIN-SUFFIX,apartmentratings.com
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,bankmobilevibe.com
@@ -453,77 +525,6 @@ payload:
   - DOMAIN-SUFFIX,vsco.co
   - DOMAIN-SUFFIX,xfinity.com
   - DOMAIN-SUFFIX,zattoo.com
-# >> TestFlight
-  - DOMAIN,testflight.apple.com
-# >> Apple URL Shortener
-  - DOMAIN-SUFFIX,appsto.re
-# >> iBooks Store download
-  - DOMAIN,books.itunes.apple.com
-# >> iTunes Store Moveis Trailers
-  - DOMAIN,hls.itunes.apple.com
-# >> App Store Preview
-  - DOMAIN,apps.apple.com
-  - DOMAIN,itunes.apple.com
-# >> Spotlight
-  - DOMAIN,api-glb-sea.smoot.apple.com
-# >> Dictionary
-  - DOMAIN,lookup-api.apple.com
-  - PROCESS-NAME,LookupViewService
-  - DOMAIN-SUFFIX,abc.xyz
-  - DOMAIN-SUFFIX,android.com
-  - DOMAIN-SUFFIX,androidify.com
-  - DOMAIN-SUFFIX,dialogflow.com
-  - DOMAIN-SUFFIX,autodraw.com
-  - DOMAIN-SUFFIX,capitalg.com
-  - DOMAIN-SUFFIX,certificate-transparency.org
-  - DOMAIN-SUFFIX,chrome.com
-  - DOMAIN-SUFFIX,chromeexperiments.com
-  - DOMAIN-SUFFIX,chromestatus.com
-  - DOMAIN-SUFFIX,chromium.org
-  - DOMAIN-SUFFIX,creativelab5.com
-  - DOMAIN-SUFFIX,debug.com
-  - DOMAIN-SUFFIX,deepmind.com
-  - DOMAIN-SUFFIX,firebaseio.com
-  - DOMAIN-SUFFIX,getmdl.io
-  - DOMAIN-SUFFIX,ggpht.com
-  - DOMAIN-SUFFIX,gmail.com
-  - DOMAIN-SUFFIX,gmodules.com
-  - DOMAIN-SUFFIX,godoc.org
-  - DOMAIN-SUFFIX,golang.org
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,gv.com
-  - DOMAIN-SUFFIX,gwtproject.org
-  - DOMAIN-SUFFIX,itasoftware.com
-  - DOMAIN-SUFFIX,madewithcode.com
-  - DOMAIN-SUFFIX,material.io
-  - DOMAIN-SUFFIX,polymer-project.org
-  - DOMAIN-SUFFIX,admin.recaptcha.net
-  - DOMAIN-SUFFIX,recaptcha.net
-  - DOMAIN-SUFFIX,shattered.io
-  - DOMAIN-SUFFIX,synergyse.com
-  - DOMAIN-SUFFIX,telephony.goog
-  - DOMAIN-SUFFIX,tensorflow.org
-  - DOMAIN-SUFFIX,tfhub.dev
-  - DOMAIN-SUFFIX,tiltbrush.com
-  - DOMAIN-SUFFIX,waveprotocol.org
-  - DOMAIN-SUFFIX,waymo.com
-  - DOMAIN-SUFFIX,webmproject.org
-  - DOMAIN-SUFFIX,webrtc.org
-  - DOMAIN-SUFFIX,whatbrowser.org
-  - DOMAIN-SUFFIX,widevine.com
-  - DOMAIN-SUFFIX,x.company
-  - DOMAIN-SUFFIX,youtu.be
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,ytimg.com
-# >> Microsoft OneDrive
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,1drv.ms
-  - DOMAIN-SUFFIX,blob.core.windows.net
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,storage.msn.com
-  - DOMAIN,oneclient.sfx.ms
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,4bluestones.biz
   - DOMAIN-SUFFIX,9bis.net
@@ -557,7 +558,6 @@ payload:
   - DOMAIN-SUFFIX,hwcdn.net
   - DOMAIN-SUFFIX,ib.metapix.net
   - DOMAIN-SUFFIX,ifixit.com
-  - DOMAIN-SUFFIX,inkbunny.net
   - DOMAIN-SUFFIX,iphone4hongkong.com
   - DOMAIN-SUFFIX,iphonetaiwan.org
   - DOMAIN-SUFFIX,iptvbin.com
@@ -568,9 +568,7 @@ payload:
   - DOMAIN-SUFFIX,now.im
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,redditlist.com
-  - DOMAIN-SUFFIX,s3.amazonaws.com
   - DOMAIN-SUFFIX,signal.org
-  - DOMAIN-SUFFIX,smartmailcloud.com
   - DOMAIN-SUFFIX,sparknotes.com
   - DOMAIN-SUFFIX,streetvoice.com
   - DOMAIN-SUFFIX,supertop.co
@@ -584,25 +582,8 @@ payload:
   - DOMAIN-SUFFIX,wolframalpha.com
   - DOMAIN-SUFFIX,x-art.com
   - DOMAIN-SUFFIX,yimg.com
-# > TestFlight
-  - DOMAIN-SUFFIX,lin.ee
-  - DOMAIN-SUFFIX,line.naver.jp
-  - DOMAIN-SUFFIX,line-cdn.net
-  - DOMAIN-SUFFIX,nhncorp.jp
-# > Sony
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-# > Spark
-  - DOMAIN-SUFFIX,api.amplitude.com
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
-# > Tesla
-  - DOMAIN-KEYWORD,tesla
-# > Zooba
-# > Top blocked sites
+  - DOMAIN,api.steampowered.com
+  - DOMAIN,store.steampowered.com
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
   - DOMAIN-SUFFIX,4sqi.net
@@ -634,7 +615,6 @@ payload:
   - DOMAIN-SUFFIX,api.urbandictionary.com
   - DOMAIN-SUFFIX,appdownloader.net
   - DOMAIN-SUFFIX,apple-dns.net
-  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,appshopper.com
   - DOMAIN-SUFFIX,arcgis.com
   - DOMAIN-SUFFIX,archives.gov
@@ -873,6 +853,10 @@ payload:
   - DOMAIN-SUFFIX,pushbullet.com
   - DOMAIN-SUFFIX,pushwoosh.com
   - DOMAIN-SUFFIX,pximg.net
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
   - DOMAIN-SUFFIX,rileyguide.com
   - DOMAIN-SUFFIX,rime.im
   - DOMAIN-SUFFIX,rsf.org
@@ -928,6 +912,7 @@ payload:
   - DOMAIN-SUFFIX,talkonly.net
   - DOMAIN-SUFFIX,tapbots.com
   - DOMAIN-SUFFIX,tapbots.net
+  - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,techcrunch.com
   - DOMAIN-SUFFIX,technorati.com
   - DOMAIN-SUFFIX,techsmith.com
@@ -1054,10 +1039,8 @@ payload:
   - DOMAIN-SUFFIX,yoyo.org
   - DOMAIN-SUFFIX,zacebook.com
   - DOMAIN-SUFFIX,zalmos.com
-  - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
-# > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,dropbox
@@ -1080,12 +1063,6 @@ payload:
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,unfiltered.news
-# > V2EX
-  - DOMAIN-SUFFIX,v2ex.com
-  - DOMAIN-KEYWORD,dlercloud
-# > Cloudflare	
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
 # > custom
   - DOMAIN-KEYWORD,btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
@@ -1096,5 +1073,4 @@ payload:
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,fifaaddict.com
   - DOMAIN-SUFFIX,tampermonkey.net
-  - DOMAIN-SUFFIX,letsencrypt.org
   - DOMAIN-SUFFIX,keepa.com
