@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,alikunlun.com
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,tmall.hk
+  - DOMAIN-SUFFIX,bababian.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -31,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,bdimg.com
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,baidubcr.com
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -43,6 +45,13 @@ payload:
   - DOMAIN-SUFFIX,feiliao.com
   - DOMAIN-SUFFIX,iesdouyin.com
   - DOMAIN-SUFFIX,toutiao.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,huoshan.com
+  - DOMAIN-SUFFIX,hulushequ.cn
+  - DOMAIN-SUFFIX,dcdapp.com
+  - DOMAIN-SUFFIX,wukong.com
+  - DOMAIN-SUFFIX,aweme.snssdk.com
 # > Beplay
   - DOMAIN-KEYWORD,beplay
 # > Blizzard
@@ -269,6 +278,7 @@ payload:
   - DOMAIN-SUFFIX,qhres.com
   - DOMAIN-SUFFIX,so.com
   - DOMAIN-SUFFIX,hao123.com
+  - DOMAIN-SUFFIX,haosou.com
 # > 中国云服务商ip端
 # > 阿里
   - IP-CIDR,8.128.0.0/10,no-resolve
@@ -536,8 +546,6 @@ payload:
   - DOMAIN-SUFFIX,api.crisp.chat
   - DOMAIN-SUFFIX,appshike.com
   - DOMAIN-SUFFIX,autonavi.com
-  - DOMAIN-SUFFIX,aweme.snssdk.com
-  - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,beatsbydre.com
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,broadcasthe.net
@@ -563,7 +571,6 @@ payload:
   - DOMAIN-SUFFIX,digicert.com
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,doubanio.com
-  - DOMAIN-SUFFIX,douyin.com
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyutv.com
@@ -586,7 +593,6 @@ payload:
   - DOMAIN-SUFFIX,godic.net
   - DOMAIN-SUFFIX,goodread.com
   - DOMAIN-SUFFIX,haibian.com
-  - DOMAIN-SUFFIX,haosou.com
   - DOMAIN-SUFFIX,hdchina.org
   - DOMAIN-SUFFIX,hdcmct.org
   - DOMAIN-SUFFIX,hkserversolution.com
@@ -708,7 +714,6 @@ payload:
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,youku.com
-  - DOMAIN-SUFFIX,yunjiasu-cdn.net
   - DOMAIN-SUFFIX,zealer.com
   - DOMAIN-SUFFIX,zgslb.net
   - DOMAIN-SUFFIX,zhihu.com
