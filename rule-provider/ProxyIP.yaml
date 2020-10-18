@@ -13,6 +13,8 @@ payload:
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR,209.85.128.0/17,no-resolve
   - IP-CIDR,216.239.32.0/19,no-resolve
+# > Google-CN
+  - IP-CIDR,203.208.32.0/19,no-resolve
 # > Facebook
   - IP-CIDR,3.123.36.126/32,no-resolve
   - IP-CIDR,35.157.215.84/32,no-resolve
