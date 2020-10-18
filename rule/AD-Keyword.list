@@ -1,5 +1,5 @@
-# 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
-# 广告关键词
+# > 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
+# > 广告关键词
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
@@ -31,8 +31,8 @@ DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,usage
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
-# 常见互联网公司广告域名
-# Google
+# > 常见互联网公司广告域名
+# > Google
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ads.gmodules.com
 DOMAIN-SUFFIX,ads.google.com
@@ -52,7 +52,7 @@ DOMAIN-SUFFIX,pagead-tpc.l.google.com
 DOMAIN-SUFFIX,pagead.google.com
 DOMAIN-SUFFIX,pagead.l.google.com
 DOMAIN-SUFFIX,service.urchin.com
-# 广告联盟-国内****************
+# > 广告联盟-国内
 DOMAIN-SUFFIX,09mk.cn
 DOMAIN-SUFFIX,100peng.com
 DOMAIN-SUFFIX,114la.com
@@ -448,7 +448,7 @@ DOMAIN-SUFFIX,zhiziyun.com
 DOMAIN-SUFFIX,zhjfad.com
 DOMAIN-SUFFIX,zqzxz.com
 DOMAIN-SUFFIX,zzsx8.com
-# 广告联盟-国外****************
+# > 广告联盟-国外
 DOMAIN-SUFFIX,acuityplatform.com
 DOMAIN-SUFFIX,ad-stir.com
 DOMAIN-SUFFIX,ad-survey.com
@@ -602,7 +602,7 @@ DOMAIN-SUFFIX,yadro.ru
 DOMAIN-SUFFIX,yengo.com
 DOMAIN-SUFFIX,zedo.com
 DOMAIN-SUFFIX,zemanta.com
-# 垃圾站点****************
+# > 垃圾站点
 DOMAIN-SUFFIX,11h5.com
 DOMAIN-SUFFIX,1kxun.mobi
 DOMAIN-SUFFIX,26zsd.cn
@@ -620,7 +620,7 @@ DOMAIN-SUFFIX,win-stock.com.cn
 DOMAIN-SUFFIX,zantainet.com
 DOMAIN-SUFFIX,dh54wf.xyz
 DOMAIN-SUFFIX,g2q3e.cn
-# 运营商广告****************
+# > 运营商广告
 DOMAIN-SUFFIX,114so.cn
 DOMAIN-SUFFIX,go.10086.cn
 DOMAIN-SUFFIX,hivedata.cc
