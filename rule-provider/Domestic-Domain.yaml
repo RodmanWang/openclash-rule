@@ -559,6 +559,6 @@ payload:
 # > custom
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,chinaz.com
-  - DOMAIN,time.ys7.com
+  - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,jice.io
