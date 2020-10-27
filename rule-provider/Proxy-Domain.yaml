@@ -459,8 +459,9 @@ payload:
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-  - DOMAIN-KEYWORD,.xnxx.
-  - DOMAIN-KEYWORD,.xvideos*.com
+  - DOMAIN-SUFFIX,.xnxx.
+  - DOMAIN-SUFFIX,xnxx-cdn
+  - DOMAIN-SUFFIX,.xvideos.
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,ycombinator.com
