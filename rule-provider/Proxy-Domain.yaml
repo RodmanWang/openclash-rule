@@ -460,8 +460,9 @@ payload:
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-KEYWORD,.xnxx.
-  - DOMAIN-SUFFIX,xnxx-cdn
+  - DOMAIN-KEYWORD,.xnxx-cdn.
   - DOMAIN-KEYWORD,.xvideos.
+  - DOMAIN-KEYWORD,.xvideos-cdn.
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,ycombinator.com
@@ -738,6 +739,7 @@ payload:
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,homedepot.com
   - DOMAIN-SUFFIX,howtoforge.com
+  - DOMAIN-SUFFIX,hsex.men
   - DOMAIN-SUFFIX,iam.soy
   - DOMAIN-SUFFIX,icons8.com
   - DOMAIN-SUFFIX,ift.tt
