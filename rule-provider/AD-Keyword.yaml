@@ -1,4 +1,5 @@
 payload:
+# > 抄自 https://github.com/RodmanWang/ACL4SSR/blob/master/Clash/Providers/BanAD.yaml
 # > 广告关键词
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
