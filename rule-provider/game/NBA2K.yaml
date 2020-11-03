@@ -1,5 +1,6 @@
 payload:
 # > NBA2K20,NBA2K20,0,0,1,0,1,0,By-normanbb
+  - DOMAIN-SUFFIX,2k.com
   - DOMAIN-SUFFIX,nba2k.com 	
   - DOMAIN-SUFFIX,2ksports.com
   - IP-CIDR,3.35.43.0/24,no-resolve
