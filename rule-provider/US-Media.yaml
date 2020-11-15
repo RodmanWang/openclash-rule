@@ -44,10 +44,3 @@ payload:
   - DOMAIN-SUFFIX,spotifycdn.net
 # > Pandora
   - DOMAIN-SUFFIX,pandora.com
-# >other 
-  - DOMAIN-SUFFIX,jdbimgs.com
-  - DOMAIN-SUFFIX,520click.com
-  - DOMAIN-SUFFIX,520call.me
-  - DOMAIN-SUFFIX,jable.tv
-  - DOMAIN-SUFFIX,thisav.com
-  - DOMAIN-SUFFIX,cdnlab.live
