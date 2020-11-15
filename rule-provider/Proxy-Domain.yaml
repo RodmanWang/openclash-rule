@@ -168,6 +168,8 @@ payload:
 # > Other
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,520cc.cc
+  - DOMAIN-SUFFIX,520click.com
+  - DOMAIN-SUFFIX,520call.me
   - DOMAIN-SUFFIX,881903.com
   - DOMAIN-SUFFIX,9cache.com
   - DOMAIN-SUFFIX,9gag.com
@@ -477,6 +479,7 @@ payload:
   - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,jav
+  - DOMAIN-SUFFIX,jdbimgs.com
   - DOMAIN-KEYWORD,pinterest
   - DOMAIN-KEYWORD,porn
   - DOMAIN-KEYWORD,wikileaks
@@ -508,6 +511,7 @@ payload:
   - DOMAIN-SUFFIX,here.com
   - DOMAIN-SUFFIX,jcpenney.com
   - DOMAIN-SUFFIX,jiehua.tv
+  - DOMAIN-SUFFIX,jable.tv
   - DOMAIN-SUFFIX,mailfence.com
   - DOMAIN-SUFFIX,nationwide.com
   - DOMAIN-SUFFIX,nbc.com
@@ -519,6 +523,7 @@ payload:
   - DOMAIN-SUFFIX,target.com
   - DOMAIN-SUFFIX,thinkgeek.com
   - DOMAIN-SUFFIX,tracfone.com
+  - DOMAIN-SUFFIX,thisav.com
   - DOMAIN-SUFFIX,unity3d.com
   - DOMAIN-SUFFIX,uploader.jp
   - DOMAIN-SUFFIX,vevo.com
