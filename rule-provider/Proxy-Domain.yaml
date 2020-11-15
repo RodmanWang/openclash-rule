@@ -964,6 +964,7 @@ payload:
   - DOMAIN-SUFFIX,typcn.com
   - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,typography.com
+  - DOMAIN-SUFFIX,cdnlab.live
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,ublock.org
   - DOMAIN-SUFFIX,ubnt.com
