@@ -1067,7 +1067,7 @@ payload:
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,unfiltered.news
 # > custom
-  - DOMAIN-KEYWORD,btbtt.
+  - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,lastpass.com
   - DOMAIN-SUFFIX,synocommunity.com
@@ -1081,3 +1081,6 @@ payload:
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,spam404.com
   - DOMAIN-SUFFIX,vivaldi.net
+  - DOMAIN-KEYWORD,.Rarbg.
+  - DOMAIN-SUFFIX,Rarbgprx.org
+  - DOMAIN-SUFFIX,Rarbgs.com
