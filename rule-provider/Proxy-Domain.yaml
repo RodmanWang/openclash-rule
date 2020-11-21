@@ -1092,4 +1092,5 @@ payload:
   - DOMAIN-SUFFIX,Rarbgs.com
   - DOMAIN-SUFFIX,imagecurl.com
   - DOMAIN-SUFFIX,opensubtitles.org
-  - DOMAIN, hostupdate.vmware.com
+  - DOMAIN,hostupdate.vmware.com
+  - DOMAIN-SUFFIX,v-front.de
