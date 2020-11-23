@@ -122,11 +122,14 @@ payload:
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-scdn.net
-  - DOMAIN-SUFFIX,naver.jp
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,nhncorp.jp
+# > Riot Games
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,wr.pvp.net
+  - DOMAIN-SUFFIX,riotgames.com
 # > Apple
   - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,appsto.re
@@ -744,7 +747,6 @@ payload:
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,homedepot.com
   - DOMAIN-SUFFIX,howtoforge.com
-  - DOMAIN-SUFFIX,hsex.men
   - DOMAIN-SUFFIX,iam.soy
   - DOMAIN-SUFFIX,icons8.com
   - DOMAIN-SUFFIX,ift.tt
@@ -861,10 +863,6 @@ payload:
   - DOMAIN-SUFFIX,pushbullet.com
   - DOMAIN-SUFFIX,pushwoosh.com
   - DOMAIN-SUFFIX,pximg.net
-  - DOMAIN-SUFFIX,phncdn.com
-  - DOMAIN-SUFFIX,phprcdn.com
-  - DOMAIN-SUFFIX,pornhub.com
-  - DOMAIN-SUFFIX,pornhubpremium.com
   - DOMAIN-SUFFIX,rileyguide.com
   - DOMAIN-SUFFIX,rime.im
   - DOMAIN-SUFFIX,rsf.org
@@ -964,7 +962,6 @@ payload:
   - DOMAIN-SUFFIX,typcn.com
   - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,typography.com
-  - DOMAIN-SUFFIX,cdnlab.live
   - DOMAIN-SUFFIX,ubertags.com
   - DOMAIN-SUFFIX,ublock.org
   - DOMAIN-SUFFIX,ubnt.com
@@ -1036,6 +1033,7 @@ payload:
   - DOMAIN-SUFFIX,xiti.com
   - DOMAIN-SUFFIX,xteko.com
   - DOMAIN-SUFFIX,xuite.net
+  - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
@@ -1050,6 +1048,12 @@ payload:
   - DOMAIN-SUFFIX,zalmos.com
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
+  - DOMAIN-SUFFIX,hsex.men
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,cdnlab.live
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,dropbox
@@ -1072,6 +1076,7 @@ payload:
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,unfiltered.news
+  - DOMAIN-SUFFIX,hackmd.io
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
