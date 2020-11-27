@@ -1100,3 +1100,7 @@ payload:
   - DOMAIN,hostupdate.vmware.com
   - DOMAIN-SUFFIX,v-front.de
   - DOMAIN-SUFFIX,unogs.com
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,shields.io
+  - DOMAIN-SUFFIX,kodi.tv
