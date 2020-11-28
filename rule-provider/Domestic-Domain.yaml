@@ -154,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,wegame.com
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,myqcloud.com
+  - DOMAIN-KEYWORD,qcloudcdn
 # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
