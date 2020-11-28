@@ -1084,7 +1084,6 @@ payload:
   - DOMAIN-SUFFIX,synocommunity.com
   - DOMAIN-SUFFIX,ipify.org
   - DOMAIN-SUFFIX,kernel.org
-  - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,fifaaddict.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,keepa.com
