@@ -33,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
+  - DOMAIN,bkimg.cdn.bcebos.com
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -87,6 +88,7 @@ payload:
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,iqiyipic.com
   - DOMAIN-SUFFIX,71.am.com
+  - DOMAIN-SUFFIX,71edge.com
 # > JD
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jd.com
@@ -551,6 +553,7 @@ payload:
   - DOMAIN-SUFFIX,yangkeduo.com
   - DOMAIN-SUFFIX,zhangzishi.cc
   - DOMAIN-SUFFIX,zhuihd.com
+  - DOMAIN-SUFFIX,qiumibao.com
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,cdn.angruo.com
