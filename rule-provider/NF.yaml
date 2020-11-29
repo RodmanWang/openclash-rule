@@ -1,11 +1,6 @@
 payload:
 # > Netflix
   - DOMAIN-KEYWORD,netflix
-  - DOMAIN-SUFFIX,fast.com
-  - DOMAIN-SUFFIX,maying.co
-  - DOMAIN-SUFFIX,yoyu.dev
-  - DOMAIN-SUFFIX,u1s1.io
-  - DOMAIN-SUFFIX,ark.to
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
   - DOMAIN-SUFFIX,nflximg.net
