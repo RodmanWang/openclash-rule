@@ -1104,3 +1104,7 @@ payload:
   - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,shields.io
   - DOMAIN-SUFFIX,kodi.tv
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,yoyu.dev
+  - DOMAIN-SUFFIX,u1s1.io
+  - DOMAIN-SUFFIX,ark.to
