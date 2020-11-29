@@ -557,7 +557,6 @@ payload:
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,cdn.angruo.com
-  - DOMAIN-SUFFIX,asus.com.cn
   - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,cn
 # > custom
