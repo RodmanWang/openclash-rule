@@ -1,4 +1,34 @@
 payload:
+# > ad-keywords
+  - DOMAIN-KEYWORD,admarvel
+  - DOMAIN-KEYWORD,admaster
+  - DOMAIN-KEYWORD,adsage
+  - DOMAIN-KEYWORD,adsensor
+  - DOMAIN-KEYWORD,adservice
+  - DOMAIN-KEYWORD,adsmogo
+  - DOMAIN-KEYWORD,adsrvmedia
+  - DOMAIN-KEYWORD,adsserving
+  - DOMAIN-KEYWORD,adsystem
+  - DOMAIN-KEYWORD,adwords
+  - DOMAIN-KEYWORD,analysis
+  - DOMAIN-KEYWORD,applovin
+  - DOMAIN-KEYWORD,appsflyer
+  - DOMAIN-KEYWORD,domob
+  - DOMAIN-KEYWORD,duomeng
+  - DOMAIN-KEYWORD,dwtrack
+  - DOMAIN-KEYWORD,guanggao
+  - DOMAIN-KEYWORD,lianmeng
+  - DOMAIN-KEYWORD,omgmta
+  - DOMAIN-KEYWORD,omniture
+  - DOMAIN-KEYWORD,openx
+  - DOMAIN-KEYWORD,partnerad
+  - DOMAIN-KEYWORD,pingfore
+  - DOMAIN-KEYWORD,socdm
+  - DOMAIN-KEYWORD,supersonicads
+  - DOMAIN-KEYWORD,tracking
+  - DOMAIN-KEYWORD,usage
+  - DOMAIN-KEYWORD,wlmonitor
+  - DOMAIN-KEYWORD,zjtoolbar
 # > Google
   - DOMAIN-SUFFIX,admob.com
   - DOMAIN-SUFFIX,ads.gmodules.com
@@ -592,3 +622,11 @@ payload:
   - DOMAIN-SUFFIX,hivedata.cc
   - DOMAIN-SUFFIX,navi.gd.chinamobile.com
 # > ad-customsize
+  - DOMAIN-KEYWORD,dafahao
+  - DOMAIN-KEYWORD,minghui
+  - DOMAIN-KEYWORD,dongtaiwang
+  - DOMAIN-KEYWORD,epochtimes
+  - DOMAIN-KEYWORD,ntdtv
+  - DOMAIN-KEYWORD,falundafa
+  - DOMAIN-KEYWORD,wujieliulan
+  - DOMAIN-SUFFIX,dailymotion.com
