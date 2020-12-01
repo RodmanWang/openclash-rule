@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,bababian.com
+  - DOMAIN-SUFFIX,mmstat.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -570,3 +571,10 @@ payload:
   - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,ourdvsss.com
   - DOMAIN-SUFFIX,wscdns.com
+  - DOMAIN-KEYWORD,zhibo8.
+  - DOMAIN-SUFFIX,mydrivers.com
+  - DOMAIN-SUFFIX,downg.com
+  - DOMAIN-SUFFIX,ali213.net
+  - DOMAIN-SUFFIX,tskscn.com
+  - DOMAIN-SUFFIX,3dmgame.com
+  - DOMAIN-KEYWORD,hbnun.ls365.
