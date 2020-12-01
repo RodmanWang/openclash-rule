@@ -157,6 +157,7 @@ payload:
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-KEYWORD,qcloudcdn
+  - DOMAIN-SUFFIX,qcloudimg.com
 # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
@@ -565,3 +566,5 @@ payload:
   - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,jice.io
+  - DOMAIN-SUFFIX,adguard.com
+  - DOMAIN,filters.adtidy.org
