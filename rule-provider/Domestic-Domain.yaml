@@ -558,7 +558,6 @@ payload:
   - DOMAIN,download.jetbrains.com
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,cdn.angruo.com
-  - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,cn
 # > custom
   - DOMAIN-SUFFIX,gwdang.com
@@ -568,3 +567,4 @@ payload:
   - DOMAIN-SUFFIX,jice.io
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN,filters.adtidy.org
+  - DOMAIN-SUFFIX,amd.com
