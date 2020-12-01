@@ -568,3 +568,5 @@ payload:
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN,filters.adtidy.org
   - DOMAIN-SUFFIX,amd.com
+  - DOMAIN-SUFFIX,ourdvsss.com
+  - DOMAIN-SUFFIX,wscdns.com
