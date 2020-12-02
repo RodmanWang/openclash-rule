@@ -159,6 +159,7 @@ payload:
   - DOMAIN-SUFFIX,myqcloud.com
   - DOMAIN-KEYWORD,qcloudcdn
   - DOMAIN-SUFFIX,qcloudimg.com
+  - DOMAIN-KEYWORD,.smtcdns.
 # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
@@ -579,3 +580,5 @@ payload:
   - DOMAIN-SUFFIX,3dmgame.com
   - DOMAIN-KEYWORD,hbnun.ls365.
   - DOMAIN-SUFFIX,duoduocdn.com
+  - DOMAIN-SUFFIX,hjenglish.com
+  - DOMAIN-SUFFIX,cnblogs.com
