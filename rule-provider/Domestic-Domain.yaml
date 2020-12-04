@@ -583,3 +583,6 @@ payload:
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,weathercn.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX, zencdn.net
+  - DOMAIN-SUFFIX,boltdns.net
