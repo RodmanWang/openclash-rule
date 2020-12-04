@@ -584,5 +584,5 @@ payload:
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,weathercn.com
   - DOMAIN-SUFFIX,jsdelivr.net
-  - DOMAIN-SUFFIX, zencdn.net
-  - DOMAIN-SUFFIX,boltdns.net
+  - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN-SUFFIX,prod.boltdns.net
