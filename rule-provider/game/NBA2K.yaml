@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,2k.com
   - DOMAIN-SUFFIX,nba2k.com 	
   - DOMAIN-SUFFIX,2ksports.com
+  - IP-CIDR,3.34.225.0/24,no-resolve
   - IP-CIDR,3.35.43.0/24,no-resolve
   - IP-CIDR,3.35.48.0/24,no-resolve
   - IP-CIDR,13.35.93.0/24,no-resolve
@@ -10,8 +11,10 @@ payload:
   - IP-CIDR,18.210.76.0/24,no-resolve
   - IP-CIDR,34.196.181.0/24,no-resolve
   - IP-CIDR,52.0.165.0/24,no-resolve
+  - IP-CIDR,52.54.21.0/24,no-resolve
   - IP-CIDR,52.54.70.0/24,no-resolve
   - IP-CIDR,52.79.105.0/24,no-resolve
   - IP-CIDR,52.84.167.0/24,no-resolve
   - IP-CIDR,99.86.146.0/24,no-resolve
   - IP-CIDR,104.255.107.0/24,no-resolve
+  - IP-CIDR,163.163.0.0/24,no-resolve
