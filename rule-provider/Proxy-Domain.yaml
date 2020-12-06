@@ -1087,6 +1087,7 @@ payload:
     - DOMAIN-SUFFIX,dotsrc.org
     - DOMAIN-SUFFIX,nluug.nl
     - DOMAIN-SUFFIX,up.pt
+    - DOMAIN,kodi.mirror.garr.it
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
