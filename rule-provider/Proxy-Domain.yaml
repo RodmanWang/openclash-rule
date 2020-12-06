@@ -1084,6 +1084,9 @@ payload:
     - DOMAIN-SUFFIX,tmdb.org
     - DOMAIN-SUFFIX,vectranet.pl
     - DOMAIN-SUFFIX,halifax.rwth-aachen.de
+    - DOMAIN-SUFFIX,dotsrc.org
+    - DOMAIN-SUFFIX,nluug.nl
+    - DOMAIN-SUFFIX,up.pt
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
