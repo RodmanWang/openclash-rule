@@ -1078,6 +1078,12 @@ payload:
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,unfiltered.news
   - DOMAIN-SUFFIX,hackmd.io
+# > kodi 
+    - DOMAIN-SUFFIX,kodi.tv
+    - DOMAIN-SUFFIX,themoviedb.org
+    - DOMAIN-SUFFIX,tmdb.org
+    - DOMAIN-SUFFIX,vectranet.pl
+    - DOMAIN-SUFFIX,halifax.rwth-aachen.de
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
@@ -1100,8 +1106,6 @@ payload:
   - DOMAIN,hostupdate.vmware.com
   - DOMAIN-SUFFIX,v-front.de
   - DOMAIN-SUFFIX,unogs.com
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,tmdb.org
   - DOMAIN-SUFFIX,shields.io
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,fast.com
