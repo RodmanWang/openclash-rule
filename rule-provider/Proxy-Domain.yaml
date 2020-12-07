@@ -1079,15 +1079,15 @@ payload:
   - DOMAIN-SUFFIX,unfiltered.news
   - DOMAIN-SUFFIX,hackmd.io
 # > kodi 
-    - DOMAIN-SUFFIX,kodi.tv
-    - DOMAIN-SUFFIX,themoviedb.org
-    - DOMAIN-SUFFIX,tmdb.org
-    - DOMAIN-SUFFIX,vectranet.pl
-    - DOMAIN-SUFFIX,halifax.rwth-aachen.de
-    - DOMAIN-SUFFIX,dotsrc.org
-    - DOMAIN-SUFFIX,nluug.nl
-    - DOMAIN-SUFFIX,up.pt
-    - DOMAIN,kodi.mirror.garr.it
+  - DOMAIN-SUFFIX,kodi.tv
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,vectranet.pl
+  - DOMAIN-SUFFIX,halifax.rwth-aachen.de
+  - DOMAIN-SUFFIX,dotsrc.org
+  - DOMAIN-SUFFIX,nluug.nl
+  - DOMAIN-SUFFIX,up.pt
+  - DOMAIN,kodi.mirror.garr.it
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
