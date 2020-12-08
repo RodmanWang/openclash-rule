@@ -1123,3 +1123,4 @@ payload:
   - DOMAIN,p.sda1.dev
   - DOMAIN-SUFFIX,duyaoss.com
   - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,adguard.com
