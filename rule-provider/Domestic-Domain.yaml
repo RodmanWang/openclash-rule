@@ -586,4 +586,3 @@ payload:
   - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN,crl.globalsign.net
   - DOMAIN,img.300hu.com
-  - DOMAIN-SUFFIX,adguard.com
