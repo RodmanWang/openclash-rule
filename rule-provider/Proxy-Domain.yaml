@@ -1125,3 +1125,7 @@ payload:
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
+  - DOMAIN-SUFFIX,polyfill.io
+  - DOMAIN-SUFFIX,gitbook.io
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN,cdn.lr-ingest.io
