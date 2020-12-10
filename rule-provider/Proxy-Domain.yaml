@@ -1129,3 +1129,5 @@ payload:
   - DOMAIN-SUFFIX,gitbook.io
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN,cdn.lr-ingest.io
+  - DOMAIN-SUFFIX,zimuku.la
+  - DOMAIN-SUFFIX,tickcounter.com
