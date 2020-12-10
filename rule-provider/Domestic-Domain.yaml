@@ -576,7 +576,7 @@ payload:
   - DOMAIN-SUFFIX,ali213.net
   - DOMAIN-SUFFIX,tskscn.com
   - DOMAIN-SUFFIX,3dmgame.com
-  - DOMAIN-KEYWORD,hbnun.ls365.
+  - DOMAIN-KEYWORD,.ls365.
   - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,cnblogs.com
@@ -590,3 +590,4 @@ payload:
   - DOMAIN-SUFFIX,7x24s.com
   - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,kukushouhou.com
+  - DOMAIN-SUFFIX,ys168.com
