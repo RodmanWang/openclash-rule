@@ -591,3 +591,4 @@ payload:
   - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,kukushouhou.com
   - DOMAIN-SUFFIX,ys168.com
+  - DOMAIN,recaptcha.net
