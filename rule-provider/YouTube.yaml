@@ -1,0 +1,11 @@
+payload:  
+  # > Youtube
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN,fonts.gstatic.com
