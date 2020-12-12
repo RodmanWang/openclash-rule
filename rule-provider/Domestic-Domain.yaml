@@ -113,16 +113,6 @@ payload:
   - DOMAIN-SUFFIX,mi.com
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,miwifi.com
-# > Microsoft
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,msecnd.net
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN-SUFFIX,s-microsoft.com
-  - DOMAIN-SUFFIX,visualstudio.com
-  - DOMAIN-SUFFIX,windows.com
-  - DOMAIN-SUFFIX,windowsupdate.com
-  - DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,126.net
@@ -561,6 +551,15 @@ payload:
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN,cdn.angruo.com
   - DOMAIN-SUFFIX,cn
+ # > TeamViewer
+  - IP-CIDR,185.188.32.0/24,no-resolve
+  - IP-CIDR,185.188.33.0/24,no-resolve
+  - IP-CIDR,185.188.34.0/24,no-resolve
+  - IP-CIDR,185.188.35.0/24,no-resolve
+  - IP-CIDR,2a0b:b580::/48,no-resolve
+  - IP-CIDR,2a0b:b581::/48,no-resolve
+  - IP-CIDR,2a0b:b582::/48,no-resolve
+  - IP-CIDR,2a0b:b583::/48,no-resolve
 # > custom
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,chinaz.com
