@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,alikunlun.com
 DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,tmall.hk
 DOMAIN-SUFFIX,bababian.com
+DOMAIN-SUFFIX,mmstat.com
 # > Apple
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,aaplimg.com
@@ -32,6 +33,7 @@ DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,baidubcr.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
+DOMAIN-SUFFIX,cdn.bcebos.com
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
@@ -86,6 +88,7 @@ DOMAIN-SUFFIX,mgtv.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,71.am.com
+DOMAIN-SUFFIX,71edge.com
 # > JD
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jd.com
@@ -109,16 +112,6 @@ DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
-# > Microsoft
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,msecnd.net
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,s-microsoft.com
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN,officecdn-microsoft-com.akamaized.net
 # > NetEase
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,126.net
@@ -153,6 +146,9 @@ DOMAIN-SUFFIX,soso.com
 DOMAIN-SUFFIX,wegame.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-KEYWORD,qcloudcdn
+DOMAIN-SUFFIX,qcloudimg.com
+DOMAIN-KEYWORD,.smtcdns.
 # > RRYS
 DOMAIN-SUFFIX,p4pfile.com
 DOMAIN-SUFFIX,zmzfile.com
@@ -549,16 +545,47 @@ DOMAIN-SUFFIX,xinhuanet.com
 DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,zhangzishi.cc
 DOMAIN-SUFFIX,zhuihd.com
+DOMAIN-SUFFIX,qiumibao.com
 DOMAIN,download.jetbrains.com
 DOMAIN,images-cn.ssl-images-amazon.com
 DOMAIN,cdn.angruo.com
-DOMAIN-SUFFIX,asus.com
-DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,cn
+ # > TeamViewer
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR,2a0b:b580::/48,no-resolve
+IP-CIDR,2a0b:b581::/48,no-resolve
+IP-CIDR,2a0b:b582::/48,no-resolve
+IP-CIDR,2a0b:b583::/48,no-resolve
 # > custom
 DOMAIN-SUFFIX,gwdang.com
 DOMAIN-SUFFIX,chinaz.com
-DOMAIN,time.ys7.com
+DOMAIN-SUFFIX,ys7.com
 DOMAIN-SUFFIX,razersynapse.com
-DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,jice.io
+DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,ourdvsss.com
+DOMAIN-SUFFIX,wscdns.com
+DOMAIN-KEYWORD,zhibo8.
+DOMAIN-SUFFIX,mydrivers.com
+DOMAIN-SUFFIX,downg.com
+DOMAIN-SUFFIX,ali213.net
+DOMAIN-SUFFIX,tskscn.com
+DOMAIN-SUFFIX,3dmgame.com
+DOMAIN-KEYWORD,.ls365.
+DOMAIN-SUFFIX,duoduocdn.com
+DOMAIN-SUFFIX,hjenglish.com
+DOMAIN-SUFFIX,cnblogs.com
+DOMAIN-SUFFIX,weathercn.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,vjs.zencdn.net
+DOMAIN-SUFFIX,prod.boltdns.net
+DOMAIN,crl.globalsign.net
+DOMAIN,img.300hu.com
+DOMAIN-SUFFIX,51240.com
+DOMAIN-SUFFIX,7x24s.com
+DOMAIN,api.samsungcloudcn.com
+DOMAIN-SUFFIX,kukushouhou.com
+DOMAIN-SUFFIX,ys168.com

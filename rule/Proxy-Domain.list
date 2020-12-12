@@ -1,12 +1,16 @@
-# > Youtube
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN,fonts.gstatic.com
+# > Abroad-DNS
+DOMAIN,doh.opendns.com
+DOMAIN,dns.google
+DOMAIN-SUFFIX,cloudflare-dns.com
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
+IP-CIDR,208.67.222.222/32,no-resolve
+IP-CIDR,208.67.220.220/32,no-resolve
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,1.0.0.1/32,no-resolve
+# > Android-App
+DOMAIN-SUFFIX,apkpure.com
+DOMAIN,services.googleapis.cn
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,fb.com
@@ -47,7 +51,6 @@ DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
@@ -82,7 +85,6 @@ DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,page.link
 DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,shattered.io
 DOMAIN-SUFFIX,synergyse.com
@@ -121,11 +123,14 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,nhncorp.jp
+# > Riot Games
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,wr.pvp.net
+DOMAIN-SUFFIX,riotgames.com
 # > Apple
 DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,appsto.re
@@ -167,6 +172,8 @@ DOMAIN,d3c33hcgiwev3.cloudfront.net
 # > Other
 DOMAIN-SUFFIX,4shared.com
 DOMAIN-SUFFIX,520cc.cc
+DOMAIN-SUFFIX,520click.com
+DOMAIN-SUFFIX,520call.me
 DOMAIN-SUFFIX,881903.com
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
@@ -459,7 +466,9 @@ DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,xn--90wwvt03e.com
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
 DOMAIN-KEYWORD,.xnxx.
-DOMAIN-KEYWORD,.xvideos*.com
+DOMAIN-KEYWORD,.xnxx-cdn.
+DOMAIN-KEYWORD,.xvideos.
+DOMAIN-KEYWORD,.xvideos-cdn.
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,ycombinator.com
@@ -474,6 +483,7 @@ DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zoom.us
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,jav
+DOMAIN-SUFFIX,jdbimgs.com
 DOMAIN-KEYWORD,pinterest
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,wikileaks
@@ -505,6 +515,7 @@ DOMAIN-SUFFIX,go.com
 DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,jcpenney.com
 DOMAIN-SUFFIX,jiehua.tv
+DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,mailfence.com
 DOMAIN-SUFFIX,nationwide.com
 DOMAIN-SUFFIX,nbc.com
@@ -516,6 +527,7 @@ DOMAIN-SUFFIX,superpages.com
 DOMAIN-SUFFIX,target.com
 DOMAIN-SUFFIX,thinkgeek.com
 DOMAIN-SUFFIX,tracfone.com
+DOMAIN-SUFFIX,thisav.com
 DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,uploader.jp
 DOMAIN-SUFFIX,vevo.com
@@ -732,6 +744,7 @@ DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gunsamerica.com
 DOMAIN-SUFFIX,helpshift.com
+DOMAIN-SUFFIX,hsex.men
 DOMAIN-SUFFIX,hitun.io
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,homedepot.com
@@ -852,10 +865,6 @@ DOMAIN-SUFFIX,puffinbrowser.com
 DOMAIN-SUFFIX,pushbullet.com
 DOMAIN-SUFFIX,pushwoosh.com
 DOMAIN-SUFFIX,pximg.net
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,rileyguide.com
 DOMAIN-SUFFIX,rime.im
 DOMAIN-SUFFIX,rsf.org
@@ -1026,6 +1035,7 @@ DOMAIN-SUFFIX,xeeno.com
 DOMAIN-SUFFIX,xiti.com
 DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,xuite.net
+DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yasni.co.uk
 DOMAIN-SUFFIX,yastatic.net
@@ -1040,6 +1050,12 @@ DOMAIN-SUFFIX,zacebook.com
 DOMAIN-SUFFIX,zalmos.com
 DOMAIN-SUFFIX,zeutch.com
 DOMAIN-SUFFIX,zynamics.com
+DOMAIN-SUFFIX,hsex.men
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,cdnlab.live
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,dropbox
@@ -1062,14 +1078,189 @@ DOMAIN-SUFFIX,pubnub.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,toggleable.com
 DOMAIN-SUFFIX,unfiltered.news
+DOMAIN-SUFFIX,hackmd.io
+# > kodi 
+DOMAIN-SUFFIX,kodi.tv
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,vectranet.pl
+DOMAIN-SUFFIX,halifax.rwth-aachen.de
+DOMAIN-SUFFIX,dotsrc.org
+DOMAIN-SUFFIX,nluug.nl
+DOMAIN-SUFFIX,up.pt
+DOMAIN,kodi.mirror.garr.it
+# > Google
+IP-CIDR,35.190.247.0/24,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,64.233.189.0/24,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.80.0/20,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,74.125.204.0/24,no-resolve
+IP-CIDR,108.177.8.0/21,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+# > Google-CN
+IP-CIDR,203.208.32.0/19,no-resolve
+# > Facebook
+IP-CIDR,3.123.36.126/32,no-resolve
+IP-CIDR,35.157.215.84/32,no-resolve
+IP-CIDR,35.157.217.255/32,no-resolve
+IP-CIDR,52.58.209.134/32,no-resolve
+IP-CIDR,54.93.124.31/32,no-resolve
+IP-CIDR,54.162.243.80/32,no-resolve
+IP-CIDR,54.173.34.141/32,no-resolve
+IP-CIDR,54.235.23.242/32,no-resolve
+IP-CIDR,169.45.248.118/32,no-resolve
+IP-CIDR,31.13.24.0/21,no-resolve
+IP-CIDR,31.13.64.0/18,no-resolve
+IP-CIDR,31.13.64.0/19,no-resolve
+IP-CIDR,31.13.79.0/24,no-resolve
+IP-CIDR,45.64.40.0/22,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve
+IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,129.134.0.0/17,no-resolve
+IP-CIDR,157.240.0.0/17,no-resolve
+IP-CIDR,173.252.64.0/19,no-resolve
+IP-CIDR,173.252.96.0/19,no-resolve
+IP-CIDR,179.60.192.0/22,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve
+# > Amazon
+IP-CIDR,13.32.0.0/16,no-resolve
+IP-CIDR,13.33.0.0/16,no-resolve
+IP-CIDR,13.35.0.0/17,no-resolve
+IP-CIDR,18.184.0.0/15,no-resolve
+IP-CIDR,18.194.0.0/15,no-resolve
+IP-CIDR,18.208.0.0/13,no-resolve
+IP-CIDR,18.232.0.0/14,no-resolve
+IP-CIDR,52.200.0.0/13,no-resolve
+IP-CIDR,52.58.0.0/15,no-resolve
+IP-CIDR,52.74.0.0/16,no-resolve
+IP-CIDR,52.77.0.0/16,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.156.0.0/14,no-resolve
+IP-CIDR,54.226.0.0/15,no-resolve
+IP-CIDR,54.230.156.0/22,no-resolve
+IP-CIDR,54.93.0.0/16,no-resolve
+# > Line
+IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,203.104.144.0/21,no-resolve
+IP-CIDR,103.2.28.0/22,no-resolve
+IP-CIDR,119.235.224.0/21,no-resolve
+IP-CIDR,119.235.232.0/23,no-resolve
+IP-CIDR,119.235.235.0/24,no-resolve
+IP-CIDR,119.235.236.0/23,no-resolve
+IP-CIDR,125.6.146.0/24,no-resolve
+IP-CIDR,125.6.149.0/24,no-resolve
+IP-CIDR,125.6.190.0/24,no-resolve
+IP-CIDR,203.104.103.0/24,no-resolve
+IP-CIDR,203.104.128.0/20,no-resolve
+IP-CIDR,203.174.66.64/26,no-resolve
+IP-CIDR,203.174.77.0/24,no-resolve
+# > Kakao Talk
+IP-CIDR,1.201.0.0/24,no-resolve
+IP-CIDR,103.246.56.0/22,no-resolve
+IP-CIDR,103.27.148.0/22,no-resolve
+IP-CIDR,110.76.140.0/22,no-resolve
+IP-CIDR,113.61.104.0/22,no-resolve
+IP-CIDR,27.0.236.0/22,no-resolve
+# > Potato Chat
+IP-CIDR,13.251.24.157/24,no-resolve
+IP-CIDR,13.251.41.203/24,no-resolve
+IP-CIDR,17.252.156.147/24,no-resolve
+IP-CIDR,17.252.157.26/24,no-resolve
+# > SoftLayer
+IP-CIDR,74.86.0.0/16,no-resolve
+IP-CIDR,75.126.0.0/16,no-resolve
+IP-CIDR,174.37.0.0/16,no-resolve
+IP-CIDR,208.43.0.0/16,no-resolve
+# > Cloudflare
+IP-CIDR,173.245.48.0/20,no-resolve
+IP-CIDR,103.21.244.0/22,no-resolve
+IP-CIDR,103.22.200.0/22,no-resolve
+IP-CIDR,103.31.4.0/22,no-resolve
+IP-CIDR,141.101.64.0/18,no-resolve
+IP-CIDR,108.162.192.0/18,no-resolve
+IP-CIDR,190.93.240.0/20,no-resolve
+IP-CIDR,188.114.96.0/20,no-resolve
+IP-CIDR,197.234.240.0/22,no-resolve
+IP-CIDR,198.41.128.0/17,no-resolve
+IP-CIDR,162.158.0.0/15,no-resolve
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,131.0.72.0/22,no-resolve
+# > Twitter
+IP-CIDR,69.195.160.0/19,no-resolve
+IP-CIDR,104.244.42.0/21,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.56.0/23,no-resolve
+IP-CIDR,149.154.160.0/22,no-resolve
+IP-CIDR,149.154.164.0/22,no-resolve
+IP-CIDR,149.154.168.0/22,no-resolve
+IP-CIDR,149.154.172.0/22,no-resolve
+# > Wikimedia
+IP-CIDR,91.198.174.0/24,no-resolve
+IP-CIDR,103.102.166.0/24,no-resolve
+IP-CIDR,185.15.56.0/22,no-resolve
+IP-CIDR,198.35.26.0/23,no-resolve
+IP-CIDR,208.80.152.0/22,no-resolve
 # > custom
-DOMAIN-KEYWORD,btbtt.
+DOMAIN-KEYWORD,.btbtt.
 DOMAIN-SUFFIX,rarbgmirror.com
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,synocommunity.com
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,kernel.org
-DOMAIN-SUFFIX,adtidy.org
 DOMAIN-SUFFIX,fifaaddict.com
 DOMAIN-SUFFIX,tampermonkey.net
 DOMAIN-SUFFIX,keepa.com
+DOMAIN-SUFFIX,netgear.com
+DOMAIN-SUFFIX,asus.com
+DOMAIN-SUFFIX,spam404.com
+DOMAIN-SUFFIX,vivaldi.net
+DOMAIN-KEYWORD,.Rarbg.
+DOMAIN-SUFFIX,Rarbgprx.org
+DOMAIN-SUFFIX,Rarbgs.com
+DOMAIN-SUFFIX,imagecurl.com
+DOMAIN-SUFFIX,opensubtitles.org
+DOMAIN,hostupdate.vmware.com
+DOMAIN-SUFFIX,v-front.de
+DOMAIN-SUFFIX,unogs.com
+DOMAIN-SUFFIX,shields.io
+DOMAIN-SUFFIX,kodi.tv
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,yoyu.dev
+DOMAIN-SUFFIX,u1s1.io
+DOMAIN-SUFFIX,ark.to
+DOMAIN-SUFFIX,fontawesome.com
+DOMAIN,s1.ax1x.com
+DOMAIN,client.crisp.chat
+DOMAIN,masiro.moe
+DOMAIN,p.sda1.dev
+DOMAIN-SUFFIX,duyaoss.com
+DOMAIN-SUFFIX,adtidy.org
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adguard.org
+DOMAIN-SUFFIX,polyfill.io
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN,cdn.lr-ingest.io
+DOMAIN-SUFFIX,zimuku.la
+DOMAIN-SUFFIX,tickcounter.com
