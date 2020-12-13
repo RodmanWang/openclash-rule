@@ -100,19 +100,6 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
-# > Microsoft
-  - DOMAIN-SUFFIX,1drv.com
-  - DOMAIN-SUFFIX,1drv.ms
-  - DOMAIN-SUFFIX,blob.core.windows.net
-  - DOMAIN-SUFFIX,livefilestore.com
-  - DOMAIN-SUFFIX,onedrive.com
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,storage.msn.com
-  - DOMAIN,oneclient.sfx.ms
-  - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN,az416426.vo.msecnd.net
-  - DOMAIN,az668014.vo.msecnd.net
 # > Telegram
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
