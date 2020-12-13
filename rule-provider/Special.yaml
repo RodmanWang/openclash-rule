@@ -1,18 +1,13 @@
 payload:
 # > special
   - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,localhost
-  - DOMAIN-SUFFIX,ip6-localhost
-  - DOMAIN-SUFFIX,ip6-loopback
-  - IP-CIDR,192.168.0.0/16,no-resolve
-  - IP-CIDR,10.0.0.0/8,no-resolve
-  - IP-CIDR,172.16.0.0/12,no-resolve
-  - IP-CIDR,127.0.0.0/8,no-resolve
-  - IP-CIDR,100.64.0.0/10,no-resolve
-  - IP-CIDR6,::1/128,no-resolve
-  - IP-CIDR6,fc00::/7,no-resolve
-  - IP-CIDR6,fe80::/10,no-resolve
-  - IP-CIDR6,fd00::/8,no-resolve
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,17.0.0.0/8
+  - IP-CIDR,100.64.0.0/10
+  - IP-CIDR6,fe80::/10
 # >AdguardLocal
   - DOMAIN,local.adguard.org
 # >Samsungihp
@@ -49,8 +44,6 @@ payload:
 # > Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
-# > UUBooster
-  - PROCESS-NAME,UUBooster
 # > Windows
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windows.net
@@ -61,25 +54,28 @@ payload:
   - DOMAIN-KEYWORD,XLLiveUD.
   - DOMAIN-KEYWORD,Thunder.
   - DOMAIN-KEYWORD,sandai.
-  - DOMAIN-KEYWORD,tracker
 # > Download
-  - PROCESS-NAME,aria2
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,NetTransport.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,ThunderVIP.exe
+  - PROCESS-NAME,transmission-daemon.exe
+  - PROCESS-NAME,transmission-qt.exe
+  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,Folx
   - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,Transmission
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
-# 360
-  - PROCESS-NAME,Weiyun
-# bt
-  - DOMAIN-KEYWORD,aria2
-  - DOMAIN-KEYWORD,find_node
-  - DOMAIN-KEYWORD,get_peers
-  - DOMAIN-KEYWORD,info_hash
-  - DOMAIN-KEYWORD,peer_id
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,torrent
 # > Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
@@ -104,26 +100,10 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,torrent
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
-  - DOMAIN-KEYWORD,HELO
-  - DOMAIN-KEYWORD,Subject
-# > General
-  - DOMAIN,app.adjust.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
-# > Tencent
-  - DOMAIN,livew.l.qq.com
-  - DOMAIN,vd.l.qq.com
-# > Strava
-  - DOMAIN,analytics.strava.com
-# > Umeng
-  - DOMAIN,msg.umeng.com
-  - DOMAIN,msg.umengcloud.com
-# > other
-  - DOMAIN-SUFFIX,ping.pe
-# > Alibaba
-  - DOMAIN,log.mmstat.com
-  - DOMAIN,sycm.mmstat.com
 # > Domestic-DNS
   - DOMAIN,dns.pub
   - DOMAIN,doh.pub
