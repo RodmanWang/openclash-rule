@@ -36,6 +36,32 @@ payload:
   - DOMAIN-SUFFIX,facebook.nl
   - DOMAIN-SUFFIX,facebook.se
   - DOMAIN-SUFFIX,facebookmail.com
+  - IP-CIDR,3.123.36.126/32,no-resolve
+  - IP-CIDR,35.157.215.84/32,no-resolve
+  - IP-CIDR,35.157.217.255/32,no-resolve
+  - IP-CIDR,52.58.209.134/32,no-resolve
+  - IP-CIDR,54.93.124.31/32,no-resolve
+  - IP-CIDR,54.162.243.80/32,no-resolve
+  - IP-CIDR,54.173.34.141/32,no-resolve
+  - IP-CIDR,54.235.23.242/32,no-resolve
+  - IP-CIDR,169.45.248.118/32,no-resolve
+  - IP-CIDR,31.13.24.0/21,no-resolve
+  - IP-CIDR,31.13.64.0/18,no-resolve
+  - IP-CIDR,31.13.64.0/19,no-resolve
+  - IP-CIDR,31.13.79.0/24,no-resolve
+  - IP-CIDR,45.64.40.0/22,no-resolve
+  - IP-CIDR,66.220.144.0/20,no-resolve
+  - IP-CIDR,69.63.176.0/20,no-resolve
+  - IP-CIDR,69.171.224.0/19,no-resolve
+  - IP-CIDR,74.119.76.0/22,no-resolve
+  - IP-CIDR,103.4.96.0/22,no-resolve
+  - IP-CIDR,129.134.0.0/17,no-resolve
+  - IP-CIDR,157.240.0.0/17,no-resolve
+  - IP-CIDR,173.252.64.0/19,no-resolve
+  - IP-CIDR,173.252.96.0/19,no-resolve
+  - IP-CIDR,179.60.192.0/22,no-resolve
+  - IP-CIDR,185.60.216.0/22,no-resolve
+  - IP-CIDR,204.15.20.0/22,no-resolve
 # > Twitter
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,periscope.tv
@@ -45,6 +71,22 @@ payload:
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-KEYWORD,twitter
+  - IP-CIDR,69.195.160.0/19,no-resolve
+  - IP-CIDR,104.244.42.0/21,no-resolve
+  - IP-CIDR,192.133.76.0/22,no-resolve
+  - IP-CIDR,199.16.156.0/22,no-resolve
+  - IP-CIDR,199.59.148.0/22,no-resolve
+  - IP-CIDR,199.96.56.0/21,no-resolve
+  - IP-CIDR,202.160.128.0/22,no-resolve
+  - IP-CIDR,209.237.192.0/19,no-resolve
+  - IP-CIDR,91.108.8.0/22,no-resolve
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/23,no-resolve
+  - IP-CIDR,149.154.160.0/22,no-resolve
+  - IP-CIDR,149.154.164.0/22,no-resolve
+  - IP-CIDR,149.154.168.0/22,no-resolve
+  - IP-CIDR,149.154.172.0/22,no-resolve
 # > Google
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,ampproject.org
@@ -100,6 +142,21 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
+  - IP-CIDR,35.190.247.0/24,no-resolve
+  - IP-CIDR,64.233.160.0/19,no-resolve
+  - IP-CIDR,64.233.189.0/24,no-resolve
+  - IP-CIDR,66.102.0.0/20,no-resolve
+  - IP-CIDR,66.249.80.0/20,no-resolve
+  - IP-CIDR,72.14.192.0/18,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,74.125.204.0/24,no-resolve
+  - IP-CIDR,108.177.8.0/21,no-resolve
+  - IP-CIDR,172.217.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,209.85.128.0/17,no-resolve
+  - IP-CIDR,216.239.32.0/19,no-resolve
+# > Google-CN
+  - IP-CIDR,203.208.32.0/19,no-resolve
 # > Telegram
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
@@ -107,6 +164,12 @@ payload:
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,telesco.pe
+  - IP-CIDR,91.108.0.0/16,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR,2001:b28:f23f::/48,no-resolve
 # > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
@@ -115,6 +178,22 @@ payload:
   - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,nhncorp.jp
+  - IP-CIDR,103.2.30.0/23,no-resolve
+  - IP-CIDR,125.209.208.0/20,no-resolve
+  - IP-CIDR,147.92.128.0/17,no-resolve
+  - IP-CIDR,203.104.144.0/21,no-resolve
+  - IP-CIDR,103.2.28.0/22,no-resolve
+  - IP-CIDR,119.235.224.0/21,no-resolve
+  - IP-CIDR,119.235.232.0/23,no-resolve
+  - IP-CIDR,119.235.235.0/24,no-resolve
+  - IP-CIDR,119.235.236.0/23,no-resolve
+  - IP-CIDR,125.6.146.0/24,no-resolve
+  - IP-CIDR,125.6.149.0/24,no-resolve
+  - IP-CIDR,125.6.190.0/24,no-resolve
+  - IP-CIDR,203.104.103.0/24,no-resolve
+  - IP-CIDR,203.104.128.0/20,no-resolve
+  - IP-CIDR,203.174.66.64/26,no-resolve
+  - IP-CIDR,203.174.77.0/24,no-resolve
 # > Riot Games
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
@@ -1071,49 +1150,6 @@ payload:
   - DOMAIN-SUFFIX,nluug.nl
   - DOMAIN-SUFFIX,up.pt
   - DOMAIN,kodi.mirror.garr.it
-# > Google
-  - IP-CIDR,35.190.247.0/24,no-resolve
-  - IP-CIDR,64.233.160.0/19,no-resolve
-  - IP-CIDR,64.233.189.0/24,no-resolve
-  - IP-CIDR,66.102.0.0/20,no-resolve
-  - IP-CIDR,66.249.80.0/20,no-resolve
-  - IP-CIDR,72.14.192.0/18,no-resolve
-  - IP-CIDR,74.125.0.0/16,no-resolve
-  - IP-CIDR,74.125.204.0/24,no-resolve
-  - IP-CIDR,108.177.8.0/21,no-resolve
-  - IP-CIDR,172.217.0.0/16,no-resolve
-  - IP-CIDR,173.194.0.0/16,no-resolve
-  - IP-CIDR,209.85.128.0/17,no-resolve
-  - IP-CIDR,216.239.32.0/19,no-resolve
-# > Google-CN
-  - IP-CIDR,203.208.32.0/19,no-resolve
-# > Facebook
-  - IP-CIDR,3.123.36.126/32,no-resolve
-  - IP-CIDR,35.157.215.84/32,no-resolve
-  - IP-CIDR,35.157.217.255/32,no-resolve
-  - IP-CIDR,52.58.209.134/32,no-resolve
-  - IP-CIDR,54.93.124.31/32,no-resolve
-  - IP-CIDR,54.162.243.80/32,no-resolve
-  - IP-CIDR,54.173.34.141/32,no-resolve
-  - IP-CIDR,54.235.23.242/32,no-resolve
-  - IP-CIDR,169.45.248.118/32,no-resolve
-  - IP-CIDR,31.13.24.0/21,no-resolve
-  - IP-CIDR,31.13.64.0/18,no-resolve
-  - IP-CIDR,31.13.64.0/19,no-resolve
-  - IP-CIDR,31.13.79.0/24,no-resolve
-  - IP-CIDR,45.64.40.0/22,no-resolve
-  - IP-CIDR,66.220.144.0/20,no-resolve
-  - IP-CIDR,69.63.176.0/20,no-resolve
-  - IP-CIDR,69.171.224.0/19,no-resolve
-  - IP-CIDR,74.119.76.0/22,no-resolve
-  - IP-CIDR,103.4.96.0/22,no-resolve
-  - IP-CIDR,129.134.0.0/17,no-resolve
-  - IP-CIDR,157.240.0.0/17,no-resolve
-  - IP-CIDR,173.252.64.0/19,no-resolve
-  - IP-CIDR,173.252.96.0/19,no-resolve
-  - IP-CIDR,179.60.192.0/22,no-resolve
-  - IP-CIDR,185.60.216.0/22,no-resolve
-  - IP-CIDR,204.15.20.0/22,no-resolve
 # > Amazon
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
@@ -1131,23 +1167,6 @@ payload:
   - IP-CIDR,54.226.0.0/15,no-resolve
   - IP-CIDR,54.230.156.0/22,no-resolve
   - IP-CIDR,54.93.0.0/16,no-resolve
-# > Line
-  - IP-CIDR,103.2.30.0/23,no-resolve
-  - IP-CIDR,125.209.208.0/20,no-resolve
-  - IP-CIDR,147.92.128.0/17,no-resolve
-  - IP-CIDR,203.104.144.0/21,no-resolve
-  - IP-CIDR,103.2.28.0/22,no-resolve
-  - IP-CIDR,119.235.224.0/21,no-resolve
-  - IP-CIDR,119.235.232.0/23,no-resolve
-  - IP-CIDR,119.235.235.0/24,no-resolve
-  - IP-CIDR,119.235.236.0/23,no-resolve
-  - IP-CIDR,125.6.146.0/24,no-resolve
-  - IP-CIDR,125.6.149.0/24,no-resolve
-  - IP-CIDR,125.6.190.0/24,no-resolve
-  - IP-CIDR,203.104.103.0/24,no-resolve
-  - IP-CIDR,203.104.128.0/20,no-resolve
-  - IP-CIDR,203.174.66.64/26,no-resolve
-  - IP-CIDR,203.174.77.0/24,no-resolve
 # > Kakao Talk
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,103.246.56.0/22,no-resolve
@@ -1180,36 +1199,12 @@ payload:
   - IP-CIDR,104.16.0.0/12,no-resolve
   - IP-CIDR,172.64.0.0/13,no-resolve
   - IP-CIDR,131.0.72.0/22,no-resolve
-# > Twitter
-  - IP-CIDR,69.195.160.0/19,no-resolve
-  - IP-CIDR,104.244.42.0/21,no-resolve
-  - IP-CIDR,192.133.76.0/22,no-resolve
-  - IP-CIDR,199.16.156.0/22,no-resolve
-  - IP-CIDR,199.59.148.0/22,no-resolve
-  - IP-CIDR,199.96.56.0/21,no-resolve
-  - IP-CIDR,202.160.128.0/22,no-resolve
-  - IP-CIDR,209.237.192.0/19,no-resolve
-  - IP-CIDR,91.108.8.0/22,no-resolve
-  - IP-CIDR,91.108.12.0/22,no-resolve
-  - IP-CIDR,91.108.16.0/22,no-resolve
-  - IP-CIDR,91.108.56.0/23,no-resolve
-  - IP-CIDR,149.154.160.0/22,no-resolve
-  - IP-CIDR,149.154.164.0/22,no-resolve
-  - IP-CIDR,149.154.168.0/22,no-resolve
-  - IP-CIDR,149.154.172.0/22,no-resolve
 # > Wikimedia
   - IP-CIDR,91.198.174.0/24,no-resolve
   - IP-CIDR,103.102.166.0/24,no-resolve
   - IP-CIDR,185.15.56.0/22,no-resolve
   - IP-CIDR,198.35.26.0/23,no-resolve
   - IP-CIDR,208.80.152.0/22,no-resolve
-# > Telegram
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
-  - IP-CIDR,2001:67c:4e8::/48,no-resolve
-  - IP-CIDR,2001:b28:f23d::/48,no-resolve
-  - IP-CIDR,2001:b28:f23f::/48,no-resolve
 # > custom
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
