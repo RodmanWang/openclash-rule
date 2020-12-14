@@ -527,9 +527,7 @@ payload:
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
   - DOMAIN-KEYWORD,.xnxx.
-  - DOMAIN-KEYWORD,.xnxx-cdn.
-  - DOMAIN-KEYWORD,.xvideos.
-  - DOMAIN-KEYWORD,.xvideos-cdn.
+  - DOMAIN-KEYWORD,xvideos
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,ycombinator.com
@@ -1096,7 +1094,6 @@ payload:
   - DOMAIN-SUFFIX,xiti.com
   - DOMAIN-SUFFIX,xteko.com
   - DOMAIN-SUFFIX,xuite.net
-  - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
