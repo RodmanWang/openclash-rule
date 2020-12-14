@@ -586,7 +586,6 @@ payload:
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,weathercn.com
-  - DOMAIN,cdn.jsdelivr.net
   - DOMAIN,vjs.zencdn.net
   - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN,crl.globalsign.net
