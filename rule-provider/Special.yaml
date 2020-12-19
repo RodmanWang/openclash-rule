@@ -119,6 +119,8 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
+# > Dler Cloud
+  - DOMAIN-SUFFIX,dler.cloud
 # > Private Tracker
   - DOMAIN-SUFFIX,awesome-hd.me
   - DOMAIN-SUFFIX,broadcasthe.net
