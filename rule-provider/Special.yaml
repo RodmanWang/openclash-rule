@@ -47,8 +47,6 @@ payload:
 # > Umeng
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
-# > Dler Cloud
-  - DOMAIN-SUFFIX,dler.cloud
 # > Apple CDN
   - PROCESS-NAME,storedownloadd
   - DOMAIN,aod.itunes.apple.com
