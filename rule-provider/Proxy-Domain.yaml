@@ -225,12 +225,36 @@ payload:
   - DOMAIN-KEYWORD,tesla
 # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
-  - DOMAIN-KEYWORD,dlercloud
 # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
-# > Amazon CloudFront
+# > Amazon
+  - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN,d3c33hcgiwev3.cloudfront.net
+  - DOMAIN,payments-jp.amazon.com
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com
+  - IP-CIDR,13.32.0.0/16,no-resolve
+  - IP-CIDR,13.33.0.0/16,no-resolve
+  - IP-CIDR,13.35.0.0/17,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+# > Microsoft
+  - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN,az416426.vo.msecnd.net
+  - DOMAIN,az668014.vo.msecnd.net
 # > Other
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,520cc.cc
@@ -242,13 +266,11 @@ payload:
   - DOMAIN-SUFFIX,abc.com
   - DOMAIN-SUFFIX,abc.net.au
   - DOMAIN-SUFFIX,abebooks.com
-  - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,apk-dl.com
   - DOMAIN-SUFFIX,apkfind.com
   - DOMAIN-SUFFIX,apkmirror.com
   - DOMAIN-SUFFIX,apkmonk.com
-  - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,aptoide.com
   - DOMAIN-SUFFIX,archive.is
   - DOMAIN-SUFFIX,archive.org
@@ -1110,7 +1132,6 @@ payload:
   - DOMAIN-SUFFIX,zalmos.com
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
-  - DOMAIN-SUFFIX,hsex.men
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
@@ -1149,23 +1170,6 @@ payload:
   - DOMAIN-SUFFIX,nluug.nl
   - DOMAIN-SUFFIX,up.pt
   - DOMAIN,kodi.mirror.garr.it
-# > Amazon
-  - IP-CIDR,13.32.0.0/16,no-resolve
-  - IP-CIDR,13.33.0.0/16,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
 # > Kakao Talk
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,103.246.56.0/22,no-resolve
@@ -1190,11 +1194,8 @@ payload:
   - IP-CIDR,198.35.26.0/23,no-resolve
   - IP-CIDR,208.80.152.0/22,no-resolve
   # > SoftLayer
-  - IP-CIDR,74.86.0.0/16,no-resolve
-  - IP-CIDR,75.126.0.0/16,no-resolve
-  - IP-CIDR,174.37.0.0/16,no-resolve
-  - IP-CIDR,208.43.0.0/16,no-resolve
 # > custom
+  - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,lastpass.com
@@ -1217,7 +1218,6 @@ payload:
   - DOMAIN-SUFFIX,v-front.de
   - DOMAIN-SUFFIX,unogs.com
   - DOMAIN-SUFFIX,shields.io
-  - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,yoyu.dev
   - DOMAIN-SUFFIX,u1s1.io
