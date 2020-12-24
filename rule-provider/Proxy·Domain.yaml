@@ -77,8 +77,6 @@ payload:
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
   - DOMAIN-SUFFIX,rocksdb.org
-  - DOMAIN-SUFFIX,whatsapp.com
-  - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-KEYWORD,facebook
   - IP-CIDR,3.123.36.126/32,no-resolve
   - IP-CIDR,35.157.215.84/32,no-resolve
@@ -183,6 +181,7 @@ payload:
 # > Google-CN
   - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
+  - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,akamaihd.net
 # > kodi 
@@ -273,6 +272,25 @@ payload:
   - DOMAIN-KEYWORD,.xnxx.
   - DOMAIN-KEYWORD,xvideos
   - DOMAIN-SUFFIX,ypncdn.com
+  - DOMAIN-SUFFIX,jav.com
+  - DOMAIN-SUFFIX,jav101.com
+  - DOMAIN-SUFFIX,jav2be.com
+  - DOMAIN-SUFFIX,jav68.tv
+  - DOMAIN-SUFFIX,javakiba.org
+  - DOMAIN-SUFFIX,javfor.me
+  - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,javhip.com
+  - DOMAIN-SUFFIX,javhub.net
+  - DOMAIN-SUFFIX,javhuge.com
+  - DOMAIN-SUFFIX,javlibrary.com
+  - DOMAIN-SUFFIX,javmobile.net
+  - DOMAIN-SUFFIX,javmoo.com
+  - DOMAIN-SUFFIX,javmoo.xyz
+  - DOMAIN-SUFFIX,javseen.com
+  - DOMAIN-SUFFIX,javtag.com
+  - DOMAIN-SUFFIX,javzoo.com
+  - DOMAIN-SUFFIX,jdbimgs.com
+  - DOMAIN-SUFFIX,qooqlevideo.com
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
@@ -343,6 +361,9 @@ payload:
   - IP-CIDR,2001:b28:f23d::/48,no-resolve
   - IP-CIDR,2001:b28:f23f::/48,no-resolve
 # > Whatsapp
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
   - IP-CIDR,34.224.0.0/12,no-resolve
   - IP-CIDR,54.242.0.0/15,no-resolve
   - IP-CIDR,50.22.198.204/30,no-resolve
@@ -454,7 +475,6 @@ payload:
   - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-SUFFIX,dns2go.com
   - DOMAIN-SUFFIX,dowjones.com
-  - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,dw.com
@@ -671,9 +691,6 @@ payload:
   - DOMAIN-SUFFIX,xhamster.com
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-  - DOMAIN-KEYWORD,.xnxx.
-  - DOMAIN-KEYWORD,xvideos
-  - DOMAIN-SUFFIX,qooqlevideo.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yandex.ru
   - DOMAIN-SUFFIX,ycombinator.com
@@ -686,12 +703,6 @@ payload:
   - DOMAIN-SUFFIX,zello.com
   - DOMAIN-SUFFIX,zeronet.io
   - DOMAIN-SUFFIX,zoom.us
-  - DOMAIN-KEYWORD,github
-  - DOMAIN-KEYWORD,jav
-  - DOMAIN-SUFFIX,jdbimgs.com
-  - DOMAIN-KEYWORD,pinterest
-  - DOMAIN-KEYWORD,porn
-  - DOMAIN-KEYWORD,wikileaks
   - DOMAIN-SUFFIX,apartmentratings.com
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,bankmobilevibe.com
@@ -1262,8 +1273,6 @@ payload:
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,dropbox
-  - DOMAIN-KEYWORD,instagram
-  - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,akamai.net
