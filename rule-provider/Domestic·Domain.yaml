@@ -151,6 +151,11 @@ payload:
   - DOMAIN-SUFFIX,wangsu.com
 # > ChinaNet
   - DOMAIN-SUFFIX,21cn.com
+# > cdn
+  - DOMAIN,cdn.bootcdn.net
+  - DOMAIN,vjs.zencdn.net
+  - DOMAIN-SUFFIX,duoduocdn.com
+  - DOMAIN-SUFFIX,prod.boltdns.net
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
@@ -422,6 +427,10 @@ payload:
 # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
+# > SamSungCN
+  - DOMAIN,api.samsungcloudcn.com
+  - DOMAIN-SUFFIX,samsungcloud.com
+  - DOMAIN-SUFFIX,galaxyappstore.com
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.cn
@@ -870,19 +879,12 @@ payload:
   - DOMAIN-SUFFIX,tskscn.com
   - DOMAIN-SUFFIX,3dmgame.com
   - DOMAIN-KEYWORD,.ls365.
-  - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,weathercn.com
-  - DOMAIN,vjs.zencdn.net
-  - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN,crl.globalsign.net
   - DOMAIN,img.300hu.com
   - DOMAIN-SUFFIX,51240.com
   - DOMAIN-SUFFIX,7x24s.com
-  - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,kukushouhou.com
   - DOMAIN-SUFFIX,ys168.com
-  - DOMAIN-SUFFIX,samsungcloud.com
-  - DOMAIN-SUFFIX,galaxyappstore.com
-  - DOMAIN,cdn.bootcdn.net
