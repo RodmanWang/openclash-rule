@@ -1,7 +1,6 @@
 payload:
 # > Abroad-DNS
   - DOMAIN,doh.opendns.com
-  - DOMAIN,dns.google
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,1dot1dot1dot1.cloudflare-dns.com
   - IP-CIDR,8.8.8.8/32,no-resolve
@@ -12,7 +11,58 @@ payload:
   - IP-CIDR,1.0.0.1/32,no-resolve
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
-  - DOMAIN,services.googleapis.cn
+# > Akamai
+  - DOMAIN,a248.e.akamai.net
+  - DOMAIN,a771.dscq.akamai.net
+# > Amazon
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net
+  - DOMAIN,payments-jp.amazon.com
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com
+  - IP-CIDR,13.32.0.0/16,no-resolve
+  - IP-CIDR,13.33.0.0/16,no-resolve
+  - IP-CIDR,13.35.0.0/17,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+# > Apple
+  - DOMAIN,testflight.apple.com
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,hls.itunes.apple.com
+  - DOMAIN,apps.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,api-glb-sea.smoot.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN-SUFFIX,cloudcone.com.cn
+  - DOMAIN-SUFFIX,inkbunny.net
+  - DOMAIN-SUFFIX,metapix.net
+  - DOMAIN-SUFFIX,s3.amazonaws.com
+  - DOMAIN-SUFFIX,zaobao.com.sg
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,beta.music.apple.com
+# > Discord
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
+# > Dubox
+  - DOMAIN-SUFFIX,dubox.com
+  - DOMAIN-SUFFIX,duboxcdn.com
 # > Facebook
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,fb.com
@@ -30,13 +80,6 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
   - DOMAIN-KEYWORD,facebook
-  - DOMAIN-SUFFIX,facebook.br
-  - DOMAIN-SUFFIX,facebook.design
-  - DOMAIN-SUFFIX,facebook.hu
-  - DOMAIN-SUFFIX,facebook.in
-  - DOMAIN-SUFFIX,facebook.nl
-  - DOMAIN-SUFFIX,facebook.se
-  - DOMAIN-SUFFIX,facebookmail.com
   - IP-CIDR,3.123.36.126/32,no-resolve
   - IP-CIDR,35.157.215.84/32,no-resolve
   - IP-CIDR,35.157.217.255/32,no-resolve
@@ -63,31 +106,12 @@ payload:
   - IP-CIDR,179.60.192.0/22,no-resolve
   - IP-CIDR,185.60.216.0/22,no-resolve
   - IP-CIDR,204.15.20.0/22,no-resolve
-# > Twitter
-  - DOMAIN-SUFFIX,pscp.tv
-  - DOMAIN-SUFFIX,periscope.tv
-  - DOMAIN-SUFFIX,t.co
-  - DOMAIN-SUFFIX,twimg.co
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twitpic.com
-  - DOMAIN-SUFFIX,vine.co
-  - DOMAIN-KEYWORD,twitter
-  - IP-CIDR,69.195.160.0/19,no-resolve
-  - IP-CIDR,104.244.42.0/21,no-resolve
-  - IP-CIDR,192.133.76.0/22,no-resolve
-  - IP-CIDR,199.16.156.0/22,no-resolve
-  - IP-CIDR,199.59.148.0/22,no-resolve
-  - IP-CIDR,199.96.56.0/21,no-resolve
-  - IP-CIDR,202.160.128.0/22,no-resolve
-  - IP-CIDR,209.237.192.0/19,no-resolve
-  - IP-CIDR,91.108.8.0/22,no-resolve
-  - IP-CIDR,91.108.12.0/22,no-resolve
-  - IP-CIDR,91.108.16.0/22,no-resolve
-  - IP-CIDR,91.108.56.0/23,no-resolve
-  - IP-CIDR,149.154.160.0/22,no-resolve
-  - IP-CIDR,149.154.164.0/22,no-resolve
-  - IP-CIDR,149.154.168.0/22,no-resolve
-  - IP-CIDR,149.154.172.0/22,no-resolve
+# > Github
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubusercontent.com
 # > Google
   - DOMAIN-SUFFIX,google.com
   - DOMAIN-SUFFIX,ampproject.org
@@ -158,19 +182,29 @@ payload:
   - IP-CIDR,216.239.32.0/19,no-resolve
 # > Google-CN
   - IP-CIDR,203.208.32.0/19,no-resolve
-# > Telegram
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,tdesktop.com
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,telesco.pe
-  - IP-CIDR,91.108.0.0/16,no-resolve
-  - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
-  - IP-CIDR,2001:67c:4e8::/48,no-resolve
-  - IP-CIDR,2001:b28:f23d::/48,no-resolve
-  - IP-CIDR,2001:b28:f23f::/48,no-resolve
+# > Instagram
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-SUFFIX,akamaihd.net
+# > kodi 
+  - DOMAIN-SUFFIX,kodi.tv
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,vectranet.pl
+  - DOMAIN-SUFFIX,halifax.rwth-aachen.de
+  - DOMAIN-SUFFIX,dotsrc.org
+  - DOMAIN-SUFFIX,nluug.nl
+  - DOMAIN-SUFFIX,up.pt
+  - DOMAIN,kodi.mirror.garr.it
+# > Kakao Talk
+  - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kakao.co.kr
+  - DOMAIN-SUFFIX,kakaocdn.net
+  - IP-CIDR,1.201.0.0/24,no-resolve
+  - IP-CIDR,103.246.56.0/22,no-resolve
+  - IP-CIDR,103.27.148.0/22,no-resolve
+  - IP-CIDR,110.76.140.0/22,no-resolve
+  - IP-CIDR,113.61.104.0/22,no-resolve
+  - IP-CIDR,27.0.236.0/22,no-resolve
 # > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
@@ -195,66 +229,154 @@ payload:
   - IP-CIDR,203.104.128.0/20,no-resolve
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
-# > Riot Games
-  - DOMAIN-SUFFIX,riotcdn.net
-  - DOMAIN-SUFFIX,wr.pvp.net
-  - DOMAIN-SUFFIX,riotgames.com
-# > Apple
-  - DOMAIN,testflight.apple.com
-  - DOMAIN-SUFFIX,appsto.re
-  - DOMAIN,books.itunes.apple.com
-  - DOMAIN,hls.itunes.apple.com
-  - DOMAIN,apps.apple.com
-  - DOMAIN,itunes.apple.com
-  - DOMAIN,api-glb-sea.smoot.apple.com
-  - DOMAIN,lookup-api.apple.com
-  - DOMAIN-KEYWORD,buy.itunes.apple.com
-  - DOMAIN-SUFFIX,cloudcone.com.cn
-  - DOMAIN-SUFFIX,inkbunny.net
-  - DOMAIN-SUFFIX,metapix.net
-  - DOMAIN-SUFFIX,s3.amazonaws.com
-  - DOMAIN-SUFFIX,zaobao.com.sg
-  - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN,beta.music.apple.com
-# > Spark
-  - DOMAIN-SUFFIX,api.amplitude.com
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
-  - DOMAIN-SUFFIX,smartmailcloud.com
-# > Tesla
-  - DOMAIN-KEYWORD,tesla
-# > V2EX
-  - DOMAIN-SUFFIX,v2ex.com
-# > Akamai
-  - DOMAIN,a248.e.akamai.net
-  - DOMAIN,a771.dscq.akamai.net
-# > Amazon
-  - DOMAIN-SUFFIX,amazon.co.jp
-  - DOMAIN,d3c33hcgiwev3.cloudfront.net
-  - DOMAIN,payments-jp.amazon.com
-  - DOMAIN,s3-ap-northeast-1.amazonaws.com
-  - DOMAIN,s3-ap-southeast-2.amazonaws.com
-  - IP-CIDR,13.32.0.0/16,no-resolve
-  - IP-CIDR,13.33.0.0/16,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
 # > Microsoft
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
+# > OneDrive
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,photos.live.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
+# > Potato Chat
+  - IP-CIDR,13.251.24.157/24,no-resolve
+  - IP-CIDR,13.251.41.203/24,no-resolve
+  - IP-CIDR,17.252.156.147/24,no-resolve
+  - IP-CIDR,17.252.157.26/24,no-resolve
+# > Porn
+  - DOMAIN-KEYWORD,porn
+  - DOMAIN-SUFFIX,8teenxxx.com
+  - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,bcvcdn.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,t66y.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-KEYWORD,.xnxx.
+  - DOMAIN-KEYWORD,xvideos
+  - DOMAIN-SUFFIX,ypncdn.com
+# > Pixiv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
+# > Riot Games
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN-SUFFIX,wr.pvp.net
+  - DOMAIN-SUFFIX,riotgames.com
+# > SoftLayer
+  - IP-CIDR,74.86.0.0/16,no-resolve
+  - IP-CIDR,75.126.0.0/16,no-resolve
+  - IP-CIDR,174.37.0.0/16,no-resolve
+  - IP-CIDR,208.43.0.0/16,no-resolve
+# > Spark
+  - DOMAIN-SUFFIX,api.amplitude.com
+  - DOMAIN-SUFFIX,app.smartmailcloud.com
+  - DOMAIN-SUFFIX,gate.hockeyapp.net
+  - DOMAIN-SUFFIX,smartmailcloud.com
+# > Steam
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+# > Tesla
+  - DOMAIN-KEYWORD,tesla
+# > Twitch
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-KEYWORD,ttvnw
+# > Twitter
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-KEYWORD,twitter
+  - IP-CIDR,69.195.160.0/19,no-resolve
+  - IP-CIDR,104.244.42.0/21,no-resolve
+  - IP-CIDR,192.133.76.0/22,no-resolve
+  - IP-CIDR,199.16.156.0/22,no-resolve
+  - IP-CIDR,199.59.148.0/22,no-resolve
+  - IP-CIDR,199.96.56.0/21,no-resolve
+  - IP-CIDR,202.160.128.0/22,no-resolve
+  - IP-CIDR,209.237.192.0/19,no-resolve
+  - IP-CIDR,91.108.8.0/22,no-resolve
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/23,no-resolve
+  - IP-CIDR,149.154.160.0/22,no-resolve
+  - IP-CIDR,149.154.164.0/22,no-resolve
+  - IP-CIDR,149.154.168.0/22,no-resolve
+  - IP-CIDR,149.154.172.0/22,no-resolve
+# > Telegram
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telesco.pe
+  - IP-CIDR,91.108.0.0/16,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR,2001:b28:f23f::/48,no-resolve
+# > Whatsapp
+  - IP-CIDR,34.224.0.0/12,no-resolve
+  - IP-CIDR,54.242.0.0/15,no-resolve
+  - IP-CIDR,50.22.198.204/30,no-resolve
+  - IP-CIDR,208.43.122.128/27,no-resolve
+  - IP-CIDR,108.168.174.0/16,no-resolve
+  - IP-CIDR,173.192.231.32/27,no-resolve
+  - IP-CIDR,158.85.5.192/27,no-resolve
+  - IP-CIDR,174.37.243.0/16,no-resolve
+  - IP-CIDR,158.85.46.128/27,no-resolve
+  - IP-CIDR,173.192.222.160/27,no-resolve
+  - IP-CIDR,184.173.128.0/17,no-resolve
+  - IP-CIDR,158.85.224.160/27,no-resolve
+  - IP-CIDR,75.126.150.0/16,no-resolve
+  - IP-CIDR,69.171.235.0/16,no-resolve
+# > V2EX
+  - DOMAIN-SUFFIX,v2ex.com
+# > Wikimedia
+  - DOMAIN-SUFFIX,mediawiki.org
+  - DOMAIN-SUFFIX,wikibooks.org
+  - DOMAIN-SUFFIX,wikidata.org
+  - DOMAIN-SUFFIX,wikileaks.org
+  - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,wikinews.org
+  - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,wikiquote.org
+  - DOMAIN-SUFFIX,wikisource.org
+  - DOMAIN-SUFFIX,wikiversity.org
+  - DOMAIN-SUFFIX,wikivoyage.org
+  - DOMAIN-SUFFIX,wiktionary.org
+  - IP-CIDR,91.198.174.0/24,no-resolve
+  - IP-CIDR,103.102.166.0/24,no-resolve
+  - IP-CIDR,185.15.56.0/22,no-resolve
+  - IP-CIDR,198.35.26.0/23,no-resolve
+  - IP-CIDR,208.80.152.0/22,no-resolve
 # > Other
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,520cc.cc
@@ -1160,39 +1282,6 @@ payload:
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,unfiltered.news
   - DOMAIN-SUFFIX,hackmd.io
-# > kodi 
-  - DOMAIN-SUFFIX,kodi.tv
-  - DOMAIN-SUFFIX,themoviedb.org
-  - DOMAIN-SUFFIX,tmdb.org
-  - DOMAIN-SUFFIX,vectranet.pl
-  - DOMAIN-SUFFIX,halifax.rwth-aachen.de
-  - DOMAIN-SUFFIX,dotsrc.org
-  - DOMAIN-SUFFIX,nluug.nl
-  - DOMAIN-SUFFIX,up.pt
-  - DOMAIN,kodi.mirror.garr.it
-# > Kakao Talk
-  - IP-CIDR,1.201.0.0/24,no-resolve
-  - IP-CIDR,103.246.56.0/22,no-resolve
-  - IP-CIDR,103.27.148.0/22,no-resolve
-  - IP-CIDR,110.76.140.0/22,no-resolve
-  - IP-CIDR,113.61.104.0/22,no-resolve
-  - IP-CIDR,27.0.236.0/22,no-resolve
-# > Potato Chat
-  - IP-CIDR,13.251.24.157/24,no-resolve
-  - IP-CIDR,13.251.41.203/24,no-resolve
-  - IP-CIDR,17.252.156.147/24,no-resolve
-  - IP-CIDR,17.252.157.26/24,no-resolve
-# > SoftLayer
-  - IP-CIDR,74.86.0.0/16,no-resolve
-  - IP-CIDR,75.126.0.0/16,no-resolve
-  - IP-CIDR,174.37.0.0/16,no-resolve
-  - IP-CIDR,208.43.0.0/16,no-resolve
-# > Wikimedia
-  - IP-CIDR,91.198.174.0/24,no-resolve
-  - IP-CIDR,103.102.166.0/24,no-resolve
-  - IP-CIDR,185.15.56.0/22,no-resolve
-  - IP-CIDR,198.35.26.0/23,no-resolve
-  - IP-CIDR,208.80.152.0/22,no-resolve
 # > custom
   - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-KEYWORD,.btbtt.
