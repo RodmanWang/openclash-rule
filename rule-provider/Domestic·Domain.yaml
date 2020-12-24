@@ -885,3 +885,4 @@ payload:
   - DOMAIN-SUFFIX,ys168.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,galaxyappstore.com
+  - DOMAIN,cdn.bootcdn.net
