@@ -166,7 +166,7 @@ payload:
 # > HunanTV
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,mgtv.com
-  - # > 华为 huwei
+# > 华为 huwei
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-SUFFIX,huaweicloud.com
   - DOMAIN-SUFFIX,vmall.com
@@ -354,7 +354,6 @@ payload:
   - DOMAIN-SUFFIX,alphassl.com
   - DOMAIN-SUFFIX,edu.cn
 # > PayPal
-  # USER-AGENT,PayPal*
   - DOMAIN-SUFFIX,paypal.com
   - DOMAIN-SUFFIX,paypal.me
   - DOMAIN-SUFFIX,paypalobjects.com
@@ -845,7 +844,7 @@ payload:
   - DOMAIN-SUFFIX,yizhibo.com
   - DOMAIN-SUFFIX,zhihuishu.com
   - DOMAIN-SUFFIX,cn
- # > TeamViewer
+# > TeamViewer
   - IP-CIDR,185.188.32.0/24,no-resolve
   - IP-CIDR,185.188.33.0/24,no-resolve
   - IP-CIDR,185.188.34.0/24,no-resolve
