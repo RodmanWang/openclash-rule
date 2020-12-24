@@ -185,6 +185,7 @@ payload:
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN,file-igamecj.akamaized.net
+  - DOMAIN,wegamex.com.hk
 # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
