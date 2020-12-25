@@ -11,6 +11,10 @@ payload:
   - IP-CIDR,1.0.0.1/32,no-resolve
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,apk-dl.com
+  - DOMAIN-SUFFIX,apkfind.com
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,apkmonk.com
 # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
@@ -482,10 +486,6 @@ payload:
   - DOMAIN-SUFFIX,api.tiktokv.com
   - DOMAIN-SUFFIX,api.urbandictionary.com
   - DOMAIN-SUFFIX,apigee.com
-  - DOMAIN-SUFFIX,apk-dl.com
-  - DOMAIN-SUFFIX,apkfind.com
-  - DOMAIN-SUFFIX,apkmirror.com
-  - DOMAIN-SUFFIX,apkmonk.com
   - DOMAIN-SUFFIX,appdownloader.net
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appshopper.com
