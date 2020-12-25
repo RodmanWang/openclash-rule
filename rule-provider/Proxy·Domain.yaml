@@ -45,7 +45,7 @@ payload:
   - DOMAIN,itunes.apple.com
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,lookup-api.apple.com
-  - DOMAIN-KEYWORD,buy.itunes.apple.com
+  - DOMAIN,buy.itunes.apple.com
   - DOMAIN-SUFFIX,cloudcone.com.cn
   - DOMAIN-SUFFIX,inkbunny.net
   - DOMAIN-SUFFIX,metapix.net
@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,dubox.com
   - DOMAIN-SUFFIX,duboxcdn.com
 # > Facebook
+  - DOMAIN-KEYWORD,facebook
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
@@ -71,13 +72,11 @@ payload:
   - DOMAIN-SUFFIX,fbcdn.net
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-SUFFIX,fbworkmail.com
-  - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
   - DOMAIN-SUFFIX,rocksdb.org
-  - DOMAIN-KEYWORD,facebook
   - IP-CIDR,3.123.36.126/32,no-resolve
   - IP-CIDR,35.157.215.84/32,no-resolve
   - IP-CIDR,35.157.217.255/32,no-resolve
@@ -111,7 +110,8 @@ payload:
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
 # > Google
-  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,blogspot
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
@@ -120,8 +120,6 @@ payload:
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,blogspot
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,android.com
@@ -234,7 +232,6 @@ payload:
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
 # > OneDrive
-  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
   - DOMAIN-SUFFIX,livefilestore.com
@@ -251,7 +248,6 @@ payload:
   - IP-CIDR,17.252.156.147/24,no-resolve
   - IP-CIDR,17.252.157.26/24,no-resolve
 # > Porn
-  - DOMAIN-KEYWORD,porn
   - DOMAIN-SUFFIX,8teenxxx.com
   - DOMAIN-SUFFIX,ahcdn.com
   - DOMAIN-SUFFIX,bcvcdn.com
@@ -1293,6 +1289,7 @@ payload:
   - DOMAIN-SUFFIX,hackmd.io
 # > custom
   - DOMAIN-SUFFIX,dlercloud.com
+  - DOMAIN-KEYWORD,.Rarbg.
   - DOMAIN-KEYWORD,.btbtt.
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,lastpass.com
@@ -1306,7 +1303,6 @@ payload:
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,spam404.com
   - DOMAIN-SUFFIX,vivaldi.net
-  - DOMAIN-KEYWORD,.Rarbg.
   - DOMAIN-SUFFIX,Rarbgprx.org
   - DOMAIN-SUFFIX,Rarbgs.com
   - DOMAIN-SUFFIX,imagecurl.com
