@@ -30,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,alisoft.com
   - DOMAIN-SUFFIX,aliyuncdn.com
   - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,tbcache.com
