@@ -483,7 +483,41 @@ payload:
 # > PDD
   - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,yangkeduo.com
-# > RRYS
+# > Private Tracker
+  - DOMAIN-SUFFIX,acg.rip
+  - DOMAIN-SUFFIX,animebytes.tv
+  - DOMAIN-SUFFIX,animetorrents.me
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,chdbits.co
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,comicat.org
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdbits.org
+  - DOMAIN-SUFFIX,hdchina.org
+  - DOMAIN-SUFFIX,hddolby.com
+  - DOMAIN-SUFFIX,hdhome.org
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,morethan.tv
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,myanonamouse.net
+  - DOMAIN-SUFFIX,nanyangpt.com
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,open.cd
+  - DOMAIN-SUFFIX,ourbits.club
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,pterclub.com
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,tjupt.org
+  - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,trontv.com
 # > SamSungCN
   - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,samsungcloud.com
@@ -537,11 +571,65 @@ payload:
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-# > Spark
-  - DOMAIN-SUFFIX,amplitude.com
-  - DOMAIN-SUFFIX,firebaseio.com
-  - DOMAIN-SUFFIX,hockeyapp.net
-  - DOMAIN-SUFFIX,smartmailcloud.com
+# > Speed Test
+  - DOMAIN-SUFFIX,netspeedtestmaster.com
+  - DOMAIN,speedtest.macpaw.com
+# > Scholar
+  - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,aip.org
+  - DOMAIN-SUFFIX,ams.org
+  - DOMAIN-SUFFIX,annualreviews.org
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,asm.org
+  - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,astm.org
+  - DOMAIN-SUFFIX,bmj.com
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,cas.org
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,emerald.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,icevirtuallibrary.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,imf.org
+  - DOMAIN-SUFFIX,iop.org
+  - DOMAIN-SUFFIX,jamanetwork.com
+  - DOMAIN-SUFFIX,jhu.edu
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,karger.com
+  - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,mpg.de
+  - DOMAIN-SUFFIX,myilibrary.com
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,oecd-ilibrary.org
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,ovid.com
+  - DOMAIN-SUFFIX,oxfordartonline.com
+  - DOMAIN-SUFFIX,oxfordbibliographies.com
+  - DOMAIN-SUFFIX,oxfordmusiconline.com
+  - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN-SUFFIX,proquest.com
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,spiedigitallibrary.org
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springerlink.com
+  - DOMAIN-SUFFIX,tandfonline.com
+  - DOMAIN-SUFFIX,un.org
+  - DOMAIN-SUFFIX,uni-bielefeld.de
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,westlaw.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,worldbank.org
+  - DOMAIN-SUFFIX,worldscientific.com
 # > Tencent
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qqurl.com
@@ -627,100 +715,6 @@ payload:
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,thundercdn.com
   - DOMAIN-SUFFIX,xunlei.com
-# > Speed Test
-  - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN,speedtest.macpaw.com
-# > Scholar
-  - DOMAIN-SUFFIX,acm.org
-  - DOMAIN-SUFFIX,acs.org
-  - DOMAIN-SUFFIX,aip.org
-  - DOMAIN-SUFFIX,ams.org
-  - DOMAIN-SUFFIX,annualreviews.org
-  - DOMAIN-SUFFIX,aps.org
-  - DOMAIN-SUFFIX,ascelibrary.org
-  - DOMAIN-SUFFIX,asm.org
-  - DOMAIN-SUFFIX,asme.org
-  - DOMAIN-SUFFIX,astm.org
-  - DOMAIN-SUFFIX,bmj.com
-  - DOMAIN-SUFFIX,cambridge.org
-  - DOMAIN-SUFFIX,cas.org
-  - DOMAIN-SUFFIX,clarivate.com
-  - DOMAIN-SUFFIX,ebscohost.com
-  - DOMAIN-SUFFIX,emerald.com
-  - DOMAIN-SUFFIX,engineeringvillage.com
-  - DOMAIN-SUFFIX,icevirtuallibrary.com
-  - DOMAIN-SUFFIX,ieee.org
-  - DOMAIN-SUFFIX,imf.org
-  - DOMAIN-SUFFIX,iop.org
-  - DOMAIN-SUFFIX,jamanetwork.com
-  - DOMAIN-SUFFIX,jhu.edu
-  - DOMAIN-SUFFIX,jstor.org
-  - DOMAIN-SUFFIX,karger.com
-  - DOMAIN-SUFFIX,libguides.com
-  - DOMAIN-SUFFIX,mpg.de
-  - DOMAIN-SUFFIX,myilibrary.com
-  - DOMAIN-SUFFIX,nature.com
-  - DOMAIN-SUFFIX,oecd-ilibrary.org
-  - DOMAIN-SUFFIX,osapublishing.org
-  - DOMAIN-SUFFIX,oup.com
-  - DOMAIN-SUFFIX,ovid.com
-  - DOMAIN-SUFFIX,oxfordartonline.com
-  - DOMAIN-SUFFIX,oxfordbibliographies.com
-  - DOMAIN-SUFFIX,oxfordmusiconline.com
-  - DOMAIN-SUFFIX,pnas.org
-  - DOMAIN-SUFFIX,proquest.com
-  - DOMAIN-SUFFIX,rsc.org
-  - DOMAIN-SUFFIX,sagepub.com
-  - DOMAIN-SUFFIX,sciencedirect.com
-  - DOMAIN-SUFFIX,sciencemag.org
-  - DOMAIN-SUFFIX,scopus.com
-  - DOMAIN-SUFFIX,siam.org
-  - DOMAIN-SUFFIX,spiedigitallibrary.org
-  - DOMAIN-SUFFIX,springer.com
-  - DOMAIN-SUFFIX,springerlink.com
-  - DOMAIN-SUFFIX,tandfonline.com
-  - DOMAIN-SUFFIX,un.org
-  - DOMAIN-SUFFIX,uni-bielefeld.de
-  - DOMAIN-SUFFIX,webofknowledge.com
-  - DOMAIN-SUFFIX,westlaw.com
-  - DOMAIN-SUFFIX,wiley.com
-  - DOMAIN-SUFFIX,worldbank.org
-  - DOMAIN-SUFFIX,worldscientific.com
-# > Private Tracker
-  - DOMAIN-SUFFIX,acg.rip
-  - DOMAIN-SUFFIX,animebytes.tv
-  - DOMAIN-SUFFIX,animetorrents.me
-  - DOMAIN-SUFFIX,awesome-hd.me
-  - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,chdbits.co
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk
-  - DOMAIN-SUFFIX,comicat.org
-  - DOMAIN-SUFFIX,empornium.me
-  - DOMAIN-SUFFIX,gazellegames.net
-  - DOMAIN-SUFFIX,hdbits.org
-  - DOMAIN-SUFFIX,hdchina.org
-  - DOMAIN-SUFFIX,hddolby.com
-  - DOMAIN-SUFFIX,hdhome.org
-  - DOMAIN-SUFFIX,hdsky.me
-  - DOMAIN-SUFFIX,icetorrent.org
-  - DOMAIN-SUFFIX,jpopsuki.eu
-  - DOMAIN-SUFFIX,keepfrds.com
-  - DOMAIN-SUFFIX,madsrevolution.net
-  - DOMAIN-SUFFIX,morethan.tv
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,myanonamouse.net
-  - DOMAIN-SUFFIX,nanyangpt.com
-  - DOMAIN-SUFFIX,ncore.cc
-  - DOMAIN-SUFFIX,open.cd
-  - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,passthepopcorn.me
-  - DOMAIN-SUFFIX,privatehd.to
-  - DOMAIN-SUFFIX,pterclub.com
-  - DOMAIN-SUFFIX,redacted.ch
-  - DOMAIN-SUFFIX,springsunday.net
-  - DOMAIN-SUFFIX,tjupt.org
-  - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,trontv.com
 # > 360
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
