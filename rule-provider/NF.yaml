@@ -1,8 +1,8 @@
 payload:
 # > Netflix
   - DOMAIN,netflix.com.edgesuite.net
+  - DOMAIN-SUFFIX,fast.com
   - DOMAIN-SUFFIX,netflix.com
-  - DOMAIN-SUFFIX,netflix.com.edgesuite.net
   - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
   - DOMAIN-SUFFIX,netflixdnstest1.com
@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,netflixdnstest6.com
   - DOMAIN-SUFFIX,netflixdnstest7.com
   - DOMAIN-SUFFIX,netflixdnstest8.com
+  - DOMAIN-SUFFIX,netflixdnstest9.com
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
   - DOMAIN-SUFFIX,nflximg.net
