@@ -190,6 +190,9 @@ payload:
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,akamaihd.net
+# > IP Query
+  - DOMAIN-SUFFIX,skk.moe
+  - DOMAIN-SUFFIX,ttt.sh
 # > kodi 
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,themoviedb.org
