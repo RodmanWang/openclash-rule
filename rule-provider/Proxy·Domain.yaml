@@ -272,10 +272,14 @@ payload:
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
 # > Spark
-  - DOMAIN-SUFFIX,api.amplitude.com
-  - DOMAIN-SUFFIX,app.smartmailcloud.com
-  - DOMAIN-SUFFIX,gate.hockeyapp.net
+  - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,smartmailcloud.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,hockeyapp.net
+  - DOMAIN-SUFFIX,readdle.com
+# > TapTap
+  - DOMAIN-SUFFIX,tap.io
+  - DOMAIN-SUFFIX,taptap.tw
 # > Steam
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
