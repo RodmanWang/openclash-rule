@@ -55,3 +55,5 @@ payload:
   - DOMAIN-SUFFIX,spotifycdn.net
 # > Pandora
   - DOMAIN-SUFFIX,pandora.com
+# > maying·Emby
+  - DOMAIN-SUFFIX,emby.maying.club
