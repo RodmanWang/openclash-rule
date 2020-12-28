@@ -252,6 +252,7 @@ payload:
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
+  - DOMAIN-SUFFIX,logincdn.msauth.net
 # > Potato Chat
   - IP-CIDR,13.251.24.157/24,no-resolve
   - IP-CIDR,13.251.41.203/24,no-resolve
