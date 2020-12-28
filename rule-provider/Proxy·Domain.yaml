@@ -75,7 +75,8 @@ payload:
   - DOMAIN-SUFFIX,dubox.com
   - DOMAIN-SUFFIX,duboxcdn.com
 # > Facebook
-  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,.facebook.
+  - DOMAIN-SUFFIX,facebookmail.com
   - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
@@ -122,7 +123,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
 # > Google
   - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,.blogspot.
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
@@ -190,7 +191,8 @@ payload:
 # > Google-CN
   - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
-  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,akamaihd.net
 # > IP Query
@@ -284,16 +286,11 @@ payload:
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
 # > Steam
-  - DOMAIN-SUFFIX,fanatical.com
-  - DOMAIN-SUFFIX,humblebundle.com
   - DOMAIN-SUFFIX,steamcommunity.com
-# > Tesla
-  - DOMAIN-KEYWORD,tesla
 # > Twitch
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-KEYWORD,ttvnw
 # > Twitter
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,periscope.tv
@@ -302,7 +299,7 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,vine.co
-  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-SUFFIX,twitter.com
   - IP-CIDR,69.195.160.0/19,no-resolve
   - IP-CIDR,104.244.42.0/21,no-resolve
   - IP-CIDR,192.133.76.0/22,no-resolve
@@ -333,7 +330,6 @@ payload:
   - IP-CIDR,2001:b28:f23d::/48,no-resolve
   - IP-CIDR,2001:b28:f23f::/48,no-resolve
 # > Whatsapp
-  - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
   - IP-CIDR,34.224.0.0/12,no-resolve
