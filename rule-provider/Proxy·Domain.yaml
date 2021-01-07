@@ -1227,6 +1227,7 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yahooapis.com
   - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.net
   - DOMAIN-SUFFIX,yasni.co.uk
   - DOMAIN-SUFFIX,yastatic.net
   - DOMAIN-SUFFIX,ycombinator.com
