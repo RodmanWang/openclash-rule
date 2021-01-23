@@ -30,6 +30,8 @@ payload:
   - DOMAIN,local.adguard.org
 # >Samsungihp
   - DOMAIN-SUFFIX,samsungihp.cn
+# > Spotify
+DOMAIN-SUFFIX,ap.spotify.com
 # > Tencent
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
@@ -88,9 +90,12 @@ payload:
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
 # > Windows
+  - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
 # > Xunlei
   - PROCESS-NAME,DownloadService
   - DOMAIN-SUFFIX,xunlei.com
