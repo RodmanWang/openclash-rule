@@ -16,6 +16,10 @@ payload:
   - IP-CIDR,218.104.71.170/32,no-resolve
   - IP-CIDR,202.38.95.110/32,no-resolve
   - IP-CIDR,101.6.6.6/32,no-resolve
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,fe80::/10
 # >AdguardLocal
   - DOMAIN,local.adguard.org
 # >Samsungihp
