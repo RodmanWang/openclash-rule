@@ -1110,6 +1110,14 @@ payload:
   - IP-CIDR,2a0b:b581::/48,no-resolve
   - IP-CIDR,2a0b:b582::/48,no-resolve
   - IP-CIDR,2a0b:b583::/48,no-resolve
+# > Domestic-DNS
+  - DOMAIN,dns.rubyfish.cn
+  - DOMAIN,v6.rubyfish.cn
+  - IP-CIDR,202.141.160.110/32,no-resolve
+  - IP-CIDR,202.141.176.110/32,no-resolve
+  - IP-CIDR,218.104.71.170/32,no-resolve
+  - IP-CIDR,202.38.95.110/32,no-resolve
+  - IP-CIDR,101.6.6.6/32,no-resolve
 # > custom
   - DOMAIN-SUFFIX,qiumibao.com
   - DOMAIN,cdn.angruo.com
