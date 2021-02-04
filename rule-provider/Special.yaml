@@ -8,18 +8,6 @@ payload:
   - IP-CIDR,17.0.0.0/8
   - IP-CIDR,100.64.0.0/10
   - IP-CIDR6,fe80::/10
-# > Domestic-DNS
-  - DOMAIN,dns.rubyfish.cn
-  - DOMAIN,v6.rubyfish.cn
-  - IP-CIDR,202.141.160.110/32,no-resolve
-  - IP-CIDR,202.141.176.110/32,no-resolve
-  - IP-CIDR,218.104.71.170/32,no-resolve
-  - IP-CIDR,202.38.95.110/32,no-resolve
-  - IP-CIDR,101.6.6.6/32,no-resolve
-  - IP-CIDR6,fe80::/10
-  - IP-CIDR6,fe80::/10
-  - IP-CIDR6,fe80::/10
-  - IP-CIDR6,fe80::/10
 # >AdguardLocal
   - DOMAIN,local.adguard.org
 # >Samsungihp
