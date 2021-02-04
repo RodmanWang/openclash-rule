@@ -693,6 +693,7 @@ payload:
   - DOMAIN-SUFFIX,gov.tw
   - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,greatfire.org
+  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,gstatic.cn
   - DOMAIN-SUFFIX,gumroad.com
   - DOMAIN-SUFFIX,gunsamerica.com
