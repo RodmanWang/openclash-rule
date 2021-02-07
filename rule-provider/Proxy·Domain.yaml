@@ -1,4 +1,16 @@
 payload:
+# > Abroad-DNS
+  - DOMAIN,doh.opendns.com
+  - DOMAIN,cloudflare-dns.com
+  - DOMAIN,dns.quad9.net
+  - IP-CIDR,8.8.8.8/32,no-resolve
+  - IP-CIDR,8.8.4.4/32,no-resolve
+  - IP-CIDR,208.67.222.222/32,no-resolve
+  - IP-CIDR,208.67.220.220/32,no-resolve
+  - IP-CIDR,1.1.1.1/32,no-resolve
+  - IP-CIDR,1.0.0.1/32,no-resolve
+  - IP-CIDR,9.9.9.9/32,no-resolve
+  - IP-CIDR,149.112.112.112/32,no-resolve
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
@@ -1246,15 +1258,3 @@ payload:
   - DOMAIN-SUFFIX,zimuku.la
   - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zynamics.com
-# > Abroad-DNS
-  - DOMAIN,doh.opendns.com
-  - DOMAIN,cloudflare-dns.com
-  - DOMAIN,dns.quad9.net
-  - IP-CIDR,8.8.8.8/32,no-resolve
-  - IP-CIDR,8.8.4.4/32,no-resolve
-  - IP-CIDR,208.67.222.222/32,no-resolve
-  - IP-CIDR,208.67.220.220/32,no-resolve
-  - IP-CIDR,1.1.1.1/32,no-resolve
-  - IP-CIDR,1.0.0.1/32,no-resolve
-  - IP-CIDR,9.9.9.9/32,no-resolve
-  - IP-CIDR,149.112.112.112/32,no-resolve
