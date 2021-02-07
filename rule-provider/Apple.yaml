@@ -1,5 +1,5 @@
 payload:
-  # > Apple API
+  # > Apple
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
@@ -12,6 +12,8 @@ payload:
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,apple.news
+  - PROCESS-NAME,com.apple.geod
   - IP-CIDR,17.0.0.0/8,no-resolve
   - IP-CIDR,63.92.224.0/19,no-resolve
   - IP-CIDR,65.199.22.0/23,no-resolve
@@ -22,9 +24,3 @@ payload:
   - IP-CIDR,192.35.50.0/24,no-resolve
   - IP-CIDR,198.183.17.0/24,no-resolve
   - IP-CIDR,205.180.175.0/24,no-resolve
-
-  # > Apple News
-  - DOMAIN-SUFFIX,apple.news
-
-  # > Apple Maps
-  - PROCESS-NAME,com.apple.geod
