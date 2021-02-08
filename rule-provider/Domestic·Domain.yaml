@@ -1,7 +1,7 @@
 payload:
 # > Domestic-DNS
-  - DOMAIN,dns.rubyfish.cn
-  - DOMAIN,v6.rubyfish.cn
+  - DOMAIN-SUFFIX,dns.rubyfish.cn
+  - DOMAIN-SUFFIX,v6.rubyfish.cn
   - IP-CIDR,202.141.160.110/32,no-resolve
   - IP-CIDR,202.141.176.110/32,no-resolve
   - IP-CIDR,218.104.71.170/32,no-resolve
