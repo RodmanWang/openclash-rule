@@ -121,7 +121,6 @@ payload:
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
-# > Google
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,.blogspot.
   - DOMAIN-SUFFIX,ampproject.org
@@ -191,7 +190,6 @@ payload:
 # > Google-CN
   - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
-  - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
   - DOMAIN-SUFFIX,akamaihd.net
@@ -243,7 +241,6 @@ payload:
   - IP-CIDR,203.104.128.0/20,no-resolve
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
-# > Microsoft
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN,az416426.vo.msecnd.net
@@ -268,7 +265,6 @@ payload:
 # > Spark
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,smartmailcloud.com
-  - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,readdle.com
 # > TapTap
@@ -359,7 +355,6 @@ payload:
   - IP-CIDR,185.15.56.0/22,no-resolve
   - IP-CIDR,198.35.26.0/23,no-resolve
   - IP-CIDR,208.80.152.0/22,no-resolve
-# > Other
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
   - DOMAIN,hostupdate.vmware.com
@@ -391,7 +386,6 @@ payload:
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,anrun.online
   - DOMAIN-SUFFIX,adobe.com
-  - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,airtable.com
@@ -577,8 +571,6 @@ payload:
   - DOMAIN-SUFFIX,doub.io
   - DOMAIN-SUFFIX,dowjones.com
   - DOMAIN-SUFFIX,dribbble.com
-  - DOMAIN-SUFFIX,dropboxapi.com
-  - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,droplr.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,dueapp.com
@@ -701,7 +693,6 @@ payload:
   - DOMAIN-SUFFIX,hket.com
   - DOMAIN-SUFFIX,hkgolden.com
   - DOMAIN-SUFFIX,hk-pub.com
-  - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,homedepot.com
   - DOMAIN-SUFFIX,hootsuite.com
   - DOMAIN-SUFFIX,hosting.co.uk
@@ -848,11 +839,9 @@ payload:
   - DOMAIN-SUFFIX,nextmedia.com
   - DOMAIN-SUFFIX,nhk.or.jp
   - DOMAIN-SUFFIX,nianticlabs.com
-  - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nih.gov
   - DOMAIN-SUFFIX,nii.ac.jp
   - DOMAIN-SUFFIX,nikkei.com
-  - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,nintendo.com
   - DOMAIN-SUFFIX,nintendo.net
   - DOMAIN-SUFFIX,nofile.io
@@ -965,7 +954,6 @@ payload:
   - DOMAIN-SUFFIX,roadshow.hk
   - DOMAIN-SUFFIX,rsf.org
   - DOMAIN-SUFFIX,rthk.hk
-  - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,sciencedaily.com
   - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scmp.com
