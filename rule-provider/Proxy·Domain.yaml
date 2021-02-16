@@ -282,8 +282,6 @@ payload:
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
-# > Steam
-  - DOMAIN-SUFFIX,steamcommunity.com
 # > Twitch
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,ttvnw.net
