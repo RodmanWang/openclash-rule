@@ -26,3 +26,8 @@ payload:
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.net
   - DOMAIN-SUFFIX,japronx.vip
+# > niconico
+  - PROCESS-NAME,jp.nicovideo.android
+  - DOMAIN-SUFFIX,dmc.nico
+  - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,nimg.jp
