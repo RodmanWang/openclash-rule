@@ -1,17 +1,20 @@
 payload:
 # > AbemaTV
+  - PROCESS-NAME,tv.abema
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,hayabusa.io
-  - DOMAIN,abematv.akamaized.net
-  - DOMAIN,ds-linear-abematv.akamaized.net
-  - DOMAIN,ds-vod-abematv.akamaized.net
-  - DOMAIN,linear-abematv.akamaized.net
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-KEYWORD,abematv.akamaized.net
 # > Hulu JP
-  - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,streaks.jp
+  - DOMAIN-SUFFIX,yb.uncn.jp
+  - DOMAIN-SUFFIX,hjholdings.jp
+  - PROCESS-NAME,jp.happyon.android
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
 # > Japonx
   - DOMAIN-KEYWORD,japonx
   - DOMAIN-KEYWORD,japronx
@@ -22,3 +25,4 @@ payload:
   - DOMAIN-SUFFIX,japronx.com
   - DOMAIN-SUFFIX,japronx.tv
   - DOMAIN-SUFFIX,japronx.net
+  - DOMAIN-SUFFIX,japronx.vip
