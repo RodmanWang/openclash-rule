@@ -37,7 +37,13 @@ payload:
   - DOMAIN-SUFFIX,mzstatic.com
 # > Google
   - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,blog.google
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
+  - DOMAIN,update.googleapis.com
+  - DOMAIN,translate.googleapis.com
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
   - DOMAIN,mtalk.google.com
@@ -136,3 +142,6 @@ payload:
   - DOMAIN-KEYWORD,torrent
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
+# > Other
+  - DOMAIN,app.adjust.com
+  - DOMAIN,bdtj.tagtic.cn
