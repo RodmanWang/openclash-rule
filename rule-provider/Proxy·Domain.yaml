@@ -411,7 +411,6 @@ payload:
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,api.mixpanel.com
   - DOMAIN-SUFFIX,api.termius.com
-  - DOMAIN-SUFFIX,api.tiktokv.com
   - DOMAIN-SUFFIX,api.urbandictionary.com
   - DOMAIN-SUFFIX,apigee.com
   - DOMAIN-SUFFIX,appdownloader.net
