@@ -47,23 +47,16 @@ payload:
   - IP-CIDR,54.230.156.0/22,no-resolve
   - IP-CIDR,54.93.0.0/16,no-resolve
 # > Apple
-  - DOMAIN,testflight.apple.com
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN,books.itunes.apple.com
-  - DOMAIN,hls.itunes.apple.com
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
   - DOMAIN,api-glb-sea.smoot.apple.com
-  - DOMAIN,lookup-api.apple.com
-  - DOMAIN,buy.itunes.apple.com
-  - DOMAIN-SUFFIX,cloudcone.com.cn
-  - DOMAIN-SUFFIX,inkbunny.net
-  - DOMAIN-SUFFIX,metapix.net
-  - DOMAIN-SUFFIX,s3.amazonaws.com
-  - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,lookup-api.apple.com
   - DOMAIN,beta.music.apple.com
-  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,testflight.apple.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
@@ -255,7 +248,6 @@ payload:
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
-  - DOMAIN-SUFFIX,logincdn.msauth.net
 # > Potato Chat
   - IP-CIDR,13.251.24.157/24,no-resolve
   - IP-CIDR,13.251.41.203/24,no-resolve
@@ -403,7 +395,6 @@ payload:
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,airtable.com
-  - DOMAIN-SUFFIX,akamai.net
   - DOMAIN-SUFFIX,alfredapp.com
   - DOMAIN-SUFFIX,allconnected.co
   - DOMAIN-SUFFIX,ampproject.com
