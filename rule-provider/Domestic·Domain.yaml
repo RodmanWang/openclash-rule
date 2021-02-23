@@ -1,12 +1,4 @@
 payload:
-# > Domestic-DNS
-  - DOMAIN-SUFFIX,dns.rubyfish.cn
-  - DOMAIN-SUFFIX,v6.rubyfish.cn
-  - IP-CIDR,202.141.160.110/32,no-resolve
-  - IP-CIDR,202.141.176.110/32,no-resolve
-  - IP-CIDR,218.104.71.170/32,no-resolve
-  - IP-CIDR,202.38.95.110/32,no-resolve
-  - IP-CIDR,101.6.6.6/32,no-resolve
 # > Alibaba
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tmall.com
