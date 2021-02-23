@@ -1,9 +1,4 @@
 payload:
-# > Abroad-DNS
-  - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,dns.quad9.net
-  - DOMAIN-SUFFIX,dns.google
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
