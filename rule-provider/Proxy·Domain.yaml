@@ -127,7 +127,6 @@ payload:
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
-  - DOMAIN-SUFFIX,akamaihd.net
 # > IP Query
   - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,ttt.sh
@@ -170,18 +169,6 @@ payload:
   - DOMAIN-SUFFIX,smartmailcloud.com
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,readdle.com
-# > Steam
-  - DOMAIN-SUFFIX,fanatical.com
-  - DOMAIN-SUFFIX,humblebundle.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN,steambroadcast.akamaized.net
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
