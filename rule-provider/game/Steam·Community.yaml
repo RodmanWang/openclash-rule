@@ -1,7 +1,5 @@
 payload:
 # > #Steam,Steam-社区(Beta),0,0,1,0,0,0,By-FQrabbit
-# > Steam
-  - DOMAIN-SUFFIX,steamcommunity.com
   - IP-CIDR,23.218.94.0/24,no-resolve
   - IP-CIDR,23.42.135.0/24,no-resolve
   - IP-CIDR,23.42.41.0/24,no-resolve
