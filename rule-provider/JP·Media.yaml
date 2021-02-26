@@ -6,14 +6,14 @@ payload:
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,hayabusa.io
   - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-KEYWORD,abematv.akamaized.net
+  - DOMAIN-SUFFIX,abematv.akamaized.net
 # > Hulu JP
+  - PROCESS-NAME,jp.happyon.android
   - DOMAIN-SUFFIX,hulu.jp
   - DOMAIN-SUFFIX,happyon.jp
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
   - DOMAIN-SUFFIX,hjholdings.jp
-  - PROCESS-NAME,jp.happyon.android
   - DOMAIN-SUFFIX,prod.hjholdings.tv
 # > Japonx
   - DOMAIN-KEYWORD,japonx
