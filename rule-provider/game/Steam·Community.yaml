@@ -1,3 +1,4 @@
 payload:
 # > Steam,Steam-社区(Beta),0,0,1,0,0,0,By-FQrabbit
   - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN,cdn.cloudflare.steamstatic.com
