@@ -425,6 +425,7 @@ payload:
   - DOMAIN-SUFFIX,worldscientific.com
 # > SteamCN
   - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
   - DOMAIN,steam-chat.com
   - DOMAIN,steamstore-a.akamaihd.net
