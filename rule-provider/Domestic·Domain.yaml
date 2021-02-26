@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,hao123.com
   - DOMAIN-SUFFIX,hao123img.com
   - DOMAIN-SUFFIX,jomodns.com
+  - DOMAIN-SUFFIX,keylol.com
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
