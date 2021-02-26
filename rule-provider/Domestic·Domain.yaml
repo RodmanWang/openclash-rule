@@ -432,6 +432,7 @@ payload:
   - DOMAIN,steamuserimages-a.akamaihd.net
   - DOMAIN,community.akamai.steamstatic.com
   - DOMAIN,cdn.akamai.steamstatic.com
+  - DOMAIN,steamcommunity-a.akamaihd.net
 # > Tencent
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qqurl.com
