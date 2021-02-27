@@ -40,6 +40,7 @@ payload:
   - DOMAIN,cdn.registerdisney.go.com
 # > GoogleApp
   - DOMAIN,services.googleapis.cn
+  - SRC-IP-CIDR,203.208.32.0/19,no-resolve
 # > HBO NOW
   - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
   - PROCESS-NAME,com.hbo.hbonow
