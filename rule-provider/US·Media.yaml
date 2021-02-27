@@ -38,6 +38,8 @@ payload:
   - PROCESS-NAME,com.disney.disneyplus
   - DOMAIN-SUFFIX,disneystreaming.com
   - DOMAIN,cdn.registerdisney.go.com
+# > GoogleApp
+  - DOMAIN,services.googleapis.cn
 # > HBO NOW
   - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
   - PROCESS-NAME,com.hbo.hbonow
