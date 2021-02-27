@@ -39,6 +39,9 @@ payload:
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
+# > Clubhouse
+  - DOMAIN-SUFFIX,clubhouseapi.com
+  - DOMAIN-SUFFIX,joinclubhouse.com
 # > Discord
   - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.com
@@ -168,6 +171,7 @@ payload:
   - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
+  - DOMAIN,store-images.s-microsoft.com
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
@@ -595,6 +599,7 @@ payload:
   - DOMAIN-SUFFIX,insecam.org
   - DOMAIN-SUFFIX,instapaper.com
   - DOMAIN-SUFFIX,instructables.com
+  - DOMAIN,international-gfe.download.nvidia.com
   - DOMAIN-SUFFIX,io.io
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipaddress.com
