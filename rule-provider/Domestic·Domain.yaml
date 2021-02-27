@@ -430,6 +430,7 @@ payload:
   - DOMAIN,steam-chat.com
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,clientconfig.akamai.steamstatic.com
   - DOMAIN,community.akamai.steamstatic.com
   - DOMAIN,cdn.akamai.steamstatic.com
   - DOMAIN,steamcommunity-a.akamaihd.net
