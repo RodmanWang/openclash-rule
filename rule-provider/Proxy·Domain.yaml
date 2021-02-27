@@ -33,6 +33,9 @@ payload:
   - DOMAIN,beta.music.apple.com
   - DOMAIN,ocsp.apple.com
   - DOMAIN,testflight.apple.com
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,xp.apple.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
@@ -50,6 +53,11 @@ payload:
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
+# > DigiCert
+  - DOMAIN,cacerts.digicert.com
+  - DOMAIN,crl3.digicert.com
+  - DOMAIN,crl4.digicert.com
+  - DOMAIN,ocsp.digicert.com
 # > Facebook
   - DOMAIN-KEYWORD,.facebook.
   - DOMAIN-SUFFIX,facebookmail.com
@@ -71,6 +79,7 @@ payload:
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
+# > Google
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,.blogspot.
   - DOMAIN-SUFFIX,ampproject.org
@@ -153,8 +162,10 @@ payload:
   - DOMAIN-SUFFIX,line.naver.jp
   - DOMAIN-SUFFIX,line-cdn.net
   - DOMAIN-SUFFIX,nhncorp.jp
+# > Microsoft
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
 # > Pixiv
