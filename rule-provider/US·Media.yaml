@@ -1,6 +1,6 @@
 payload:
 # > googleapp
-  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.cn
   - IP-CIDR,203.208.32.0/19,no-resolve
 # > Amazon Prime Video
   - PROCESS-NAME,com.amazon.avod.thirdp
