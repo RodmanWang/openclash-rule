@@ -5,7 +5,7 @@ payload:
   - DOMAIN,log.mmstat.com
   - DOMAIN,sycm.mmstat.com
 # > Apple CDN
-  - PROCESS-NAME,storedownload
+  - PROCESS-NAME,storedownloadd
   - DOMAIN,aod.itunes.apple.com
   - DOMAIN,api.smoot.apple.cn
   - DOMAIN,appldnld.apple.com
@@ -21,7 +21,6 @@ payload:
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,mzstatic.com
 # > Google
-  - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
@@ -40,6 +39,7 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,safebrowsing.googleapis.com
 # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,windowsupdate.com
