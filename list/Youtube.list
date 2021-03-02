@@ -1,0 +1,10 @@
+# > Youtube
+PROCESS-NAME,com.google.android.youtube
+PROCESS-NAME,com.google.android.youtube.tv
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,youtu.be
