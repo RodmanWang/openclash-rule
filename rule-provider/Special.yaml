@@ -1,5 +1,5 @@
 payload:
-# >AdguardLocal
+# >Adguard
   - DOMAIN,local.adguard.org
 # > Alibaba
   - DOMAIN,log.mmstat.com
