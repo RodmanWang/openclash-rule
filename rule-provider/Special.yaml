@@ -7,7 +7,6 @@ payload:
 # > Apple CDN
   - PROCESS-NAME,storedownloadd
   - DOMAIN,aod.itunes.apple.com
-  - DOMAIN,api.smoot.apple.cn
   - DOMAIN,appldnld.apple.com
   - DOMAIN,apptrailers.itunes.apple.com
   - DOMAIN,gs-loc-cn.apple.com
@@ -20,26 +19,6 @@ payload:
   - DOMAIN,updates-http.cdn-apple.com
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,mzstatic.com
-# > Google
-  - DOMAIN-SUFFIX,blog.google
-  - DOMAIN-SUFFIX,googletraveladservices.com
-  - DOMAIN,clientservices.googleapis.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,dl.l.google.com
-  - DOMAIN,update.googleapis.com
-  - DOMAIN,translate.googleapis.com
-  - DOMAIN,fonts.googleapis.com
-  - DOMAIN,fonts.gstatic.com
-  - DOMAIN,mtalk.google.com
-  - DOMAIN,alt1-mtalk.google.com
-  - DOMAIN,alt2-mtalk.google.com
-  - DOMAIN,alt3-mtalk.google.com
-  - DOMAIN,alt4-mtalk.google.com
-  - DOMAIN,alt5-mtalk.google.com
-  - DOMAIN,alt6-mtalk.google.com
-  - DOMAIN,alt7-mtalk.google.com
-  - DOMAIN,alt8-mtalk.google.com
-  - DOMAIN,safebrowsing.googleapis.com
 # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,windowsupdate.com
@@ -48,8 +27,6 @@ payload:
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-# >Samsungihp
-  - DOMAIN-SUFFIX,samsungihp.cn
 # > Spotify
   - DOMAIN-SUFFIX,ap.spotify.com
 # > Steam
@@ -61,9 +38,6 @@ payload:
   - DOMAIN,vd.l.qq.com
 # > Strava
   - DOMAIN,analytics.strava.com
-# > Tesla
-  - DOMAIN-SUFFIX,tesla.cn
-  - DOMAIN-SUFFIX,tesla-cdn.thron.cn
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > Umeng
@@ -127,6 +101,3 @@ payload:
   - DOMAIN-KEYWORD,torrent
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
-# > Other
-  - DOMAIN,app.adjust.com
-  - DOMAIN,bdtj.tagtic.cn
