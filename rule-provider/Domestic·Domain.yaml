@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,ucweb.com
+  - DOMAIN,dns.alidns.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -428,6 +429,9 @@ payload:
   - DOMAIN,steamcommunity-a.akamaihd.net
 # > Tencent
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN,doh.pub
+  - DOMAIN,dot.pub
+  - DOMAIN,dns.pub
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,soso.com
