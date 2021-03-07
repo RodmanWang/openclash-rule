@@ -192,6 +192,7 @@ payload:
   - DOMAIN-SUFFIX,whatismyip.com
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,sms.imagetasks.com
+  - DOMAIN-SUFFIX,ip138.com
 # > JD
   - DOMAIN-SUFFIX,jdpay.com
   - DOMAIN-SUFFIX,jd.com
