@@ -1249,3 +1249,5 @@ payload:
   - DOMAIN-SUFFIX,zimuku.la
   - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zynamics.com
+  - DOMAIN,x1.i.lencr.org
+  - DOMAIN,maxcdn.bootstrapcdn.com
