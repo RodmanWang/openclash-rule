@@ -199,8 +199,6 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
-# > Google-CN
-  - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
