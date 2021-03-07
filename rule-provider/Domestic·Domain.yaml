@@ -329,6 +329,7 @@ payload:
   - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,galaxyappstore.com
+  - DOMAIN-SUFFIX,samsungapps.com
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.cn
