@@ -62,8 +62,6 @@ payload:
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-# > Spotify
-  - DOMAIN-SUFFIX,ap.spotify.com
 # > Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
