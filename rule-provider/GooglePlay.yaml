@@ -1,0 +1,7 @@
+payload:
+# > APP Proxy for USA
+  - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN,services.googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  # > googleCN
+  - IP-CIDR,203.208.32.0/19,no-resolve
