@@ -142,7 +142,6 @@ payload:
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,android.com
@@ -199,8 +198,6 @@ payload:
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR,209.85.128.0/17,no-resolve
   - IP-CIDR,216.239.32.0/19,no-resolve
-# > googleCN
-  - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
