@@ -3,5 +3,6 @@ payload:
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN,services.googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN,play.google.com
   # > googleCN
   - IP-CIDR,203.208.32.0/19,no-resolve
