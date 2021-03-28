@@ -6,5 +6,6 @@ payload:
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,android.google.cn
   - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN-SUFFIX,android.clients.google.com
   # > googleCN
   - IP-CIDR,203.208.32.0/19,no-resolve
