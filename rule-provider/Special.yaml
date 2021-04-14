@@ -137,5 +137,6 @@ payload:
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,peer_id=
   - DOMAIN-KEYWORD,announce.php?passkey=
+  - DOMAIN-KEYWORD,aria2
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
