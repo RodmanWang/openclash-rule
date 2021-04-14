@@ -37,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,ucweb.com
   - DOMAIN,dns.alidns.com
+  - DOMAIN-SUFFIX,alicloudccp.com
+  - DOMAIN-SUFFIX,aliyundrive.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -781,7 +783,6 @@ payload:
   - DOMAIN-SUFFIX,ganji.com
   - DOMAIN-SUFFIX,ganjistatic1.com
   - DOMAIN-SUFFIX,ghpym.com
-  - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,guazi.com
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,gzlzfm.com
