@@ -45,6 +45,7 @@ payload:
   - DOMAIN-SUFFIX,hbogo.com
   - DOMAIN-SUFFIX,hbonow.com
   - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
 # > Hulu
   - PROCESS-NAME,com.hulu.plus
   - DOMAIN-SUFFIX,cws-hulu.conviva.com
