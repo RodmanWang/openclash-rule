@@ -130,13 +130,14 @@ payload:
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-KEYWORD,announce_peer
   - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,\.torrent
   - DOMAIN-KEYWORD,tracker 
   - DOMAIN-KEYWORD,BitTorrent
   - DOMAIN-KEYWORD,find_node
   - DOMAIN-KEYWORD,get_peers
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,peer_id=
-  - DOMAIN-KEYWORD,announce.php?passkey=
+  - DOMAIN-KEYWORD,announce\.php\?passkey=
   - DOMAIN-KEYWORD,aria2
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
