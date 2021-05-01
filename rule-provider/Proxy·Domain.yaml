@@ -263,6 +263,15 @@ payload:
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
+  # > Pinterest
+  - DOMAIN-SUFFIX,pinterest.at
+  - DOMAIN-SUFFIX,pinterest.ca
+  - DOMAIN-SUFFIX,pinterest.co.uk
+  - DOMAIN-SUFFIX,pinterest.com
+  - DOMAIN-SUFFIX,pinterest.de
+  - DOMAIN-SUFFIX,pinterest.fr
+  - DOMAIN-SUFFIX,pinterest.jp
+  - DOMAIN-SUFFIX,pinterest.se
 # > Potato Chat
   - IP-CIDR,13.251.24.157/24,no-resolve
   - IP-CIDR,13.251.41.203/24,no-resolve
@@ -272,6 +281,10 @@ payload:
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
   - DOMAIN-SUFFIX,riotgames.com
+# > Reddit
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmedia.com
 # > Spark
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,smartmailcloud.com
@@ -546,7 +559,9 @@ payload:
   - DOMAIN-SUFFIX,cw.com.tw
   - DOMAIN-SUFFIX,cyberctm.com
   - DOMAIN-SUFFIX,cygames.jp
+  - DOMAIN-SUFFIX,cyclingnews.com
   - DOMAIN-SUFFIX,d.pr
+  - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dailymotion.com
   - DOMAIN-SUFFIX,dailyview.tw
   - DOMAIN-SUFFIX,danilo.to
@@ -822,6 +837,8 @@ payload:
   - DOMAIN-SUFFIX,mil
   - DOMAIN-SUFFIX,mindnode.com
   - DOMAIN-SUFFIX,mingpao.com
+  - DOMAIN-SUFFIX,mixi.jp
+  - DOMAIN-SUFFIX,mixlr.com
   - DOMAIN-SUFFIX,mlssoccer.com
   - DOMAIN-SUFFIX,mobile01.com
   - DOMAIN-SUFFIX,modmyi.com
