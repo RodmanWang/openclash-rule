@@ -857,6 +857,9 @@ payload:
   - DOMAIN-SUFFIX,zhaopin.com
   - DOMAIN-SUFFIX,zhongsou.com
   - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,中国
+  - DOMAIN-SUFFIX,公司
+  - DOMAIN-SUFFIX,网络
 # > custom
   - DOMAIN-SUFFIX,qiumibao.com
   - DOMAIN,cdn.angruo.com
