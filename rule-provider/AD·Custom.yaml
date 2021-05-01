@@ -1,8 +1,9 @@
 payload:
 # > ad
-  - DOMAIN-SUFFIX,bbs.9ccms.org
-  - DOMAIN-SUFFIX,shenzhan444.com
-  - DOMAIN-SUFFIX,agmj.ag
-  - DOMAIN-SUFFIX,gzads.com
-  - DOMAIN-SUFFIX,gozendata.com
-  - DOMAIN-SUFFIX,gz-data.com
+  - 'bbs.9ccms.org'
+  - 'qiecss.com'
+  - 'shenzhan444.com'
+  - 'agmj.ag'
+  - '.gzads.com'
+  - '.gozendata.com'
+  - '.gz-data.com'
