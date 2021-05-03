@@ -2,12 +2,12 @@ payload:
 # > Netflix
   - PROCESS-NAME,com.netflix.mediaclient
   - DOMAIN,netflix.com.edgesuite.net
-  - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,netflix.com
   - DOMAIN-SUFFIX,nflxext.com
   - DOMAIN-SUFFIX,nflximg.com
-  - DOMAIN-SUFFIX,nflximg.net
-  - DOMAIN-SUFFIX,netflix.net
   - DOMAIN-SUFFIX,nflxvideo.net
   - DOMAIN-SUFFIX,netflixdnstest0.com
   - DOMAIN-SUFFIX,netflixdnstest1.com
@@ -19,9 +19,9 @@ payload:
   - DOMAIN-SUFFIX,netflixdnstest7.com
   - DOMAIN-SUFFIX,netflixdnstest8.com
   - DOMAIN-SUFFIX,netflixdnstest9.com
+  - DOMAIN-SUFFIX,dualstack.apiproxy-
+  - DOMAIN-SUFFIX,dualstack.ichnaea-web-
   - DOMAIN-SUFFIX,netflix.com.edgesuite.net
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
-  - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-
   - IP-CIDR,3.0.5.32/29,no-resolve
   - IP-CIDR,3.6.70.76/30,no-resolve
   - IP-CIDR,3.7.10.0/23,no-resolve
