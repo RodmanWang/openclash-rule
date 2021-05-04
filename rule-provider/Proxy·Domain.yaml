@@ -358,6 +358,7 @@ payload:
   - DOMAIN-SUFFIX,google.vu
   - DOMAIN-SUFFIX,google.ws
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
@@ -408,6 +409,7 @@ payload:
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
   - DOMAIN-SUFFIX,x.company
+  - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - IP-CIDR,35.190.247.0/24,no-resolve
   - IP-CIDR,64.233.160.0/19,no-resolve
@@ -423,24 +425,7 @@ payload:
   - IP-CIDR,209.85.128.0/17,no-resolve
   - IP-CIDR,216.239.32.0/19,no-resolve
 # > GoogleCN(services.googleapis.cn)
-  - IP-CIDR,120.232.181.162/32,no-resolve
-  - IP-CIDR,120.241.147.226/32,no-resolve
-  - IP-CIDR,120.253.253.226/32,no-resolve
-  - IP-CIDR,120.253.255.162/32,no-resolve
-  - IP-CIDR,120.253.255.34/32,no-resolve
-  - IP-CIDR,120.253.255.98/32,no-resolve
-  - IP-CIDR,180.163.150.162/32,no-resolve
-  - IP-CIDR,180.163.150.34/32,no-resolve
-  - IP-CIDR,180.163.151.162/32,no-resolve
-  - IP-CIDR,180.163.151.34/32,no-resolve
-  - IP-CIDR,203.208.39.0/24,no-resolve
-  - IP-CIDR,203.208.40.0/24,no-resolve
-  - IP-CIDR,203.208.41.0/24,no-resolve
-  - IP-CIDR,203.208.43.0/24,no-resolve
-  - IP-CIDR,203.208.50.0/24,no-resolve
-  - IP-CIDR,220.181.174.162/32,no-resolve
-  - IP-CIDR,220.181.174.226/32,no-resolve
-  - IP-CIDR,220.181.174.34/32,no-resolve
+  - IP-CIDR,203.208.32.0/19,no-resolve
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
@@ -523,7 +508,6 @@ payload:
   - DOMAIN-SUFFIX,riotgames.com
 # > Reddit
   - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
 # > Spark
   - DOMAIN-SUFFIX,amplitude.com
@@ -667,7 +651,6 @@ payload:
   - DOMAIN-SUFFIX,anthonycalzadilla.com
   - DOMAIN-SUFFIX,aol.com
   - DOMAIN-SUFFIX,aolcdn.com
-  - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,apartmentratings.com
   - DOMAIN-SUFFIX,apartments.com
   - DOMAIN-SUFFIX,api.mixpanel.com
@@ -835,7 +818,6 @@ payload:
   - DOMAIN-SUFFIX,dns2go.com
   - DOMAIN-SUFFIX,dnsimple.com
   - DOMAIN-SUFFIX,dnvod.tv
-  - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,doub.io
   - DOMAIN-SUFFIX,dowjones.com
   - DOMAIN-SUFFIX,dribbble.com
@@ -911,7 +893,6 @@ payload:
   - DOMAIN-SUFFIX,gabia.net
   - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,gate.io
-  - DOMAIN-SUFFIX,gcr.io
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,get.how
   - DOMAIN-SUFFIX,getcloudapp.com
@@ -1067,9 +1048,7 @@ payload:
   - DOMAIN-SUFFIX,mashable.com
   - DOMAIN-SUFFIX,mathjax.org
   - DOMAIN-SUFFIX,matters.news
-  - DOMAIN-SUFFIX,maven.org
   - DOMAIN-SUFFIX,maying.co
-  - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,megaupload.com
@@ -1173,7 +1152,6 @@ payload:
   - DOMAIN-SUFFIX,pinboard.in
   - DOMAIN-SUFFIX,ping.pe
   - DOMAIN-SUFFIX,pinimg.com
-  - DOMAIN-SUFFIX,pinterest.com
   - DOMAIN-SUFFIX,pixelmator.com
   - DOMAIN-SUFFIX,pixnet.net
   - DOMAIN-SUFFIX,player.fm
@@ -1209,10 +1187,7 @@ payload:
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
   - DOMAIN-SUFFIX,redbubble.com
-  - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditlist.com
-  - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redditstatic.com
   - DOMAIN-SUFFIX,resilio.com
   - DOMAIN-SUFFIX,reuters.com
@@ -1267,7 +1242,6 @@ payload:
   - DOMAIN-SUFFIX,ssrcloud.org
   - DOMAIN-SUFFIX,sstatic.net
   - DOMAIN-SUFFIX,st.luluku.pw
-  - DOMAIN-SUFFIX,stackoverflow.com
   - DOMAIN-SUFFIX,starp2p.com
   - DOMAIN-SUFFIX,startpage.com
   - DOMAIN-SUFFIX,state.gov
