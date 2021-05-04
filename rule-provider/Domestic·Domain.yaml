@@ -422,8 +422,7 @@ payload:
 # > SteamCN
   - '.steampowered.com'
   - '.cm.wmsjsteam.com'
-  - '.steamcdn-a.akamaihd.net'
-  - 'steam-chat.com'
+  - 'steamcdn-a.akamaihd.net'
   - 'steamstore-a.akamaihd.net'
   - 'steamuserimages-a.akamaihd.net'
   - 'clientconfig.akamai.steamstatic.com'
