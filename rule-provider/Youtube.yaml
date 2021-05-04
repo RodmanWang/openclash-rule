@@ -3,6 +3,7 @@ payload:
   - '.gvt2.com'
   - '.youtu.be'
   - '.ytimg.com'
+  - 'youtube.com'
   - '.youtube.com'
   - '.googlevideo.com'
   - 'youtubei.googleapis.com'
