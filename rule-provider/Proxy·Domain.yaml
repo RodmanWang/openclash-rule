@@ -77,13 +77,14 @@ payload:
   - '.oculuscdn.com'
   - '.rocksdb.org'
 # > Github
+  - 'github.com'
   - '.github.com'
   - '.github.io'
   - '.githubapp.com'
   - '.githubassets.com'
   - '.githubusercontent.com'
 # > Google
-  - '.*google*.*'
+  - '.google*.*'
   - '.*blogspot*.*'
   - '.ampproject.org'
   - '.appspot.com'
