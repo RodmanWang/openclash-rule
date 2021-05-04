@@ -84,8 +84,10 @@ payload:
   - '.githubassets.com'
   - '.githubusercontent.com'
 # > Google
+  - '.google.*'
   - '.google*.*'
-  - '.*blogspot*.*'
+  - '.blogspot.*'
+  - '.blogspot*.*'
   - '.ampproject.org'
   - '.appspot.com'
   - '.blogger.com'
