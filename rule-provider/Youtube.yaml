@@ -8,3 +8,5 @@ payload:
   - 'youtubei.googleapis.com'
   - 'yt3.ggpht.com'
   - 'yt4.ggpht.com'
+  - 'com.google.android.youtube'
+  - 'com.google.android.youtube.tv'
