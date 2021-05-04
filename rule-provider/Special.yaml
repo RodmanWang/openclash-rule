@@ -65,6 +65,7 @@ payload:
 # > Steam
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
   - DOMAIN,fairplay.l.qq.com
   - DOMAIN,livew.l.qq.com
