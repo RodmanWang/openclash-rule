@@ -258,6 +258,8 @@ payload:
   - '.netease.com'
   - '.ydstatic.com'
   - '.youdao.com'
+# > NTP
+  - 'cn.pool.ntp.org'
 # > YYeTs
   - '.jstucdn.com'
   - '.got001.com'
