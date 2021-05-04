@@ -1,6 +1,6 @@
 payload:
 # > Netflix
-  - DOMAIN,netflix.com.edgesuite.net'
+  - 'netflix.com.edgesuite.net'
   - '.nflxso.net'
   - '.netflix.net'
   - '.nflximg.net'
@@ -18,6 +18,6 @@ payload:
   - '.netflixdnstest7.com'
   - '.netflixdnstest8.com'
   - '.netflixdnstest9.com'
-  - '.dualstack.apiproxy-'
-  - '.dualstack.ichnaea-web-'
+  - '.dualstack.apiproxy-*.*'
+  - '.dualstack.ichnaea-web-*.*'
   - '.netflix.com.edgesuite.net'

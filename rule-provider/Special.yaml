@@ -1,11 +1,15 @@
 payload:
+# >Local
+  - '.*ip6-localhost*.*'
+  - '.*ip6-loopback*.*'
+  - '.*local*.*'
+  - '.*localhost*.*'
 # >Adguard
   - 'local.adguard.org'
 # > Alibaba
   - 'log.mmstat.com'
   - 'sycm.mmstat.com'
 # > Apple CDN
-  - PROCESS-NAME,storedownloadd'
   - 'aod.itunes.apple.com'
   - 'appldnld.apple.com'
   - 'apptrailers.itunes.apple.com'
@@ -59,6 +63,9 @@ payload:
   - 'msg.umengcloud.com'
 # > Xunlei
   - '.xunlei.com'
+  - '.*XLLiveUD*.*'
+  - '.*Thunder*.*'
+  - '.*sandai*.*'
 # > Private Tracker
   - '.awesome-hd.me'
   - '.broadcasthe.net'
@@ -83,3 +90,16 @@ payload:
   - '.springsunday.net'
   - '.tjupt.org'
   - '.totheglory.im'
+  - '.*announce_peer*.*'
+  - '.*torrent*.*'
+  - '.*\.torrent*.*'
+  - '.*tracker*.*'
+  - '.*BitTorrent*.*'
+  - '.*find_node*.*'
+  - '.*get_peers*.*'
+  - '.*info_hash*.*'
+  - '.*peer_id=*.*'
+  - '.*announce\.php\?passkey=*.*'
+  - '.*aria2*.*'
+# > SMTP'
+  - '.*SMTP*.*'

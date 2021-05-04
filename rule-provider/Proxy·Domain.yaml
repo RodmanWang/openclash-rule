@@ -1,13 +1,13 @@
 payload:
 # > Abroad-DNS
-  - '.doh.opendns.com'
-  - '.cloudflare-dns.com'
-  - '.dns11.quad9.net'
-  - '.dns.google'
+  - 'doh.opendns.com'
+  - 'cloudflare-dns.com'
+  - 'dns11.quad9.net'
+  - 'dns.google'
 # > Android-App
-  - '.apkpure.com'
-  - '.apk-dl.com'
-  - '.apkfind.com'
+  - 'apkpure.com'
+  - 'apk-dl.com'
+  - 'apkfind.com'
   - '.apkmirror.com'
   - '.apkmonk.com'
 # > Akamai
@@ -62,7 +62,7 @@ payload:
   - 'crl4.digicert.com'
   - 'ocsp.digicert.com'
 # > Facebook
-  - '*.facebook.*'
+  - '.facebook.*'
   - '.facebookmail.com'
   - '.cdninstagram.com'
   - '.fb.com'
@@ -83,8 +83,8 @@ payload:
   - '.githubassets.com'
   - '.githubusercontent.com'
 # > Google
-  - '.google.*'
-  - '*.blogspot.*'
+  - '.*google*.*'
+  - '.*blogspot*.*'
   - '.ampproject.org'
   - '.appspot.com'
   - '.blogger.com'
@@ -139,7 +139,7 @@ payload:
 # > Instagram
   - '.instagram.com'
   - '.instagr.am'
-# > IP Query
+# > IP Query'
   - '.skk.moe'
   - '.ttt.sh'
 # > Kodi
@@ -176,7 +176,7 @@ payload:
 # > Pixiv
   - '.pixiv.net'
   - '.pximg.net'
-  # > Pinterest'
+# > Pinterest'
   - '.pinterest.at'
   - '.pinterest.ca'
   - '.pinterest.co.uk'
@@ -185,27 +185,27 @@ payload:
   - '.pinterest.fr'
   - '.pinterest.jp'
   - '.pinterest.se'
-# > Riot Games
+# > Riot Games'
   - '.riotcdn.net'
   - '.wr.pvp.net'
   - '.riotgames.com'
-# > Reddit
+# > Reddit'
   - '.redd.it'
   - '.reddit.com'
   - '.redditmedia.com'
-# > Spark
+# > Spark'
   - '.amplitude.com'
   - '.smartmailcloud.com'
   - '.hockeyapp.net'
   - '.readdle.com'
-# > TapTap
+# > TapTap'
   - '.tap.io'
   - '.taptap.tw'
-# > Twitch
+# > Twitch'
   - '.twitch.tv'
   - '.ttvnw.net'
   - '.jtvnw.net'
-# > Twitter
+# > Twitter'
   - '.pscp.tv'
   - '.periscope.tv'
   - '.t.co'
@@ -214,7 +214,7 @@ payload:
   - '.twitpic.com'
   - '.vine.co'
   - '.twitter.com'
-# > Telegram
+# > Telegram'
   - '.t.me'
   - '.tx.me'
   - '.telegra.ph'
@@ -222,13 +222,13 @@ payload:
   - '.telegram.me'
   - '.telegram.org'
   - '.tdesktop.com'
-# > Whatsapp
+# > Whatsapp'
   - '.whatsapp.com'
   - '.whatsapp.net'
-# > V2EX
+# > V2EX'
   - '.v2ex.co'
   - '.v2ex.com'
-# > Wikimedia
+# > Wikimedia'
   - '.wikileaks.info'
   - '.wikileaks.org'
   - '.wikileaks-forum.com'
@@ -246,15 +246,15 @@ payload:
   - '.wikiversity.org'
   - '.wikivoyage.org'
   - '.wiktionary.org'
-# > Other
+# > Other'
   - 'cdn.lr-ingest.io'
   - 'client.crisp.chat'
   - 'hostupdate.vmware.com'
   - 'masiro.moe'
   - 'p.sda1.dev'
   - 's1.ax1x.com'
-  - '*.btbtt.*'
-  - '*.Rarbg.*'
+  - '.btbtt.*'
+  - '.Rarbg.*'
   - '.0rz.tw'
   - '.1e100.net'
   - '.2mdn.net'
