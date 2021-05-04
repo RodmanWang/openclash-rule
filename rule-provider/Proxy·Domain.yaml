@@ -62,7 +62,8 @@ payload:
   - 'crl4.digicert.com'
   - 'ocsp.digicert.com'
 # > Facebook
-  - '.facebook.*'
+  - '.facebook.com'
+  - '.facebook.net'
   - '.facebookmail.com'
   - '.cdninstagram.com'
   - '.fb.com'
@@ -84,8 +85,7 @@ payload:
   - '.githubassets.com'
   - '.githubusercontent.com'
 # > Google
-  - '.google.*'
-  - '.google*.*'
+  - '.google.'
   - '.blogspot.*'
   - '.blogspot*.*'
   - '.ampproject.org'
