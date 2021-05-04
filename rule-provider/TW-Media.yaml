@@ -1,0 +1,23 @@
+payload:
+# > Bahamut
+  - '.bahamut.com.tw'
+  - '.gamer.com.tw'
+  - '.hinet.net'
+  - 'gamer-cds.cdn.hinet.net'
+  - 'gamer2-cds.cdn.hinet.net'
+# > LiTV
+  - '.litv.tv'
+  - 'litvfreemobile-hichannel.cdn.hinet.net'
+# > Line TV
+  - '.d3c7rimkq79yfu.cloudfront.net'
+  - '.profile.line-scdn.net'
+  - '.linetv.tw'
+# > KKTV
+  - '.kktv.com.tw'
+  - '.kktv.me'
+  - 'kktv-theater.kk.stream'
+# > JOOX
+  - '.joox.com'
+# > 华文电视
+  - '.5itv.tv'
+  - '.ocnttv.com'
