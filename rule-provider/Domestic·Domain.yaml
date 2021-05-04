@@ -421,6 +421,7 @@ payload:
   - '.worldscientific.com'
 # > SteamCN
   - 'steampowered.com'
+  - '.steampowered.com'
   - '.cm.wmsjsteam.com'
   - 'steamcdn-a.akamaihd.net'
   - 'steamstore-a.akamaihd.net'
