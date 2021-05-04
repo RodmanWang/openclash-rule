@@ -15,7 +15,7 @@ payload:
   - 'a771.dscq.akamai.net'
 # > Amazon
   - '.amazon.co'
-  - '.amazon.com '
+  - '.amazon.com'
   - '.amazonaws.com'
   - '.amazon.co.jp'
   - 'd3c33hcgiwev3.cloudfront.net'
