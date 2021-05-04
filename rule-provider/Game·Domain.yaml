@@ -1,0 +1,14 @@
+payload:
+# > Steam,Steam-ÉçÇø(Beta),0,0,1,0,0,0,By-FQrabbit
+  - '.steamcommunity.com'
+  - '.cloudflare.steamstatic.com'
+  - 'steamdb.info'
+# > PUBG Asia & Southeast Asia
+  - '.pubgbluehole.com'
+  - '.playbattlegrounds.com'
+  - '.battleye.com'
+  - '.pubgha.com'
+# > NBA2K21
+  - 'nba-cdn.2ksports.com'
+  - 'nba2k21-svc.2ksports.com'
+  - '.aws.2ksports.com'
