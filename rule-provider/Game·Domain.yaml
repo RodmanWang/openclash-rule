@@ -1,12 +1,8 @@
 payload:
 # > Steam,Steam-社区(Beta),0,0,1,0,0,0,By-FQrabbit
   - 'steamcommunity.com'
+  - '.steamcommunity.com'
   - 'steamdb.info'
-  - '.fanatical.com'
-  - '.humblebundle.com'
-  - 'steam-chat.com'
-  - '.steampowered.com'
-  - '.steamstatic.com'
 # > PUBG Asia & Southeast Asia
   - '.pubgbluehole.com'
   - '.playbattlegrounds.com'
