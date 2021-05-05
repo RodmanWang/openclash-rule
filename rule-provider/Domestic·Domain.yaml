@@ -328,12 +328,13 @@ payload:
   - '.tjupt.org'
   - '.totheglory.im'
   - '.trontv.com'
-# > SamSungCN
+# > SamSung
   - 'api.samsungcloudcn.com'
   - '.samsungcloud.com'
   - '.galaxyappstore.com'
   - '.samsungapps.com'
   - '.samsunghealthcn.com'
+  - 'fota-cloud-dn.ospserver.net'
 # > Sina
   - '.sinaapp.com'
   - '.sinaimg.cn'
