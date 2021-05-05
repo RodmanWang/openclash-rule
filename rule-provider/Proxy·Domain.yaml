@@ -154,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
 # > Google
   - DOMAIN-SUFFIX,.google
+  - DOMAIN-SUFFIX,.goog
   - DOMAIN-SUFFIX,google.ac
   - DOMAIN-SUFFIX,google.ad
   - DOMAIN-SUFFIX,google.ae
