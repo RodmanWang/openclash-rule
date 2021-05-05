@@ -762,6 +762,7 @@ payload:
   - '.baicizhan.com'
   - '.baidupan.com'
   - '.baike.com'
+  - '.benmi.com'
   - '.biqudu.com'
   - '.biquge.com'
   - '.bitauto.com'
@@ -867,6 +868,9 @@ payload:
 # > Noproxy
   - '.baiduyun.wiki'
   - '.youxiaohou.com'
+  - '.mcafee.com'
+  - '.chacuo.net'
+  - '.icann.org'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
