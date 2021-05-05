@@ -333,6 +333,7 @@ payload:
   - '.samsungcloud.com'
   - '.galaxyappstore.com'
   - '.samsungapps.com'
+  - '.samsunghealthcn.com'
 # > Sina
   - '.sinaapp.com'
   - '.sinaimg.cn'
