@@ -863,6 +863,9 @@ payload:
   - '.中国'
   - '.公司'
   - '.网络'
+# > Noproxy
+  - '.baiduyun.wiki'
+  - '.youxiaohou.com'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
@@ -889,3 +892,5 @@ payload:
   - 'kukushouhou.com'
   - '.gitee.com'
   - '.xiaogou111.com'
+  - '.ghpym.com'
+  - '.ghxi.com'
