@@ -520,6 +520,9 @@ payload:
   - IP-CIDR,75.126.0.0/16,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
+# > subtitle
+  - DOMAIN,zimuku.org
+  - DOMAIN-SUFFIX,zmk.pw
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
