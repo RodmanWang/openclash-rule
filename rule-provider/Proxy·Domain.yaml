@@ -584,6 +584,8 @@ payload:
 # > V2EX
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
+# > Vps
+  - DOMAIN-SUFFIX,friendhosting.net
 # > Wikimedia
   - DOMAIN-SUFFIX,wikileaks.info
   - DOMAIN-SUFFIX,wikileaks.org
