@@ -885,7 +885,9 @@ payload:
   - '.scorecardresearch.com'
   - '.mimixiaoke.com'
   - '.affirm.com'
+  - 'affirm.com'
   - '.jomashop.com'
+  - '.cisco.com'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
