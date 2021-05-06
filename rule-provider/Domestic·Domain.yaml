@@ -439,6 +439,13 @@ payload:
   - 'steamuserimages-a.akamaihd.net'
   - 'community.akamai.steamstatic.com'
   - 'clientconfig.akamai.steamstatic.com'
+  - '.pinyuncloud.com'
+  - '.steamcontent.com'
+  - 'st.dl.eccdnx.com'
+  - 'dl.steam.ksyna.com'
+  - 'st.dl.bscstorage.net'
+  - 'cdn.mileweb.cs.steampowered.com.8686c.com'
+  - '.content.steamchina.com'
 # > Tencent
   - '.qq.com'
   - 'doh.pub'
