@@ -884,6 +884,8 @@ payload:
   - '.keepa.com'
   - '.scorecardresearch.com'
   - '.mimixiaoke.com'
+  - '.affirm.com'
+  - '.jomashop.com'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
