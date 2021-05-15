@@ -1504,3 +1504,5 @@ payload:
   - DOMAIN-SUFFIX,zynamics.com
   - DOMAIN,x1.i.lencr.org
   - DOMAIN,maxcdn.bootstrapcdn.com
+  - DOMAIN-SUFFIX,andorwebsites.com
+  - DOMAIN-SUFFIX,superuser.com
