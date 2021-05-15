@@ -891,9 +891,9 @@ payload:
   - '.jomashop.com'
   - '.cisco.com'
   - '.amazontrust.com'
-  - 'cdn.levelaccess.net'
+  - '.levelaccess.net'
   - '.tableau.com'
-  - 'share.turinglabs.net'
+  - '.turinglabs.net'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
@@ -941,3 +941,6 @@ payload:
   - 'segmentfault.com'
   - 'yryz.net'
   - '.analog.com'
+  - '.it1352.com'
+  - '.vvzixun.com'
+  - '.yidianzixun.com'
