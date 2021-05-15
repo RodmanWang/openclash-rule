@@ -889,6 +889,10 @@ payload:
   - 'affirm.com'
   - '.jomashop.com'
   - '.cisco.com'
+  - '.amazontrust.com'
+  - 'cdn.levelaccess.net'
+  - '.tableau.com'
+  - 'share.turinglabs.net'
 # > custom
   - '.qiumibao.com'
   - 'cdn.angruo.com'
