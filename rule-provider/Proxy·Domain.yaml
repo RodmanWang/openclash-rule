@@ -498,6 +498,10 @@ payload:
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,store-images.s-microsoft.com
   - DOMAIN-SUFFIX,blob.core.windows.net
+# > Malwarebytes
+  - DOMAIN,uc.chatra-usercontent.com
+  - DOMAIN-SUFFIX,malwarebytes.com
+  - DOMAIN-SUFFIX,chatra.io
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
