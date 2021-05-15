@@ -1508,3 +1508,4 @@ payload:
   - DOMAIN-SUFFIX,superuser.com
   - DOMAIN-SUFFIX,acdiao.com
   - DOMAIN-SUFFIX,apescout.com
+  - DOMAIN,example.com
