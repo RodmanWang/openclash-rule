@@ -1,13 +1,12 @@
 payload:
 # > Youtube
-  - '.gvt2.com'
-  - '.youtu.be'
-  - '.ytimg.com'
-  - 'youtube.com'
-  - '.youtube.com'
-  - '.googlevideo.com'
-  - 'youtubei.googleapis.com'
-  - 'yt3.ggpht.com'
-  - 'yt4.ggpht.com'
-  - 'com.google.android.youtube'
-  - 'com.google.android.youtube.tv'
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN,yt4.ggpht.com
+  - DOMAIN,com.google.android.youtube
+  - DOMAIN,com.google.android.youtube.tv

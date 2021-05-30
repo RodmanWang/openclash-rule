@@ -1,4 +1,4 @@
 payload:
 # > All4
-  - '.c4assets.com'
-  - '.channel4.com'
+  - DOMAIN-SUFFIX,c4assets.com
+  - DOMAIN-SUFFIX,channel4.com
