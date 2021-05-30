@@ -546,6 +546,16 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,jtvnw.net
+# > TikTok
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
 # > Twitter
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,periscope.tv
@@ -629,6 +639,73 @@ payload:
   - IP-CIDR,185.15.56.0/22,no-resolve
   - IP-CIDR,198.35.26.0/23,no-resolve
   - IP-CIDR,208.80.152.0/22,no-resolve
+# > xxx
+  - DOMAIN-SUFFIX,520cc.cc
+  - DOMAIN-SUFFIX,520click.com
+  - DOMAIN-SUFFIX,520call.me
+  - DOMAIN-SUFFIX,8teenxxx.com
+  - DOMAIN-SUFFIX,avgle.com
+  - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,bcvcdn.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,t66y.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-KEYWORD,.xnxx
+  - DOMAIN-SUFFIX,xnxx-cdn.com
+  - DOMAIN-KEYWORD,.xvideos
+  - DOMAIN-SUFFIX,xvideos-cdn.com
+  - DOMAIN-SUFFIX,ypncdn.com
+  - DOMAIN-SUFFIX,jable.tv
+  - DOMAIN-SUFFIX,cdnlab.live
+  - DOMAIN-SUFFIX,jav.com
+  - DOMAIN-SUFFIX,jav101.com
+  - DOMAIN-SUFFIX,jav2be.com
+  - DOMAIN-SUFFIX,jav68.tv
+  - DOMAIN-SUFFIX,javakiba.org
+  - DOMAIN-SUFFIX,javfor.me
+  - DOMAIN-SUFFIX,javhd.com
+  - DOMAIN-SUFFIX,javhip.com
+  - DOMAIN-SUFFIX,javhub.net
+  - DOMAIN-SUFFIX,javhuge.com
+  - DOMAIN-SUFFIX,javlibrary.com
+  - DOMAIN-SUFFIX,javmobile.net
+  - DOMAIN-SUFFIX,javmoo.com
+  - DOMAIN-SUFFIX,javmoo.xyz
+  - DOMAIN-SUFFIX,javseen.com
+  - DOMAIN-SUFFIX,javtag.com
+  - DOMAIN-SUFFIX,javzoo.com
+  - DOMAIN-SUFFIX,jdbimgs.com
+  - DOMAIN-SUFFIX,qooqlevideo.com
+  - DOMAIN-SUFFIX,ijavhd.com
+  - DOMAIN-SUFFIX,xxxnano.com
+  - DOMAIN-SUFFIX,ahacdn.me
+  - DOMAIN-SUFFIX,ncyquestig.fun
+  - DOMAIN-SUFFIX,thorithse.online
+  - DOMAIN-SUFFIX,ssionsupre.fun
+  - DOMAIN-SUFFIX,ahxxx.net
+  - DOMAIN-SUFFIX,amedin.net
+  - DOMAIN-SUFFIX,bngpt.com
+  - DOMAIN-SUFFIX,xedo.me
+  - DOMAIN-SUFFIX,vxxxcdn.net
+  - DOMAIN-SUFFIX,sikwap.mobi
+  - DOMAIN-SUFFIX,hsex.men
+  - DOMAIN-SUFFIX,anyav.me
+  - DOMAIN-SUFFIX,mage-cdn-flare.qdm.cloud
+  - DOMAIN-SUFFIX,porn87.com
+  - DOMAIN-SUFFIX,avdb.com
+  - DOMAIN-SUFFIX,dbimgs.com
+  - DOMAIN-SUFFIX,ggjav.com
 # > Other
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
@@ -636,8 +713,8 @@ payload:
   - DOMAIN,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
-  - DOMAIN-KEYWORD,btbtt.
-  - DOMAIN-KEYWORD,.Rarbg.
+  - DOMAIN-KEYWORD,btbtt
+  - DOMAIN-KEYWORD,Rarbg.
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,2mdn.net
