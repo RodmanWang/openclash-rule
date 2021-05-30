@@ -131,7 +131,7 @@ payload:
 # > ChinaNet
   - DOMAIN-SUFFIX,21cn.com
 # > cdn
-  - DOMAIN-SUFFIX,dn.bootcdn.net
+  - DOMAIN-SUFFIX,cdn.bootcdn.net
   - DOMAIN-SUFFIX,js.zencdn.net
   - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,prod.boltdns.net
