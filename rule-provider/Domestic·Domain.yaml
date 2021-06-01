@@ -141,7 +141,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
-  - DOMAIN-SUFFIX,dn.bijiago.com
+  - DOMAIN-SUFFIX,cdn.bijiago.com
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
