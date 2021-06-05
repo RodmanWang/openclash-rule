@@ -1372,4 +1372,6 @@ payload:
   - DOMAIN-SUFFIX,apescout.com
   - DOMAIN,example.com
   - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,openos.org
+  - DOMAIN-SUFFIX,siterank.today
+  - DOMAIN-SUFFIX,azstats.org
+  - DOMAIN-SUFFIX,soton.ac.uk
