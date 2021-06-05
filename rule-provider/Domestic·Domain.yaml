@@ -51,9 +51,6 @@ payload:
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,tbcache.com
   - DOMAIN-SUFFIX,tbcdn.com
-  - DOMAIN-SUFFIX,didialift.com
-  - DOMAIN-SUFFIX,didiglobal.com
-  - DOMAIN-SUFFIX,kuaidadi.com
   - DOMAIN-SUFFIX,udache.com
   - DOMAIN-SUFFIX,fliggy.com
   - DOMAIN-SUFFIX,koubei.com
@@ -178,7 +175,7 @@ payload:
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
-  - DOMAIN-SUFFIX,udache.com
+  - DOMAIN-SUFFIX,kuaidadi.com
 # > Douyu
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
@@ -376,12 +373,8 @@ payload:
   - DOMAIN-SUFFIX,ota-cloud-dn.ospserver.net
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
-  - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,sinaimg.com
   - DOMAIN-SUFFIX,sina.com
-  - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-SUFFIX,weibo.com
-  - DOMAIN-SUFFIX,weibocdn.com
   - DOMAIN-SUFFIX,leju.com
   - DOMAIN-SUFFIX,miaopai.com
   - DOMAIN-SUFFIX,xiaoka.tv
@@ -510,7 +503,6 @@ payload:
   - DOMAIN-SUFFIX,ile-igamecj.akamaized.net
   - DOMAIN-SUFFIX,wegamex.com.hk
   - DOMAIN-SUFFIX,foxmail.com
-  - DOMAIN-SUFFIX,smtcdns.com
   - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,tencentmind.com
   - DOMAIN-SUFFIX,weixin.com
@@ -520,7 +512,6 @@ payload:
   - DOMAIN-SUFFIX,huayimedia.com
   - DOMAIN-SUFFIX,webank.com
   - DOMAIN-SUFFIX,encentwm.com
-  - DOMAIN-SUFFIX,meituan.com
   - DOMAIN-SUFFIX,ly.com
   - DOMAIN-SUFFIX,elong.com
   - DOMAIN-SUFFIX,elongstatic.com
@@ -651,7 +642,6 @@ payload:
   - DOMAIN-SUFFIX,metatrader4.com
   - DOMAIN-SUFFIX,metatrader5.com
   - DOMAIN-SUFFIX,mob.com
-  - DOMAIN-SUFFIX,moji.com
   - DOMAIN-SUFFIX,moke.com
   - DOMAIN-SUFFIX,myunlu.com
   - DOMAIN-SUFFIX,ngabbs.com
@@ -691,7 +681,6 @@ payload:
   - DOMAIN-SUFFIX,trello.com
   - DOMAIN-SUFFIX,trellocdn.com
   - DOMAIN-SUFFIX,ttmeiju.com
-  - DOMAIN-SUFFIX,tudou.com
   - DOMAIN-SUFFIX,umengcloud.com
   - DOMAIN-SUFFIX,upyun.com
   - DOMAIN-SUFFIX,uxengine.net
@@ -883,7 +872,6 @@ payload:
   - DOMAIN-SUFFIX,overcast.fm
   - DOMAIN-SUFFIX,polyv.net
   - DOMAIN-SUFFIX,pcbeta.com
-  - DOMAIN-SUFFIX,qcloudcdn.com
   - DOMAIN-SUFFIX,qianqian.com
   - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qiushibaike.com
@@ -976,7 +964,6 @@ payload:
   - DOMAIN-SUFFIX,itee.com
   - DOMAIN-SUFFIX,gitee.com
   - DOMAIN-SUFFIX,xiaogou111.com
-  - DOMAIN-SUFFIX,ghpym.com
   - DOMAIN-SUFFIX,ghxi.com
   - DOMAIN-SUFFIX,lovestu.com
   - DOMAIN-SUFFIX,lguohe.com
