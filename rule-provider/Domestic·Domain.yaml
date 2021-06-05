@@ -100,6 +100,27 @@ payload:
   - DOMAIN-SUFFIX,hao123img.com
   - DOMAIN-SUFFIX,jomodns.com
   - DOMAIN-SUFFIX,keylol.com
+  - DOMAIN-SUFFIX,91.com
+  - DOMAIN-SUFFIX,pgzs.com
+  - DOMAIN-SUFFIX,soupingguo.com
+  - DOMAIN-SUFFIX,hiapk.com
+  - DOMAIN-SUFFIX,baifubao.com
+  - DOMAIN-SUFFIX,dxmpay.com
+  - DOMAIN-SUFFIX,nuomi.com
+  - DOMAIN-SUFFIX,yongche.com
+  - DOMAIN-SUFFIX,yongche.name
+  - DOMAIN-SUFFIX,anjuke.com
+  - DOMAIN-SUFFIX,ajkimg.com
+  - DOMAIN-SUFFIX,anjukestatic.com
+  - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,tripcdn.com
+  - DOMAIN-SUFFIX,c-ctrip.com
+  - DOMAIN-SUFFIX,duxiaoman.com
+  - DOMAIN-SUFFIX,xiaodutv.com
+  - DOMAIN-SUFFIX,pps.tv
+  - DOMAIN-SUFFIX,taihe.com
+  - DOMAIN-SUFFIX,zhwenxue.com
+  - DOMAIN-SUFFIX,zongheng.com
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -647,7 +668,6 @@ payload:
   - DOMAIN-SUFFIX,ngabbs.com
   - DOMAIN-SUFFIX,nfoservers.com
   - DOMAIN-SUFFIX,nssurge.com
-  - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,ourdvs.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pniao.com
@@ -728,7 +748,6 @@ payload:
   - DOMAIN-SUFFIX,chushou.tv
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cmbimg.com
-  - DOMAIN-SUFFIX,ctrip.com
   - DOMAIN-SUFFIX,dfcfw.com
   - DOMAIN-SUFFIX,docschina.org
   - DOMAIN-SUFFIX,dxycdn.com
@@ -817,7 +836,6 @@ payload:
   - DOMAIN-SUFFIX,biqudu.com
   - DOMAIN-SUFFIX,biquge.com
   - DOMAIN-SUFFIX,bitauto.com
-  - DOMAIN-SUFFIX,c-ctrip.com
   - DOMAIN-SUFFIX,cdnmama.com
   - DOMAIN-SUFFIX,che168.com
   - DOMAIN-SUFFIX,chinaz.com
@@ -884,7 +902,6 @@ payload:
   - DOMAIN-SUFFIX,shumilou.net
   - DOMAIN-SUFFIX,simplecd.me
   - DOMAIN-SUFFIX,soufunimg.com
-  - DOMAIN-SUFFIX,taihe.com
   - DOMAIN-SUFFIX,th-sjy.com
   - DOMAIN-SUFFIX,tianqi.com
   - DOMAIN-SUFFIX,tianqistatic.com
