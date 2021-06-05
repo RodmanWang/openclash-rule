@@ -1009,3 +1009,8 @@ payload:
   - DOMAIN,crl.globalsign.net
   - DOMAIN,kukushouhou.com
   - DOMAIN-SUFFIX,jakehu.me
+  - DOMAIN-SUFFIX,youfabiao.com
+  - DOMAIN-SUFFIX,aihao.cc
+  - DOMAIN-SUFFIX,xitu.io
+  - DOMAIN-SUFFIX,imgtu.com
+  - DOMAIN-SUFFIX,juejin.im
