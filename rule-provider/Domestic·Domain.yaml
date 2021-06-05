@@ -544,6 +544,7 @@ payload:
   - DOMAIN-SUFFIX,weixinbridge.com
   - DOMAIN-SUFFIX,kaixin001.com
   - DOMAIN-SUFFIX,pengyou.com
+  - DOMAIN,banbendalao.coding.net
 # > Vip
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
@@ -565,6 +566,7 @@ payload:
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,qhres.com
+  - DOMAIN-SUFFIX,qhres2.com
   - DOMAIN-SUFFIX,so.com
   - DOMAIN-SUFFIX,haosou.com
   - DOMAIN-SUFFIX,360kuai.com
@@ -1005,3 +1007,4 @@ payload:
   - DOMAIN-SUFFIX,vvzixun.com
   - DOMAIN-SUFFIX,yidianzixun.com
   - DOMAIN,crl.globalsign.net
+  - DOMAIN,kukushouhou.com
