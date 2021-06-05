@@ -422,6 +422,7 @@ payload:
 # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN-SUFFIX,peedtest.macpaw.com
+  - DOMAIN,mygod998.vicp.net.prod.hosts.ooklaserver.net
 # > Scholar
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
