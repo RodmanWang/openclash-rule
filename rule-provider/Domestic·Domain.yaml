@@ -117,7 +117,6 @@ payload:
   - DOMAIN-SUFFIX,c-ctrip.com
   - DOMAIN-SUFFIX,duxiaoman.com
   - DOMAIN-SUFFIX,xiaodutv.com
-  - DOMAIN-SUFFIX,pps.tv
   - DOMAIN-SUFFIX,taihe.com
   - DOMAIN-SUFFIX,zhwenxue.com
   - DOMAIN-SUFFIX,zongheng.com
@@ -234,6 +233,7 @@ payload:
   - DOMAIN-SUFFIX,qiyi.com
   - DOMAIN-SUFFIX,qiyipic.com
   - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,gitv.tv
 # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
@@ -347,6 +347,7 @@ payload:
 # > PPTV、PPLive
   - DOMAIN-SUFFIX,pplive.com
   - DOMAIN-SUFFIX,pptv.com
+  - DOMAIN-SUFFIX,pps.tv
 # > PDD
   - DOMAIN-SUFFIX,pinduoduo.com
   - DOMAIN-SUFFIX,yangkeduo.com
