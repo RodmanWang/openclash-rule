@@ -544,7 +544,7 @@ payload:
   - DOMAIN-SUFFIX,weixinbridge.com
   - DOMAIN-SUFFIX,kaixin001.com
   - DOMAIN-SUFFIX,pengyou.com
-  - DOMAIN,banbendalao.coding.net
+  - DOMAIN-SUFFIX,coding.net
 # > Vip
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
