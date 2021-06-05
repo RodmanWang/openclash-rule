@@ -495,8 +495,9 @@ payload:
   - DOMAIN-SUFFIX,t.dl.eccdnx.com
   - DOMAIN-SUFFIX,l.steam.ksyna.com
   - DOMAIN-SUFFIX,t.dl.bscstorage.net
-  - DOMAIN-SUFFIX,dn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
   - DOMAIN-SUFFIX,content.steamchina.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,oh.pub
@@ -1001,3 +1002,4 @@ payload:
   - DOMAIN-SUFFIX,it1352.com
   - DOMAIN-SUFFIX,vvzixun.com
   - DOMAIN-SUFFIX,yidianzixun.com
+  - DOMAIN,crl.globalsign.net
