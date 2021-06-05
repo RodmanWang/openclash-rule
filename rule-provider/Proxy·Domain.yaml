@@ -1372,3 +1372,4 @@ payload:
   - DOMAIN-SUFFIX,apescout.com
   - DOMAIN,example.com
   - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,openos.org
