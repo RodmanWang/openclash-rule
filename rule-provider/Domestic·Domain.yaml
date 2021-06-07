@@ -955,7 +955,6 @@ payload:
   - DOMAIN,tags.tiqcdn.com
   - DOMAIN-SUFFIX,force.com
   - DOMAIN,websites.cdn.getfeedback.com
-  - DOMAIN-SUFFIX,letsencrypt.org
   - DOMAIN-SUFFIX,sectigochina.com
   - DOMAIN-SUFFIX,jinse.com
   - DOMAIN-SUFFIX,qiumibao.com
