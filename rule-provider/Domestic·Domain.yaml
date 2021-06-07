@@ -936,7 +936,7 @@ payload:
   - DOMAIN-SUFFIX,中国
   - DOMAIN-SUFFIX,公司
   - DOMAIN-SUFFIX,网络
-# > Noproxy
+# > custom
   - DOMAIN-SUFFIX,baiduyun.wiki
   - DOMAIN-SUFFIX,youxiaohou.com
   - DOMAIN-SUFFIX,mcafee.com
@@ -955,7 +955,9 @@ payload:
   - DOMAIN,tags.tiqcdn.com
   - DOMAIN-SUFFIX,force.com
   - DOMAIN,websites.cdn.getfeedback.com
-# > custom
+  - DOMAIN-SUFFIX,letsencrypt.org
+  - DOMAIN-SUFFIX,sectigochina.com
+  - DOMAIN-SUFFIX,jinse.com
   - DOMAIN-SUFFIX,qiumibao.com
   - DOMAIN,cdn.angruo.com
   - DOMAIN-SUFFIX,ys7.com
@@ -1018,3 +1020,4 @@ payload:
   - DOMAIN-SUFFIX,lineageos.org
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,bbsmax.com
+  - DOMAIN-SUFFIX,imydl.com
