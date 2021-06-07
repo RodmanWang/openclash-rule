@@ -63,6 +63,7 @@ payload:
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
+  - DOMAIN,cdn.annnibb.me
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
@@ -1376,3 +1377,5 @@ payload:
   - DOMAIN-SUFFIX,soton.ac.uk
   - DOMAIN-SUFFIX,letsencrypt.org
   - DOMAIN-SUFFIX,dgjichuang.com
+  - DOMAIN-SUFFIX,sectigo.com
+  - DOMAIN-SUFFIX,quledu.net
