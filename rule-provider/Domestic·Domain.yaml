@@ -69,7 +69,7 @@ payload:
   - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,ouku.com
   - DOMAIN-SUFFIX,elemecdn.com
-  - DOMAIN-SUFFIX,ns.alidns.com
+  - DOMAIN,dns.alidns.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -126,7 +126,7 @@ payload:
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,hdslb.com
-  - DOMAIN-SUFFIX,lzddist1-a.akamaihd.net
+  - DOMAIN,blzddist1-a.akamaihd.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,b23.tv
   - DOMAIN-SUFFIX,biligame.com
@@ -164,7 +164,7 @@ payload:
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
 # > Blizzard
-  - DOMAIN-SUFFIX,dp.cloud.unity3d.com
+  - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
@@ -180,8 +180,8 @@ payload:
 # > ChinaNet
   - DOMAIN-SUFFIX,21cn.com
 # > cdn
-  - DOMAIN-SUFFIX,cdn.bootcdn.net
-  - DOMAIN-SUFFIX,vjs.zencdn.net
+  - DOMAIN,cdn.bootcdn.net
+  - DOMAIN,vjs.zencdn.net
   - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN-SUFFIX,baomitu.com
@@ -190,7 +190,7 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
-  - DOMAIN-SUFFIX,cdn.bijiago.com
+  - DOMAIN,cdn.bijiago.com
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
@@ -242,8 +242,8 @@ payload:
   - DOMAIN-SUFFIX,myip.la
   - DOMAIN-SUFFIX,test-ipv6.com
   - DOMAIN-SUFFIX,whatismyip.com
-  - DOMAIN-SUFFIX,p.istatmenus.app
-  - DOMAIN-SUFFIX,ms.imagetasks.com
+  - DOMAIN,ip.istatmenus.app
+  - DOMAIN,sms.imagetasks.com
   - DOMAIN-SUFFIX,ip138.com
 # > JD
   - DOMAIN-SUFFIX,jdpay.com
@@ -257,8 +257,8 @@ payload:
   - DOMAIN-SUFFIX,jkcsjd.com
   - DOMAIN-SUFFIX,jingxi.com
   - DOMAIN-SUFFIX,jdfcloud.com
-  - DOMAIN-SUFFIX,jjdl.cn
-  - DOMAIN-SUFFIX,jjdwl.com
+  - DOMAIN-SUFFIX,jdl.cn
+  - DOMAIN-SUFFIX,jdwl.com
 # > Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
@@ -316,7 +316,7 @@ payload:
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,youdao.com
 # > NTP
-  - DOMAIN-SUFFIX,n.pool.ntp.org
+  - DOMAIN,cn.pool.ntp.org
 # > YYeTs
   - DOMAIN-SUFFIX,jstucdn.com
   - DOMAIN-SUFFIX,got001.com
@@ -335,8 +335,8 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
 # > Prior
-  - DOMAIN-SUFFIX,lient.amplifi.com
-  - DOMAIN-SUFFIX,p.bjango.com
+  - DOMAIN-SUFFIX,client.amplifi.com
+  - DOMAIN,ip.bjango.com
   - DOMAIN-SUFFIX,alphassl.com
   - DOMAIN-SUFFIX,edu.cn
 # > PayPal
@@ -386,12 +386,12 @@ payload:
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
 # > SamSung
-  - DOMAIN-SUFFIX,api.samsungcloudcn.com
+  - DOMAIN,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,samsungapps.com
   - DOMAIN-SUFFIX,samsunghealthcn.com
-  - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
+  - DOMAIN,fota-cloud-dn.ospserver.net
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
@@ -420,7 +420,7 @@ payload:
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
-  - DOMAIN-SUFFIX,peedtest.macpaw.com
+  - DOMAIN,speedtest.macpaw.com
   - DOMAIN,mygod998.vicp.net.prod.hosts.ooklaserver.net
 # > Scholar
   - DOMAIN-SUFFIX,acm.org
@@ -479,31 +479,32 @@ payload:
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
 # > SteamCN
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN,steam-chat.com
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,cdn.akamai.steamstatic.com
+  - DOMAIN,store.akamai.steamstatic.com
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN,community.akamai.steamstatic.com
+  - DOMAIN,clientconfig.akamai.steamstatic.com
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com     
+  - DOMAIN,steampowered.com
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
-  - DOMAIN-SUFFIX,cdn.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,store.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,community.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,clientconfig.akamai.steamstatic.com
+  - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,st.dl.eccdnx.com
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com
-  - DOMAIN-SUFFIX,st.dl.bscstorage.net
-  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
   - DOMAIN-SUFFIX,content.steamchina.com
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
+  - DOMAIN,doh.pub
+  - DOMAIN,dot.pub
+  - DOMAIN,dns.pub
+  - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,doh.pub
-  - DOMAIN-SUFFIX,dot.pub
-  - DOMAIN-SUFFIX,dns.pub
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,soso.com
@@ -523,7 +524,6 @@ payload:
   - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,wegamex.com.hk
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,smtcdns.net
@@ -736,7 +736,7 @@ payload:
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,accuweather.com
   - DOMAIN-SUFFIX,aicoinstorge.com
-  - DOMAIN-SUFFIX,md.systemrequirementslab.com
+  - DOMAIN,amd.systemrequirementslab.com
   - DOMAIN-SUFFIX,b612.net
   - DOMAIN-SUFFIX,bdatu.com
   - DOMAIN-SUFFIX,beitaichufang.com
@@ -803,8 +803,8 @@ payload:
   - DOMAIN-SUFFIX,xinhuanet.com
   - DOMAIN-SUFFIX,zhangzishi.cc
   - DOMAIN-SUFFIX,zhuihd.com
-  - DOMAIN-SUFFIX,ownload.jetbrains.com
-  - DOMAIN-SUFFIX,mages-cn.ssl-images-amazon.com
+  - DOMAIN,download.jetbrains.com
+  - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,99.com
   - DOMAIN-SUFFIX,amd.com
@@ -946,19 +946,18 @@ payload:
   - DOMAIN-SUFFIX,scorecardresearch.com
   - DOMAIN-SUFFIX,mimixiaoke.com
   - DOMAIN-SUFFIX,affirm.com
-  - DOMAIN-SUFFIX,ffirm.com
   - DOMAIN-SUFFIX,jomashop.com
   - DOMAIN-SUFFIX,cisco.com
   - DOMAIN-SUFFIX,amazontrust.com
   - DOMAIN-SUFFIX,levelaccess.net
   - DOMAIN-SUFFIX,tableau.com
   - DOMAIN-SUFFIX,turinglabs.net
-  - DOMAIN-SUFFIX,ags.tiqcdn.com
+  - DOMAIN,tags.tiqcdn.com
   - DOMAIN-SUFFIX,force.com
-  - DOMAIN-SUFFIX,ebsites.cdn.getfeedback.com
+  - DOMAIN,websites.cdn.getfeedback.com
 # > custom
   - DOMAIN-SUFFIX,qiumibao.com
-  - DOMAIN-SUFFIX,dn.angruo.com
+  - DOMAIN,cdn.angruo.com
   - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,razer.com
@@ -966,7 +965,6 @@ payload:
   - DOMAIN-SUFFIX,jice.io
   - DOMAIN-SUFFIX,ourdvsss.com
   - DOMAIN-SUFFIX,zhibo8.com
-  - DOMAIN-SUFFIX,hibo8.net
   - DOMAIN-SUFFIX,zhibo8.net
   - DOMAIN-SUFFIX,zhibo8.cc
   - DOMAIN-SUFFIX,mydrivers.com
@@ -977,8 +975,8 @@ payload:
   - DOMAIN-SUFFIX,ls365.net
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,weathercn.com
-  - DOMAIN-SUFFIX,rl.globalsign.net
-  - DOMAIN-SUFFIX,mg.300hu.com
+  - DOMAIN,crl.globalsign.net
+  - DOMAIN,img.300hu.com
   - DOMAIN-SUFFIX,51240.com
   - DOMAIN-SUFFIX,7x24s.com
   - DOMAIN-SUFFIX,ukushouhou.com
@@ -991,21 +989,19 @@ payload:
   - DOMAIN-SUFFIX,cecdc.com
   - DOMAIN-SUFFIX,szfw.org
   - DOMAIN-SUFFIX,iyukf.com  
-  - DOMAIN-SUFFIX,qiyukf.com
+  - DOMAIN,qiyukf.com
   - DOMAIN-SUFFIX,zdmimg.com
   - DOMAIN-SUFFIX,dmimg.com
-  - DOMAIN-SUFFIX,ewday.me
-  - DOMAIN-SUFFIX,newday.me
+  - DOMAIN,newday.me
   - DOMAIN-SUFFIX,digitalcertvalidation.com
   - DOMAIN-SUFFIX,jiankong.com
-  - DOMAIN-SUFFIX,cplishi.com
-  - DOMAIN-SUFFIX,egmentfault.com
-  - DOMAIN-SUFFIX,ryz.net
+  - DOMAIN,icplishi.com
+  - DOMAIN,segmentfault.com
+  - DOMAIN,vryz.net
   - DOMAIN-SUFFIX,analog.com
   - DOMAIN-SUFFIX,it1352.com
   - DOMAIN-SUFFIX,vvzixun.com
   - DOMAIN-SUFFIX,yidianzixun.com
-  - DOMAIN,crl.globalsign.net
   - DOMAIN,kukushouhou.com
   - DOMAIN-SUFFIX,jakehu.me
   - DOMAIN-SUFFIX,youfabiao.com
