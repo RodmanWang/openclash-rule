@@ -5,6 +5,8 @@ payload:
   - '.humblebundle.com'
   - 'steamcommunity.com'
   - '.steamcommunity.com'
+# > xbox
+  - '.xboxlive.com'
 # > PUBG Asia & Southeast Asia
   - '.pubgha.com'
   - '.battleye.com'
