@@ -1,7 +1,7 @@
 payload:
 # > Alibaba
   - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,aliyun.com.com
+  - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,xianyuso.com
@@ -43,7 +43,6 @@ payload:
   - DOMAIN-SUFFIX,aliimg.com
   - DOMAIN-SUFFIX,alipayobjects.com
   - DOMAIN-SUFFIX,alisoft.com
-  - DOMAIN-SUFFIX,aliyun.com
   - DOMAIN-SUFFIX,aliyuncdn.com
   - DOMAIN-SUFFIX,aliyundrive.com
   - DOMAIN-SUFFIX,ele.me
@@ -182,7 +181,7 @@ payload:
   - DOMAIN-SUFFIX,21cn.com
 # > cdn
   - DOMAIN-SUFFIX,cdn.bootcdn.net
-  - DOMAIN-SUFFIX,js.zencdn.net
+  - DOMAIN-SUFFIX,vjs.zencdn.net
   - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN-SUFFIX,baomitu.com
@@ -387,12 +386,12 @@ payload:
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
 # > SamSung
-  - DOMAIN-SUFFIX,pi.samsungcloudcn.com
+  - DOMAIN-SUFFIX,api.samsungcloudcn.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,samsungapps.com
   - DOMAIN-SUFFIX,samsunghealthcn.com
-  - DOMAIN-SUFFIX,ota-cloud-dn.ospserver.net
+  - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
@@ -480,31 +479,31 @@ payload:
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
 # > SteamCN
-  - DOMAIN-SUFFIX,team-chat.com
-  - DOMAIN-SUFFIX,teampowered.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
-  - DOMAIN-SUFFIX,teamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,teamstore-a.akamaihd.net
-  - DOMAIN-SUFFIX,dn.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,tore.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,teamcommunity-a.akamaihd.net
-  - DOMAIN-SUFFIX,teamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,ommunity.akamai.steamstatic.com
-  - DOMAIN-SUFFIX,lientconfig.akamai.steamstatic.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,cdn.akamai.steamstatic.com
+  - DOMAIN-SUFFIX,store.akamai.steamstatic.com
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,community.akamai.steamstatic.com
+  - DOMAIN-SUFFIX,clientconfig.akamai.steamstatic.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,t.dl.eccdnx.com
-  - DOMAIN-SUFFIX,l.steam.ksyna.com
-  - DOMAIN-SUFFIX,t.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
   - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
   - DOMAIN-SUFFIX,content.steamchina.com
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
   - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,oh.pub
-  - DOMAIN-SUFFIX,ot.pub
-  - DOMAIN-SUFFIX,ns.pub
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dot.pub
+  - DOMAIN-SUFFIX,dns.pub
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,soso.com
@@ -524,7 +523,7 @@ payload:
   - DOMAIN-SUFFIX,tencent-cloud.com
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,wechat.com
-  - DOMAIN-SUFFIX,ile-igamecj.akamaized.net
+  - DOMAIN-SUFFIX,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,wegamex.com.hk
   - DOMAIN-SUFFIX,foxmail.com
   - DOMAIN-SUFFIX,smtcdns.net
