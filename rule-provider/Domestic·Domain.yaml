@@ -993,7 +993,7 @@ payload:
   - DOMAIN,qiyukf.com
   - DOMAIN-SUFFIX,zdmimg.com
   - DOMAIN-SUFFIX,dmimg.com
-  - DOMAIN,newday.me
+  - DOMAIN-SUFFIX,newday.me
   - DOMAIN-SUFFIX,digitalcertvalidation.com
   - DOMAIN-SUFFIX,jiankong.com
   - DOMAIN,icplishi.com
