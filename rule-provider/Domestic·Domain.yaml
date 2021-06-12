@@ -163,6 +163,8 @@ payload:
   - DOMAIN-SUFFIX,zijieimg.com
   - DOMAIN-SUFFIX,zjbyte.com
   - DOMAIN-SUFFIX,zjcdn.com
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+  - DOMAIN-SUFFIX,pglstatp-toutiao.com
 # > Blizzard
   - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
@@ -393,6 +395,8 @@ payload:
   - DOMAIN-SUFFIX,samsunghealthcn.com
   - DOMAIN,fota-cloud-dn.ospserver.net
   - DOMAIN,chn-fota-dms.samsungdm.com
+  - DOMAIN,tdapi.srcgsre.com
+  - DOMAIN,bixby-developer-assets.aibixby.com
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
