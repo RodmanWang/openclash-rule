@@ -70,6 +70,8 @@ payload:
   - DOMAIN-SUFFIX,ouku.com
   - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN,dns.alidns.com
+  - DOMAIN-SUFFIX,laifeng.com
+  - DOMAIN-SUFFIX,azhimalayanvh.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -235,6 +237,7 @@ payload:
   - DOMAIN-SUFFIX,qiyipic.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,gitv.tv
+  - DOMAIN-SUFFIX,ssports.com
 # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
@@ -1047,3 +1050,4 @@ payload:
   - DOMAIN-SUFFIX,fusjb.com
   - DOMAIN-SUFFIX,fuiou.com
   - DOMAIN-SUFFIX,hikops.com
+  - DOMAIN-SUFFIX,aizhan.com
