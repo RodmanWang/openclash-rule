@@ -373,6 +373,16 @@ payload:
   - IP-CIDR,149.154.164.0/22,no-resolve
   - IP-CIDR,149.154.168.0/22,no-resolve
   - IP-CIDR,149.154.172.0/22,no-resolve
+# > TikTok
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
 # > Whatsapp
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
