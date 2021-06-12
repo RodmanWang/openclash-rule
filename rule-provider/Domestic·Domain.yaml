@@ -287,6 +287,7 @@ payload:
   - DOMAIN-SUFFIX,miui.com
   - DOMAIN-SUFFIX,miwifi.com
   - DOMAIN-SUFFIX,duokan.com
+  - DOMAIN-SUFFIX,huami.com
 # > Microsoft
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,microsoft.com
@@ -317,6 +318,7 @@ payload:
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,youdao.com
+  - DOMAIN-SUFFIX,netease.im
 # > NTP
   - DOMAIN,cn.pool.ntp.org
 # > YYeTs
@@ -1044,3 +1046,4 @@ payload:
   - DOMAIN-SUFFIX,huangshiparking.com
   - DOMAIN-SUFFIX,fusjb.com
   - DOMAIN-SUFFIX,fuiou.com
+  - DOMAIN-SUFFIX,hikops.com
