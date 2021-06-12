@@ -1039,5 +1039,5 @@ payload:
   - DOMAIN,gos-api.gos-gsp.io
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,cocos.com
-  - DOMAIN,siapcn2.ipengtai.com
+  - DOMAIN-SUFFIX,ipengtai.com
   - DOMAIN,service-hero.game-mode.net
