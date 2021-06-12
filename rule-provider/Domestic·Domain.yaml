@@ -1032,3 +1032,4 @@ payload:
   - DOMAIN-SUFFIX,cnal.com
   - DOMAIN-SUFFIX,xboxab.com
   - DOMAIN,gos-api.gos-gsp.io
+  - DOMAIN-SUFFIX,ctobsnssdk.com
