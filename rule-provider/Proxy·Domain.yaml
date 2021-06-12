@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,apkfind.com
   - DOMAIN-SUFFIX,apkmirror.com
   - DOMAIN-SUFFIX,apkmonk.com
+  - DOMAIN-SUFFIX,aapks.com
 # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
@@ -1385,3 +1386,4 @@ payload:
   - DOMAIN-SUFFIX,sectigo.com
   - DOMAIN-SUFFIX,quledu.net
   - DOMAIN-SUFFIX,davx5.com
+  - DOMAIN-SUFFIX,jquery.com
