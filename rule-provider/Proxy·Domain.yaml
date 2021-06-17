@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,amazon.com 
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.de
   - DOMAIN,d3c33hcgiwev3.cloudfront.net
   - DOMAIN,payments-jp.amazon.com
   - DOMAIN,s3-ap-northeast-1.amazonaws.com
