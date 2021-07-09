@@ -501,6 +501,7 @@ payload:
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,cdn.akamai.steamstatic.com
+  - DOMAIN,cdn.cloudflare.steamstatic.com
   - DOMAIN,store.akamai.steamstatic.com
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
