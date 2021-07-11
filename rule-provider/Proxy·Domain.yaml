@@ -309,7 +309,7 @@ payload:
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
-  # > Pinterest
+# > Pinterest
   - DOMAIN-SUFFIX,pinterest.at
   - DOMAIN-SUFFIX,pinterest.ca
   - DOMAIN-SUFFIX,pinterest.co.uk
