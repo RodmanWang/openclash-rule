@@ -518,6 +518,7 @@ payload:
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,content.steamchina.com
+  - DOMAIN,community.cloudflare.steamstatic.com
 # > Tencent
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
