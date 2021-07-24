@@ -69,8 +69,11 @@ payload:
   - DOMAIN-SUFFIX,bababian.com
   - DOMAIN-SUFFIX,ouku.com
   - DOMAIN-SUFFIX,elemecdn.com
+  - DOMAIN,dns.alidns.com
   - DOMAIN-SUFFIX,laifeng.com
   - DOMAIN-SUFFIX,azhimalayanvh.com
+  - IP-CIDR,223.5.5.5/32
+  - IP-CIDR,223.6.6.6/32
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -120,6 +123,7 @@ payload:
   - DOMAIN-SUFFIX,taihe.com
   - DOMAIN-SUFFIX,zhwenxue.com
   - DOMAIN-SUFFIX,zongheng.com
+  - IP-CIDR,180.76.76.76/32
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -516,6 +520,9 @@ payload:
   - DOMAIN-SUFFIX,content.steamchina.com
   - DOMAIN,community.cloudflare.steamstatic.com
 # > Tencent
+  - DOMAIN,doh.pub
+  - DOMAIN,dot.pub
+  - DOMAIN,dns.pub
   - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,qqurl.com
@@ -563,6 +570,7 @@ payload:
   - DOMAIN-SUFFIX,anticheatexpert.com
   - DOMAIN-SUFFIX,gcloudcs.com
   - DOMAIN-SUFFIX,gcloudsdk.com
+  - IP-CIDR,119.29.29.29/32
 # > Vip
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
