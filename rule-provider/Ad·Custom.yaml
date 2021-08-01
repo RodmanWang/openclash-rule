@@ -7,3 +7,6 @@ payload:
   - '.gzads.com'
   - '.gozendata.com'
   - '.gz-data.com'
+  - '.quantserve.com'
+  - 'bdcore-apr-lb.bda.ndmdhs.com'
+  - 'sessions.bugsnag.com'
