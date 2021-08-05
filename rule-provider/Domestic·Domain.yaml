@@ -1085,4 +1085,4 @@ payload:
   - DOMAIN-SUFFIX,hexun.com
   - DOMAIN-SUFFIX,dns.rubyfish.cn
   - IP-CIDR,115.159.131.230/32
-  
+  - DOMAIN-SUFFIX,goota.top
