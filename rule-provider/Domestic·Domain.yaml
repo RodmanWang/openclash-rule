@@ -71,9 +71,6 @@ payload:
   - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,laifeng.com
   - DOMAIN-SUFFIX,azhimalayanvh.com
-  - DOMAIN-SUFFIX,dns.alidns.com
-  - IP-CIDR,223.5.5.5/32,no-resolve
-  - IP-CIDR,223.6.6.6/32,no-resolve
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -123,7 +120,6 @@ payload:
   - DOMAIN-SUFFIX,taihe.com
   - DOMAIN-SUFFIX,zhwenxue.com
   - DOMAIN-SUFFIX,zongheng.com
-  - IP-CIDR,180.76.76.76/32,no-resolve
 # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -567,11 +563,6 @@ payload:
   - DOMAIN-SUFFIX,anticheatexpert.com
   - DOMAIN-SUFFIX,gcloudcs.com
   - DOMAIN-SUFFIX,gcloudsdk.com
-  - DOMAIN-SUFFIX,doh.pub
-  - DOMAIN-SUFFIX,dot.pub
-  - DOMAIN-SUFFIX,dns.pub
-  - IP-CIDR,119.29.29.29/32,no-resolve
-  - IP-CIDR,119.28.28.28/32,no-resolve
 # > Vip
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
@@ -1083,4 +1074,3 @@ payload:
   - DOMAIN-SUFFIX,bfxitong.com
   - DOMAIN-SUFFIX,300hu.com
   - DOMAIN-SUFFIX,hexun.com
-  
