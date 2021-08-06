@@ -1384,7 +1384,6 @@ payload:
   - DOMAIN-SUFFIX,superuser.com
   - DOMAIN-SUFFIX,acdiao.com
   - DOMAIN-SUFFIX,apescout.com
-  - DOMAIN,example.com
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,siterank.today
   - DOMAIN-SUFFIX,azstats.org
