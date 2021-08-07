@@ -406,6 +406,7 @@ payload:
   - DOMAIN,cn-img.samsungroaming.com
   - DOMAIN,api.samsungmembers.com
   - DOMAIN,samsungchina.tt.omtrdc.net
+  - DOMAIN,btms.samsungsemi.com
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
