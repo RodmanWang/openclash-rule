@@ -194,6 +194,12 @@ payload:
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
   - DOMAIN,cdn.bijiago.com
+# > Dns
+  - DOMAIN-SUFFIX,dns.alidns.com
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dot.pub
+  - DOMAIN-SUFFIX,dns.pub
+  - DOMAIN-SUFFIX,dns.rubyfish.cn
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
