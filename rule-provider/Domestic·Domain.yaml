@@ -196,8 +196,6 @@ payload:
   - DOMAIN,cdn.bijiago.com
 # > Dns
   - DOMAIN-SUFFIX,dns.alidns.com
-  - DOMAIN-SUFFIX,doh.pub
-  - DOMAIN-SUFFIX,dot.pub
   - DOMAIN-SUFFIX,dns.pub
   - DOMAIN-SUFFIX,dns.rubyfish.cn
 # > DiDi
