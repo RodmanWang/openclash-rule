@@ -575,6 +575,12 @@ payload:
   - DOMAIN-SUFFIX,appvipshop.com
   - DOMAIN-SUFFIX,vip.com
   - DOMAIN-SUFFIX,vipstatic.com
+# > softether
+  - DOMAIN-SUFFIX,softether-network.net
+  - DOMAIN-SUFFIX,softether.co.jp
+  - DOMAIN-SUFFIX,flets-east.jp
+  - DOMAIN-SUFFIX,flets-west.jp
+  - DOMAIN-SUFFIX,ddns.uxcom.jp
 # > Ximalaya
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
