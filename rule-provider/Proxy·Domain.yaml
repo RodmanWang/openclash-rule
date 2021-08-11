@@ -437,7 +437,7 @@ payload:
   - IP-CIDR,185.15.56.0/22,no-resolve
   - IP-CIDR,198.35.26.0/23,no-resolve
   - IP-CIDR,208.80.152.0/22,no-resolve
-# > xxx
+# > Other
   - DOMAIN-SUFFIX,520cc.cc
   - DOMAIN-SUFFIX,520click.com
   - DOMAIN-SUFFIX,520call.me
@@ -504,7 +504,7 @@ payload:
   - DOMAIN,javdb.com
   - DOMAIN,jdbimgs.com
   - DOMAIN-SUFFIX,ggjav.com
-# > Other
+  - DOMAIN-SUFFIX,eporner.com
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
   - DOMAIN,hostupdate.vmware.com
