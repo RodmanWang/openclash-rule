@@ -269,6 +269,7 @@ payload:
   - DOMAIN-SUFFIX,jdfcloud.com
   - DOMAIN-SUFFIX,jdl.cn
   - DOMAIN-SUFFIX,jdwl.com
+  - DOMAIN-SUFFIX,isvjcloud.com
 # > Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
