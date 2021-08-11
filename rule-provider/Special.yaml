@@ -55,6 +55,7 @@ payload:
   - DOMAIN-SUFFIX,update.googleapis.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
   - DOMAIN-SUFFIX,www.gstatic.com
+  - DOMAIN-SUFFIX,googletraveladservices.com
 # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,windowsupdate.com
