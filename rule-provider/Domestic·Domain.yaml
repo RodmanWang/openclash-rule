@@ -516,7 +516,6 @@ payload:
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
   - DOMAIN,steampipe.steamcontent.tnkjmec.com     
-  - DOMAIN,steampowered.com
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,pinyuncloud.com
