@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,alt6-mtalk.google.com
   - DOMAIN-SUFFIX,alt7-mtalk.google.com
   - DOMAIN-SUFFIX,alt8-mtalk.google.com
+  - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,c.android.clients.google.com
   - DOMAIN-SUFFIX,cache.pack.google.com
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
