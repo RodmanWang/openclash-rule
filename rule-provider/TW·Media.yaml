@@ -7,7 +7,7 @@ payload:
   - DOMAIN,gamer2-cds.cdn.hinet.net
 # > LiTV
   - DOMAIN-SUFFIX,litv.tv
-  - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
 # > Line TV
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
   - DOMAIN-SUFFIX,profile.line-scdn.net
