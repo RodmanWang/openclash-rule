@@ -501,27 +501,24 @@ payload:
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
 # > SteamCN
-  - DOMAIN,steam-chat.com
-  - DOMAIN,steamcdn-a.akamaihd.net
-  - DOMAIN,steamstore-a.akamaihd.net
-  - DOMAIN,cdn.akamai.steamstatic.com
-  - DOMAIN,cdn.cloudflare.steamstatic.com
-  - DOMAIN,store.akamai.steamstatic.com
-  - DOMAIN,steamcommunity-a.akamaihd.net
-  - DOMAIN,steamuserimages-a.akamaihd.net
-  - DOMAIN,community.akamai.steamstatic.com
-  - DOMAIN,clientconfig.akamai.steamstatic.com
-  - DOMAIN,st.dl.eccdnx.com
-  - DOMAIN,dl.steam.ksyna.com
-  - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com     
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steampipe.steamcontent.tnkjmec.com     
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,content.steamchina.com
-  - DOMAIN,community.cloudflare.steamstatic.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steamstatic.com
 # > Tencent
   - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,qq.com
