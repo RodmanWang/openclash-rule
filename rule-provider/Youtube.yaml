@@ -5,8 +5,9 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,yt3.ggpht.com
-  - DOMAIN-SUFFIX,yt4.ggpht.com
-  - DOMAIN-SUFFIX,com.google.android.youtube
-  - DOMAIN-SUFFIX,com.google.android.youtube.tv
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,yt3.ggpht.com
+  - DOMAIN,yt4.ggpht.com
+  - DOMAIN,com.google.android.youtube
+  - DOMAIN,com.google.android.youtube.tv
+  
