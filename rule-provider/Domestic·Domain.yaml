@@ -398,6 +398,23 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
+# > SamSung
+  - DOMAIN-SUFFIX,samsung.com
+  - DOMAIN-SUFFIX,samqaicongen.com
+  - DOMAIN-SUFFIX,api.samsungcloudcn.com
+  - DOMAIN-SUFFIX,samsungcloud.com
+  - DOMAIN-SUFFIX,galaxyappstore.com
+  - DOMAIN-SUFFIX,samsungapps.com
+  - DOMAIN-SUFFIX,samsunghealthcn.com
+  - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
+  - DOMAIN-SUFFIX,chn-fota-dms.samsungdm.com
+  - DOMAIN-SUFFIX,tdapi.srcgsre.com
+  - DOMAIN-SUFFIX,bixby-developer-assets.aibixby.com
+  - DOMAIN-SUFFIX,cn-img.samsungroaming.com
+  - DOMAIN-SUFFIX,api.samsungmembers.com
+  - DOMAIN-SUFFIX,samsungchina.tt.omtrdc.net
+  - DOMAIN-SUFFIX,btms.samsungsemi.com
+  - DOMAIN-SUFFIX,p6wrew7f.azureedge.net
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
