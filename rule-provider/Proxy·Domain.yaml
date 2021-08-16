@@ -20,18 +20,18 @@ payload:
   - DOMAIN-SUFFIX,apkmonk.com
   - DOMAIN-SUFFIX,aapks.com
 # > Akamai
-  - DOMAIN-SUFFIX,a248.e.akamai.net
-  - DOMAIN-SUFFIX,a771.dscq.akamai.net
+  - DOMAIN,a248.e.akamai.net
+  - DOMAIN,a771.dscq.akamai.net
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.com 
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.de
-  - DOMAIN-SUFFIX,d3c33hcgiwev3.cloudfront.net
-  - DOMAIN-SUFFIX,payments-jp.amazon.com
-  - DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
-  - DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
+  - DOMAIN,d3c33hcgiwev3.cloudfront.net
+  - DOMAIN,payments-jp.amazon.com
+  - DOMAIN,s3-ap-northeast-1.amazonaws.com
+  - DOMAIN,s3-ap-southeast-2.amazonaws.com
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
   - IP-CIDR,13.35.0.0/17,no-resolve
@@ -50,22 +50,22 @@ payload:
   - IP-CIDR,54.93.0.0/16,no-resolve
 # > Apple
   - DOMAIN-SUFFIX,appsto.re
-  - DOMAIN-SUFFIX,books.itunes.apple.com
-  - DOMAIN-SUFFIX,apps.apple.com
-  - DOMAIN-SUFFIX,itunes.apple.com
-  - DOMAIN-SUFFIX,api-glb-sea.smoot.apple.com
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,apps.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
-  - DOMAIN-SUFFIX,lookup-api.apple.com
-  - DOMAIN-SUFFIX,beta.music.apple.com
-  - DOMAIN-SUFFIX,ocsp.apple.com
-  - DOMAIN-SUFFIX,testflight.apple.com
-  - DOMAIN-SUFFIX,appleid.apple.com
-  - DOMAIN-SUFFIX,developer.apple.com
-  - DOMAIN-SUFFIX,xp.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,beta.music.apple.com
+  - DOMAIN,ocsp.apple.com
+  - DOMAIN,testflight.apple.com
+  - DOMAIN,appleid.apple.com
+  - DOMAIN,developer.apple.com
+  - DOMAIN,xp.apple.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
-  - DOMAIN-SUFFIX,cdn.annnibb.me
+  - DOMAIN,cdn.annnibb.me
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
@@ -104,10 +104,10 @@ payload:
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
 # > DigiCert
-  - DOMAIN-SUFFIX,cacerts.digicert.com
-  - DOMAIN-SUFFIX,crl3.digicert.com
-  - DOMAIN-SUFFIX,crl4.digicert.com
-  - DOMAIN-SUFFIX,ocsp.digicert.com
+  - DOMAIN,cacerts.digicert.com
+  - DOMAIN,crl3.digicert.com
+  - DOMAIN,crl4.digicert.com
+  - DOMAIN,ocsp.digicert.com
 # > Facebook
   - DOMAIN-KEYWORD,.facebook.
   - DOMAIN-SUFFIX,facebookmail.com
@@ -214,6 +214,7 @@ payload:
   - DOMAIN-SUFFIX,x.company
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - IP-CIDR,35.190.247.0/24,no-resolve
   - IP-CIDR,64.233.160.0/19,no-resolve
   - IP-CIDR,66.102.0.0/20,no-resolve
@@ -226,8 +227,7 @@ payload:
   - IP-CIDR,209.85.128.0/17,no-resolve
   - IP-CIDR,216.239.32.0/19,no-resolve
 # > GoogleCN(services.googleapis.cn)
-  - DOMAIN-SUFFIX,services.googleapis.cn
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN,services.googleapis.cn
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
   - IP-CIDR,120.253.253.226/32,no-resolve
@@ -257,7 +257,7 @@ payload:
   - DOMAIN-SUFFIX,dotsrc.org
   - DOMAIN-SUFFIX,nluug.nl
   - DOMAIN-SUFFIX,up.pt
-  - DOMAIN-SUFFIX,kodi.mirror.garr.it
+  - DOMAIN,kodi.mirror.garr.it
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -297,12 +297,12 @@ payload:
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-  - DOMAIN-SUFFIX,az416426.vo.msecnd.net
-  - DOMAIN-SUFFIX,az668014.vo.msecnd.net
-  - DOMAIN-SUFFIX,store-images.s-microsoft.com
+  - DOMAIN,az416426.vo.msecnd.net
+  - DOMAIN,az668014.vo.msecnd.net
+  - DOMAIN,store-images.s-microsoft.com
   - DOMAIN-SUFFIX,blob.core.windows.net
 # > Malwarebytes
-  - DOMAIN-SUFFIX,uc.chatra-usercontent.com
+  - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
   - DOMAIN-SUFFIX,chatra.io
 # > Pixiv
@@ -340,7 +340,7 @@ payload:
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
 # > subtitle
-  - DOMAIN-SUFFIX,zimuku.org
+  - DOMAIN,zimuku.org
   - DOMAIN-SUFFIX,zmk.pw
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
@@ -498,18 +498,18 @@ payload:
   - DOMAIN-SUFFIX,sikwap.mobi
   - DOMAIN-SUFFIX,hsex.men
   - DOMAIN-SUFFIX,anyav.me
-  - DOMAIN-SUFFIX,image-cdn-flare.qdm.cloud
+  - DOMAIN,image-cdn-flare.qdm.cloud
   - DOMAIN-SUFFIX,porn87.com
-  - DOMAIN-SUFFIX,javdb.com
-  - DOMAIN-SUFFIX,jdbimgs.com
+  - DOMAIN,javdb.com
+  - DOMAIN,jdbimgs.com
   - DOMAIN-SUFFIX,ggjav.com
   - DOMAIN-SUFFIX,eporner.com
-  - DOMAIN-SUFFIX,cdn.lr-ingest.io
-  - DOMAIN-SUFFIX,client.crisp.chat
-  - DOMAIN-SUFFIX,hostupdate.vmware.com
-  - DOMAIN-SUFFIX,masiro.moe
-  - DOMAIN-SUFFIX,p.sda1.dev
-  - DOMAIN-SUFFIX,s1.ax1x.com
+  - DOMAIN,cdn.lr-ingest.io
+  - DOMAIN,client.crisp.chat
+  - DOMAIN,hostupdate.vmware.com
+  - DOMAIN,masiro.moe
+  - DOMAIN,p.sda1.dev
+  - DOMAIN,s1.ax1x.com
   - DOMAIN-KEYWORD,btbtt
   - DOMAIN-KEYWORD,Rarbg.
   - DOMAIN-SUFFIX,0rz.tw
@@ -870,7 +870,7 @@ payload:
   - DOMAIN-SUFFIX,insecam.org
   - DOMAIN-SUFFIX,instapaper.com
   - DOMAIN-SUFFIX,instructables.com
-  - DOMAIN-SUFFIX,international-gfe.download.nvidia.com
+  - DOMAIN,international-gfe.download.nvidia.com
   - DOMAIN-SUFFIX,io.io
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ipaddress.com
@@ -1378,7 +1378,7 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zynamics.com
-  - DOMAIN-SUFFIX,maxcdn.bootstrapcdn.com
+  - DOMAIN,maxcdn.bootstrapcdn.com
   - DOMAIN-SUFFIX,andorwebsites.com
   - DOMAIN-SUFFIX,superuser.com
   - DOMAIN-SUFFIX,acdiao.com
@@ -1397,3 +1397,4 @@ payload:
   - DOMAIN-SUFFIX,verisign.com
   - DOMAIN-SUFFIX,underground.com
   - DOMAIN-SUFFIX,ubuntu.com
+  
