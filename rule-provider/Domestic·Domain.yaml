@@ -414,6 +414,7 @@ payload:
   - DOMAIN,api.samsungmembers.com
   - DOMAIN,samsungchina.tt.omtrdc.net
   - DOMAIN,btms.samsungsemi.com
+  - DOMAIN,p6wrew7f.azureedge.net
 # > Sina
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.com
@@ -504,24 +505,21 @@ payload:
   - DOMAIN,steam-chat.com
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
-  - DOMAIN,cdn.akamai.steamstatic.com
-  - DOMAIN,cdn.cloudflare.steamstatic.com
-  - DOMAIN,store.akamai.steamstatic.com
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
-  - DOMAIN,community.akamai.steamstatic.com
-  - DOMAIN,clientconfig.akamai.steamstatic.com
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,st.dl.bscstorage.net
-  - DOMAIN,cdn.mileweb.cs.steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN,steampipe.steamcontent.tnkjmec.com     
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,content.steamchina.com
-  - DOMAIN,community.cloudflare.steamstatic.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steamstatic.com
 # > Tencent
   - DOMAIN,file-igamecj.akamaized.net
   - DOMAIN-SUFFIX,qq.com
