@@ -328,6 +328,9 @@ payload:
   - DOMAIN-SUFFIX,ydstatic.com
   - DOMAIN-SUFFIX,youdao.com
   - DOMAIN-SUFFIX,netease.im
+# > NTP
+  - DOMAIN,cn.pool.ntp.org
+  - DOMAIN-SUFFIX,android.pool.ntp.org
 # > YYeTs
   - DOMAIN-SUFFIX,jstucdn.com
   - DOMAIN-SUFFIX,got001.com
@@ -1089,4 +1092,3 @@ payload:
   - DOMAIN-SUFFIX,bignox.com
   - DOMAIN-SUFFIX,yeshen.com
   - DOMAIN-SUFFIX,razerzone.com
-  
