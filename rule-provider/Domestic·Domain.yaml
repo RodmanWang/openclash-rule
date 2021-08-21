@@ -571,6 +571,7 @@ payload:
   - DOMAIN-SUFFIX,gcloudcs.com
   - DOMAIN-SUFFIX,gcloudsdk.com
   - DOMAIN-SUFFIX,cdn-go.cn
+  - DOMAIN-SUFFIX,qpic.cn
 # > Vip
   - DOMAIN-SUFFIX,appsimg.com
   - DOMAIN-SUFFIX,appvipshop.com
