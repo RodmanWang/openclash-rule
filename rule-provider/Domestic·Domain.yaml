@@ -1057,7 +1057,6 @@ payload:
 # > cdn
   - DOMAIN,cdn.bootcdn.net
   - DOMAIN,vjs.zencdn.net
-  - DOMAIN-SUFFIX,duoduocdn.com
   - DOMAIN-SUFFIX,prod.boltdns.net
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,bootcss.com
@@ -2307,6 +2306,7 @@ payload:
   - DOMAIN-SUFFIX,wanjiashe.com
   - DOMAIN-SUFFIX,zhibo8.com
   - DOMAIN-SUFFIX,mylivecdn.com
+  - DOMAIN-SUFFIX,duoduocdn.com
 # > 360
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
