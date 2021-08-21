@@ -45,41 +45,6 @@ payload:
   - DOMAIN-SUFFIX,mefenglife.com
   - DOMAIN-SUFFIX,mifenlife.com
   - DOMAIN-SUFFIX,dc-work.cn
-  - DOMAIN-SUFFIX,sinopayment.com.cn
-  - DOMAIN-SUFFIX,alipay.com
-  - DOMAIN-SUFFIX,alipaylog.com
-  - DOMAIN-SUFFIX,ifaa.org.cn
-  - DOMAIN-SUFFIX,alipay-eco.com
-  - DOMAIN-SUFFIX,alipay-corp.com
-  - DOMAIN-SUFFIX,alipay-inc.com
-  - DOMAIN-SUFFIX,alipay.net
-  - DOMAIN-SUFFIX,alipayeshop.com
-  - DOMAIN-SUFFIX,alisoft.com
-  - DOMAIN-SUFFIX,alisoft.com.cn
-  - DOMAIN-SUFFIX,alisoft.cn
-  - DOMAIN-SUFFIX,alicdn.com
-  - DOMAIN-SUFFIX,aliyun.com
-  - DOMAIN-SUFFIX,phpwind.net
-  - DOMAIN-SUFFIX,phpwind.com
-  - DOMAIN-SUFFIX,uueasy.com
-  - DOMAIN-SUFFIX,qutao.com
-  - DOMAIN-SUFFIX,yunos.com
-  - DOMAIN-SUFFIX,alicloud.com
-  - DOMAIN-SUFFIX,aliypc.com
-  - DOMAIN-SUFFIX,net.cn
-  - DOMAIN-SUFFIX,aliyuniot.com
-  - DOMAIN-SUFFIX,etagri.com
-  - DOMAIN-SUFFIX,mindsphere-in.cn
-  - DOMAIN-SUFFIX,aliyunvcs.cn
-  - DOMAIN-SUFFIX,pickpikka.com
-  - DOMAIN-SUFFIX,dg-work.cn
-  - DOMAIN-SUFFIX,aliyunhpapaas.com
-  - DOMAIN-SUFFIX,aliyunapaas.com
-  - DOMAIN-SUFFIX,eiworkspace.com
-  - DOMAIN-SUFFIX,serverlessfans.net
-  - DOMAIN-SUFFIX,serverlessfans.cn
-  - DOMAIN-SUFFIX,serverlessfans.com
-  - DOMAIN-SUFFIX,yunos.cn
   - DOMAIN-SUFFIX,tmhouse.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,juhuasuan.com
@@ -312,15 +277,10 @@ payload:
   - DOMAIN-SUFFIX,fwosapp.com
   - DOMAIN-SUFFIX,rhinokeen.com
   - DOMAIN-SUFFIX,xixikf.com
-  - DOMAIN-SUFFIX,cainiao.com
-  - DOMAIN-SUFFIX,cainiao.com.cn
-  - DOMAIN-SUFFIX,guoguo-app.com
-  - DOMAIN-SUFFIX,cainiaoyizhan.com
   - DOMAIN-SUFFIX,taopiaopiao.com
   - DOMAIN-SUFFIX,taopiaopiao.cn
   - DOMAIN-SUFFIX,yjhy.net
   - DOMAIN-SUFFIX,dingtalk.com
-  - DOMAIN-SUFFIX,alitrip.com
   - DOMAIN-SUFFIX,yowhale.com
   - DOMAIN-SUFFIX,aliyuncdn.com
   - DOMAIN-SUFFIX,aliapp.com
@@ -680,27 +640,80 @@ payload:
   - DOMAIN-SUFFIX,danqoo.com
   - DOMAIN-SUFFIX,qupaicloud.com
   - DOMAIN-SUFFIX,mappcloud.com
-  - DOMAIN-SUFFIX,ele.me
-  - DOMAIN-SUFFIX,eleme.cn
-  - DOMAIN-SUFFIX,elemecdn.com
-  - DOMAIN-SUFFIX,elenet.me
-  - DOMAIN-SUFFIX,ele.to
-  - DOMAIN-SUFFIX,youcaishop.cn
-  - DOMAIN-SUFFIX,eleme.io
-  - DOMAIN-SUFFIX,elemecdn.cn
-  - DOMAIN-SUFFIX,eleme.com.cn
-  - DOMAIN-SUFFIX,xyzele.com
-  - DOMAIN-SUFFIX,xingxuanwaimai.com
-  - DOMAIN-SUFFIX,fengniaopaotui.cn
-  - DOMAIN-SUFFIX,fengniaozhongbao.cn
-  - DOMAIN-SUFFIX,autonavi.com
-  - DOMAIN-SUFFIX,amap.com
-  - DOMAIN-SUFFIX,anav.com
-  - DOMAIN-SUFFIX,gaode.com
-  - DOMAIN-SUFFIX,amapauto.com
-  - DOMAIN-SUFFIX,a-map.cn
-  - DOMAIN-SUFFIX,a-map.link
-  - DOMAIN-SUFFIX,a-map.co
+  - DOMAIN-SUFFIX,5317wan.com
+  - DOMAIN-SUFFIX,aliplay.com
+  - DOMAIN-SUFFIX,aliplay.net
+  - DOMAIN-SUFFIX,aliplay.cn
+  - DOMAIN-SUFFIX,6uu.com
+  - DOMAIN-SUFFIX,hb-alihealth.com
+  - DOMAIN-SUFFIX,alihealth.cn
+  - DOMAIN-SUFFIX,mashangfangxin.com
+  - DOMAIN-SUFFIX,mashangfangxin.cn
+  - DOMAIN-SUFFIX,mashangfangxin.com.cn
+  - DOMAIN-SUFFIX,mashangfangxin.net
+  - DOMAIN-SUFFIX,fxm.so
+  - DOMAIN-SUFFIX,doctoryou.ai
+  - DOMAIN-SUFFIX,xianyuso.com
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,uc.cn
+  - DOMAIN-SUFFIX,xiami.com
+  - DOMAIN-SUFFIX,umeng.com
+  - DOMAIN-SUFFIX,ucweb.com
+  - DOMAIN-SUFFIX,mxhichina.com
+  - DOMAIN-SUFFIX,tmall.hk
+  - DOMAIN-SUFFIX,xiami.net
+  - DOMAIN-SUFFIX,tbcdn.com
+  - DOMAIN-SUFFIX,udache.com
+  - DOMAIN-SUFFIX,koubei.com
+  - DOMAIN-SUFFIX,moji.com
+  - DOMAIN-SUFFIX,damai.cn
+  - DOMAIN-SUFFIX,antgroup.com
+  - DOMAIN-SUFFIX,zhongan.com
+  - DOMAIN-SUFFIX,hundsun.com
+  - DOMAIN-SUFFIX,mybank.cn
+  - DOMAIN-SUFFIX,zhongan.io
+  - DOMAIN-SUFFIX,alibabapictures.com
+  - DOMAIN-SUFFIX,gzevergrandefc.com
+  - DOMAIN-SUFFIX,evergrande.com
+  - DOMAIN-SUFFIX,bababian.com
+  - DOMAIN-SUFFIX,ouku.com
+  - DOMAIN-SUFFIX,laifeng.com
+  - DOMAIN-SUFFIX,azhimalayanvh.com
+  - DOMAIN-SUFFIX,sinopayment.com.cn
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,ifaa.org.cn
+  - DOMAIN-SUFFIX,alipay-eco.com
+  - DOMAIN-SUFFIX,alipay-corp.com
+  - DOMAIN-SUFFIX,alipay-inc.com
+  - DOMAIN-SUFFIX,alipay.net
+  - DOMAIN-SUFFIX,alipayeshop.com
+  - DOMAIN-SUFFIX,alisoft.com
+  - DOMAIN-SUFFIX,alisoft.com.cn
+  - DOMAIN-SUFFIX,alisoft.cn
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,phpwind.net
+  - DOMAIN-SUFFIX,phpwind.com
+  - DOMAIN-SUFFIX,uueasy.com
+  - DOMAIN-SUFFIX,qutao.com
+  - DOMAIN-SUFFIX,yunos.com
+  - DOMAIN-SUFFIX,alicloud.com
+  - DOMAIN-SUFFIX,aliypc.com
+  - DOMAIN-SUFFIX,net.cn
+  - DOMAIN-SUFFIX,aliyuniot.com
+  - DOMAIN-SUFFIX,etagri.com
+  - DOMAIN-SUFFIX,mindsphere-in.cn
+  - DOMAIN-SUFFIX,aliyunvcs.cn
+  - DOMAIN-SUFFIX,pickpikka.com
+  - DOMAIN-SUFFIX,dg-work.cn
+  - DOMAIN-SUFFIX,aliyunhpapaas.com
+  - DOMAIN-SUFFIX,aliyunapaas.com
+  - DOMAIN-SUFFIX,eiworkspace.com
+  - DOMAIN-SUFFIX,serverlessfans.net
+  - DOMAIN-SUFFIX,serverlessfans.cn
+  - DOMAIN-SUFFIX,serverlessfans.com
+  - DOMAIN-SUFFIX,yunos.cn  
   - DOMAIN-SUFFIX,hichina.com.cn
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,my3w.com
@@ -724,58 +737,6 @@ payload:
   - DOMAIN-SUFFIX,alidayu.com
   - DOMAIN-SUFFIX,mynet.cn
   - DOMAIN-SUFFIX,myalirtc.com
-  - DOMAIN-SUFFIX,5317wan.com
-  - DOMAIN-SUFFIX,aliplay.com
-  - DOMAIN-SUFFIX,aliplay.net
-  - DOMAIN-SUFFIX,aliplay.cn
-  - DOMAIN-SUFFIX,6uu.com
-  - DOMAIN-SUFFIX,hb-alihealth.com
-  - DOMAIN-SUFFIX,alihealth.cn
-  - DOMAIN-SUFFIX,mashangfangxin.com
-  - DOMAIN-SUFFIX,mashangfangxin.cn
-  - DOMAIN-SUFFIX,mashangfangxin.com.cn
-  - DOMAIN-SUFFIX,mashangfangxin.net
-  - DOMAIN-SUFFIX,fxm.so
-  - DOMAIN-SUFFIX,doctoryou.ai
-  - DOMAIN-SUFFIX,feizhu.cn
-  - DOMAIN-SUFFIX,feizhu.com
-  - DOMAIN-SUFFIX,fliggy.com
-  - DOMAIN-SUFFIX,xianyuso.com
-  - DOMAIN-SUFFIX,alibabacloud.com
-  - DOMAIN-SUFFIX,weibo.com
-  - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-SUFFIX,uc.cn
-  - DOMAIN-SUFFIX,xiami.com
-  - DOMAIN-SUFFIX,youku.com
-  - DOMAIN-SUFFIX,tudou.com
-  - DOMAIN-SUFFIX,umeng.com
-  - DOMAIN-SUFFIX,ykimg.com
-  - DOMAIN-SUFFIX,sinaimg.cn
-  - DOMAIN-SUFFIX,sinajs.cn
-  - DOMAIN-SUFFIX,ucweb.com
-  - DOMAIN-SUFFIX,sina.cn
-  - DOMAIN-SUFFIX,weibocdn.com
-  - DOMAIN-SUFFIX,mxhichina.com
-  - DOMAIN-SUFFIX,soku.com
-  - DOMAIN-SUFFIX,tmall.hk
-  - DOMAIN-SUFFIX,xiami.net
-  - DOMAIN-SUFFIX,tbcdn.com
-  - DOMAIN-SUFFIX,udache.com
-  - DOMAIN-SUFFIX,koubei.com
-  - DOMAIN-SUFFIX,moji.com
-  - DOMAIN-SUFFIX,damai.cn
-  - DOMAIN-SUFFIX,antgroup.com
-  - DOMAIN-SUFFIX,zhongan.com
-  - DOMAIN-SUFFIX,hundsun.com
-  - DOMAIN-SUFFIX,mybank.cn
-  - DOMAIN-SUFFIX,zhongan.io
-  - DOMAIN-SUFFIX,alibabapictures.com
-  - DOMAIN-SUFFIX,gzevergrandefc.com
-  - DOMAIN-SUFFIX,evergrande.com
-  - DOMAIN-SUFFIX,bababian.com
-  - DOMAIN-SUFFIX,ouku.com
-  - DOMAIN-SUFFIX,laifeng.com
-  - DOMAIN-SUFFIX,azhimalayanvh.com
 # > Apple
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,aaplimg.com
@@ -790,6 +751,15 @@ payload:
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,apple.com.akadns.net
   - DOMAIN-SUFFIX,icloud.com.akadns.net
+# > Amap
+  - DOMAIN-SUFFIX,autonavi.com
+  - DOMAIN-SUFFIX,amap.com
+  - DOMAIN-SUFFIX,anav.com
+  - DOMAIN-SUFFIX,gaode.com
+  - DOMAIN-SUFFIX,amapauto.com
+  - DOMAIN-SUFFIX,a-map.cn
+  - DOMAIN-SUFFIX,a-map.link
+  - DOMAIN-SUFFIX,a-map.co
 # > Baidu
   - DOMAIN-SUFFIX,17swan.com
   - DOMAIN-SUFFIX,37swan.com
@@ -1068,6 +1038,11 @@ payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
+# > Cainiao
+  - DOMAIN-SUFFIX,cainiao.com
+  - DOMAIN-SUFFIX,cainiao.com.cn
+  - DOMAIN-SUFFIX,guoguo-app.com
+  - DOMAIN-SUFFIX,cainiaoyizhan.com
 # > CCTV
   - DOMAIN-SUFFIX,cctv.com
   - DOMAIN-SUFFIX,cctvpic.com
@@ -1108,11 +1083,30 @@ payload:
   - DOMAIN-SUFFIX,douyucdn2.cn
   - DOMAIN-SUFFIX,douyucdn.cn
   - DOMAIN-SUFFIX,douyutv.com
+# > Ele
+  - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,eleme.cn
+  - DOMAIN-SUFFIX,elemecdn.com
+  - DOMAIN-SUFFIX,elenet.me
+  - DOMAIN-SUFFIX,ele.to
+  - DOMAIN-SUFFIX,youcaishop.cn
+  - DOMAIN-SUFFIX,eleme.io
+  - DOMAIN-SUFFIX,elemecdn.cn
+  - DOMAIN-SUFFIX,eleme.com.cn
+  - DOMAIN-SUFFIX,xyzele.com
+  - DOMAIN-SUFFIX,xingxuanwaimai.com
+  - DOMAIN-SUFFIX,fengniaopaotui.cn
+  - DOMAIN-SUFFIX,fengniaozhongbao.cn
 # > Epic
   - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
+# > Feizhu
+  - DOMAIN-SUFFIX,feizhu.cn
+  - DOMAIN-SUFFIX,feizhu.com
+  - DOMAIN-SUFFIX,fliggy.com
+  - DOMAIN-SUFFIX,alitrip.com
 # > HunanTV
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,mgtv.com
@@ -1132,16 +1126,28 @@ payload:
   - DOMAIN-SUFFIX,iflytek.com
 # > iQiyi
   - DOMAIN-SUFFIX,iqiyi.com
-  - DOMAIN-SUFFIX,iqiyipic.com
-  - DOMAIN-SUFFIX,71.am.com
-  - DOMAIN-SUFFIX,71edge.com
-  - DOMAIN-SUFFIX,71.am
-  - DOMAIN-SUFFIX,ppsimg.com
-  - DOMAIN-SUFFIX,qiyi.com
-  - DOMAIN-SUFFIX,qiyipic.com
+  - DOMAIN-SUFFIX,qy.com
   - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,iqiyipic.com
+  - DOMAIN-SUFFIX,qiyi.cn
+  - DOMAIN-SUFFIX,71edge.com
+  - DOMAIN-SUFFIX,71edge.net
+  - DOMAIN-SUFFIX,iqiyiedge.com
+  - DOMAIN-SUFFIX,iqiyiedge.net
+  - DOMAIN-SUFFIX,aiqiyicloud.net
+  - DOMAIN-SUFFIX,aiqiyicloud-mgmt.com
+  - DOMAIN-SUFFIX,aiqiyicloud.com
+  - DOMAIN-SUFFIX,jiangbing.cn
+  - DOMAIN-SUFFIX,aianno.com
+  - DOMAIN-SUFFIX,aianno.cn
+  - DOMAIN-SUFFIX,qiyipic.com
+  - DOMAIN-SUFFIX,qiyi.com
+  - DOMAIN-SUFFIX,ibkstore.com
   - DOMAIN-SUFFIX,gitv.tv
+  - DOMAIN-SUFFIX,gitv.cn
   - DOMAIN-SUFFIX,ssports.com
+  - DOMAIN-SUFFIX,ssports.com.cn
+  - DOMAIN-SUFFIX,ssports.net
 # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
@@ -1316,12 +1322,111 @@ payload:
   - DOMAIN,btms.samsungsemi.com
   - DOMAIN,p6wrew7f.azureedge.net
 # > Sina
-  - DOMAIN-SUFFIX,sinaapp.com
-  - DOMAIN-SUFFIX,sinaimg.com
   - DOMAIN-SUFFIX,sina.com
-  - DOMAIN-SUFFIX,leju.com
-  - DOMAIN-SUFFIX,miaopai.com
-  - DOMAIN-SUFFIX,xiaoka.tv
+  - DOMAIN-SUFFIX,sina.com.cn
+  - DOMAIN-SUFFIX,wapone.net
+  - DOMAIN-SUFFIX,sina.cn
+  - DOMAIN-SUFFIX,cva.com.cn
+  - DOMAIN-SUFFIX,ctws.com.cn
+  - DOMAIN-SUFFIX,sinanet.com
+  - DOMAIN-SUFFIX,sinaurl.cn
+  - DOMAIN-SUFFIX,sinaimg.com.cn
+  - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,sinaimg.com
+  - DOMAIN-SUFFIX,yangfan.org.cn
+  - DOMAIN-SUFFIX,kaweh.com.cn
+  - DOMAIN-SUFFIX,neverforget.com.cn
+  - DOMAIN-SUFFIX,sinajs.cn
+  - DOMAIN-SUFFIX,sinaapp.com
+  - DOMAIN-SUFFIX,sina.net
+  - DOMAIN-SUFFIX,iask.cn
+  - DOMAIN-SUFFIX,iask.com
+  - DOMAIN-SUFFIX,5366.cn
+  - DOMAIN-SUFFIX,wcdn.cn
+  - DOMAIN-SUFFIX,t.cn
+  - DOMAIN-SUFFIX,paogame.cn
+  - DOMAIN-SUFFIX,picself.com.cn
+  - DOMAIN-SUFFIX,picself.cn
+  - DOMAIN-SUFFIX,sinaedge.com
+  - DOMAIN-SUFFIX,sinaedge.cn
+  - DOMAIN-SUFFIX,sinapolice.cn
+  - DOMAIN-SUFFIX,sinacorp.cn
+  - DOMAIN-SUFFIX,kanyouxi.cn
+  - DOMAIN-SUFFIX,twgame.cn
+  - DOMAIN-SUFFIX,vshoucang.com
+  - DOMAIN-SUFFIX,qingmail.com
+  - DOMAIN-SUFFIX,qingmail.cn
+  - DOMAIN-SUFFIX,huoxing.com
+  - DOMAIN-SUFFIX,kandian.com
+  - DOMAIN-SUFFIX,kandian.net
+  - DOMAIN-SUFFIX,kandian.cn
+  - DOMAIN-SUFFIX,kandian.tv
+  - DOMAIN-SUFFIX,sinacloud.net
+  - DOMAIN-SUFFIX,sinacloud.com
+  - DOMAIN-SUFFIX,sinacloud.cn
+  - DOMAIN-SUFFIX,sinacloud.com.cn
+  - DOMAIN-SUFFIX,imark.cn
+  - DOMAIN-SUFFIX,kanyouxi.com.cn
+  - DOMAIN-SUFFIX,twgame.com.cn
+  - DOMAIN-SUFFIX,7g8g.cn
+  - DOMAIN-SUFFIX,ikaola.cn
+  - DOMAIN-SUFFIX,sinastorage.com
+  - DOMAIN-SUFFIX,1kapp.com
+  - DOMAIN-SUFFIX,sinacdn.com
+  - DOMAIN-SUFFIX,weipan.cn
+  - DOMAIN-SUFFIX,weipan.com.cn
+  - DOMAIN-SUFFIX,sinas3.com
+  - DOMAIN-SUFFIX,sinasws.com
+  - DOMAIN-SUFFIX,sinanode.com
+  - DOMAIN-SUFFIX,appsina.com
+  - DOMAIN-SUFFIX,dnssina.com
+  - DOMAIN-SUFFIX,vipsinaapp.com
+  - DOMAIN-SUFFIX,vipappsina.com
+  - DOMAIN-SUFFIX,maileds.com
+  - DOMAIN-SUFFIX,kanyouxi.com
+  - DOMAIN-SUFFIX,sinauda.com
+  - DOMAIN-SUFFIX,4sender.net
+  - DOMAIN-SUFFIX,senderline.com
+  - DOMAIN-SUFFIX,4sender.com
+  - DOMAIN-SUFFIX,mingxigu.com
+  - DOMAIN-SUFFIX,senderline.net
+  - DOMAIN-SUFFIX,kanyouxi.tv
+  - DOMAIN-SUFFIX,sinastorage.cn
+  - DOMAIN-SUFFIX,001wifi.com
+  - DOMAIN-SUFFIX,saebbs.com
+  - DOMAIN-SUFFIX,ilightshare.com
+  - DOMAIN-SUFFIX,51xiancheng.com
+  - DOMAIN-SUFFIX,ilangqu.cn
+  - DOMAIN-SUFFIX,ilangqu.com.cn
+  - DOMAIN-SUFFIX,ilangqu.com
+  - DOMAIN-SUFFIX,vmoso.cn
+  - DOMAIN-SUFFIX,appchizi.com
+  - DOMAIN-SUFFIX,applinzi.com
+  - DOMAIN-SUFFIX,ufc.cn
+  - DOMAIN-SUFFIX,wan68.com
+  - DOMAIN-SUFFIX,sc2yun.com
+  - DOMAIN-SUFFIX,smtcdn.com
+  - DOMAIN-SUFFIX,volleychina.org
+  - DOMAIN-SUFFIX,talldns.net
+  - DOMAIN-SUFFIX,talldns.cn
+  - DOMAIN-SUFFIX,talldns.com
+  - DOMAIN-SUFFIX,aduspot.com
+  - DOMAIN-SUFFIX,simadata.cn
+  - DOMAIN-SUFFIX,sinas3.net
+  - DOMAIN-SUFFIX,sinadaxue.cn
+  - DOMAIN-SUFFIX,sinadaxue.com.cn
+  - DOMAIN-SUFFIX,sinadaxue.com
+# > Sina(weibo)
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibo.com.cn
+  - DOMAIN-SUFFIX,weiboums.com
+  - DOMAIN-SUFFIX,weibo.tv
+  - DOMAIN-SUFFIX,wbimg.cn
+  - DOMAIN-SUFFIX,wbimg.com
+  - DOMAIN-SUFFIX,wbimg.com.cn
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-SUFFIX,videoself.cn
 # > Sohu
   - DOMAIN-SUFFIX,sohu.com
   - DOMAIN-SUFFIX,sohucs.com
@@ -2101,17 +2206,31 @@ payload:
   - DOMAIN-SUFFIX,ztcv2.cn
   - DOMAIN-SUFFIX,ztcv3.cn
   - DOMAIN-SUFFIX,zulllv.com
-# > Vip
-  - DOMAIN-SUFFIX,appsimg.com
-  - DOMAIN-SUFFIX,appvipshop.com
-  - DOMAIN-SUFFIX,vip.com
-  - DOMAIN-SUFFIX,vipstatic.com
 # > softether
   - DOMAIN-SUFFIX,softether-network.net
   - DOMAIN-SUFFIX,softether.co.jp
   - DOMAIN-SUFFIX,flets-east.jp
   - DOMAIN-SUFFIX,flets-west.jp
   - DOMAIN-SUFFIX,ddns.uxcom.jp
+# > Tudou
+  - DOMAIN-SUFFIX,tudou.com
+  - DOMAIN-SUFFIX,jingguan.ai
+  - DOMAIN-SUFFIX,52mtkvideo.cn
+  - DOMAIN-SUFFIX,9xsecndns.cn
+  - DOMAIN-SUFFIX,wingsmobiletek.cn
+  - DOMAIN-SUFFIX,0co3geye.cn
+  - DOMAIN-SUFFIX,2isbbess.cn
+  - DOMAIN-SUFFIX,sogoodtech1.cn
+  - DOMAIN-SUFFIX,33lwhaoinc.cn
+  - DOMAIN-SUFFIX,b82yxres.cn
+  - DOMAIN-SUFFIX,ns6mitkxo.cn
+  - DOMAIN-SUFFIX,sk2cdsnw.cn
+  - DOMAIN-SUFFIX,paike.com
+# > Vip
+  - DOMAIN-SUFFIX,appsimg.com
+  - DOMAIN-SUFFIX,appvipshop.com
+  - DOMAIN-SUFFIX,vip.com
+  - DOMAIN-SUFFIX,vipstatic.com
 # > Ximalaya
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
@@ -2124,6 +2243,31 @@ payload:
   - DOMAIN-SUFFIX,sandai.net
   - DOMAIN-SUFFIX,thundercdn.com
   - DOMAIN-SUFFIX,xunlei.com
+ # > Youku
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,ykimg.com
+  - DOMAIN-SUFFIX,yoqoo.com
+  - DOMAIN-SUFFIX,yoku.net.cn
+  - DOMAIN-SUFFIX,youqoo.net
+  - DOMAIN-SUFFIX,yodou.com
+  - DOMAIN-SUFFIX,yoqoo.tv
+  - DOMAIN-SUFFIX,youku.org
+  - DOMAIN-SUFFIX,ukoo.com.cn
+  - DOMAIN-SUFFIX,youku.com.cn
+  - DOMAIN-SUFFIX,yoqoo.net
+  - DOMAIN-SUFFIX,yoqoo.net.cn
+  - DOMAIN-SUFFIX,www.youku.com
+  - DOMAIN-SUFFIX,play-dxk.youku.com
+  - DOMAIN-SUFFIX,soku.com
+  - DOMAIN-SUFFIX,xingmeng.com
+  - DOMAIN-SUFFIX,kumiao.com
+  - DOMAIN-SUFFIX,kuxiaomiao.com
+  - DOMAIN-SUFFIX,kuxiaomiao.com.cn
+  - DOMAIN-SUFFIX,kuxiaomiao.net
+  - DOMAIN-SUFFIX,kumiao.tv
+  - DOMAIN-SUFFIX,kuxiaomiao.cn
+  - DOMAIN-SUFFIX,wenyupages.com
+  - DOMAIN-SUFFIX,gamenow.club
 # > 360
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
