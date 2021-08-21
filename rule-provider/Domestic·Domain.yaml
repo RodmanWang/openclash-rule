@@ -1213,7 +1213,41 @@ payload:
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windowsupdate.com
 # > MGTV
+  - DOMAIN-SUFFIX,imgo.tv
+  - DOMAIN-SUFFIX,tazai.com
+  - DOMAIN-SUFFIX,tazai.cn
+  - DOMAIN-SUFFIX,hifuntv.com
+  - DOMAIN-SUFFIX,nunaios.com
+  - DOMAIN-SUFFIX,nunaitv.com
+  - DOMAIN-SUFFIX,niunaibox.com
+  - DOMAIN-SUFFIX,hifun.tv
+  - DOMAIN-SUFFIX,hefeng.tv
+  - DOMAIN-SUFFIX,hifuntv.tv
+  - DOMAIN-SUFFIX,nunaibox.com
+  - DOMAIN-SUFFIX,hefengtv.com
+  - DOMAIN-SUFFIX,niunaios.com
+  - DOMAIN-SUFFIX,hifuntv.cn
+  - DOMAIN-SUFFIX,hefengtv.tv
+  - DOMAIN-SUFFIX,hefengtv.com.cn
   - DOMAIN-SUFFIX,hunantv.com
+  - DOMAIN-SUFFIX,mgtv.com
+  - DOMAIN-SUFFIX,hnbntv.com
+  - DOMAIN-SUFFIX,hitv.com
+  - DOMAIN-SUFFIX,hifly.com.cn
+  - DOMAIN-SUFFIX,hifly.mobi
+  - DOMAIN-SUFFIX,openredcloud.com
+  - DOMAIN-SUFFIX,hnbntv.cn
+  - DOMAIN-SUFFIX,hnbntv.net
+  - DOMAIN-SUFFIX,hifly.tv
+  - DOMAIN-SUFFIX,hifly.cn
+  - DOMAIN-SUFFIX,hnbntv.com.cn
+  - DOMAIN-SUFFIX,hnbntv.tv
+  - DOMAIN-SUFFIX,hunantv.com.cn
+  - DOMAIN-SUFFIX,hunaniptv.com
+# > Mydrivers  
+  - DOMAIN-SUFFIX,mydrivers.com
+  - DOMAIN-SUFFIX,kkeji.com
+  - DOMAIN-SUFFIX,kkj.cn
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
@@ -2268,6 +2302,12 @@ payload:
   - DOMAIN-SUFFIX,kuxiaomiao.cn
   - DOMAIN-SUFFIX,wenyupages.com
   - DOMAIN-SUFFIX,gamenow.club
+# > zhibo8
+  - DOMAIN-SUFFIX,zhibopi.com
+  - DOMAIN-SUFFIX,zhibo8.cc
+  - DOMAIN-SUFFIX,wanjiashe.com
+  - DOMAIN-SUFFIX,zhibo8.com
+  - DOMAIN-SUFFIX,mylivecdn.com
 # > 360
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
@@ -2670,10 +2710,6 @@ payload:
   - DOMAIN-SUFFIX,razerapi.com
   - DOMAIN-SUFFIX,jice.io
   - DOMAIN-SUFFIX,ourdvsss.com
-  - DOMAIN-SUFFIX,zhibo8.com
-  - DOMAIN-SUFFIX,zhibo8.net
-  - DOMAIN-SUFFIX,zhibo8.cc
-  - DOMAIN-SUFFIX,mydrivers.com
   - DOMAIN-SUFFIX,downg.com
   - DOMAIN-SUFFIX,ali213.net
   - DOMAIN-SUFFIX,tskscn.com
