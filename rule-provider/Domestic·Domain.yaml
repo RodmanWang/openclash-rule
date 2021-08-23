@@ -1778,6 +1778,15 @@ payload:
   - DOMAIN-SUFFIX,steamgames.com
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN-SUFFIX,steamstatic.com
+# > SpeedtestCN
+  - DOMAIN-SUFFIX,yuncesu.cn
+  - DOMAIN-SUFFIX,speedserver.cn
+  - DOMAIN-SUFFIX,gacdn.cn
+  - DOMAIN-SUFFIX,speedtest.cn
+  - DOMAIN-SUFFIX,speedmanager.cn
+  - DOMAIN-SUFFIX,speedmanager.net
+  - DOMAIN-SUFFIX,speedmanager.com
+  - DOMAIN-SUFFIX,codeforge.cn
 # > Tencent
   - DOMAIN-SUFFIX,1010gamer.com
   - DOMAIN-SUFFIX,1700.cn
