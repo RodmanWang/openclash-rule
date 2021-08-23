@@ -2644,6 +2644,33 @@ payload:
   - DOMAIN-SUFFIX,kuxiaomiao.cn
   - DOMAIN-SUFFIX,wenyupages.com
   - DOMAIN-SUFFIX,gamenow.club
+# > ys168
+  - DOMAIN-SUFFIX,ys168.com
+  - DOMAIN-SUFFIX,ys-k.ys168.com
+  - DOMAIN-SUFFIX,ys-h.ys168.com
+  - DOMAIN-SUFFIX,ys-c.ys168.com
+  - DOMAIN-SUFFIX,ys-168.com
+  - DOMAIN-SUFFIX,uepan.com
+  - DOMAIN-SUFFIX,cccpan.com
+  - DOMAIN-SUFFIX,lingfeng-fuzhu.cccpan.com
+  - DOMAIN-SUFFIX,desperado-cf.cccpan.com
+  - DOMAIN-SUFFIX,km-6666.cccpan.com
+  - DOMAIN-SUFFIX,guanwang-cf.cccpan.com
+  - DOMAIN-SUFFIX,d-cheny.cccpan.com
+  - DOMAIN-SUFFIX,dk-6666.cccpan.com
+  - DOMAIN-SUFFIX,pubg-tox666.cccpan.com
+  - DOMAIN-SUFFIX,fz-gw.cccpan.com
+  - DOMAIN-SUFFIX,pubg-hack.cccpan.com
+  - DOMAIN-SUFFIX,dnf-5.cccpan.com
+  - DOMAIN-SUFFIX,a-plan.cccpan.com
+  - DOMAIN-SUFFIX,dnf-zhiiyi.cccpan.com
+  - DOMAIN-SUFFIX,ys-j.cccpan.com
+  - DOMAIN-SUFFIX,dnf-huiyi.cccpan.com
+  - DOMAIN-SUFFIX,dnf-1.cccpan.com
+  - DOMAIN-SUFFIX,ker-ty.cccpan.com
+  - DOMAIN-SUFFIX,pubg-ym.cccpan.com
+  - DOMAIN-SUFFIX,pubg-ty.cccpan.com
+  - DOMAIN-SUFFIX,webxz.cn
 # > zhibo8
   - DOMAIN-SUFFIX,zhibopi.com
   - DOMAIN-SUFFIX,zhibo8.cc
@@ -3030,7 +3057,6 @@ payload:
   - DOMAIN-SUFFIX,xueqiu.com
   - DOMAIN-SUFFIX,yihaodianimg.com
   - DOMAIN-SUFFIX,yinyuetai.com
-  - DOMAIN-SUFFIX,ys168.com
   - DOMAIN-SUFFIX,yuewen.com
   - DOMAIN-SUFFIX,yy.com
   - DOMAIN-SUFFIX,yystatic.com
