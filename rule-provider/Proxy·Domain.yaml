@@ -1382,7 +1382,6 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zoom.us
   - DOMAIN-SUFFIX,zynamics.com
-  - DOMAIN,maxcdn.bootstrapcdn.com
   - DOMAIN-SUFFIX,andorwebsites.com
   - DOMAIN-SUFFIX,superuser.com
   - DOMAIN-SUFFIX,acdiao.com
