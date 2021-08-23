@@ -743,6 +743,9 @@ payload:
   - DOMAIN-SUFFIX,fhyx.com
   - DOMAIN-SUFFIX,158c.com
   - DOMAIN-SUFFIX,ali213.com
+# > Asus
+  - DOMAIN-SUFFIX,asus.com
+  - DOMAIN-SUFFIX,acmlife.org
 # > Baidu
   - DOMAIN-SUFFIX,17swan.com
   - DOMAIN-SUFFIX,37swan.com
