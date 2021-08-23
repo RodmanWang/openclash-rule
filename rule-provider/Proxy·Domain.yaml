@@ -69,6 +69,11 @@ payload:
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
+# > Dandanzan
+  - DOMAIN-SUFFIX,dandanzan.com
+  - DOMAIN-SUFFIX,dandanzan.cc
+  - DOMAIN-SUFFIX,baobuzz.com
+  - DOMAIN-SUFFIX,bunediy.com
 #> Developer
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,docker.com
@@ -682,9 +687,6 @@ payload:
   - DOMAIN-SUFFIX,cygames.jp
   - DOMAIN-SUFFIX,cyclingnews.com
   - DOMAIN-SUFFIX,d.pr
-  - DOMAIN-SUFFIX,dandanzan.com
-  - DOMAIN-SUFFIX,dandanzan.cc
-  - DOMAIN-SUFFIX,baobuzz.com
   - DOMAIN-SUFFIX,dailymotion.com
   - DOMAIN-SUFFIX,dailyview.tw
   - DOMAIN-SUFFIX,danilo.to
