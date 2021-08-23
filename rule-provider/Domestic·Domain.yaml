@@ -2699,6 +2699,7 @@ payload:
   - DOMAIN-SUFFIX,zhongsou.com
 # > custom
   - DOMAIN-SUFFIX,bootstrapcdn.com
+  - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,zencdn.net
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,yunduo.io
