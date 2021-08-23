@@ -74,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,dandanzan.cc
   - DOMAIN-SUFFIX,baobuzz.com
   - DOMAIN-SUFFIX,bunediy.com
+  - DOMAIN-SUFFIX,88zy.site
 #> Developer
   - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,docker.com
