@@ -2500,14 +2500,40 @@ payload:
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
 # > Xunlei
-  - DOMAIN-SUFFIX,00cdn.com
+  - DOMAIN-SUFFIX,xlisp.net
+  - DOMAIN-SUFFIX,n0808.com
+  - DOMAIN-SUFFIX,geilijiasu.com
+  - DOMAIN-SUFFIX,geilijiasu.net
+  - DOMAIN-SUFFIX,155.com
+  - DOMAIN-SUFFIX,2sonar.com
   - DOMAIN-SUFFIX,88cdn.com
+  - DOMAIN-SUFFIX,00cdn.com
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,thundercdn.com
+  - DOMAIN-SUFFIX,neoimaging.cn
+  - DOMAIN-SUFFIX,szxlxzb.com
+  - DOMAIN-SUFFIX,xunlei.cn
+  - DOMAIN-SUFFIX,fontong.com
+  - DOMAIN-SUFFIX,thunderurl.com
+  - DOMAIN-SUFFIX,xlyouxi.net
+  - DOMAIN-SUFFIX,falconalliance.cn
   - DOMAIN-SUFFIX,kanimg.com
   - DOMAIN-SUFFIX,kankan.com
-  - DOMAIN-SUFFIX,p2cdn.com
   - DOMAIN-SUFFIX,sandai.net
-  - DOMAIN-SUFFIX,thundercdn.com
   - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,gigaget.com
+  - DOMAIN-SUFFIX,xlpan.com
+  - DOMAIN-SUFFIX,sjzhushou.com
+  - DOMAIN-SUFFIX,kuaipan.cn
+  - DOMAIN-SUFFIX,newvr.com
+  - DOMAIN-SUFFIX,xunlei.net
+  - DOMAIN-SUFFIX,8uri.cn
+  - DOMAIN-SUFFIX,xcloudbase.com
+  - DOMAIN-SUFFIX,xbase.xyz
+  - DOMAIN-SUFFIX,kkstudy.cn
+  - DOMAIN-SUFFIX,taogepian.com
+  - DOMAIN-SUFFIX,ibangtiao.com
+  - DOMAIN-SUFFIX,kankanpro.cn
  # > Youku
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,ykimg.com
