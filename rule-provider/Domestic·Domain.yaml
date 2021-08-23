@@ -1189,6 +1189,18 @@ payload:
   - DOMAIN-SUFFIX,ssports.com
   - DOMAIN-SUFFIX,ssports.com.cn
   - DOMAIN-SUFFIX,ssports.net
+# > icplishi
+  - DOMAIN-SUFFIX,ipchaxun.com
+  - DOMAIN-SUFFIX,ipchaxun.net
+  - DOMAIN-SUFFIX,ipjisuanqi.com
+  - DOMAIN-SUFFIX,dnsdaquan.com
+  - DOMAIN-SUFFIX,icplishi.com
+  - DOMAIN-SUFFIX,fangfanche.com
+  - DOMAIN-SUFFIX,chapangzhan.com
+  - DOMAIN-SUFFIX,chaziyu.com
+  - DOMAIN-SUFFIX,chayoulian.com
+  - DOMAIN-SUFFIX,dingweilishi.com
+  - DOMAIN-SUFFIX,ipcelou.com
 # > IP Query
   - DOMAIN-SUFFIX,ipip.net
   - DOMAIN-SUFFIX,ip.la
@@ -3073,7 +3085,6 @@ payload:
   - DOMAIN-SUFFIX,newday.me
   - DOMAIN-SUFFIX,digitalcertvalidation.com
   - DOMAIN-SUFFIX,jiankong.com
-  - DOMAIN,icplishi.com
   - DOMAIN,segmentfault.com
   - DOMAIN,vryz.net
   - DOMAIN-SUFFIX,analog.com
