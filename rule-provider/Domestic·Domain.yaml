@@ -812,6 +812,13 @@ payload:
   - DOMAIN-SUFFIX,95559.sh.cn
   - DOMAIN-SUFFIX,bankcomm.com.au
   - DOMAIN-SUFFIX,bankcomm.com.tw
+  - DOMAIN-SUFFIX,citicbank.com
+  - DOMAIN-SUFFIX,citicbank.net
+  - DOMAIN-SUFFIX,citicbank.cn
+  - DOMAIN-SUFFIX,citicbank.com.cn
+  - DOMAIN-SUFFIX,citicbank.org
+  - DOMAIN-SUFFIX,citicbank.net.cn
+  - DOMAIN-SUFFIX,citicbank.org.cn
 # > Baidu
   - DOMAIN-SUFFIX,17swan.com
   - DOMAIN-SUFFIX,37swan.com
