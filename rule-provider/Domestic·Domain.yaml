@@ -1511,6 +1511,13 @@ payload:
   - DOMAIN-SUFFIX,letvimg.com
   - DOMAIN-SUFFIX,letvlive.com
   - DOMAIN-SUFFIX,letvstore.com
+# > lanzou
+  - DOMAIN-SUFFIX,lanzou.com
+  - DOMAIN-SUFFIX,woozooo.com
+  - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,lanzous.com
+  - DOMAIN-SUFFIX,lanzoux.com
+  - DOMAIN-SUFFIX,lanzoui.com
 # > NetEase
   - DOMAIN-SUFFIX,163.com
   - DOMAIN-SUFFIX,126.com
@@ -2969,7 +2976,6 @@ payload:
   - DOMAIN-SUFFIX,ksyungslb.com
   - DOMAIN-SUFFIX,lancdns.com
   - DOMAIN-SUFFIX,landiannews.com
-  - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,letitfly.me
   - DOMAIN-SUFFIX,lizhi.fm
   - DOMAIN-SUFFIX,lizhifm.com
