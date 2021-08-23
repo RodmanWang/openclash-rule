@@ -676,6 +676,9 @@ payload:
   - DOMAIN-SUFFIX,zhongan.com
   - DOMAIN-SUFFIX,hundsun.com
   - DOMAIN-SUFFIX,mybank.cn
+  - DOMAIN-SUFFIX,mybank.cn
+  - DOMAIN-SUFFIX,mybank-corp.cn
+  - DOMAIN-SUFFIX,ant-galaxy.com
   - DOMAIN-SUFFIX,zhongan.io
   - DOMAIN-SUFFIX,alibabapictures.com
   - DOMAIN-SUFFIX,gzevergrandefc.com
