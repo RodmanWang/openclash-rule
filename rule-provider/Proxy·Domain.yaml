@@ -684,6 +684,7 @@ payload:
   - DOMAIN-SUFFIX,d.pr
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dandanzan.cc
+  - DOMAIN-SUFFIX,baobuzz.com
   - DOMAIN-SUFFIX,dailymotion.com
   - DOMAIN-SUFFIX,dailyview.tw
   - DOMAIN-SUFFIX,danilo.to
