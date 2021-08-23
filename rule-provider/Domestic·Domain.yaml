@@ -1053,7 +1053,17 @@ payload:
   - DOMAIN-SUFFIX,staticdn.net
   - DOMAIN-SUFFIX,wangsu.com
 # > ChinaNet
+  - DOMAIN-SUFFIX,21cnsales.com
   - DOMAIN-SUFFIX,21cn.com
+  - DOMAIN-SUFFIX,21cnimg.com
+  - DOMAIN-SUFFIX,szptt.net.cn
+  - DOMAIN-SUFFIX,21cnct.com
+  - DOMAIN-SUFFIX,21cn.net
+  - DOMAIN-SUFFIX,chinabnet.cn
+  - DOMAIN-SUFFIX,189zhuan.com
+  - DOMAIN-SUFFIX,id6.me
+  - DOMAIN-SUFFIX,21cnentmail.com
+  - DOMAIN-SUFFIX,189jk.cn
 # > cdn
   - DOMAIN,cdn.bootcdn.net
   - DOMAIN,vjs.zencdn.net
@@ -2566,6 +2576,26 @@ payload:
   - DOMAIN-SUFFIX,zhibo8.com
   - DOMAIN-SUFFIX,mylivecdn.com
   - DOMAIN-SUFFIX,duoduocdn.com
+# > 21cnjy
+  - DOMAIN-SUFFIX,sj-jy.com
+  - DOMAIN-SUFFIX,52kjzx.com
+  - DOMAIN-SUFFIX,21cnjy.com
+  - DOMAIN-SUFFIX,d1kt.cn
+  - DOMAIN-SUFFIX,jbzyk.com
+  - DOMAIN-SUFFIX,kjcenter.net
+  - DOMAIN-SUFFIX,6826.com
+  - DOMAIN-SUFFIX,xbzyk.com
+  - DOMAIN-SUFFIX,21cnjy.net
+  - DOMAIN-SUFFIX,21szxy.com
+  - DOMAIN-SUFFIX,21zhxy.com
+  - DOMAIN-SUFFIX,21zujuan.com
+  - DOMAIN-SUFFIX,xuexiaozhaopin.com
+  - DOMAIN-SUFFIX,21yuejuan.com
+  - DOMAIN-SUFFIX,21jiaoyu.com
+  - DOMAIN-SUFFIX,zujuanyi.com
+  - DOMAIN-SUFFIX,21szxy.com
+  - DOMAIN-SUFFIX,21zhxy.com
+  - DOMAIN-SUFFIX,21zujuan.com
 # > 360
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
@@ -3042,7 +3072,6 @@ payload:
   - DOMAIN-SUFFIX,ert7.com
   - DOMAIN-SUFFIX,lecfans.com
   - DOMAIN-SUFFIX,weatherat.com
-  - DOMAIN-SUFFIX,21cnjy.com
   - DOMAIN-SUFFIX,b2b101.com
   - DOMAIN-SUFFIX,videojj.com
   - DOMAIN-SUFFIX,e-chinalife.com
