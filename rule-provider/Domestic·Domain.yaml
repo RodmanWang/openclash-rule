@@ -2947,3 +2947,5 @@ payload:
   - DOMAIN-SUFFIX,razerzone.com
   - DOMAIN-SUFFIX,like996.icu
   - DOMAIN-SUFFIX,510yh.cc
+# > IPv6
+  - IP-CIDR6,2402:f000:1:416:101:6:6:172/128,no-resolve
