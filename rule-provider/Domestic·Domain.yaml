@@ -1022,10 +1022,10 @@ payload:
   - DOMAIN-SUFFIX,dns.tech
   - DOMAIN-SUFFIX,dnspodtest.com
   - DOMAIN-SUFFIX,mydnspod.net
-  - IP-CIDR6,2001:da8::666,no-resolve
-  - IP-CIDR6,2400:3200::1,no-resolve
-  - IP-CIDR6,2400:3200:baba::1,no-resolve
-  - IP-CIDR6,2400:da00::6666,no-resolve
+  - IP-CIDR6,2001:da8::666/128,no-resolve
+  - IP-CIDR6,2400:3200::1/128,no-resolve
+  - IP-CIDR6,2400:3200:baba::1/128,no-resolve
+  - IP-CIDR6,2400:da00::6666/128,no-resolve
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
