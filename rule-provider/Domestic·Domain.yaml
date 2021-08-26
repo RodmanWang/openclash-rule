@@ -742,7 +742,6 @@ payload:
   - DOMAIN-SUFFIX,iyouxia.com
   - DOMAIN-SUFFIX,fhyx.com
   - DOMAIN-SUFFIX,158c.com
-  - DOMAIN-SUFFIX,ali213.com
 # > Asus
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,acmlife.org
@@ -983,21 +982,25 @@ payload:
   - DOMAIN-SUFFIX,meixincdn.com
   - DOMAIN-SUFFIX,staticdn.net
   - DOMAIN-SUFFIX,wangsu.com
-# > ChinaNet
-  - DOMAIN-SUFFIX,21cnsales.com
-  - DOMAIN-SUFFIX,21cn.com
-  - DOMAIN-SUFFIX,21cnimg.com
-  - DOMAIN-SUFFIX,21cnct.com
-  - DOMAIN-SUFFIX,21cn.net
-  - DOMAIN-SUFFIX,189zhuan.com
-  - DOMAIN-SUFFIX,id6.me
-  - DOMAIN-SUFFIX,21cnentmail.com
 # > Chinaz
   - DOMAIN-SUFFIX,chinaz.com
   - DOMAIN-SUFFIX,china-z.com
   - DOMAIN-SUFFIX,chinaz.net
   - DOMAIN-SUFFIX,wangmeng.com
   - DOMAIN-SUFFIX,crsky.com
+# > Communications
+  - DOMAIN-SUFFIX,cmphone.cc
+  - DOMAIN-SUFFIX,10086kuaixiu.com
+  - DOMAIN-SUFFIX,fxltsbl.com
+  - DOMAIN-SUFFIX,chinamobiledevice.com
+  - DOMAIN-SUFFIX,cmdcxls.com
+  - DOMAIN-SUFFIX,cmdc.cc
+  - DOMAIN-SUFFIX,chntel.com
+  - DOMAIN-SUFFIX,chinaunicom.com
+  - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,10010.net
+  - DOMAIN-SUFFIX,cu5gaia.com
+  - DOMAIN-SUFFIX,unicomvi.com
 # > Dns
   - DOMAIN-SUFFIX,dot.pub
   - DOMAIN-SUFFIX,dnspod.net
@@ -2325,6 +2328,15 @@ payload:
   - DOMAIN-SUFFIX,zhibo8.com
   - DOMAIN-SUFFIX,mylivecdn.com
   - DOMAIN-SUFFIX,duoduocdn.com
+# > 21
+  - DOMAIN-SUFFIX,21cnsales.com
+  - DOMAIN-SUFFIX,21cn.com
+  - DOMAIN-SUFFIX,21cnimg.com
+  - DOMAIN-SUFFIX,21cnct.com
+  - DOMAIN-SUFFIX,21cn.net
+  - DOMAIN-SUFFIX,189zhuan.com
+  - DOMAIN-SUFFIX,id6.me
+  - DOMAIN-SUFFIX,21cnentmail.com
 # > 21cnjy
   - DOMAIN-SUFFIX,sj-jy.com
   - DOMAIN-SUFFIX,52kjzx.com
@@ -2595,7 +2607,6 @@ payload:
   - DOMAIN-SUFFIX,tophub.today
   - DOMAIN-SUFFIX,yizhibo.com
   - DOMAIN-SUFFIX,zhihuishu.com
-  - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,17173.com
   - DOMAIN-SUFFIX,178.com
   - DOMAIN-SUFFIX,17k.com
