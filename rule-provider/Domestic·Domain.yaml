@@ -988,6 +988,42 @@ payload:
   - DOMAIN-SUFFIX,chinaz.net
   - DOMAIN-SUFFIX,wangmeng.com
   - DOMAIN-SUFFIX,crsky.com
+# > Ctrip
+  - DOMAIN-SUFFIX,chinatravel.net
+  - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,c-ctrip.com
+  - DOMAIN-SUFFIX,ctrip.net
+  - DOMAIN-SUFFIX,gotochina.com
+  - DOMAIN-SUFFIX,www.ctrip.com
+  - DOMAIN-SUFFIX,ctrip.com.hk
+  - DOMAIN-SUFFIX,4008206666.com
+  - DOMAIN-SUFFIX,gohchina.com
+  - DOMAIN-SUFFIX,huixuan.com
+  - DOMAIN-SUFFIX,hhtravel.com
+  - DOMAIN-SUFFIX,mashangtuan.com
+  - DOMAIN-SUFFIX,ctrip-it.com
+  - DOMAIN-SUFFIX,ctrip.co.kr
+  - DOMAIN-SUFFIX,ctrip.my
+  - DOMAIN-SUFFIX,ctripcorp.com
+  - DOMAIN-SUFFIX,ctripqa.com
+  - DOMAIN-SUFFIX,qctpay.com
+  - DOMAIN-SUFFIX,ctripbiz.com
+  - DOMAIN-SUFFIX,ctripbiz.net
+  - DOMAIN-SUFFIX,ctrip-nt.com
+  - DOMAIN-SUFFIX,d-ctrip.com
+  - DOMAIN-SUFFIX,ctripteam.com
+  - DOMAIN-SUFFIX,easytrip.com
+  - DOMAIN-SUFFIX,ctripgslb.com
+  - DOMAIN-SUFFIX,ctripgslb.net
+  - DOMAIN-SUFFIX,izuchebao.com
+  - DOMAIN-SUFFIX,izuchebao.net
+  - DOMAIN-SUFFIX,trip.com
+  - DOMAIN-SUFFIX,hotelguanwang.com
+  - DOMAIN-SUFFIX,lvtds.com
+  - DOMAIN-SUFFIX,toursbms.com
+  - DOMAIN-SUFFIX,ebk-hc.com
+  - DOMAIN-SUFFIX,suanya.com
+  - DOMAIN-SUFFIX,tripcdn.com
 # > Communications
   - DOMAIN-SUFFIX,cmphone.cc
   - DOMAIN-SUFFIX,10086kuaixiu.com
@@ -1025,10 +1061,6 @@ payload:
   - DOMAIN-SUFFIX,dns.tech
   - DOMAIN-SUFFIX,dnspodtest.com
   - DOMAIN-SUFFIX,mydnspod.net
-  - IP-CIDR6,2001:da8::666/128,no-resolve
-  - IP-CIDR6,2400:3200::1/128,no-resolve
-  - IP-CIDR6,2400:3200:baba::1/128,no-resolve
-  - IP-CIDR6,2400:da00::6666/128,no-resolve
 # > DiDi
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
@@ -1055,6 +1087,28 @@ payload:
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
   - DOMAIN-SUFFIX,alitrip.com
+# > Hikvision
+  - DOMAIN-SUFFIX,hikvision.com
+  - DOMAIN-SUFFIX,hik-online.com
+  - DOMAIN-SUFFIX,hiddns.com
+  - DOMAIN-SUFFIX,ys7.com
+  - DOMAIN-SUFFIX,me-app.net
+  - DOMAIN-SUFFIX,hikrobotics.com
+  - DOMAIN-SUFFIX,hik-cloud.com
+  - DOMAIN-SUFFIX,hikvision-secu.com
+  - DOMAIN-SUFFIX,hikstorage.com
+  - DOMAIN-SUFFIX,hik-express.com
+  - DOMAIN-SUFFIX,hikjtxx.com
+  - DOMAIN-SUFFIX,hikkan.com
+  - DOMAIN-SUFFIX,hik-isms.com
+  - DOMAIN-SUFFIX,shipin7.com
+  - DOMAIN-SUFFIX,hikops.com
+  - DOMAIN-SUFFIX,ezviz7.com
+  - DOMAIN-SUFFIX,hicloudcam.com
+  - DOMAIN-SUFFIX,enviz7.com
+  - DOMAIN-SUFFIX,ezvizlife.com
+  - DOMAIN-SUFFIX,ezvizlink.com
+  - DOMAIN-SUFFIX,ezvizlink.net
 # > HunanTV
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,mgtv.com
@@ -1409,6 +1463,24 @@ payload:
 # > NTP
   - DOMAIN,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
+# > Xiaogou
+  - DOMAIN-SUFFIX,xgdq.com
+  - DOMAIN-SUFFIX,xiaogou555.com
+  - DOMAIN-SUFFIX,xiaogou888.com
+  - DOMAIN-SUFFIX,xiaogou999.com
+  - DOMAIN-SUFFIX,puppy888.com
+  - DOMAIN-SUFFIX,xiaogou666.com
+  - DOMAIN-SUFFIX,xiaogou777.com
+  - DOMAIN-SUFFIX,xiaogouds.com
+  - DOMAIN-SUFFIX,8moom.com
+  - DOMAIN-SUFFIX,xiaogou111.com
+  - DOMAIN-SUFFIX,xiaogou333.com
+  - DOMAIN-SUFFIX,xiaogou444.com
+  - DOMAIN-SUFFIX,xiaogou222.com
+  - DOMAIN-SUFFIX,moomv.com
+  - DOMAIN-SUFFIX,zhongyangweixiu.com
+  - DOMAIN-SUFFIX,xiaogouzhineng.com
+  - DOMAIN-SUFFIX,xgdqsn.com
 # > YYeTs
   - DOMAIN-SUFFIX,jstucdn.com
   - DOMAIN-SUFFIX,got001.com
@@ -2693,7 +2765,6 @@ payload:
   - DOMAIN-SUFFIX,tianyaui.com
   - DOMAIN-SUFFIX,tiexue.net
   - DOMAIN-SUFFIX,tmiaoo.com
-  - DOMAIN-SUFFIX,trip.com
   - DOMAIN-SUFFIX,tuniu.com
   - DOMAIN-SUFFIX,tuniucdn.com
   - DOMAIN-SUFFIX,videocc.net
@@ -2861,7 +2932,6 @@ payload:
   - DOMAIN-SUFFIX,jinse.com
   - DOMAIN-SUFFIX,qiumibao.com
   - DOMAIN,cdn.angruo.com
-  - DOMAIN-SUFFIX,ys7.com
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,razer.com
   - DOMAIN-SUFFIX,razerapi.com
@@ -2880,7 +2950,6 @@ payload:
   - DOMAIN-SUFFIX,ukushouhou.com
   - DOMAIN-SUFFIX,itee.com
   - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,xiaogou111.com
   - DOMAIN-SUFFIX,ghxi.com
   - DOMAIN-SUFFIX,lovestu.com
   - DOMAIN-SUFFIX,lguohe.com
@@ -2930,7 +2999,6 @@ payload:
   - DOMAIN-SUFFIX,huangshiparking.com
   - DOMAIN-SUFFIX,fusjb.com
   - DOMAIN-SUFFIX,fuiou.com
-  - DOMAIN-SUFFIX,hikops.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,mxplay.com
   - DOMAIN,j2apps.s.llnwi.net
@@ -2959,5 +3027,3 @@ payload:
   - DOMAIN-SUFFIX,like996.icu
   - DOMAIN-SUFFIX,510yh.cc
   - DOMAIN-SUFFIX,tujidu.com
-# > IPv6
-  - IP-CIDR6,2402:f000:1:416:101:6:6:172/128,no-resolve
