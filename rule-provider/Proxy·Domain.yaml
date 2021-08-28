@@ -32,6 +32,8 @@ payload:
   - DOMAIN,a771.dscq.akamai.net
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com
   - DOMAIN-SUFFIX,amazon.com 
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazon.co.jp
