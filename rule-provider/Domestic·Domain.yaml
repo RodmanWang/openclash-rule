@@ -974,8 +974,26 @@ payload:
   - DOMAIN-SUFFIX,guoguo-app.com
   - DOMAIN-SUFFIX,cainiaoyizhan.com
 # > CCTV
+  - DOMAIN-SUFFIX,icntv.tv
+  - DOMAIN-SUFFIX,icntvcdn.com
+  - DOMAIN-SUFFIX,ottcn.com
+  - DOMAIN-SUFFIX,chinaott.com
+  - DOMAIN-SUFFIX,chinaott.net
+  - DOMAIN-SUFFIX,chinaott.org
+  - DOMAIN-SUFFIX,chejiazaixian.com
   - DOMAIN-SUFFIX,cctv.com
+  - DOMAIN-SUFFIX,cctvlib.com
+  - DOMAIN-SUFFIX,cctvlibrary.com
+  - DOMAIN-SUFFIX,ipanda.com
+  - DOMAIN-SUFFIX,cctvcdn.net
+  - DOMAIN-SUFFIX,uyntv.com
   - DOMAIN-SUFFIX,cctvpic.com
+  - DOMAIN-SUFFIX,cctvcdn.com
+  - DOMAIN-SUFFIX,2010expotv.com
+  - DOMAIN-SUFFIX,ipanda.net
+  - DOMAIN-SUFFIX,kzntv.com
+  - DOMAIN-SUFFIX,chinahsly.com
+  - DOMAIN-SUFFIX,cctvxtxd.com
   - DOMAIN-SUFFIX,livechina.com
 # > Chinanetcenter
   - DOMAIN-SUFFIX,chinanetcenter.com
@@ -1164,6 +1182,12 @@ payload:
   - DOMAIN-SUFFIX,10010.net
   - DOMAIN-SUFFIX,cu5gaia.com
   - DOMAIN-SUFFIX,unicomvi.com
+# > dangbei
+  - DOMAIN-SUFFIX,znds.com
+  - DOMAIN-SUFFIX,dangbei.com
+  - DOMAIN-SUFFIX,dangbei.net
+  - DOMAIN-SUFFIX,touying.com
+  - DOMAIN-SUFFIX,znds.net
 # > Dns
   - DOMAIN-SUFFIX,dot.pub
   - DOMAIN-SUFFIX,dnspod.net
@@ -1661,7 +1685,7 @@ payload:
   - DOMAIN-SUFFIX,yunxindns.com
   - DOMAIN-SUFFIX,zhuanzfx.com
 # > NTP
-  - DOMAIN,cn.pool.ntp.org
+  - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
 # > Qiniu
   - DOMAIN-SUFFIX,qiniu.com
