@@ -1,9 +1,4 @@
 payload:
-# > AAA
-  - DOMAIN-SUFFIX,cn
-  - DOMAIN-SUFFIX,中国
-  - DOMAIN-SUFFIX,公司
-  - DOMAIN-SUFFIX,网络
 # > Alibaba
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,shenjing.com
@@ -3283,6 +3278,11 @@ payload:
   - DOMAIN-SUFFIX,zhanqi.tv
   - DOMAIN-SUFFIX,zhaopin.com
   - DOMAIN-SUFFIX,zhongsou.com
+# > AAA
+  - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,中国
+  - DOMAIN-SUFFIX,公司
+  - DOMAIN-SUFFIX,网络
 # > custom
   - DOMAIN-SUFFIX,bootstrapcdn.com
   - DOMAIN-SUFFIX,jsdelivr.com
