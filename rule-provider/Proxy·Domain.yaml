@@ -172,6 +172,10 @@ payload:
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,githubusercontents.com
+  - IP-CIDR6,2606:50c0:8000::154/128,no-resolve
+  - IP-CIDR6,2606:50c0:8001::154/128,no-resolve
+  - IP-CIDR6,2606:50c0:8002::154/128,no-resolve
+  - IP-CIDR6,2606:50c0:8003::154/128,no-resolve
 # > Google
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,goog
