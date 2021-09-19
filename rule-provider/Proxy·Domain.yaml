@@ -365,7 +365,7 @@ payload:
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
 # > subtitle
-  - DOMAIN,zimuku.org
+  - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,zmk.pw
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
@@ -525,17 +525,17 @@ payload:
   - DOMAIN-SUFFIX,anyav.me
   - DOMAIN,image-cdn-flare.qdm.cloud
   - DOMAIN-SUFFIX,porn87.com
-  - DOMAIN,javdb.com
-  - DOMAIN,jdbimgs.com
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,jdbimgs.com
   - DOMAIN-SUFFIX,ggjav.com
   - DOMAIN-SUFFIX,eporner.com
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
   - DOMAIN,hostupdate.vmware.com
-  - DOMAIN,masiro.moe
+  - DOMAIN-SUFFIX,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
-  - DOMAIN-KEYWORD,btbtt
+  - DOMAIN-KEYWORD,btbtt.
   - DOMAIN-KEYWORD,Rarbg.
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,1e100.net
@@ -1420,3 +1420,6 @@ payload:
   - DOMAIN-SUFFIX,underground.com
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,helpu.cf
+  - DOMAIN-SUFFIX,visualwebsiteoptimizer.com
+  - DOMAIN-SUFFIX,bteye.com
+  - DOMAIN-SUFFIX,bd2020.com
