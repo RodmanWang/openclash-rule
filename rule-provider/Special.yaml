@@ -94,14 +94,13 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-KEYWORD,announce_peer
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,find_node
   - DOMAIN-KEYWORD,get_peers
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,peer_id=
-  - DOMAIN-KEYWORD,announce\.php\?passkey=
+  - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,aria2
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
