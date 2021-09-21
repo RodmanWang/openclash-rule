@@ -1775,6 +1775,14 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN,outlook.office365.com
+  - DOMAIN,smtp.office365.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN,download.microsoft.com
+  - DOMAIN,wustat.windows.com
+  - DOMAIN,ntservicepack.microsoft.com
 # > MGTV
   - DOMAIN-SUFFIX,imgo.tv
   - DOMAIN-SUFFIX,tazai.com
@@ -3179,7 +3187,6 @@ payload:
   - DOMAIN-SUFFIX,s-reader.com
   - DOMAIN-SUFFIX,sankuai.com
   - DOMAIN-SUFFIX,scomper.me
-  - DOMAIN-SUFFIX,seafile.com
   - DOMAIN-SUFFIX,snapdrop.net
   - DOMAIN-SUFFIX,takungpao.com
   - DOMAIN-SUFFIX,tianyancha.com
