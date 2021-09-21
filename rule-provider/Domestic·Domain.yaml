@@ -3076,7 +3076,6 @@ payload:
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,pgyer.com
   - DOMAIN-SUFFIX,pniao.com
-  - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qdmm.com
   - DOMAIN-SUFFIX,qhimg.com
   - DOMAIN-SUFFIX,qidian.com
@@ -3190,7 +3189,6 @@ payload:
   - DOMAIN-SUFFIX,snapdrop.net
   - DOMAIN-SUFFIX,takungpao.com
   - DOMAIN-SUFFIX,tianyancha.com
-  - DOMAIN-SUFFIX,udacity.com
   - DOMAIN-SUFFIX,uning.com
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,weidian.com
