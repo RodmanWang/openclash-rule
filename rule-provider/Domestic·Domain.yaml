@@ -682,6 +682,20 @@ payload:
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,apple.com.akadns.net
   - DOMAIN-SUFFIX,icloud.com.akadns.net
+  - PROCESS-NAME,storedownloadd
+  - DOMAIN,aod.itunes.apple.com
+  - DOMAIN,api.smoot.apple.cn
+  - DOMAIN,appldnld.apple.com
+  - DOMAIN,apptrailers.itunes.apple.com
+  - DOMAIN,gs-loc-cn.apple.com
+  - DOMAIN,iosapps.itunes.apple.com
+  - DOMAIN,music.apple.com
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,osxapps.itunes.apple.com
+  - DOMAIN,supportdownload.apple.com
+  - DOMAIN,swcdn.apple.com
+  - DOMAIN,updates-http.cdn-apple.com
+  - DOMAIN-SUFFIX,ls.apple.com
 # > Amap
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,amap.com
@@ -1407,7 +1421,6 @@ payload:
   - DOMAIN-SUFFIX,httpdns.pub
   - DOMAIN-SUFFIX,httpdns.pro
   - DOMAIN-SUFFIX,httpdns.host
-  - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,dns.tech
   - DOMAIN-SUFFIX,dnspodtest.com
   - DOMAIN-SUFFIX,mydnspod.net
@@ -1727,7 +1740,6 @@ payload:
   - DOMAIN-SUFFIX,ksosoft.com
   - DOMAIN-SUFFIX,ksyun.com
 # > Kuaishou
-  - DOMAIN-SUFFIX,kuaishou.com
   - DOMAIN-SUFFIX,yximgs.com
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
@@ -1759,6 +1771,10 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.com
   - DOMAIN-SUFFIX,windows.com
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
 # > MGTV
   - DOMAIN-SUFFIX,imgo.tv
   - DOMAIN-SUFFIX,tazai.com
