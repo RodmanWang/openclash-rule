@@ -1,9 +1,11 @@
 payload:
-# > ad
-  - 'bbs.9ccms.org'
-  - 'qiecss.com'
-  - 'shenzhan444.com'
-  - 'agmj.ag'
-  - '.gzads.com'
-  - '.gozendata.com'
-  - '.gz-data.com'
+# > ad-domain
+  - DOMAIN-SUFFIX,bbs.9ccms.org
+  - DOMAIN-SUFFIX,qiecss.com
+  - DOMAIN-SUFFIX,shenzhan444.com
+  - DOMAIN-SUFFIX,agmj.ag
+  - DOMAIN-SUFFIX,gzads.com
+  - DOMAIN-SUFFIX,gozendata.com
+  - DOMAIN-SUFFIX,gz-data.com
+  # > BanIP
+  - IP-CIDR,43.128.55.35/32,no-resolve
