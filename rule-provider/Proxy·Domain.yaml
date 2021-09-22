@@ -1442,3 +1442,6 @@ payload:
   - DOMAIN-SUFFIX,fastgit.org
   - DOMAIN-SUFFIX,r2ray.com
   - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,fonts.com
+  - DOMAIN-SUFFIX,fonts.net
+  - DOMAIN-SUFFIX,stripe.network
