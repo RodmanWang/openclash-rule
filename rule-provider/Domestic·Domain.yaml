@@ -1165,6 +1165,7 @@ payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
+changyou.com
 # > Cainiao
   - DOMAIN-SUFFIX,cainiao.com
   - DOMAIN-SUFFIX,guoguo-app.com
@@ -3507,3 +3508,5 @@ payload:
   - DOMAIN-SUFFIX,423down.com
   - DOMAIN,lf6-cdn-tos.bytecdntp.com
   - DOMAIN-SUFFIX,intel.com
+  - DOMAIN-SUFFIX,changyou.com
+  - DOMAIN-SUFFIX,xoyo.com
