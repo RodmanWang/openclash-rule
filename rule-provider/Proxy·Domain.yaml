@@ -550,8 +550,23 @@ payload:
   - DOMAIN-SUFFIX,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
-  - DOMAIN-KEYWORD,btbtt
-  - DOMAIN-KEYWORD,Rarbg.
+  - DOMAIN-SUFFIX,btbtt11.com
+  - DOMAIN-SUFFIX,btbtt12.com
+  - DOMAIN-SUFFIX,btbtt13.com
+  - DOMAIN-SUFFIX,btbtt14.com
+  - DOMAIN-SUFFIX,btbtt15.com
+  - DOMAIN-SUFFIX,btbtt16.com
+  - DOMAIN-SUFFIX,btbtt17.com
+  - DOMAIN-SUFFIX,btbtt18.com
+  - DOMAIN-SUFFIX,btbtt19.com
+  - DOMAIN-SUFFIX,btbtt20.com
+  - DOMAIN-SUFFIX,88btbtt.com
+  - DOMAIN-SUFFIX,btbtt.biz
+  - DOMAIN-SUFFIX,btbtt.net
+  - DOMAIN-SUFFIX,8btbtt.com
+  - DOMAIN-SUFFIX,92btbtt.com
+  - DOMAIN-SUFFIX,rarbgprx.org
+  - DOMAIN-SUFFIX,proxyrarbg.org
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,2mdn.net
