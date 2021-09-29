@@ -15,7 +15,7 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
 # >Adguard
-  - DOMAIN-SUFFIX,local.adguard.org
+  - DOMAIN,local.adguard.org
 # > Google
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
