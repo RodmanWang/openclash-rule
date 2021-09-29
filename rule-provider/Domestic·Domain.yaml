@@ -3514,3 +3514,4 @@ payload:
   - DOMAIN-SUFFIX,baidubaidu.win
   - DOMAIN-SUFFIX,chinaedu.net
   - DOMAIN-SUFFIX,sccchina.net
+  - DOMAIN,jsdelivr.b-cdn.net
