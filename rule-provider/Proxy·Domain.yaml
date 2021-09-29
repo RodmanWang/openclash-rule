@@ -1465,3 +1465,5 @@ payload:
   - DOMAIN-SUFFIX,arclk.net
   - DOMAIN-SUFFIX,generalsearches.com
   - DOMAIN-SUFFIX,adalgard-wol.com
+  - DOMAIN-SUFFIX,mozilla.net
+  - DOMAIN-SUFFIX,mozilla.com
