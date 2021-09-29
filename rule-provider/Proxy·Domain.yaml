@@ -1469,3 +1469,5 @@ payload:
   - DOMAIN-SUFFIX,adalgard-wol.com
   - DOMAIN-SUFFIX,mozilla.net
   - DOMAIN-SUFFIX,mozilla.com
+  - DOMAIN-SUFFIX,mozilla.org
+  - DOMAIN-SUFFIX,nelreports.net
