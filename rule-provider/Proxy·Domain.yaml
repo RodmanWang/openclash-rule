@@ -1462,3 +1462,6 @@ payload:
   - DOMAIN-SUFFIX,btkiller.com
   - DOMAIN-SUFFIX,coveo.com
   - DOMAIN-SUFFIX,pardot.com
+  - DOMAIN-SUFFIX,arclk.net
+  - DOMAIN-SUFFIX,generalsearches.com
+  - DOMAIN-SUFFIX,adalgard-wol.com
