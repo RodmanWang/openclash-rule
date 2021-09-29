@@ -1471,3 +1471,5 @@ payload:
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.org
   - DOMAIN-SUFFIX,nelreports.net
+  - DOMAIN-SUFFIX,cedexis-test.com
+  - DOMAIN-SUFFIX,hcaptcha.com
