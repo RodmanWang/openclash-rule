@@ -1474,3 +1474,4 @@ payload:
   - DOMAIN-SUFFIX,cedexis-test.com
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,example.com
+  - DOMAIN-SUFFIX,sony.tv
