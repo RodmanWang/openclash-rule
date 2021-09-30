@@ -1909,8 +1909,7 @@ payload:
   - DOMAIN-SUFFIX,yunxindns.com
   - DOMAIN-SUFFIX,zhuanzfx.com
 # > NTP
-  - DOMAIN-SUFFIX,cn.pool.ntp.org
-  - DOMAIN-SUFFIX,android.pool.ntp.org
+  - DOMAIN-SUFFIX,pool.ntp.org
 # > Qiniu
   - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qbox.me
@@ -3446,7 +3445,7 @@ payload:
   - DOMAIN-SUFFIX,imgtu.com
   - DOMAIN-SUFFIX,juejin.im
   - DOMAIN-SUFFIX,chajian5.com
-  - DOMAIN,api.meta.ndmdhs.com
+  - DOMAIN-SUFFIX,meta.ndmdhs.com
   - DOMAIN-SUFFIX,070210.com
   - DOMAIN-SUFFIX,nas2x.com
   - DOMAIN-SUFFIX,openos.org
@@ -3515,3 +3514,4 @@ payload:
   - DOMAIN-SUFFIX,chinaedu.net
   - DOMAIN-SUFFIX,sccchina.net
   - DOMAIN,jsdelivr.b-cdn.net
+  - DOMAIN-SUFFIX,tymcdn.com
