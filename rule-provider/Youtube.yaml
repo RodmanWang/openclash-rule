@@ -1,5 +1,7 @@
 payload:
 # > Youtube
+  - PROCESS-NAME,com.google.android.youtube
+  - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,youtu.be
   - DOMAIN-SUFFIX,ytimg.com
@@ -8,5 +10,3 @@ payload:
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN,yt4.ggpht.com
-  - DOMAIN,com.google.android.youtube
-  - DOMAIN,com.google.android.youtube.tv
