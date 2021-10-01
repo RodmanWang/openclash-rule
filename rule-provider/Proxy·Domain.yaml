@@ -241,7 +241,6 @@ payload:
   - DOMAIN-SUFFIX,x.company
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.com
   - IP-CIDR,35.190.247.0/24,no-resolve
