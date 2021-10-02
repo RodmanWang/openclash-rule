@@ -3515,3 +3515,4 @@ payload:
   - DOMAIN-SUFFIX,sccchina.net
   - DOMAIN,jsdelivr.b-cdn.net
   - DOMAIN-SUFFIX,tymcdn.com
+  - DOMAIN,mqtt.xbase.cloud
