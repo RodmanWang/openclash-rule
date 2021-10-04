@@ -1480,3 +1480,4 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,ctfassets.net
+  - DOMAIN,cdn.viglink.com
