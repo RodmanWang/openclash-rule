@@ -1475,3 +1475,8 @@ payload:
   - DOMAIN-SUFFIX,example.com
   - DOMAIN-SUFFIX,sony.tv
   - DOMAIN-SUFFIX,xtracloud.net
+  - DOMAIN-SUFFIX,ptcfc.com
+  - DOMAIN-SUFFIX,1e100cdn.net
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,ctfassets.net
