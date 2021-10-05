@@ -1457,10 +1457,10 @@ payload:
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN,cdn.viglink.com
 # > Abroad-DNS
-  - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,dns.quad9.net
-  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN,doh.opendns.com
+  - DOMAIN,cloudflare-dns.com
+  - DOMAIN,dns.quad9.net
+  - DOMAIN,dns.google
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
   - IP-CIDR,208.67.222.222/32,no-resolve
