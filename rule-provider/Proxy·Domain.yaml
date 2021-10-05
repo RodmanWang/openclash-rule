@@ -1456,6 +1456,7 @@ payload:
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN,cdn.viglink.com
+  - DOMAIN,cdn.viglink.comttshow.tw
 # > Abroad-DNS
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
