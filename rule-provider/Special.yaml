@@ -20,11 +20,20 @@ payload:
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
-  - DOMAIN-KEYWORD,l.google.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
   - DOMAIN,update.googleapis.com
   - DOMAIN,fonts.googleapis.com
   - DOMAIN,fonts.gstatic.com
-  - DOMAIN-KEYWORD,mtalk.google.com
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
   - DOMAIN,safebrowsing.googleapis.com
 # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
