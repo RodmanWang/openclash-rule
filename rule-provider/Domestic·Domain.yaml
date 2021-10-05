@@ -1383,26 +1383,6 @@ payload:
   - DOMAIN-SUFFIX,dangbei.net
   - DOMAIN-SUFFIX,touying.com
   - DOMAIN-SUFFIX,znds.net
-# > dnspod  
-  - DOMAIN-SUFFIX,doh.pub
-  - DOMAIN-SUFFIX,dns.pub
-  - DOMAIN-SUFFIX,dot.pub
-  - DOMAIN-SUFFIX,alidns.com
-  - DOMAIN-SUFFIX,rubyfish.cn
-  - IP-CIDR,101.6.6.6/32,no-resolve
-  - IP-CIDR,223.5.5.5/32,no-resolve
-  - IP-CIDR,223.6.6.6/32,no-resolve
-  - IP-CIDR,162.14.21.56/32,no-resolve
-  - IP-CIDR,162.14.21.178/32,no-resolve
-  - IP-CIDR,119.29.29.29/32,no-resolve
-  - IP-CIDR,119.28.28.28/32,no-resolve
-  - IP-CIDR,202.38.93.153/32,no-resolve
-  - IP-CIDR,202.141.178.13/32,no-resolve
-  - IP-CIDR,202.141.162.123/32,no-resolve
-  - IP-CIDR,115.159.131.230/32,no-resolve
-  - IP-CIDR6,2400:3200::1/128,no-resolve
-  - IP-CIDR6,2400:3200:baba::1/128,no-resolve
-  - IP-CIDR6,2001:da8::666/128,no-resolve
 # > dnspod
   - DOMAIN-SUFFIX,dnspod.net
   - DOMAIN-SUFFIX,dnspod.com
@@ -3516,3 +3496,23 @@ payload:
   - DOMAIN,jsdelivr.b-cdn.net
   - DOMAIN-SUFFIX,tymcdn.com
   - DOMAIN,mqtt.xbase.cloud
+# > dns
+  - DOMAIN,doh.pub
+  - DOMAIN,dns.pub
+  - DOMAIN,dot.pub
+  - DOMAIN,alidns.com
+  - DOMAIN,rubyfish.cn
+  - IP-CIDR,101.6.6.6/32,no-resolve
+  - IP-CIDR,223.5.5.5/32,no-resolve
+  - IP-CIDR,223.6.6.6/32,no-resolve
+  - IP-CIDR,162.14.21.56/32,no-resolve
+  - IP-CIDR,162.14.21.178/32,no-resolve
+  - IP-CIDR,119.29.29.29/32,no-resolve
+  - IP-CIDR,119.28.28.28/32,no-resolve
+  - IP-CIDR,202.38.93.153/32,no-resolve
+  - IP-CIDR,202.141.178.13/32,no-resolve
+  - IP-CIDR,202.141.162.123/32,no-resolve
+  - IP-CIDR,115.159.131.230/32,no-resolve
+  - IP-CIDR6,2400:3200::1/128,no-resolve
+  - IP-CIDR6,2400:3200:baba::1/128,no-resolve
+  - IP-CIDR6,2001:da8::666/128,no-resolve
