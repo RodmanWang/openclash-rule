@@ -3497,11 +3497,11 @@ payload:
   - DOMAIN-SUFFIX,tymcdn.com
   - DOMAIN,mqtt.xbase.cloud
 # > dns
-  - DOMAIN,doh.pub
-  - DOMAIN,dns.pub
-  - DOMAIN,dot.pub
-  - DOMAIN,alidns.com
-  - DOMAIN,rubyfish.cn
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dns.pub
+  - DOMAIN-SUFFIX,dot.pub
+  - DOMAIN-SUFFIX,alidns.com
+  - DOMAIN-SUFFIX,rubyfish.cn
   - IP-CIDR,101.6.6.6/32,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
