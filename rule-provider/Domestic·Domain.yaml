@@ -2210,6 +2210,7 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
+# > SteamCN
   - DOMAIN,steam-chat.com
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
