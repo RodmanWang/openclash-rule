@@ -12,7 +12,8 @@ payload:
   - '.battleye.com'
   - '.pubgbluehole.com'
   - '.playbattlegrounds.com'
-# > NBA2K21
+# > NBA2K
   - 'nba-cdn.2ksports.com'
   - 'nba2k21-svc.2ksports.com'
   - '.aws.2ksports.com'
+  - 'nba-cdn2.2ksports.com'
