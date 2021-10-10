@@ -40,19 +40,19 @@ payload:
 # > Apple
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN,books.itunes.apple.com
+  - DOMAIN,api-glb-sea.smoot.apple.com
+  - DOMAIN,beta.music.apple.com
+  - DOMAIN,tv.apple.com
+  - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN,apps.apple.com
   - DOMAIN,itunes.apple.com
-  - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN,lookup-api.apple.com
-  - DOMAIN,beta.music.apple.com
   - DOMAIN,ocsp.apple.com
   - DOMAIN,testflight.apple.com
   - DOMAIN,appleid.apple.com
   - DOMAIN,developer.apple.com
   - DOMAIN,xp.apple.com
-  - DOMAIN,tv.apple.com
-  - DOMAIN,uts-api.itunes.apple.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
