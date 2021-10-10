@@ -103,7 +103,7 @@ payload:
   - DOMAIN,crl3.digicert.com
   - DOMAIN,crl4.digicert.com
   - DOMAIN,ocsp.digicert.com
-  # > exception
+# > Exception
   - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,chalungu.cn
 # > Facebook
@@ -394,9 +394,12 @@ payload:
   - IP-CIDR,91.108.56.0/22,no-resolve
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
   - IP-CIDR,2001:b28:f23d::/48,no-resolve
   - IP-CIDR,2001:b28:f23f::/48,no-resolve
   - IP-CIDR,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR,2001:b28:f23c::/48,no-resolve
+  - IP-CIDR,2a0a:f280::/32,no-resolve  
 # > TikTok
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
