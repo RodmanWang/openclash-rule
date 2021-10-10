@@ -194,9 +194,10 @@ payload:
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gmodules.com
   - DOMAIN-SUFFIX,godoc.org
+  - DOMAIN-SUFFIX,gv.com
+  - DOMAIN-SUFFIX,go.dev
   - DOMAIN-SUFFIX,golang.org
   - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,itasoftware.com
   - DOMAIN-SUFFIX,madewithcode.com
