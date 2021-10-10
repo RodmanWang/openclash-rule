@@ -3448,6 +3448,7 @@ payload:
   - DOMAIN,jsdelivr.b-cdn.net
   - DOMAIN-SUFFIX,tymcdn.com
   - DOMAIN,mqtt.xbase.cloud
+  - DOMAIN-SUFFIX,wp-china-yes.net
 # > dns
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,dns.pub
