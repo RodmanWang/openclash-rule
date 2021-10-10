@@ -1888,6 +1888,7 @@ payload:
   - DOMAIN-SUFFIX,yuedusea.com
   - DOMAIN-SUFFIX,yunxindns.com
   - DOMAIN-SUFFIX,zhuanzfx.com
+  - DOMAIN-SUFFIX,yqkk.link
 # > NTP
   - DOMAIN-SUFFIX,pool.ntp.org
 # > Qiniu
