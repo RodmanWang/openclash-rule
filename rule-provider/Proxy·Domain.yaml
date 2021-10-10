@@ -687,6 +687,7 @@ payload:
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cloudgarage.jp
   - DOMAIN-SUFFIX,cloudmagic.com
+  - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,clyp.it
   - DOMAIN-SUFFIX,cmail19.com
   - DOMAIN-SUFFIX,cna.com.tw
@@ -1457,6 +1458,8 @@ payload:
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN,cdn.viglink.com
   - DOMAIN,cdn.viglink.comttshow.tw
+  - DOMAIN-SUFFIX,videodelivery.net
+  - DOMAIN-SUFFIX,every1dns.net
 # > Abroad-DNS
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
