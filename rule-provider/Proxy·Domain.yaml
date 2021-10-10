@@ -53,6 +53,7 @@ payload:
   - DOMAIN,appleid.apple.com
   - DOMAIN,developer.apple.com
   - DOMAIN,xp.apple.com
+  - DOMAIN,www.icloud.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
