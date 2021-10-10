@@ -51,6 +51,8 @@ payload:
   - DOMAIN,appleid.apple.com
   - DOMAIN,developer.apple.com
   - DOMAIN,xp.apple.com
+  - DOMAIN,tv.apple.com
+  - DOMAIN,uts-api.itunes.apple.com
 # > Abroad CDN
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
@@ -1463,6 +1465,9 @@ payload:
   - DOMAIN,cdn.viglink.comttshow.tw
   - DOMAIN-SUFFIX,videodelivery.net
   - DOMAIN-SUFFIX,every1dns.net
+  - DOMAIN,clubhouse.pubnubapi.com
+  - DOMAIN-SUFFIX,aimoon.com
+  - DOMAIN-SUFFIX,aicoin.com
 # > Abroad-DNS
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
