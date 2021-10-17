@@ -290,6 +290,7 @@ payload:
   - DOMAIN,mirror.ufs.ac.za
   - DOMAIN,transfer.nz.lu
   - DOMAIN,mirror.ufs.ac.za
+  - DOMAIN,softlibre.unizar.es
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
