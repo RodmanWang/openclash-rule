@@ -266,6 +266,22 @@ payload:
   - DOMAIN-SUFFIX,nluug.nl
   - DOMAIN-SUFFIX,up.pt
   - DOMAIN,kodi.mirror.garr.it
+  - DOMAIN-SUFFIX,fanart.tv
+  - DOMAIN,mirror.zetup.net
+  - DOMAIN,kodi.mirror.wearetriple.com
+  - DOMAIN,www.mirrorservice.org
+  - DOMAIN,ftp.acc.umu.se
+  - DOMAIN,mirror.karneval.cz
+  - DOMAIN,ftp.osuosl.org
+  - DOMAIN,ftp.fau.de
+  - DOMAIN,ftp.heanet.ie
+  - DOMAIN,mirror.lagoon.nc
+  - DOMAIN,ftp.snt.utwente.nl
+  - DOMAIN,mirror.hro.nl
+  - DOMAIN,xbmc.os6.or
+  - DOMAIN,kodi.mirror.liteserver.nl
+  - DOMAIN,mirror.its.dal.ca
+  - DOMAIN,ftp.cc.uoc.gr
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -1472,7 +1488,6 @@ payload:
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,cloudcone.com.cn
-  - DOMAIN-SUFFIX,fanart.tv
 # > Abroad-DNS
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
