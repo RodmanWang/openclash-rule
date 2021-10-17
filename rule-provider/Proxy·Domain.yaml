@@ -289,6 +289,7 @@ payload:
   - DOMAIN,mirror.ehv.weppel.nl
   - DOMAIN,mirror.ufs.ac.za
   - DOMAIN,transfer.nz.lu
+  - DOMAIN,mirror.ufs.ac.za
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
