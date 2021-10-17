@@ -257,6 +257,7 @@ payload:
   - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,ttt.sh
 # > Kodi 
+  - PROCESS-NAME,kodi.*
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,tmdb.org
@@ -286,6 +287,8 @@ payload:
   - DOMAIN,ftp.bit.nl
   - DOMAIN,xbmc.os6.org
   - DOMAIN,mirror.ehv.weppel.nl
+  - DOMAIN,mirror.ufs.ac.za
+  - DOMAIN,transfer.nz.lu
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
