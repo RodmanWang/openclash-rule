@@ -282,6 +282,8 @@ payload:
   - DOMAIN,kodi.mirror.liteserver.nl
   - DOMAIN,mirror.its.dal.ca
   - DOMAIN,ftp.cc.uoc.gr
+  - DOMAIN,mirror.netcologne.de
+  - DOMAIN,mirrors.xmission.com
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
