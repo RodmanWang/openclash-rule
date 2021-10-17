@@ -284,6 +284,7 @@ payload:
   - DOMAIN,ftp.cc.uoc.gr
   - DOMAIN,mirror.netcologne.de
   - DOMAIN,mirrors.xmission.com
+  - DOMAIN,ftp.bit.nl
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
