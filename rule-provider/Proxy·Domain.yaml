@@ -285,6 +285,7 @@ payload:
   - DOMAIN,mirrors.xmission.com
   - DOMAIN,ftp.bit.nl
   - DOMAIN,xbmc.os6.org
+  - DOMAIN,mirror.ehv.weppel.nl
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
