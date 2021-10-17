@@ -368,6 +368,8 @@ payload:
 # > subtitle
   - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,zmk.pw
+# > synology
+  - DOMAIN-SUFFIX,synology.com
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
