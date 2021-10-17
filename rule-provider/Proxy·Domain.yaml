@@ -1497,6 +1497,7 @@ payload:
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,cloudcone.com.cn
+  - DOMAIN,bdcore-apr-lb.bda.ndmdhs.com
 # > Abroad-DNS
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
