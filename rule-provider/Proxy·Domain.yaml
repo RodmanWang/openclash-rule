@@ -256,6 +256,7 @@ payload:
 # > IP Query
   - DOMAIN-SUFFIX,skk.moe
   - DOMAIN-SUFFIX,ttt.sh
+  - DOMAIN-SUFFIX,ipinfo.io
 # > Kodi 
   - PROCESS-NAME,kodi.*
   - DOMAIN-SUFFIX,kodi.tv
