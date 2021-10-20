@@ -1515,6 +1515,7 @@ payload:
   - IP-CIDR,9.9.9.9/32,no-resolve
   - IP-CIDR,149.112.112.112/32,no-resolve
   - IP-CIDR,146.112.41.2/32,no-resolve
+  - IP-CIDR,104.16.248.249/32,no-resolve
   - IP-CIDR6,2620:fe::9/128,no-resolve
   - IP-CIDR6,2620:fe::fe/128,no-resolve
   - IP-CIDR6,2620:119:35::35/128,no-resolve
