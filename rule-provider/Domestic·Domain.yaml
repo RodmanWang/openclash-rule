@@ -3447,7 +3447,7 @@ payload:
   - DOMAIN-SUFFIX,sccchina.net
   - DOMAIN,jsdelivr.b-cdn.net
   - DOMAIN-SUFFIX,tymcdn.com
-  - DOMAIN,mqtt.xbase.cloud
+  - DOMAIN-SUFFIX,xbase.cloud
   - DOMAIN-SUFFIX,wp-china-yes.net
   - DOMAIN-SUFFIX,boce.com
 # > dns
