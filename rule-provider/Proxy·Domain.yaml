@@ -7,8 +7,10 @@ payload:
   - DOMAIN-SUFFIX,apkmonk.com
   - DOMAIN-SUFFIX,aapks.com
 # > Akamai
-  - DOMAIN,a248.e.akamai.net
-  - DOMAIN,a771.dscq.akamai.net
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaistream.net
+  - DOMAIN-SUFFIX,akamaized.net
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.uk
