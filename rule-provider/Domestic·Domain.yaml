@@ -2125,7 +2125,7 @@ payload:
 # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
-  - DOMAIN,mygod998.vicp.net.prod.hosts.ooklaserver.net
+  - DOMAIN-SUFFIX,ooklaserver.net
 # > Scholar
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
@@ -3471,3 +3471,4 @@ payload:
   - DOMAIN-SUFFIX,xbase.cloud
   - DOMAIN-SUFFIX,wp-china-yes.net
   - DOMAIN-SUFFIX,boce.com
+  - DOMAIN-SUFFIX,ocsp-certum.com
