@@ -1490,3 +1490,4 @@ payload:
   - DOMAIN,bdcore-apr-lb.bda.ndmdhs.com
   - DOMAIN-SUFFIX,restream.io
   - DOMAIN-SUFFIX,ss2.us
+  - DOMAIN-SUFFIX,grammarly.com
