@@ -1709,6 +1709,7 @@ payload:
   - DOMAIN-SUFFIX,logiseasy.com
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,yiyaojd.com
+  - DOMAIN-SUFFIX,jd.hk
 # > Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
