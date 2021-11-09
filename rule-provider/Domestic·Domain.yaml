@@ -3385,13 +3385,13 @@ payload:
   - DOMAIN-SUFFIX,newday.me
   - DOMAIN-SUFFIX,digitalcertvalidation.com
   - DOMAIN-SUFFIX,jiankong.com
-  - DOMAIN,segmentfault.com
-  - DOMAIN,vryz.net
+  - DOMAIN-SUFFIX,segmentfault.com
+  - DOMAIN-SUFFIX,vryz.net
   - DOMAIN-SUFFIX,analog.com
   - DOMAIN-SUFFIX,it1352.com
   - DOMAIN-SUFFIX,vvzixun.com
   - DOMAIN-SUFFIX,yidianzixun.com
-  - DOMAIN,kukushouhou.com
+  - DOMAIN-SUFFIX,kukushouhou.com
   - DOMAIN-SUFFIX,jakehu.me
   - DOMAIN-SUFFIX,youfabiao.com
   - DOMAIN-SUFFIX,aihao.cc
@@ -3414,7 +3414,7 @@ payload:
   - DOMAIN-SUFFIX,hc360.com
   - DOMAIN-SUFFIX,cnal.com
   - DOMAIN-SUFFIX,xboxab.com
-  - DOMAIN,gos-api.gos-gsp.io
+  - DOMAIN-SUFFIX,gos-api.gos-gsp.io
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,cocos.com
   - DOMAIN-SUFFIX,ipengtai.com
@@ -3424,7 +3424,7 @@ payload:
   - DOMAIN-SUFFIX,fuiou.com
   - DOMAIN-SUFFIX,aizhan.com
   - DOMAIN-SUFFIX,mxplay.com
-  - DOMAIN,j2apps.s.llnwi.net
+  - DOMAIN-SUFFIX,j2apps.s.llnwi.net
   - DOMAIN-SUFFIX,ea.com
   - DOMAIN-SUFFIX,icpapi.com
   - DOMAIN-SUFFIX,ert7.com
@@ -3458,7 +3458,7 @@ payload:
   - DOMAIN-SUFFIX,sleele.com
   - DOMAIN-SUFFIX,geekzu.org
   - DOMAIN-SUFFIX,423down.com
-  - DOMAIN,lf6-cdn-tos.bytecdntp.com
+  - DOMAIN-SUFFIX,lf6-cdn-tos.bytecdntp.com
   - DOMAIN-SUFFIX,intel.com
   - DOMAIN-SUFFIX,changyou.com
   - DOMAIN-SUFFIX,xoyo.com
