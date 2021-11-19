@@ -10,3 +10,4 @@ payload:
   - DOMAIN-SUFFIX,softd.kknmn.com
 # > BanIP
   - IP-CIDR,43.128.55.35/32,no-resolve
+  - IP-CIDR,103.122.94.20/32,no-resolve
