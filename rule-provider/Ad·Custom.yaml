@@ -7,5 +7,6 @@ payload:
   - DOMAIN-SUFFIX,gzads.com
   - DOMAIN-SUFFIX,gozendata.com
   - DOMAIN-SUFFIX,gz-data.com
+  - DOMAIN-SUFFIX,softd.kknmn.com
 # > BanIP
   - IP-CIDR,43.128.55.35/32,no-resolve
