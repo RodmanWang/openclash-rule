@@ -1716,6 +1716,9 @@ payload:
   - DOMAIN-SUFFIX,ksyun.com
 # > Kuaishou
   - DOMAIN-SUFFIX,yximgs.com
+# > Kaspersky
+  - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,kaspersky-labs.com
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
@@ -3118,7 +3121,6 @@ payload:
   - DOMAIN-SUFFIX,java.com
   - DOMAIN-SUFFIX,jidian.im
   - DOMAIN-SUFFIX,kaiyanapp.com
-  - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,keepcdn.com
   - DOMAIN-SUFFIX,kkmh.com
   - DOMAIN-SUFFIX,licdn.com
@@ -3474,3 +3476,5 @@ payload:
   - DOMAIN-SUFFIX,boce.com
   - DOMAIN-SUFFIX,ocsp-certum.com
   - DOMAIN-SUFFIX,iui.im
+  - DOMAIN-SUFFIX,srcgsre.com
+  - DOMAIN-SUFFIX,thawte.com
