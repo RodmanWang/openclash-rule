@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,gozendata.com
   - DOMAIN-SUFFIX,gz-data.com
   - DOMAIN-SUFFIX,softd.kknmn.com
+  - DOMAIN-SUFFIX,reg.wisecleaner.com
 # > BanIP
   - IP-CIDR,43.128.55.35/32,no-resolve
   - IP-CIDR,103.122.94.20/32,no-resolve
