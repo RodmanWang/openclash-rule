@@ -1500,3 +1500,4 @@ payload:
   - DOMAIN-SUFFIX,emojiall.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,proxydocker.com
+  - DOMAIN-SUFFIX,coinbase.com
