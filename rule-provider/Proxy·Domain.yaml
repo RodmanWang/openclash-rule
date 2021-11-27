@@ -239,6 +239,7 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - IP-CIDR,74.125.0.0/16,no-resolvee
   - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,172.217.0.0/16,no-resolve
 # > GoogleCN
   - DOMAIN,services.googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
@@ -1498,3 +1499,4 @@ payload:
   - DOMAIN-SUFFIX,ax1x.com
   - DOMAIN-SUFFIX,emojiall.com
   - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,proxydocker.com
