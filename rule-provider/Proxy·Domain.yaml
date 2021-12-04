@@ -1501,3 +1501,4 @@ payload:
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,proxydocker.com
   - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,shuax.com
