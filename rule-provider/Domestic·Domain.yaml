@@ -2221,6 +2221,7 @@ payload:
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - IP-CIDR,153.254.86.0/24,no-resolve
 # > Tencent
   - DOMAIN-SUFFIX,1010gamer.com
   - DOMAIN-SUFFIX,17look.com
