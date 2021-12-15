@@ -1502,3 +1502,4 @@ payload:
   - DOMAIN-SUFFIX,proxydocker.com
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,shuax.com
+  - DOMAIN-SUFFIX,jivosite.com
