@@ -1777,6 +1777,10 @@ payload:
 # > Mydrivers  
   - DOMAIN-SUFFIX,mydrivers.com
   - DOMAIN-SUFFIX,kkeji.com
+# > NTP
+  - DOMAIN,cn.pool.ntp.org
+  - DOMAIN,stdtime.gov.hk
+  - DOMAIN,pool.ntp.org
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
@@ -1877,8 +1881,6 @@ payload:
   - DOMAIN-SUFFIX,yunxindns.com
   - DOMAIN-SUFFIX,zhuanzfx.com
   - DOMAIN-SUFFIX,yqkk.link
-# > NTP
-  - DOMAIN-SUFFIX,pool.ntp.org
 # > Qiniu
   - DOMAIN-SUFFIX,qiniu.com
   - DOMAIN-SUFFIX,qbox.me
