@@ -176,6 +176,7 @@ payload:
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,githubusercontents.com
+  - DOMAIN-SUFFIX,vercel.com
 # > Google
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,goog
