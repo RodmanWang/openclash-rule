@@ -461,6 +461,7 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
 # > ubunt
   - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,snapcraft.io
   - IP-CIDR,91.189.94.4,no-resolve
 # > Vps
   - DOMAIN-SUFFIX,friendhosting.net
