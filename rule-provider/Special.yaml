@@ -1,6 +1,4 @@
 payload:
-# >Adguard
-  - DOMAIN,local.adguard.org
 # > Google
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
