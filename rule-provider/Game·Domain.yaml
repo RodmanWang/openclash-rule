@@ -1,10 +1,28 @@
 payload:
-# > Steam,Steam-社区(Beta),0,0,1,0,0,0,By-FQrabbit
-  - 'steamdb.info'
+# > Steam,Steam-社区
   - '.fanatical.com'
+  - '.steamcom'munity.com'
+  - 'playartifact.com'
+  - '.playartifact.com'
+  - 's.team'
+  - '.s.team'
+  - 'steamdb.info'
   - '.humblebundle.com'
-  - 'steamcommunity.com'
-  - '.steamcommunity.com'
+  - 'steamcom'munity.com'
+  - 'steam-chat.com'
+  - '.steam-chat.com'
+  - 'steamcontent.com'
+  - '.steamcontent.com'
+  - 'steamgames.com'
+  - '.steamgames.com'
+  - 'steamstatic.com'
+  - '.steamstatic.com'
+  - 'steamusercontent.com'
+  - '.steamusercontent.com'
+  - 'underlords.com'
+  - '.underlords.com'
+  - 'valvesoftware.com'
+  - '.valvesoftware.com'
 # > xbox
   - '.xboxlive.com'
 # > PUBG Asia & Southeast Asia
