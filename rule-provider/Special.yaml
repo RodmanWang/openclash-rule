@@ -1,9 +1,4 @@
 payload:
-# >Local
-  - DOMAIN-SUFFIX,ip6-localhost
-  - DOMAIN-SUFFIX,ip6-loopback
-  - DOMAIN-SUFFIX,local
-  - DOMAIN-SUFFIX,localhost
 # >Adguard
   - DOMAIN,local.adguard.org
 # > Google
@@ -33,17 +28,16 @@ payload:
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-# > Strava
-  - DOMAIN,analytics.strava.com
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > Umeng
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
+# > Xunlei
+  - DOMAIN-SUFFIX,xunlei.com
 # > Download
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,BitComet.exe
-  - PROCESS-NAME,fdm.exe
   - PROCESS-NAME,NetTransport.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,Thunder.exe
@@ -87,11 +81,6 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,tracker
   - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,find_node
-  - DOMAIN-KEYWORD,get_peers
-  - DOMAIN-KEYWORD,info_hash
-  - DOMAIN-KEYWORD,peer_id=
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
