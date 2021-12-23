@@ -2,7 +2,6 @@ payload:
 # >Adguard
   - DOMAIN,local.adguard.org
 # > Google
-  - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,googletraveladservices.com
   - DOMAIN,clientservices.googleapis.com
   - DOMAIN,dl.google.com
@@ -25,6 +24,29 @@ payload:
   - DOMAIN-SUFFIX,windowsupdate.com
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
+# > SteamCN
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAINX,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,cm.wmsjsteam.com
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+# > Epic
+  - DOMAIN-KEYWORD,epicgames
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
