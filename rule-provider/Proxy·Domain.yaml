@@ -278,6 +278,7 @@ payload:
   - DOMAIN-SUFFIX,ttt.sh
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,abuseipdb.com
+  - DOMAIN,ipv4.duiadns.net
 # > Kodi 
   - PROCESS-NAME,kodi.*
   - DOMAIN-SUFFIX,kodi.tv
