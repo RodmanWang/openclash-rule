@@ -459,8 +459,12 @@ payload:
 # > V2EX
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
+# > ubunt
+  - DOMAIN-SUFFIX,ubuntu.com
+  - IP-CIDR,91.189.94.4,no-resolve
 # > Vps
   - DOMAIN-SUFFIX,friendhosting.net
+  - DOMAIN-SUFFIX,losangelesvps.com
 # > Wikimedia
   - DOMAIN-SUFFIX,wikileaks.info
   - DOMAIN-SUFFIX,wikileaks.org
@@ -1452,7 +1456,6 @@ payload:
   - DOMAIN-SUFFIX,yxgxz.com
   - DOMAIN-SUFFIX,verisign.com
   - DOMAIN-SUFFIX,underground.com
-  - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,helpu.cf
   - DOMAIN-SUFFIX,visualwebsiteoptimizer.com
   - DOMAIN-SUFFIX,bteye.com
