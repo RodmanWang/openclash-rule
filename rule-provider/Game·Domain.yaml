@@ -1,13 +1,12 @@
 payload:
 # > Steam,Steam-社区
   - '.fanatical.com'
-  - '.steamcommunity.com'
+  - '.humblebundle.com'
   - 'playartifact.com'
   - '.playartifact.com'
   - 's.team'
   - '.s.team'
   - 'steamdb.info'
-  - '.humblebundle.com'
   - 'steamcommunity.com'
   - 'steam-chat.com'
   - '.steam-chat.com'
