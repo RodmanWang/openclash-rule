@@ -43,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - IP-CIDR,153.254.86.0/24,no-resolve
 # > Epic
   - DOMAIN-KEYWORD,epicgames
 # > Proxy plugin
