@@ -468,6 +468,7 @@ payload:
 # > V2EX
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,bv2ex.com
 # > ubuntu
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,snapcraft.io
