@@ -468,10 +468,10 @@ payload:
 # > V2EX
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
-# > ubunt
+# > ubuntu
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,snapcraft.io
-  - IP-CIDR,91.189.94.4,no-resolve
+  - IP-CIDR,91.189.94.4/32,no-resolve
 # > Vps
   - DOMAIN-SUFFIX,friendhosting.net
   - DOMAIN-SUFFIX,losangelesvps.com
