@@ -31,7 +31,7 @@ payload:
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,dl.steam.clngaa.com
-  - DOMAINX,st.dl.bscstorage.net
+  - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,steamcdn-a.akamaihd.net
