@@ -58,6 +58,11 @@ payload:
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
+# > cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflarestream.com
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - IP-CIDR,104.21.65.0/25,no-resolve
 # > Dandanzan
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dandanzan.cc
@@ -66,7 +71,6 @@ payload:
   - DOMAIN-SUFFIX,88zy.site
 # > DNS
   - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,dns.quad9.net
   - DOMAIN-SUFFIX,dns.google
   - IP-CIDR,8.8.8.8/32,no-resolve
@@ -725,11 +729,9 @@ payload:
   - DOMAIN-SUFFIX,clarionproject.org
   - DOMAIN-SUFFIX,clearsurance.com
   - DOMAIN-SUFFIX,clien.net
-  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cloudgarage.jp
   - DOMAIN-SUFFIX,cloudmagic.com
-  - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,clyp.it
   - DOMAIN-SUFFIX,cmail19.com
   - DOMAIN-SUFFIX,cna.com.tw
