@@ -1,4 +1,6 @@
 payload:
+# > 域名单独移入去广告列表
+#  https://raw.githubusercontent.com/RodmanWang/ad/master/ad.yaml
 # > BanIP
   - '43.128.55.35/32'
   - '103.122.94.20/32'
