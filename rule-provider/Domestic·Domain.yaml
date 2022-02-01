@@ -1784,6 +1784,13 @@ payload:
   - DOMAIN,pool.ntp.org
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
+# > lanzou
+  - DOMAIN-SUFFIX,lanzou.com
+  - DOMAIN-SUFFIX,woozooo.com
+  - DOMAIN-SUFFIX,baidupan.com
+  - DOMAIN-SUFFIX,lanzous.com
+  - DOMAIN-SUFFIX,lanzoux.com
+  - DOMAIN-SUFFIX,lanzoui.com
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
@@ -1792,13 +1799,20 @@ payload:
   - DOMAIN-SUFFIX,letvimg.com
   - DOMAIN-SUFFIX,letvlive.com
   - DOMAIN-SUFFIX,letvstore.com
-# > lanzou
-  - DOMAIN-SUFFIX,lanzou.com
-  - DOMAIN-SUFFIX,woozooo.com
-  - DOMAIN-SUFFIX,baidupan.com
-  - DOMAIN-SUFFIX,lanzous.com
-  - DOMAIN-SUFFIX,lanzoux.com
-  - DOMAIN-SUFFIX,lanzoui.com
+# > LG(CN)
+  - DOMAIN-SUFFIX,lg.com
+  - DOMAIN-SUFFIX,lge.com
+  - DOMAIN-SUFFIX,cn-vitiligo.com
+  - DOMAIN-SUFFIX,clouddn.com
+  - DOMAIN-SUFFIX,lsydsy.com
+  - DOMAIN-SUFFIX,havesun.net
+  - DOMAIN-SUFFIX,haverise.com
+  - DOMAIN-SUFFIX,kkidc.net
+  - DOMAIN-SUFFIX,zhongqijt.com
+  - DOMAIN-SUFFIX,jtkk.com
+  - DOMAIN-SUFFIX,r6cq.com
+  - DOMAIN-SUFFIX,178fuwu.com
+  - DOMAIN-SUFFIX,lvjian.net
 # > NetEase
   - DOMAIN-SUFFIX,126.am
   - DOMAIN-SUFFIX,126.com
