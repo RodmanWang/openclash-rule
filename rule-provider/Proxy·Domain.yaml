@@ -1520,3 +1520,5 @@ payload:
   - DOMAIN-SUFFIX,jivosite.com
   - DOMAIN-SUFFIX,urlscan.io
   - DOMAIN-SUFFIX,edgecompute.app
+  - DOMAIN-SUFFIX,adguard.com
+  - DOMAIN-SUFFIX,adguard.org
