@@ -608,8 +608,6 @@ payload:
   - DOMAIN-SUFFIX,abpchina.org
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,adblockplus.org
-  - DOMAIN-SUFFIX,adguard.com
-  - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,anrun.online
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adtidy.org
