@@ -117,6 +117,11 @@ payload:
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,tracker
+  - DOMAIN-KEYWORD,find_node
+  - DOMAIN-KEYWORD,get_peers
+  - DOMAIN-KEYWORD,info_hash
+  - DOMAIN-KEYWORD,peer_id=
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
 # > synology
