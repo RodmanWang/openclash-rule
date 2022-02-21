@@ -55,6 +55,30 @@ payload:
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
   - DOMAIN,cdn.annnibb.me
+# > BT
+  - DOMAIN-SUFFIX,btbtt11.com
+  - DOMAIN-SUFFIX,btbtt12.com
+  - DOMAIN-SUFFIX,btbtt13.com
+  - DOMAIN-SUFFIX,btbtt14.com
+  - DOMAIN-SUFFIX,btbtt15.com
+  - DOMAIN-SUFFIX,btbtt16.com
+  - DOMAIN-SUFFIX,btbtt17.com
+  - DOMAIN-SUFFIX,btbtt18.com
+  - DOMAIN-SUFFIX,btbtt19.com
+  - DOMAIN-SUFFIX,btbtt20.com
+  - DOMAIN-SUFFIX,88btbtt.com
+  - DOMAIN-SUFFIX,btbtt.biz
+  - DOMAIN-SUFFIX,btbtt.net
+  - DOMAIN-SUFFIX,8btbtt.com
+  - DOMAIN-SUFFIX,92btbtt.com
+  - DOMAIN-SUFFIX,rarbgprx.org
+  - DOMAIN-SUFFIX,proxyrarbg.org
+  - DOMAIN-SUFFIX,rarbg.com
+  - DOMAIN-SUFFIX,rarbgmirror.com
+  - DOMAIN-SUFFIX,Rarbgprx.org
+  - DOMAIN-SUFFIX,Rarbgs.com
+  - DOMAIN-SUFFIX,rarbg.to
+  - DOMAIN-SUFFIX,rarbg.me
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
@@ -316,7 +340,6 @@ payload:
   - DOMAIN,mirror.ehv.weppel.nl
   - DOMAIN,mirror.ufs.ac.za
   - DOMAIN,transfer.nz.lu
-  - DOMAIN,mirror.ufs.ac.za
   - DOMAIN,softlibre.unizar.es
   - DOMAIN-SUFFIX,imdb.com
 # > Kakao Talk
@@ -454,7 +477,6 @@ payload:
 # > Whatsapp
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
-  - IP-CIDR,18.194.0.0/15,no-resolve
   - IP-CIDR,34.224.0.0/12,no-resolve
   - IP-CIDR,50.22.198.204/30,no-resolve
   - IP-CIDR,54.242.0.0/15,no-resolve
@@ -563,7 +585,6 @@ payload:
   - DOMAIN,image-cdn-flare.qdm.cloud
   - DOMAIN-SUFFIX,porn87.com
   - DOMAIN-SUFFIX,javdb.com
-  - DOMAIN-SUFFIX,jdbimgs.com
   - DOMAIN-SUFFIX,ggjav.com
   - DOMAIN-SUFFIX,eporner.com
   - DOMAIN,cdn.lr-ingest.io
@@ -572,27 +593,8 @@ payload:
   - DOMAIN-SUFFIX,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
-  - DOMAIN-SUFFIX,btbtt11.com
-  - DOMAIN-SUFFIX,btbtt12.com
-  - DOMAIN-SUFFIX,btbtt13.com
-  - DOMAIN-SUFFIX,btbtt14.com
-  - DOMAIN-SUFFIX,btbtt15.com
-  - DOMAIN-SUFFIX,btbtt16.com
-  - DOMAIN-SUFFIX,btbtt17.com
-  - DOMAIN-SUFFIX,btbtt18.com
-  - DOMAIN-SUFFIX,btbtt19.com
-  - DOMAIN-SUFFIX,btbtt20.com
-  - DOMAIN-SUFFIX,88btbtt.com
-  - DOMAIN-SUFFIX,btbtt.biz
-  - DOMAIN-SUFFIX,btbtt.net
-  - DOMAIN-SUFFIX,8btbtt.com
-  - DOMAIN-SUFFIX,92btbtt.com
-  - DOMAIN-SUFFIX,rarbgprx.org
-  - DOMAIN-SUFFIX,proxyrarbg.org
-  - DOMAIN-SUFFIX,rarbg.com
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,1e100.net
-  - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4bluestones.biz
   - DOMAIN-SUFFIX,4everProxy.com
@@ -1151,9 +1153,6 @@ payload:
   - DOMAIN-SUFFIX,quora.com
   - DOMAIN-SUFFIX,quoracdn.net
   - DOMAIN-SUFFIX,rakuten.co.jp
-  - DOMAIN-SUFFIX,rarbgmirror.com
-  - DOMAIN-SUFFIX,Rarbgprx.org
-  - DOMAIN-SUFFIX,Rarbgs.com
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
   - DOMAIN-SUFFIX,redbubble.com
