@@ -1,4 +1,7 @@
 payload:
+# > Adguard
+  - DOMAIN-SUFFIX,adguard.com
+  - DOMAIN-SUFFIX,adguard.org
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
@@ -1520,5 +1523,3 @@ payload:
   - DOMAIN-SUFFIX,jivosite.com
   - DOMAIN-SUFFIX,urlscan.io
   - DOMAIN-SUFFIX,edgecompute.app
-  - DOMAIN-SUFFIX,adguard.com
-  - DOMAIN-SUFFIX,adguard.org
