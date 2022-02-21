@@ -122,6 +122,7 @@ payload:
   - DOMAIN-KEYWORD,get_peers
   - DOMAIN-KEYWORD,info_hash
   - DOMAIN-KEYWORD,peer_id=
+  - DOMAIN-KEYWORD,aria2
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
 # > synology
