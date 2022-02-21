@@ -614,7 +614,6 @@ payload:
   - DOMAIN-SUFFIX,tmall.hk
   - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,tbcdn.com
-  - DOMAIN-SUFFIX,udache.com
   - DOMAIN-SUFFIX,koubei.com
   - DOMAIN-SUFFIX,moji.com
   - DOMAIN-SUFFIX,antgroup.com
@@ -912,6 +911,7 @@ payload:
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,im9.com
+  - DOMAIN-SUFFIX,smtcdns.net
 # > ByteDance
   - DOMAIN-SUFFIX,1gdoutian.com
   - DOMAIN-SUFFIX,1mdoutian.com
@@ -1403,6 +1403,7 @@ payload:
   - DOMAIN-SUFFIX,didiglobal.com
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,kuaidadi.com
+  - DOMAIN-SUFFIX,udache.com
 # > Douyu
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
@@ -1450,6 +1451,7 @@ payload:
 # > HunanTV
   - DOMAIN-SUFFIX,hitv.com
   - DOMAIN-SUFFIX,mgtv.com
+  - DOMAIN-SUFFIX,hunantv.com
 # > huwei
   - DOMAIN-SUFFIX,huawei.com
   - DOMAIN-SUFFIX,huaweicloud.com
@@ -1768,7 +1770,6 @@ payload:
   - DOMAIN-SUFFIX,hefengtv.com
   - DOMAIN-SUFFIX,niunaios.com
   - DOMAIN-SUFFIX,hefengtv.tv
-  - DOMAIN-SUFFIX,hunantv.com
   - DOMAIN-SUFFIX,hnbntv.com
   - DOMAIN-SUFFIX,hifly.mobi
   - DOMAIN-SUFFIX,openredcloud.com
@@ -2528,7 +2529,6 @@ payload:
   - DOMAIN-SUFFIX,sixjoy.com
   - DOMAIN-SUFFIX,sjroot.com
   - DOMAIN-SUFFIX,smtcdns.com
-  - DOMAIN-SUFFIX,smtcdns.net
   - DOMAIN-SUFFIX,spark-page.com
   - DOMAIN-SUFFIX,spark-page0.com
   - DOMAIN-SUFFIX,spark-page7.com
@@ -2952,7 +2952,6 @@ payload:
   - DOMAIN-SUFFIX,chunbo.com
   - DOMAIN-SUFFIX,chunboimg.com
   - DOMAIN-SUFFIX,clashroyaleapp.com
-  - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,cloudsigma.com
   - DOMAIN-SUFFIX,cloudxns.net
   - DOMAIN-SUFFIX,cmct.tv
