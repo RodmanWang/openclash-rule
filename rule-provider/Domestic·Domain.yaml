@@ -2150,8 +2150,6 @@ payload:
   - DOMAIN-SUFFIX,sogoucdn.com
   - DOMAIN-SUFFIX,sohuno.com
   - DOMAIN-SUFFIX,sohurdc.com
-# > Sogou
-  - DOMAIN-SUFFIX,sogou.com 
 # > Sony
   - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
