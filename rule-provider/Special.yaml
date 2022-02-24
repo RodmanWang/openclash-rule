@@ -162,6 +162,7 @@ payload:
   - DOMAIN-SUFFIX,valakas.rollo.dnsabr.com
   - DOMAIN-SUFFIX,newtoncity.org
   - DOMAIN-SUFFIX,bt.nfshost.com
+  - DOMAIN-SUFFIX,trackme.theom.nz
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
