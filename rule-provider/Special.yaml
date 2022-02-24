@@ -156,6 +156,8 @@ payload:
   - DOMAIN,edu.uifr.ru
   - DOMAIN,www.all4nothin.net
   - DOMAIN,all4nothin.net
+  - DOMAIN,rt.tace.ru
+  - DOMAIN,valakas.rollo.dnsabr.co
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
