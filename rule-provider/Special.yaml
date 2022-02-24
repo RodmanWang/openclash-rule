@@ -147,6 +147,15 @@ payload:
   - DOMAIN,tr.bangumi.moe
   - DOMAIN,tr.cili001.com
   - DOMAIN,vps02.net.orel.ru
+  - DOMAIN,open.demonii.com
+  - DOMAIN,zephir.monocul.us
+  - DOMAIN,wassermann.online
+  - DOMAIN,vibe.sleepyinternetfun.xyz
+  - DOMAIN,tr.ready4.icu
+  - DOMAIN,mail.realliferpg.de
+  - DOMAIN,edu.uifr.ru
+  - DOMAIN,www.all4nothin.net
+  - DOMAIN,all4nothin.net
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
