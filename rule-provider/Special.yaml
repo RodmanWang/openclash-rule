@@ -160,6 +160,7 @@ payload:
   - DOMAIN-SUFFIX,all4nothin.net
   - DOMAIN-SUFFIX,rt.tace.ru
   - DOMAIN-SUFFIX,valakas.rollo.dnsabr.com
+  - DOMAIN-SUFFIX,newtoncity.org
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
