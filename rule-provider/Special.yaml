@@ -161,6 +161,7 @@ payload:
   - DOMAIN-SUFFIX,rt.tace.ru
   - DOMAIN-SUFFIX,valakas.rollo.dnsabr.com
   - DOMAIN-SUFFIX,newtoncity.org
+  - DOMAIN-SUFFIX,bt.nfshost.com
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
