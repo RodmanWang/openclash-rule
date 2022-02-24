@@ -78,6 +78,7 @@ payload:
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
+  - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,transmission-daemon.exe
   - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,uTorrent.exe
@@ -88,6 +89,8 @@ payload:
   - PROCESS-NAME,NetTransport
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,Thunder
+  - PROCESS-NAME,ThunderVIP
+  - PROCESS-NAME,DownloadSDKServer
   - PROCESS-NAME,Transmission
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,WebTorrent
