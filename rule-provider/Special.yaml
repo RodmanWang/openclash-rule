@@ -186,6 +186,10 @@ payload:
   - DOMAIN-SUFFIX,wassermann.online
   - DOMAIN-SUFFIX,www.torrent.eu.org
   - DOMAIN-SUFFIX,zephir.monocul.us
+  - DOMAIN-SUFFIX,bms-hosxp.com
+  - DOMAIN-SUFFIX,h4.trakx.nibba.trade
+  - DOMAIN-SUFFIX,trakx.herokuapp.com
+  - DOMAIN-SUFFIX,t1.tokhmi.xyz
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
