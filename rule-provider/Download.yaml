@@ -23,6 +23,14 @@ payload:
   - PROCESS-NAME,WebTorrent
   - PROCESS-NAME,WebTorrent Helper
 # > Private Tracker
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,announce
+  - DOMAIN-KEYWORD,tracker
+  - DOMAIN-KEYWORD,find_node
+  - DOMAIN-KEYWORD,get_peers
+  - DOMAIN-KEYWORD,info_hash
+  - DOMAIN-KEYWORD,peer_id=
+  - DOMAIN-KEYWORD,aria2
   - DOMAIN-SUFFIX,1337.abcvg.info
   - DOMAIN-SUFFIX,6ahddutb1ucc3cp.ru
   - DOMAIN-SUFFIX,9.rarbg.com
@@ -128,14 +136,8 @@ payload:
   - DOMAIN-SUFFIX,bt.artvid.ru
   - DOMAIN-SUFFIX,z.crazyhd.com
   - DOMAIN-SUFFIX,asnet.pw
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,tracker
-  - DOMAIN-KEYWORD,find_node
-  - DOMAIN-KEYWORD,get_peers
-  - DOMAIN-KEYWORD,info_hash
-  - DOMAIN-KEYWORD,peer_id=
-  - DOMAIN-KEYWORD,aria2
+  - DOMAIN-SUFFIX,shadowshq.yi.org
+# > Tracker-ip
   - IP-CIDR,5.79.236.102/32,no-resolve
   - IP-CIDR,5.182.206.171/32,no-resolve
   - IP-CIDR,37.59.48.81/32,no-resolve
