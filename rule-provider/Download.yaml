@@ -133,6 +133,7 @@ payload:
   - DOMAIN-SUFFIX,www.torrent.eu.org
   - DOMAIN-SUFFIX,z.crazyhd.com
   - DOMAIN-SUFFIX,zephir.monocul.us
+  - DOMAIN-SUFFIX,wegkxfcivgx.chickenkiller.com
 # > Tracker-ip
   - IP-CIDR,5.79.236.102/32,no-resolve
   - IP-CIDR,5.182.206.171/32,no-resolve
