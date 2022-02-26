@@ -1,4 +1,5 @@
 payload:
+#>BT Soft
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,NetTransport
@@ -39,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,bt2.archive.org
   - DOMAIN-SUFFIX,bt.artvid.ru
   - DOMAIN-SUFFIX,bt.cnscg.com
+  - DOMAIN-SUFFIX,bt.cnscg.org
   - DOMAIN-SUFFIX,bt.nfshost.com
   - DOMAIN-SUFFIX,bt.oiyo.tk
   - DOMAIN-SUFFIX,bt.okmp3.ru
