@@ -1,5 +1,4 @@
 payload:
-# > Download
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,BitComet.exe
   - PROCESS-NAME,NetTransport.exe
