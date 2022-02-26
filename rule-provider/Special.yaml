@@ -190,6 +190,12 @@ payload:
   - DOMAIN-SUFFIX,h4.trakx.nibba.trade
   - DOMAIN-SUFFIX,trakx.herokuapp.com
   - DOMAIN-SUFFIX,t1.tokhmi.xyz
+  - DOMAIN-SUFFIX,oscar.reyesleon.xyz
+  - DOMAIN-SUFFIX,inferno.demonoid.ooo
+  - DOMAIN-SUFFIX,bt.ttk.artvid.ru
+  - DOMAIN-SUFFIX,peerfect.org
+  - DOMAIN-SUFFIX,eddie4.nl
+  - DOMAIN-SUFFIX,allesanddro.de
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
