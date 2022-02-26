@@ -198,6 +198,9 @@ payload:
   - DOMAIN-SUFFIX,peerfect.org
   - DOMAIN-SUFFIX,eddie4.nl
   - DOMAIN-SUFFIX,allesanddro.de
+  - DOMAIN-SUFFIX,bt.artvid.ru
+  - DOMAIN-SUFFIX,z.crazyhd.com
+  - DOMAIN-SUFFIX,asnet.pw
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,tracker
