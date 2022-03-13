@@ -1730,6 +1730,7 @@ payload:
   - IP-CIDR,77.74.178.0/23,no-resolve
   - IP-CIDR,77.74.181.0/24,no-resolve
   - IP-CIDR,77.74.183.0/24,no-resolve
+  - IP-CIDR,82.202.184.0/24,no-resolve
   - IP-CIDR,93.159.228.0/23,no-resolve
   - IP-CIDR,93.159.230.0/23,no-resolve
   - IP-CIDR,185.54.220.0/24,no-resolve
