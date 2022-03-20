@@ -220,6 +220,7 @@ payload:
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,goog
   - DOMAIN-KEYWORD,.google.
+  - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,ampproject.org
