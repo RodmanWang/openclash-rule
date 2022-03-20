@@ -74,3 +74,5 @@ payload:
   - DOMAIN,checkipv6.synology.com
   - DOMAIN,checkport.synology.com
   - DOMAIN,ddns.synology.com
+# > Mail
+  - DOMAIN,mail.qq.com
