@@ -10,3 +10,14 @@ payload:
   - DOMAIN-SUFFIX,softd.kknmn.com
   - DOMAIN-SUFFIX,reg.wisecleaner.com
   - DOMAIN-SUFFIX,jiushengliye.com
+# > potplayer
+  - DOMAIN-SUFFIX,get.daum.net
+  - DOMAIN-SUFFIX,play.kakao.com
+  - DOMAIN-SUFFIX,potplayertv.daum.net
+  - DOMAIN-SUFFIX,track.tiara.daum.net
+  - DOMAIN-SUFFIX,p1-play.edge4k.com
+  - DOMAIN-SUFFIX,p2-play.edge4k.com
+  - DOMAIN-SUFFIX,p1-play.kgslb.com
+  - DOMAIN-SUFFIX,kyson.ad.daum.net
+  - DOMAIN-SUFFIX,display.ad.daum.net
+  - DOMAIN-SUFFIX,analytics.ad.daum.net
