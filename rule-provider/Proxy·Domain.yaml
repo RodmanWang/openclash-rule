@@ -90,6 +90,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - IP-CIDR,104.21.65.0/25,no-resolve
+  - IP-CIDR6,2606:4700:3033::/48,no-resolve
 # > Dandanzan
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dandanzan.cc
