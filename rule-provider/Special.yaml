@@ -38,27 +38,27 @@ payload:
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > SteamCN
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,api.steampowered.com
   - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,steamusercontent-a.akamaihd.net
   - DOMAIN,steamuserimages-a.akamaihd.net
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
-  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,cm.wmsjsteam.com
   - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN,steampipe.steamcontent.tnkjmec.com
-  - DOMAIN,api.steampowered.com
-  - IP-CIDR,153.254.86.0/24,no-resolve
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
@@ -74,5 +74,3 @@ payload:
   - DOMAIN,checkipv6.synology.com
   - DOMAIN,checkport.synology.com
   - DOMAIN,ddns.synology.com
-# > Mail
-  - DOMAIN,mail.qq.com
