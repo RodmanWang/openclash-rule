@@ -281,9 +281,10 @@ payload:
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,app-measurement.com
-  - IP-CIDR,74.125.0.0/16,no-resolvee
-  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,64.233.187.0/24,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR6,2600:1900::/28,no-resolve
 # > GoogleCN
   - DOMAIN,services.googleapis.cn
