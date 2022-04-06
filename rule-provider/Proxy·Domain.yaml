@@ -395,6 +395,8 @@ payload:
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,store-images.s-microsoft.com
   - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
