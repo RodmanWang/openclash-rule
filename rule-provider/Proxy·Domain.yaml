@@ -276,6 +276,7 @@ payload:
   - DOMAIN-SUFFIX,webrtc.org
   - DOMAIN-SUFFIX,whatbrowser.org
   - DOMAIN-SUFFIX,widevine.com
+  - DOMAIN-SUFFIX,withgoogle.com
   - DOMAIN-SUFFIX,x.company
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googletagservices.com
@@ -487,6 +488,7 @@ payload:
   - DOMAIN-KEYWORD,-tiktok-common.ttwstatic.com
   - DOMAIN-KEYWORD,-tiktok-web.ttwstatic.com
   - DOMAIN-KEYWORD,-secsdk.ttwstatic.com
+  - DOMAIN-KEYWORD,-short-va.bytedapm.com
 # > Whatsapp
   - DOMAIN-SUFFIX,whatsapp.com
   - DOMAIN-SUFFIX,whatsapp.net
