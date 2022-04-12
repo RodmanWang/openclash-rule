@@ -90,6 +90,7 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - IP-CIDR,104.21.65.0/25,no-resolve
+  - IP-CIDR,104.22.29.0/25,no-resolve
   - IP-CIDR,104.26.0.0/20,no-resolve
   - IP-CIDR6,2606:4700:3033::/48,no-resolve
   - IP-CIDR6,2606:4700:3036::/48,no-resolve
@@ -1546,3 +1547,4 @@ payload:
   - DOMAIN-SUFFIX,greencloudvps.com
   - DOMAIN-SUFFIX,misaka.io
   - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,ko-fi.com
