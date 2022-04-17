@@ -83,3 +83,4 @@ payload:
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
   - IP-CIDR,20.192.0.0/10,no-resolve
+  - IP-CIDR,40.90.189.152/32,no-resolve
