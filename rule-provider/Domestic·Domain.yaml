@@ -1785,9 +1785,10 @@ payload:
   - DOMAIN-SUFFIX,kkeji.com
 # > NTP
   - DOMAIN,stdtime.gov.hk
-  - DOMAIN,pool.ntp.org
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
+  - DOMAIN,pool.ntp.org
+  - IP-CIDR,223.255.185.2/32,no-resolve
 # > lanzou
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,woozooo.com
