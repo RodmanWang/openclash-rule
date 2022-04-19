@@ -443,6 +443,7 @@ payload:
   - DOMAIN-SUFFIX,zmk.pw
 # > synology
   - DOMAIN-SUFFIX,synology.com
+  - DOMAIN-SUFFIX,sy.to
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
