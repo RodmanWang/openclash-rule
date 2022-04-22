@@ -1796,6 +1796,8 @@ payload:
   - DOMAIN-SUFFIX,lanzous.com
   - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzoui.com
+  - DOMAIN-SUFFIX,lanzoug.com
+  - DOMAIN-SUFFIX,lanzouo.com
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
@@ -3467,5 +3469,3 @@ payload:
   - DOMAIN,assets.adobedtm.com
   - DOMAIN,cdn.meta.ndmdhs.com
   - DOMAIN-SUFFIX,cdn77.org
-  - DOMAIN-SUFFIX,lanzoug.com
-  - DOMAIN-SUFFIX,lanzouo.com
