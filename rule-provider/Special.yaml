@@ -69,8 +69,3 @@ payload:
   - DOMAIN,msg.umengcloud.com
 # > SMTP
   - DOMAIN-KEYWORD,SMTP
-# > synology
-  - DOMAIN,checkip.synology.com
-  - DOMAIN,checkipv6.synology.com
-  - DOMAIN,checkport.synology.com
-  - DOMAIN,ddns.synology.com
