@@ -21,3 +21,26 @@ payload:
   - DOMAIN-SUFFIX,kyson.ad.daum.net
   - DOMAIN-SUFFIX,display.ad.daum.net
   - DOMAIN-SUFFIX,analytics.ad.daum.net
+# > adobe
+  - DOMAIN-SUFFIX,lm.licenses.adobe.com
+  - DOMAIN-SUFFIX,lmlicenses.wip4.adobe.com
+  - DOMAIN-SUFFIX,lm-prd-da1.licenses.adobe.com
+  - DOMAIN-SUFFIX,activate.adobe.com
+  - DOMAIN-SUFFIX,activate.wip4.adobe.com
+  - DOMAIN-SUFFIX,practivate.adobe.com
+  - DOMAIN-SUFFIX,practivate-da1.adobe.com
+  - DOMAIN-SUFFIX,na1r.services.adobe.com
+  - DOMAIN-SUFFIX,hlrcv.stage.adobe.com
+  - DOMAIN-SUFFIX,uds.licenses.adobe.com
+  - DOMAIN-SUFFIX,licenses.adobe.com
+  - DOMAIN-SUFFIX,license.adobe.com
+  - DOMAIN-SUFFIX,helpexamples.com
+  - DOMAIN-SUFFIX,activate-sea.adobe.com
+  - DOMAIN-SUFFIX,activate-sjc0.adobe.com
+  - DOMAIN-SUFFIX,ereg.adobe.com
+  - DOMAIN-SUFFIX,activate.adobe.com
+  - DOMAIN-SUFFIX,na1r.services.adobe.com
+  - DOMAIN-SUFFIX,activate.wip3.adobe.com
+  - DOMAIN-SUFFIX,wip3.adobe.com
+  - DOMAIN-SUFFIX,ereg.wip3.adobe.com
+  - DOMAIN-SUFFIX,wwis-dubc1-vip60.adobe.com
