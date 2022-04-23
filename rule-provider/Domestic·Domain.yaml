@@ -1783,12 +1783,13 @@ payload:
 # > Mydrivers  
   - DOMAIN-SUFFIX,mydrivers.com
   - DOMAIN-SUFFIX,kkeji.com
-# > NTP
+# > NTP(CN)
   - DOMAIN,stdtime.gov.hk
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN,pool.ntp.org
   - IP-CIDR,223.255.185.2/32,no-resolve
+  - IP-CIDR,118.143.17.82/32,no-resolve
 # > lanzou
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,woozooo.com
