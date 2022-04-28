@@ -400,6 +400,8 @@ payload:
   - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
+# > ntp  
+  - IP-CIDR,193.182.111.12/32,no-resolve
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
