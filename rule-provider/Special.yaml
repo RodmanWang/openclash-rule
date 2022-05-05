@@ -35,6 +35,8 @@ payload:
 # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > SteamCN
