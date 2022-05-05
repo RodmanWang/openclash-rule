@@ -398,6 +398,8 @@ payload:
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,store-images.s-microsoft.com
   - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
 # > ntp  
   - IP-CIDR,193.182.111.12/32,no-resolve
 # > Malwarebytes
