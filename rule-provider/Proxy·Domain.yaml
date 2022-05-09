@@ -404,6 +404,7 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
 # > ntp  
   - IP-CIDR,193.182.111.12/32,no-resolve
+  - IP-CIDR,193.182.111.143/32,no-resolve
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
