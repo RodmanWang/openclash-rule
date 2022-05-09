@@ -214,6 +214,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,githubusercontents.com
   - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,statuspage.io
   - IP-CIDR6,2602:fd3f:3:ff01::ca/128,no-resolve
   - IP-CIDR6,2606:50c0:8001::153/128,no-resolve
   - IP-CIDR6,2606:50c0:8002::153/128,no-resolve
@@ -402,9 +403,15 @@ payload:
   - DOMAIN-SUFFIX,blob.core.windows.net
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
-# > ntp  
+# > ntp(abroad)
+  - DOMAIN,manage.ntppool.org
+  - DOMAIN,www.mapper.ntppool.org
   - IP-CIDR,193.182.111.12/32,no-resolve
   - IP-CIDR,193.182.111.143/32,no-resolve
+  - IP-CIDR,151.101.2.137/32,no-resolve
+  - IP-CIDR,151.101.74.137/32,no-resolve
+  - IP-CIDR,146.75.50.137/32,no-resolve
+  - IP-CIDR6,2a04:4e42:11::649/128,no-resolve
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
