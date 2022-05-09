@@ -1791,14 +1791,26 @@ payload:
   - IP-CIDR,223.255.185.2/32,no-resolve
   - IP-CIDR,118.143.17.82/32,no-resolve
 # > lanzou
-  - DOMAIN-SUFFIX,lanzou.com
-  - DOMAIN-SUFFIX,woozooo.com
   - DOMAIN-SUFFIX,baidupan.com
-  - DOMAIN-SUFFIX,lanzous.com
-  - DOMAIN-SUFFIX,lanzoux.com
   - DOMAIN-SUFFIX,lanzoui.com
-  - DOMAIN-SUFFIX,lanzoug.com
+  - DOMAIN-SUFFIX,lanzoup.com
+  - DOMAIN-SUFFIX,lanzoub.com
+  - DOMAIN-SUFFIX,lanzoul.com
   - DOMAIN-SUFFIX,lanzouo.com
+  - DOMAIN-SUFFIX,lanzouq.com
+  - DOMAIN-SUFFIX,lanzoug.com
+  - DOMAIN-SUFFIX,lanzout.com
+  - DOMAIN-SUFFIX,lanzouf.com
+  - DOMAIN-SUFFIX,lanzoux.com
+  - DOMAIN-SUFFIX,lanzouw.com
+  - DOMAIN-SUFFIX,lanzouy.com
+  - DOMAIN-SUFFIX,lanzouj.com
+  - DOMAIN-SUFFIX,lanzouv.com
+  - DOMAIN-SUFFIX,lanzoum.com
+  - DOMAIN-SUFFIX,woozooo.com
+  - DOMAIN-SUFFIX,lanzouh.com
+  - DOMAIN-SUFFIX,lanzous.com
+  - DOMAIN-SUFFIX,lanzou.com
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
