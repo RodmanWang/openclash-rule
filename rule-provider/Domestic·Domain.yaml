@@ -1424,6 +1424,14 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
+# >extfans
+  - DOMAIN-SUFFIX,extfans.com
+  - DOMAIN-SUFFIX,lemurbrowser.com
+  - DOMAIN-SUFFIX,infinitytab.com
+  - DOMAIN-SUFFIX,inftab.com
+  - DOMAIN-SUFFIX,haohuola.com
+  - DOMAIN-SUFFIX,infinitybrowser.com
+  - DOMAIN-SUFFIX,macfans.com
 # > Feizhu
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
@@ -1787,9 +1795,13 @@ payload:
   - DOMAIN,stdtime.gov.hk
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
-  - DOMAIN,pool.ntp.org
   - IP-CIDR,223.255.185.2/32,no-resolve
   - IP-CIDR,118.143.17.82/32,no-resolve
+  - IP-CIDR,151.101.110.137,no-resolve
+  - IP-CIDR,151.101.78.137,no-resolve
+  - IP-CIDR,151.101.90.137,no-resolve
+  - IP-CIDR,151.101.230.137,no-resolve
+  - IP-CIDR,199.232.46.137,no-resolve
 # > lanzou
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,lanzoui.com
