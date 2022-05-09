@@ -89,6 +89,8 @@ payload:
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,pages.dev
   - IP-CIDR,104.21.65.0/25,no-resolve
   - IP-CIDR,104.22.29.0/25,no-resolve
   - IP-CIDR,104.26.0.0/20,no-resolve
