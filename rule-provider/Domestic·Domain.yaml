@@ -1807,6 +1807,7 @@ payload:
   - IP-CIDR,151.101.90.137/32,no-resolve
   - IP-CIDR,151.101.230.137/32,no-resolve
   - IP-CIDR,199.232.46.137/32,no-resolve
+  - IP-CIDR,223.255.185.3/32,no-resolve
 # > lanzou
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,lanzoui.com
