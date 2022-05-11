@@ -406,11 +406,12 @@ payload:
 # > ntp(abroad)
   - DOMAIN,manage.ntppool.org
   - DOMAIN,www.mapper.ntppool.org
-  - IP-CIDR,193.182.111.12/32,no-resolve
-  - IP-CIDR,193.182.111.143/32,no-resolve
+  - IP-CIDR,116.203.151.74/32,no-resolve
+  - IP-CIDR,146.75.50.137/32,no-resolve
   - IP-CIDR,151.101.2.137/32,no-resolve
   - IP-CIDR,151.101.74.137/32,no-resolve
-  - IP-CIDR,146.75.50.137/32,no-resolve
+  - IP-CIDR,193.182.111.12/32,no-resolve
+  - IP-CIDR,193.182.111.143/32,no-resolve
   - IP-CIDR6,2a04:4e42:11::649/128,no-resolve
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
