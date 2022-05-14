@@ -457,6 +457,7 @@ payload:
 # > synology
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,sy.to
+  - DOMAIN,database.clamav.net
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
