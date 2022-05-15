@@ -405,7 +405,9 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
 # > ntp(abroad)
   - DOMAIN,manage.ntppool.org
+  - DOMAIN,ntp.leaseweb.us
   - DOMAIN,www.mapper.ntppool.org
+  - IP-CIDR,108.59.2.24/32,no-resolve
   - IP-CIDR,116.203.151.74/32,no-resolve
   - IP-CIDR,146.75.50.137/32,no-resolve
   - IP-CIDR,151.101.2.137/32,no-resolve
