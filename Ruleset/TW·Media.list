@@ -1,0 +1,22 @@
+# > Bahamut
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+DOMAIN-SUFFIX,hinet.net
+DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN,gamer2-cds.cdn.hinet.net
+# > LiTV
+DOMAIN-SUFFIX,litv.tv
+DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
+# > Line TV
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,profile.line-scdn.net
+DOMAIN-SUFFIX,linetv.tw
+# > KKTV
+DOMAIN-SUFFIX,kktv.com.tw
+DOMAIN-SUFFIX,kktv.me
+DOMAIN,kktv-theater.kk.stream
+# > JOOX
+DOMAIN-SUFFIX,joox.com
+# > 华文电视
+DOMAIN-SUFFIX,5itv.tv
+DOMAIN-SUFFIX,ocnttv.com
