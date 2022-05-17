@@ -325,20 +325,20 @@ payload:
   - DOMAIN-SUFFIX,abuseipdb.com
   - DOMAIN,ipv4.duiadns.net
 # > Kaspersky
-  - IP-CIDR,77.74.176.0/24,no-resolve
-  - IP-CIDR,77.74.177.0/24,no-resolve
-  - IP-CIDR,77.74.178.0/23,no-resolve
-  - IP-CIDR,77.74.181.0/24,no-resolve
-  - IP-CIDR,77.74.183.0/24,no-resolve
-  - IP-CIDR,82.202.184.0/24,no-resolve
-  - IP-CIDR,93.159.228.0/23,no-resolve
-  - IP-CIDR,93.159.230.0/23,no-resolve
-  - IP-CIDR,185.54.220.0/24,no-resolve
-  - IP-CIDR,185.54.221.0/24,no-resolve
-  - IP-CIDR,185.54.222.0/24,no-resolve
-  - IP-CIDR,185.85.12.0/24,no-resolve
-  - IP-CIDR,185.85.14.0/24,no-resolve
-  - IP-CIDR,185.85.15.0/24,no-resolve
+  - IP-CIDR,77.74.176.0/24
+  - IP-CIDR,77.74.177.0/24
+  - IP-CIDR,77.74.178.0/23
+  - IP-CIDR,77.74.181.0/24
+  - IP-CIDR,77.74.183.0/24
+  - IP-CIDR,82.202.184.0/24
+  - IP-CIDR,93.159.228.0/23
+  - IP-CIDR,93.159.230.0/23
+  - IP-CIDR,185.54.220.0/24
+  - IP-CIDR,185.54.221.0/24
+  - IP-CIDR,185.54.222.0/24
+  - IP-CIDR,185.85.12.0/24
+  - IP-CIDR,185.85.14.0/24
+  - IP-CIDR,185.85.15.0/24
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -386,7 +386,7 @@ payload:
   - DOMAIN,softlibre.unizar.es
   - DOMAIN-SUFFIX,imdb.com
 # > Level3
-  - IP-CIDR,113.29.117.0/24,no-resolve
+  - IP-CIDR,113.29.117.0/24
 # > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
@@ -425,14 +425,14 @@ payload:
   - DOMAIN,manage.ntppool.org
   - DOMAIN,ntp.leaseweb.us
   - DOMAIN,www.mapper.ntppool.org
-  - IP-CIDR,108.59.2.24/32,no-resolve
-  - IP-CIDR,116.203.151.74/32,no-resolve
-  - IP-CIDR,146.75.50.137/32,no-resolve
-  - IP-CIDR,151.101.2.137/32,no-resolve
-  - IP-CIDR,151.101.74.137/32,no-resolve
-  - IP-CIDR,193.182.111.12/32,no-resolve
-  - IP-CIDR,193.182.111.143/32,no-resolve
-  - IP-CIDR6,2a04:4e42:11::649/128,no-resolve
+  - IP-CIDR,108.59.2.24/32
+  - IP-CIDR,116.203.151.74/32
+  - IP-CIDR,146.75.50.137/32
+  - IP-CIDR,151.101.2.137/32
+  - IP-CIDR,151.101.74.137/32
+  - IP-CIDR,193.182.111.12/32
+  - IP-CIDR,193.182.111.143/32
+  - IP-CIDR6,2a04:4e42:11::649/128
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
@@ -450,10 +450,10 @@ payload:
   - DOMAIN-SUFFIX,pinterest.jp
   - DOMAIN-SUFFIX,pinterest.se
 # > Potato Chat
-  - IP-CIDR,13.251.24.157/24,no-resolve
-  - IP-CIDR,13.251.41.203/24,no-resolve
-  - IP-CIDR,17.252.156.147/24,no-resolve
-  - IP-CIDR,17.252.157.26/24,no-resolve
+  - IP-CIDR,13.251.24.157/24
+  - IP-CIDR,13.251.41.203/24
+  - IP-CIDR,17.252.156.147/24
+  - IP-CIDR,17.252.157.26/24
 # > Riot Games
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
@@ -480,7 +480,7 @@ payload:
   - DOMAIN,database.clamav.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
-  - IP-CIDR,180.87.0.0/17,no-resolve
+  - IP-CIDR,180.87.0.0/17
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
