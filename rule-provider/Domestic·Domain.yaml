@@ -2080,6 +2080,7 @@ payload:
   - DOMAIN-SUFFIX,samsunghealthcn.com
   - DOMAIN,tdapi.srcgsre.com
   - DOMAIN,bixby-developer-assets.aibixby.com
+  - DOMAIN,api.rb.sbixby.com
   - DOMAIN,cn-img.samsungroaming.com
   - DOMAIN,api.samsungmembers.com
   - DOMAIN,samsungchina.tt.omtrdc.net
