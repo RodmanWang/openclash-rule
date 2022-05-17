@@ -1738,6 +1738,8 @@ payload:
 # > Kaspersky
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
+  - IP-CIDR,119.255.133.24/32,no-resolve
+  - IP-CIDR,119.255.133.28/32,no-resolve
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
