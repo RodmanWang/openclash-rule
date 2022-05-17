@@ -10,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,softd.kknmn.com
   - DOMAIN-SUFFIX,reg.wisecleaner.com
   - DOMAIN-SUFFIX,jiushengliye.com
+  - DOMAIN-SUFFIX,quantserve.com
+  - DOMAIN-SUFFIX,bdcore-apr-lb.bda.ndmdhs.com
 # > potplayer
   - DOMAIN-SUFFIX,get.daum.net
   - DOMAIN-SUFFIX,play.kakao.com
