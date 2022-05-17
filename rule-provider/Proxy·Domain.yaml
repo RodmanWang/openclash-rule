@@ -369,6 +369,8 @@ payload:
   - IP-CIDR,103.27.148.0/22,no-resolve
   - IP-CIDR,110.76.140.0/22,no-resolve
   - IP-CIDR,113.61.104.0/22,no-resolve
+# > Level3
+  - IP-CIDR,113.29.117.0/24,no-resolve
 # > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
@@ -1568,5 +1570,5 @@ payload:
   - DOMAIN-SUFFIX,misaka.io
   - DOMAIN-SUFFIX,debian.org
   - DOMAIN-SUFFIX,ko-fi.com
-# > Level3
-  - IP-CIDR,113.29.117.0/24,no-resolve
+  - DOMAIN-SUFFIX,g2.com
+  - DOMAIN-SUFFIX,getapp.com
