@@ -460,6 +460,9 @@ payload:
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,sy.to
   - DOMAIN,database.clamav.net
+# > TapTa
+  - DOMAIN-SUFFIX,tatacommunications.com
+  - IP-CIDR,180.87.0.0/17,no-resolve
 # > TapTap
   - DOMAIN-SUFFIX,tap.io
   - DOMAIN-SUFFIX,taptap.tw
