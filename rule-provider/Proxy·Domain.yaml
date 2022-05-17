@@ -323,6 +323,32 @@ payload:
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,abuseipdb.com
   - DOMAIN,ipv4.duiadns.net
+# > Kaspersky
+  - IP-CIDR,77.74.176.0/24,no-resolve
+  - IP-CIDR,77.74.177.0/24,no-resolve
+  - IP-CIDR,77.74.178.0/23,no-resolve
+  - IP-CIDR,77.74.181.0/24,no-resolve
+  - IP-CIDR,77.74.183.0/24,no-resolve
+  - IP-CIDR,82.202.184.0/24,no-resolve
+  - IP-CIDR,93.159.228.0/23,no-resolve
+  - IP-CIDR,93.159.230.0/23,no-resolve
+  - IP-CIDR,185.54.220.0/24,no-resolve
+  - IP-CIDR,185.54.221.0/24,no-resolve
+  - IP-CIDR,185.54.222.0/24,no-resolve
+  - IP-CIDR,185.85.12.0/24,no-resolve
+  - IP-CIDR,185.85.14.0/24,no-resolve
+  - IP-CIDR,185.85.15.0/24,no-resolve
+# > Kakao Talk
+  - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kakao.co.kr
+  - DOMAIN-SUFFIX,kakaocorp.com
+  - DOMAIN-SUFFIX,kakaocdn.net
+  - IP-CIDR,1.201.0.0/24,no-resolve
+  - IP-CIDR,27.0.236.0/22,no-resolve
+  - IP-CIDR,103.246.56.0/22,no-resolve
+  - IP-CIDR,103.27.148.0/22,no-resolve
+  - IP-CIDR,110.76.140.0/22,no-resolve
+  - IP-CIDR,113.61.104.0/22,no-resolve
 # > Kodi 
   - PROCESS-NAME,kodi.*
   - DOMAIN-SUFFIX,kodi.tv
@@ -358,17 +384,6 @@ payload:
   - DOMAIN,transfer.nz.lu
   - DOMAIN,softlibre.unizar.es
   - DOMAIN-SUFFIX,imdb.com
-# > Kakao Talk
-  - DOMAIN-SUFFIX,kakao.com
-  - DOMAIN-SUFFIX,kakao.co.kr
-  - DOMAIN-SUFFIX,kakaocorp.com
-  - DOMAIN-SUFFIX,kakaocdn.net
-  - IP-CIDR,1.201.0.0/24,no-resolve
-  - IP-CIDR,27.0.236.0/22,no-resolve
-  - IP-CIDR,103.246.56.0/22,no-resolve
-  - IP-CIDR,103.27.148.0/22,no-resolve
-  - IP-CIDR,110.76.140.0/22,no-resolve
-  - IP-CIDR,113.61.104.0/22,no-resolve
 # > Level3
   - IP-CIDR,113.29.117.0/24,no-resolve
 # > Line
@@ -1573,3 +1588,5 @@ payload:
   - DOMAIN-SUFFIX,g2.com
   - DOMAIN-SUFFIX,getapp.com
   - DOMAIN-SUFFIX,clearbitscripts.com
+  - DOMAIN-SUFFIX,iui.im
+  - DOMAIN-SUFFIX,cloudinary.com
