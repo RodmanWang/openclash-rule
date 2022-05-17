@@ -58,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
   - DOMAIN,cdn.annnibb.me
+  - DOMAIN-SUFFIX,cdn77.com
 # > BT
   - DOMAIN-SUFFIX,btbtt11.com
   - DOMAIN-SUFFIX,btbtt12.com
