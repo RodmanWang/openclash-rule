@@ -1738,20 +1738,6 @@ payload:
 # > Kaspersky
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
-  - IP-CIDR,77.74.176.0/24,no-resolve
-  - IP-CIDR,77.74.177.0/24,no-resolve
-  - IP-CIDR,77.74.178.0/23,no-resolve
-  - IP-CIDR,77.74.181.0/24,no-resolve
-  - IP-CIDR,77.74.183.0/24,no-resolve
-  - IP-CIDR,82.202.184.0/24,no-resolve
-  - IP-CIDR,93.159.228.0/23,no-resolve
-  - IP-CIDR,93.159.230.0/23,no-resolve
-  - IP-CIDR,185.54.220.0/24,no-resolve
-  - IP-CIDR,185.54.221.0/24,no-resolve
-  - IP-CIDR,185.54.222.0/24,no-resolve
-  - IP-CIDR,185.85.12.0/24,no-resolve
-  - IP-CIDR,185.85.14.0/24,no-resolve
-  - IP-CIDR,185.85.15.0/24,no-resolve
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
@@ -2111,6 +2097,7 @@ payload:
   - DOMAIN-SUFFIX,edutto.net
   - DOMAIN-SUFFIX,samsungcic.com
   - DOMAIN-SUFFIX,seagulllocker.com
+  - DOMAIN-SUFFIX,srcgsre.com
 # > Sina
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,wapone.net
@@ -3489,10 +3476,4 @@ payload:
   - DOMAIN-SUFFIX,wp-china-yes.net
   - DOMAIN-SUFFIX,boce.com
   - DOMAIN-SUFFIX,ocsp-certum.com
-  - DOMAIN-SUFFIX,iui.im
-  - DOMAIN-SUFFIX,srcgsre.com
   - DOMAIN-SUFFIX,thawte.com
-  - DOMAIN-SUFFIX,cloudinary.com
-  - DOMAIN,assets.adobedtm.com
-  - DOMAIN,cdn.meta.ndmdhs.com
-  - DOMAIN-SUFFIX,cdn77.org
