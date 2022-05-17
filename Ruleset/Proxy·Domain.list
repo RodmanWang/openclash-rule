@@ -1564,5 +1564,4 @@ DOMAIN-SUFFIX,greencloudvps.com
 DOMAIN-SUFFIX,misaka.io
 DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,ko-fi.com
-# > Level3
-IP-CIDR,113.29.117.0/24,no-resolve
+DOMAIN-SUFFIX,iui.im
