@@ -3477,3 +3477,8 @@ payload:
   - DOMAIN-SUFFIX,boce.com
   - DOMAIN-SUFFIX,ocsp-certum.com
   - DOMAIN-SUFFIX,thawte.com
+  - DOMAIN-SUFFIX,edgesrv.com
+  - DOMAIN-SUFFIX,edgeorgn.com
+  - DOMAIN-SUFFIX,guess8.com
+  - DOMAIN-SUFFIX,simplenull.com
+  
