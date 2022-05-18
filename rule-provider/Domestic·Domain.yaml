@@ -1742,6 +1742,7 @@ payload:
 # > Kaspersky
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN,kaspersky.d3.sc.omtrdc.net
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
