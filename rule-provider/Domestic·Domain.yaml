@@ -1739,10 +1739,6 @@ payload:
   - DOMAIN-SUFFIX,ksyun.com
 # > Kuaishou
   - DOMAIN-SUFFIX,yximgs.com
-# > Kaspersky
-  - DOMAIN-SUFFIX,kaspersky.com
-  - DOMAIN-SUFFIX,kaspersky-labs.com
-  - DOMAIN,kaspersky.d3.sc.omtrdc.net
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
