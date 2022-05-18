@@ -3492,4 +3492,4 @@ payload:
   - DOMAIN,manifest.prod.boltdns.net
   - DOMAIN,cf-images.us-east-1.prod.boltdns.net
   - DOMAIN-SUFFIX,cmsky.com
-  - DOMAIN-SUFFIX,pic.downk.cc
+  - DOMAIN,pic.downk.cc
