@@ -3493,3 +3493,5 @@ payload:
   - DOMAIN,cf-images.us-east-1.prod.boltdns.net
   - DOMAIN-SUFFIX,cmsky.com
   - DOMAIN,pic.downk.cc
+  - DOMAIN-SUFFIX,chiphell.com
+  - DOMAIN-SUFFIX,datadoghq-browser-agent.com
