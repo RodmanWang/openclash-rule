@@ -386,6 +386,8 @@ payload:
   - DOMAIN,softlibre.unizar.es
   - DOMAIN-SUFFIX,imdb.com
 # > Line
+  - IP-CIDR,113.29.117.0/25,no-resolve
+# > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-scdn.net
