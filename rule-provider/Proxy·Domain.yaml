@@ -83,6 +83,7 @@ payload:
   - DOMAIN-SUFFIX,Rarbgs.com
   - DOMAIN-SUFFIX,rarbg.to
   - DOMAIN-SUFFIX,rarbg.me
+  - DOMAIN-SUFFIX,btdig.com
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
@@ -1595,3 +1596,6 @@ payload:
   - DOMAIN-SUFFIX,capterra.com
   - DOMAIN-SUFFIX,dingdian666.com
   - DOMAIN-SUFFIX,caddyserver.com
+  - DOMAIN-SUFFIX,northplan.org
+  - DOMAIN-SUFFIX,postimg.cc
+  - DOMAIN-SUFFIX,ibb.co
