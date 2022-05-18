@@ -3489,3 +3489,5 @@ payload:
   - DOMAIN-SUFFIX,896.tv
   - DOMAIN-SUFFIX,310.tv
   - DOMAIN-SUFFIX,gubo.org
+  - DOMAIN,manifest.prod.boltdns.net
+  - DOMAIN,cf-images.us-east-1.prod.boltdns.net
