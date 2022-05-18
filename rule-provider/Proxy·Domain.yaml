@@ -1603,3 +1603,6 @@ payload:
   - DOMAIN-SUFFIX,ibb.co
   - DOMAIN-SUFFIX,zhiboche.me
   - DOMAIN-SUFFIX,fosshub.com
+  - DOMAIN,rene.margar.fr
+  - DOMAIN-SUFFIX,cookielaw.org
+  - DOMAIN-SUFFIX,onetrust.io
