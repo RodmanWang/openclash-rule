@@ -1729,6 +1729,10 @@ payload:
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,yiyaojd.com
   - DOMAIN-SUFFIX,jd.hk
+# > Jomashop
+  - DOMAIN-SUFFIX,jomashop.com
+  - DOMAIN,jomashop.cdn.prismic.io
+  - DOMAIN,images.prismic.io
 # > Kingsoft
   - DOMAIN-SUFFIX,iciba.com
   - DOMAIN-SUFFIX,ksosoft.com
@@ -3447,7 +3451,6 @@ payload:
   - DOMAIN-SUFFIX,hexun.com
   - DOMAIN-SUFFIX,ghproxy.com
   - DOMAIN-SUFFIX,creative.com
-  - DOMAIN-SUFFIX,jomashop.com
   - DOMAIN-SUFFIX,bignox.com
   - DOMAIN-SUFFIX,yeshen.com
   - DOMAIN-SUFFIX,razerzone.com
