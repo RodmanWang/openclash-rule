@@ -1608,3 +1608,6 @@ payload:
   - DOMAIN-SUFFIX,cookielaw.org
   - DOMAIN-SUFFIX,onetrust.io
   - DOMAIN-SUFFIX,koala.live
+  - DOMAIN-SUFFIX,robtex.com
+  - DOMAIN-SUFFIX,threatcrowd.org
+  - DOMAIN-SUFFIX,domain.glass
