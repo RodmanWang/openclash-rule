@@ -1787,6 +1787,7 @@ payload:
   - DOMAIN,stdtime.gov.hk
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
+  - DOMAIN-SUFFIX,asia.pool.ntp.org
   - IP-CIDR,223.255.185.2/32,no-resolve
   - IP-CIDR,118.143.17.82/32,no-resolve
   - IP-CIDR,151.101.110.137/32,no-resolve
