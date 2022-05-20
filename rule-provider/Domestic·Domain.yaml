@@ -1788,14 +1788,13 @@ payload:
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,asia.pool.ntp.org
-  - IP-CIDR,223.255.185.2/32,no-resolve
-  - IP-CIDR,118.143.17.82/32,no-resolve
-  - IP-CIDR,151.101.110.137/32,no-resolve
-  - IP-CIDR,151.101.78.137/32,no-resolve
-  - IP-CIDR,151.101.90.137/32,no-resolve
-  - IP-CIDR,151.101.230.137/32,no-resolve
-  - IP-CIDR,199.232.46.137/32,no-resolve
-  - IP-CIDR,223.255.185.3/32,no-resolve
+  - IP-CIDR,118.143.17.0/24,no-resolve
+  - IP-CIDR,151.101.110.0/24,no-resolve
+  - IP-CIDR,151.101.78.0/24,no-resolve
+  - IP-CIDR,151.101.90.0/24,no-resolve
+  - IP-CIDR,151.101.230.0/24,no-resolve
+  - IP-CIDR,199.232.46.0/24,no-resolve
+  - IP-CIDR,223.255.185.0/24,no-resolve
 # > lanzou
   - DOMAIN-SUFFIX,baidupan.com
   - DOMAIN-SUFFIX,lanzoui.com
