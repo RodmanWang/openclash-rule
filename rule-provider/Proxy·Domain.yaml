@@ -102,6 +102,7 @@ payload:
   - IP-CIDR6,2606:4700:3036::/48,no-resolve
 # > CDN
   - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,cdn.rawgit.com
 # > Dandanzan
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dandanzan.cc
