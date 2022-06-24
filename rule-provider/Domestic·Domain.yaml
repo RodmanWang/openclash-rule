@@ -2187,6 +2187,7 @@ payload:
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
   - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speedtest.net
 # > Scholar
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
