@@ -583,6 +583,7 @@ payload:
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,vmware.tt.omtrdc.net
+  - DOMAIN-SUFFIX,cdnapisec.kaltura.com
   - DOMAIN-SUFFIX,schema.milestoneinternet.com
 # > Wikimedia
   - DOMAIN-SUFFIX,wikileaks.info
