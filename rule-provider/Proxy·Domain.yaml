@@ -663,7 +663,7 @@ payload:
   - DOMAIN-SUFFIX,eporner.com
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
-  - DOMAIN,hostupdate.vmware.com
+  - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
