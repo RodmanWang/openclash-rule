@@ -576,6 +576,14 @@ payload:
 # > Vps
   - DOMAIN-SUFFIX,friendhosting.net
   - DOMAIN-SUFFIX,losangelesvps.com
+  - DOMAIN-SUFFIX,dmit.io
+  - DOMAIN-SUFFIX,greencloudvps.com
+  - DOMAIN-SUFFIX,misaka.io
+  - DOMAIN-SUFFIX,misaka2.net
+# > Vmware
+  - DOMAIN-SUFFIX,vmware.com
+  - DOMAIN-SUFFIX,vmware.tt.omtrdc.net
+  - DOMAIN-SUFFIX,schema.milestoneinternet.com
 # > Wikimedia
   - DOMAIN-SUFFIX,wikileaks.info
   - DOMAIN-SUFFIX,wikileaks.org
@@ -663,7 +671,6 @@ payload:
   - DOMAIN-SUFFIX,eporner.com
   - DOMAIN,cdn.lr-ingest.io
   - DOMAIN,client.crisp.chat
-  - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,masiro.moe
   - DOMAIN,p.sda1.dev
   - DOMAIN,s1.ax1x.com
@@ -1597,10 +1604,6 @@ payload:
   - DOMAIN-SUFFIX,vibe.community
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,f-droid.org
-  - DOMAIN-SUFFIX,dmit.io
-  - DOMAIN-SUFFIX,greencloudvps.com
-  - DOMAIN-SUFFIX,misaka.io
-  - DOMAIN-SUFFIX,misaka2.net
   - DOMAIN-SUFFIX,debian.org
   - DOMAIN-SUFFIX,ko-fi.com
   - DOMAIN-SUFFIX,g2.com
