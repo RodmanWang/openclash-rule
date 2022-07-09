@@ -447,6 +447,7 @@ payload:
   - IP-CIDR,146.75.50.0/24,no-resolve
   - IP-CIDR,151.101.2.0/24,no-resolve
   - IP-CIDR,151.101.74.0/24,no-resolve
+  - IP-CIDR,185.125.190.0/24,no-resolve
   - IP-CIDR,193.182.111.0/24,no-resolve
   - IP-CIDR6,2a04:4e42:11::649/128,no-resolve
 # > Malwarebytes
