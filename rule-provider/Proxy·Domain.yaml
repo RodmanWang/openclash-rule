@@ -1,7 +1,4 @@
 payload:
-# > Adguard
-  - DOMAIN-SUFFIX,adguard.com
-  - DOMAIN-SUFFIX,adguard.org
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
