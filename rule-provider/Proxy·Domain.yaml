@@ -1,4 +1,7 @@
 payload:
+# > Adguard
+  - DOMAIN-SUFFIX,adguard.com
+  - DOMAIN-SUFFIX,adguard.org
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
@@ -426,8 +429,6 @@ payload:
   - DOMAIN,az668014.vo.msecnd.net
   - DOMAIN,store-images.s-microsoft.com
   - DOMAIN-SUFFIX,blob.core.windows.net
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,msftncsi.com
 # > ntp(abroad)
   - DOMAIN,manage.ntppool.org
   - DOMAIN,pool.ntp.org
