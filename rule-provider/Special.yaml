@@ -16,18 +16,8 @@ payload:
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
-# > Microsoft
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,windowsupdate.com
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
-# > SteamCN
-  - DOMAIN-SUFFIX,pinyuncloud.com
-  - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,steamcontent.com
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
