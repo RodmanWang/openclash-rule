@@ -1,6 +1,8 @@
 payload:
 # > Steam,Steam-社区
+  - 'fanatical.com'
   - '.fanatical.com'
+  - 'humblebundle.com'
   - '.humblebundle.com'
   - 'playartifact.com'
   - '.playartifact.com'
@@ -19,6 +21,8 @@ payload:
   - '.steamgames.com'
   - 'steamstatic.com'
   - '.steamstatic.com'
+  - 'steamstat.us'
+  - '.steamstat.us'
   - 'steamusercontent.com'
   - '.steamusercontent.com'
   - 'underlords.com'
@@ -35,6 +39,11 @@ payload:
 # > NBA2K
   - 'nba-cdn.2ksports.com'
   - 'nba2k21-svc.2ksports.com'
-  - '.aws.2ksports.com'
+  - 'aws.2ksports.com'
   - 'nba-cdn2.2ksports.com'
   - 'w22.cf.2ksports.com'
+  - '.nba-cdn.2ksports.com'
+  - '.nba2k21-svc.2ksports.com'
+  - '.aws.2ksports.com'
+  - '.nba-cdn2.2ksports.com'
+  - '.w22.cf.2ksports.com'
