@@ -9,6 +9,8 @@ payload:
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamcontent.com
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
