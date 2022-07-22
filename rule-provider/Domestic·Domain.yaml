@@ -2243,6 +2243,19 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
+# > SteamCN
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
   - DOMAIN-SUFFIX,1010gamer.com
   - DOMAIN-SUFFIX,17look.com
