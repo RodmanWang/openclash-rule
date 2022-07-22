@@ -1147,7 +1147,6 @@ payload:
   - DOMAIN-SUFFIX,zjgslb.com
   - DOMAIN-SUFFIX,zvryuq7xg31x5g.com
 # > Blizzard
-  - DOMAIN,cdp.cloud.unity3d.com
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
@@ -2814,6 +2813,17 @@ payload:
   - DOMAIN-SUFFIX,tencentcdb.com
   - DOMAIN-SUFFIX,tencentdb.com
   - DOMAIN-SUFFIX,tencentelasticsearch.com
+# > TeamViewer
+  - DOMAIN-SUFFIX,teamviewer.com
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,139.220.243.27/32,no-resolve
+  - IP-CIDR,172.16.102.56/32,no-resolve
+  - IP-CIDR,185.188.32.1/28,no-resolve
+  - IP-CIDR,221.226.128.146/32,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,no-resolve
 # > softether
   - DOMAIN-SUFFIX,softether-network.net
   - DOMAIN-SUFFIX,softether.co.jp
