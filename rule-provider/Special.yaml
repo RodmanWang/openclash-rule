@@ -1,4 +1,6 @@
 payload:
+# >Adguard
+  - DOMAIN,local.adguard.org
 # > Lan
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
