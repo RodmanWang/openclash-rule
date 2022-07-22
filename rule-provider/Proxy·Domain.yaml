@@ -1586,7 +1586,7 @@ payload:
   - DOMAIN-SUFFIX,aimoon.com
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,cloudcone.com.cn
-  - DOMAIN,bdcore-apr-lb.bda.ndmdhs.com
+  - DOMAIN-SUFFIX,ndmdhs.com
   - DOMAIN-SUFFIX,restream.io
   - DOMAIN-SUFFIX,ss2.us
   - DOMAIN-SUFFIX,grammarly.com
