@@ -1,6 +1,5 @@
 payload:
 # > Adguard
-  - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
@@ -324,6 +323,7 @@ payload:
   - IP-CIDR,220.181.174.34/32,no-resolve
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
   - DOMAIN-SUFFIX,instagr.am
 # > IP Query
   - DOMAIN-SUFFIX,skk.moe
@@ -396,8 +396,6 @@ payload:
   - DOMAIN,softlibre.unizar.es
   - DOMAIN-SUFFIX,imdb.com
 # > Line
-  - IP-CIDR,113.29.117.0/25,no-resolve
-# > Line
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,line-apps.com
   - DOMAIN-SUFFIX,line-scdn.net
@@ -407,6 +405,7 @@ payload:
   - DOMAIN-SUFFIX,nhncorp.jp
   - IP-CIDR,103.2.30.0/23,no-resolve
   - IP-CIDR,103.2.28.0/22,no-resolve
+  - IP-CIDR,113.29.117.0/25,no-resolve
   - IP-CIDR,119.235.224.0/21,no-resolve
   - IP-CIDR,119.235.232.0/23,no-resolve
   - IP-CIDR,119.235.235.0/24,no-resolve
@@ -421,14 +420,19 @@ payload:
   - IP-CIDR,203.104.144.0/21,no-resolve
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
-# > Microsoft
-  - DOMAIN-SUFFIX,aka.ms
+# > OneDrive
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onedrive.live.com
-  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-  - DOMAIN,az416426.vo.msecnd.net
-  - DOMAIN,az668014.vo.msecnd.net
-  - DOMAIN,store-images.s-microsoft.com
-  - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,photos.live.com
+  - DOMAIN-SUFFIX,skydrive.wns.windows.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
 # > ntp(abroad)
   - DOMAIN,manage.ntppool.org
   - DOMAIN,pool.ntp.org
@@ -509,6 +513,7 @@ payload:
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,twimg.co
   - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
   - DOMAIN-SUFFIX,twitpic.com
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-SUFFIX,twitter.com
