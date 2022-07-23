@@ -439,10 +439,12 @@ payload:
   - DOMAIN,ntp.leaseweb.us
   - DOMAIN,www.mapper.ntppool.org
   - DOMAIN,www.pool.ntp.org
+  - DOMAIN-SUFFIX,arch.pool.ntp.org
   - IP-CIDR,84.16.67.0/24,no-resolve
   - IP-CIDR,91.189.89.0/24,no-resolve
   - IP-CIDR,91.189.91.0/24,no-resolve
   - IP-CIDR,94.237.64.0/24,no-resolve
+  - IP-CIDR,94.130.49.0/24,no-resolve
   - IP-CIDR,108.59.2.0/24,no-resolve
   - IP-CIDR,116.203.151.0/24,no-resolve
   - IP-CIDR,144.76.76.0/24,no-resolve
