@@ -244,7 +244,3 @@ payload:
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,2mdn.net
-  - DOMAIN-SUFFIX,app-measurement.com
-# > GoogleCN
-  - DOMAIN,services.googleapis.cn
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
