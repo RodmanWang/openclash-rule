@@ -3524,3 +3524,5 @@ payload:
   - DOMAIN-SUFFIX,yhgujian.com
   - DOMAIN-SUFFIX,zhongqifont.com
   - DOMAIN-SUFFIX,youziku.com
+  - DOMAIN,widget.qweather.net
+  - DOMAIN,favicon.rss.ink
