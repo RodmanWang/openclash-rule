@@ -1,3 +1,4 @@
+payload:
 # > Adguard
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,adguard.com
