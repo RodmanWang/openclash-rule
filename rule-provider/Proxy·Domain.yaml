@@ -219,8 +219,3 @@ payload:
 # > Google
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,goog
-  - DOMAIN-KEYWORD,.google.
-  - DOMAIN-SUFFIX,,withgoogle.com
-# > GoogleCN
-  - DOMAIN,services.googleapis.cn
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
