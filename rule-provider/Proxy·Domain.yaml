@@ -182,15 +182,6 @@ payload:
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
   - DOMAIN-SUFFIX,rocksdb.org
-# > Github
-  - DOMAIN-SUFFIX,github.com
-  - DOMAIN-SUFFIX,github.io
-  - DOMAIN-SUFFIX,githubapp.com
-  - DOMAIN-SUFFIX,githubassets.com
-  - DOMAIN-SUFFIX,githubusercontent.com
-  - DOMAIN-SUFFIX,githubusercontents.com
-  - DOMAIN-SUFFIX,vercel.com
-  - DOMAIN-SUFFIX,statuspage.io
 # > Google
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,goog
