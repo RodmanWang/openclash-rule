@@ -1440,6 +1440,11 @@ payload:
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
   - DOMAIN-SUFFIX,alitrip.com
+# > GoogleCN
+  - DOMAIN-SUFFIX,googlenav.com
+  - DOMAIN-SUFFIX,googlevoice.org
+  - DOMAIN-SUFFIX,googlefonts.net
+  - DOMAIN-SUFFIX,fonts.gstatic.font.im  
 # > Hikvision
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hik-online.com
@@ -3090,7 +3095,6 @@ payload:
   - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,tawk.link
   - DOMAIN-SUFFIX,tawk.to
-  - DOMAIN-SUFFIX,teamviewer.com
   - DOMAIN-SUFFIX,tietuku.com
   - DOMAIN-SUFFIX,tmzvps.com
   - DOMAIN-SUFFIX,trello.com
@@ -3520,5 +3524,3 @@ payload:
   - DOMAIN-SUFFIX,yhgujian.com
   - DOMAIN-SUFFIX,zhongqifont.com
   - DOMAIN-SUFFIX,youziku.com
-  - DOMAIN-SUFFIX,googlefonts.net
-  - DOMAIN-SUFFIX,fonts.gstatic.font.im
