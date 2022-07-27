@@ -3516,3 +3516,9 @@ payload:
   - DOMAIN,pic.downk.cc
   - DOMAIN-SUFFIX,chiphell.com
   - DOMAIN-SUFFIX,datadoghq-browser-agent.com
+  - DOMAIN-SUFFIX,webfont.com
+  - DOMAIN-SUFFIX,yhgujian.com
+  - DOMAIN-SUFFIX,zhongqifont.com
+  - DOMAIN-SUFFIX,youziku.com
+  - DOMAIN-SUFFIX,googlefonts.net
+  - DOMAIN-SUFFIX,fonts.gstatic.font.im
