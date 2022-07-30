@@ -2248,6 +2248,26 @@ payload:
   - DOMAIN-SUFFIX,wiley.com
   - DOMAIN-SUFFIX,worldbank.org
   - DOMAIN-SUFFIX,worldscientific.com
+# > Softether
+  - DOMAIN-SUFFIX,softether-network.net
+  - DOMAIN-SUFFIX,softether.co.jp
+  - DOMAIN-SUFFIX,flets-east.jp
+  - DOMAIN-SUFFIX,flets-west.jp
+  - DOMAIN-SUFFIX,ddns.uxcom.jp
+# > SteamCN
+  - DOMAIN-SUFFIX,pinyuncloud.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
 # > Tencent
   - DOMAIN-SUFFIX,1010gamer.com
   - DOMAIN-SUFFIX,17look.com
@@ -2829,12 +2849,6 @@ payload:
   - IP-CIDR6,2a0b:b581::/48,no-resolve
   - IP-CIDR6,2a0b:b582::/48,no-resolve
   - IP-CIDR6,2a0b:b583::/48,no-resolve
-# > softether
-  - DOMAIN-SUFFIX,softether-network.net
-  - DOMAIN-SUFFIX,softether.co.jp
-  - DOMAIN-SUFFIX,flets-east.jp
-  - DOMAIN-SUFFIX,flets-west.jp
-  - DOMAIN-SUFFIX,ddns.uxcom.jp
 # > Tudou
   - DOMAIN-SUFFIX,tudou.com
   - DOMAIN-SUFFIX,jingguan.ai
