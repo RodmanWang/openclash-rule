@@ -103,6 +103,7 @@ payload:
 # > CDN
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,cdn.rawgit.com
+  - DOMAIN-SUFFIX,cdn.iframe.ly
 # > Dandanzan
   - DOMAIN-SUFFIX,dandanzan.com
   - DOMAIN-SUFFIX,dandanzan.cc
