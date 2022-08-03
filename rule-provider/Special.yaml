@@ -20,10 +20,12 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
 # > NTP(CN)
-  - DOMAIN-SUFFIX,stdtime.gov.hk
-  - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,asia.pool.ntp.org
+  - DOMAIN-SUFFIX,cn.ntppool.org
+  - DOMAIN-SUFFIX,cn.pool.ntp.org
+  - DOMAIN-SUFFIX,stdtime.gov.hk
+  ntppool.org
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > Proxy plugin
