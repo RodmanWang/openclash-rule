@@ -24,6 +24,8 @@ payload:
   - DOMAIN-SUFFIX,cn.ntppool.org
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,stdtime.gov.hk
+  - DOMAIN-SUFFIX,hk.pool.ntp.org
+  - DOMAIN-SUFFIX,hk.ntppool.org
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > Proxy plugin
