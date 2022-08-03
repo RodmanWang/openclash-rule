@@ -432,27 +432,10 @@ payload:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
-# > ntp(abroad)
-  - DOMAIN,manage.ntppool.org
-  - DOMAIN,pool.ntp.org
-  - DOMAIN,ntp.leaseweb.us
-  - DOMAIN,www.mapper.ntppool.org
-  - DOMAIN,www.pool.ntp.org
-  - DOMAIN-SUFFIX,arch.pool.ntp.org
-  - IP-CIDR,84.16.67.0/24,no-resolve
-  - IP-CIDR,91.189.89.0/24,no-resolve
-  - IP-CIDR,91.189.91.0/24,no-resolve
-  - IP-CIDR,94.237.64.0/24,no-resolve
-  - IP-CIDR,94.130.49.0/24,no-resolve
-  - IP-CIDR,108.59.2.0/24,no-resolve
-  - IP-CIDR,116.203.151.0/24,no-resolve
-  - IP-CIDR,144.76.76.0/24,no-resolve
-  - IP-CIDR,146.75.50.0/24,no-resolve
-  - IP-CIDR,151.101.2.0/24,no-resolve
-  - IP-CIDR,151.101.74.0/24,no-resolve
-  - IP-CIDR,185.125.190.0/24,no-resolve
-  - IP-CIDR,193.182.111.0/24,no-resolve
-  - IP-CIDR6,2a04:4e42:11::649/128,no-resolve
+# > ntp
+  - DOMAIN-SUFFIX,ntppool.org
+  - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,ntp.leaseweb.us
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
