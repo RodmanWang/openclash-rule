@@ -26,6 +26,10 @@ payload:
   - DOMAIN-SUFFIX,stdtime.gov.hk
   - DOMAIN-SUFFIX,hk.pool.ntp.org
   - DOMAIN-SUFFIX,hk.ntppool.org
+  - IP-CIDR,118.143.17.82/32,no-resolve
+  - IP-CIDR,118.143.17.83/32,no-resolve
+  - IP-CIDR,223.255.185.2/32,no-resolve
+  - IP-CIDR,223.255.185.3/32,no-resolve
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > Proxy plugin
