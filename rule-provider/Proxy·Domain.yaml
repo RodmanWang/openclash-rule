@@ -298,6 +298,7 @@ payload:
   - IP-CIDR,64.233.187.0/24,no-resolve
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,142.251.42.0/23,no-resolve
+  - IP-CIDR,142.250.156.0/23,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR6,2600:1900::/28,no-resolve
@@ -420,6 +421,23 @@ payload:
   - IP-CIDR,203.104.144.0/21,no-resolve
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
+# > Malwarebytes
+  - DOMAIN,uc.chatra-usercontent.com
+  - DOMAIN-SUFFIX,malwarebytes.com
+  - DOMAIN-SUFFIX,chatra.io
+# > ntp
+  - DOMAIN-SUFFIX,ntppool.org
+  - DOMAIN-SUFFIX,pool.ntp.org
+  - DOMAIN-SUFFIX,ntp.leaseweb.us
+  - IP-CIDR,108.59.2.24/32,no-resolve
+  - IP-CIDR,5.79.108.34/32,no-resolve
+  - IP-CIDR,23.106.249.200/32,no-resolve
+  - IP-CIDR,62.212.76.57/32,no-resolve
+  - IP-CIDR,209.58.185.100/32,no-resolve
+  - IP-CIDR6,2001:df1:801:a005:3::1/128,no-resolve
+  - IP-CIDR6,2001:1af8:4700:b210::34/128,no-resolve
+# > NTT
+  - IP-CIDR,81.19.104.128/25,no-resolve
 # > OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
@@ -433,14 +451,6 @@ payload:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
-# > ntp
-  - DOMAIN-SUFFIX,ntppool.org
-  - DOMAIN-SUFFIX,pool.ntp.org
-  - DOMAIN-SUFFIX,ntp.leaseweb.us
-# > Malwarebytes
-  - DOMAIN,uc.chatra-usercontent.com
-  - DOMAIN-SUFFIX,malwarebytes.com
-  - DOMAIN-SUFFIX,chatra.io
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
@@ -1623,3 +1633,5 @@ payload:
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,status.geotrust.com
   - DOMAIN-SUFFIX,c.evidon.com
+  - DOMAIN-SUFFIX,notepad-plus-plus.org
+  
