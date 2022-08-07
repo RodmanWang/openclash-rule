@@ -50,3 +50,7 @@ payload:
 # > Easports
   - '.easports.com'
   - '.ea.com'
+# >Other
+  - '.gamefuel.info'
+  - '.oncatapult.com'
+  - '.epicgames.dev'
