@@ -36,7 +36,7 @@ payload:
   - '.battleye.com'
   - '.pubgbluehole.com'
   - '.playbattlegrounds.com'
-# > NBA2K
+# > 2K
   - 'nba-cdn.2ksports.com'
   - 'nba2k21-svc.2ksports.com'
   - 'aws.2ksports.com'
@@ -48,9 +48,5 @@ payload:
   - '.nba-cdn2.2ksports.com'
   - '.w22.cf.2ksports.com'
 # > Easports
-  - '.service.easports.com'
-  - '.content.easports.com'
-  - 'river.data.ea.com'
-  - 'friends.social.ea.com'
-  - 'pin-em.data.ea.com'
-  - 'pin-river.data.ea.com'
+  - '.easports.com'
+  - '.ea.com'
