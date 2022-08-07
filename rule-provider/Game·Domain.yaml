@@ -54,3 +54,7 @@ payload:
   - '.gamefuel.info'
   - '.oncatapult.com'
   - '.epicgames.dev'
+# >Mortal Kombat 11
+  - 'mk11-api.wbagora.com'
+  - '.mk11-api.wbagora.com'
+  - 'event.wbinsights.com'
