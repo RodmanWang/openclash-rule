@@ -47,3 +47,6 @@ payload:
   - '.aws.2ksports.com'
   - '.nba-cdn2.2ksports.com'
   - '.w22.cf.2ksports.com'
+# > Fifa
+  - '.service.easports.com'
+  - '.content.easports.com'
