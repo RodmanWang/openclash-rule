@@ -47,6 +47,10 @@ payload:
   - '.aws.2ksports.com'
   - '.nba-cdn2.2ksports.com'
   - '.w22.cf.2ksports.com'
-# > Fifa
+# > Easports
   - '.service.easports.com'
   - '.content.easports.com'
+  - 'river.data.ea.com'
+  - 'friends.social.ea.com'
+  - 'pin-em.data.ea.com'
+  - 'pin-river.data.ea.com'
