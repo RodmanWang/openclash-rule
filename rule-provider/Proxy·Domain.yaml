@@ -1636,4 +1636,5 @@ payload:
   - DOMAIN-SUFFIX,status.geotrust.com
   - DOMAIN-SUFFIX,c.evidon.com
   - DOMAIN-SUFFIX,notepad-plus-plus.org
-  
+  - DOMAIN-SUFFIX,digitaleast.mobi
+  - DOMAIN,amd.needle.com
