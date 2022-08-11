@@ -53,7 +53,6 @@ payload:
 # >Other
   - '.gamefuel.info'
   - '.oncatapult.com'
-  - '.epicgames.dev'
 # >Mortal Kombat 11
   - '.wbagora.com'
   - 'event.wbinsights.com'
@@ -63,3 +62,4 @@ payload:
   - 'smetrics.aem.playstation.com'
 # >Epicgames
   - '.rtcp.on.epicgames.com'
+  - '.epicgames.dev'
