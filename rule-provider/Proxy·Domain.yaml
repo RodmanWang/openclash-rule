@@ -494,10 +494,6 @@ payload:
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,sy.to
   - DOMAIN,database.clamav.net
-# > Sony
-  - DOMAIN-SUFFIX,sony.tv
-  - DOMAIN-KEYWORD,pushcl.np.communication.playstation.net
-  - DOMAIN,uds-edge.np.community.playstation.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
@@ -1643,3 +1639,4 @@ payload:
   - DOMAIN,amd.needle.com
   - DOMAIN,api.extensionplay.com
   - DOMAIN,geolocation.onetrust.com
+  - DOMAIN-SUFFIX,sony.tv
