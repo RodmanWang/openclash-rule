@@ -679,6 +679,9 @@ payload:
   - DOMAIN-SUFFIX,amapauto.com
   - DOMAIN-SUFFIX,a-map.link
   - DOMAIN-SUFFIX,a-map.co
+# > AMD
+  - DOMAIN-SUFFIX,amd.com
+  - DOMAIN-SUFFIX,ati.com
 # > ali213
   - DOMAIN-SUFFIX,qu2345.com
   - DOMAIN-SUFFIX,fengyx.com
@@ -3170,7 +3173,6 @@ payload:
   - DOMAIN,images-cn.ssl-images-amazon.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,99.com
-  - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,chaoxing.com
   - DOMAIN-SUFFIX,dji.net
   - DOMAIN-SUFFIX,gcores.com
