@@ -487,13 +487,17 @@ payload:
   - IP-CIDR,75.126.0.0/16,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
-# > subtitle
+# > Subtitle
   - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,zmk.pw
-# > synology
+# > Synology
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,sy.to
   - DOMAIN,database.clamav.net
+# > Sony
+  - DOMAIN-SUFFIX,sony.tv
+  - DOMAIN-KEYWORD,pushcl.np.communication.playstation.net
+  - DOMAIN,uds-edge.np.community.playstation.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
@@ -1573,7 +1577,6 @@ payload:
   - DOMAIN-SUFFIX,cedexis-test.com
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,example.com
-  - DOMAIN-SUFFIX,sony.tv
   - DOMAIN-SUFFIX,xtracloud.net
   - DOMAIN-SUFFIX,ptcfc.com
   - DOMAIN-SUFFIX,1e100cdn.net
