@@ -1179,6 +1179,9 @@ payload:
   - DOMAIN-SUFFIX,chinahsly.com
   - DOMAIN-SUFFIX,cctvxtxd.com
   - DOMAIN-SUFFIX,livechina.com
+# > Chinalife
+  - DOMAIN-SUFFIX,gpic-sslvpn.com
+  - DOMAIN-SUFFIX,e-chinalife.com
 # > Chinanetcenter
   - DOMAIN-SUFFIX,chinanetcenter.com
   - DOMAIN-SUFFIX,51cdn.com
@@ -3441,7 +3444,6 @@ payload:
   - DOMAIN-SUFFIX,weatherat.com
   - DOMAIN-SUFFIX,b2b101.com
   - DOMAIN-SUFFIX,videojj.com
-  - DOMAIN-SUFFIX,e-chinalife.com
   - DOMAIN-SUFFIX,gree.com
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,heweather.net
