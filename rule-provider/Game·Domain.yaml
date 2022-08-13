@@ -56,10 +56,6 @@ payload:
 # >Mortal Kombat 11
   - '.wbagora.com'
   - 'event.wbinsights.com'
-# >Playstation
-  - '.np.community.playstation.net'
-  - '.np.communication.playstation.net'
-  - 'smetrics.aem.playstation.com'
 # >Epicgames
   - '.rtcp.on.epicgames.com'
   - '.epicgames.dev'
