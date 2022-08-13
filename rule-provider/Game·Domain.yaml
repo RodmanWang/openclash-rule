@@ -59,7 +59,6 @@ payload:
 # >Playstation
   - '.np.community.playstation.net'
   - '.np.communication.playstation.net'
-  - 'us.np.stun.playstation.net'
   - 'smetrics.aem.playstation.com'
 # >Epicgames
   - '.rtcp.on.epicgames.com'
