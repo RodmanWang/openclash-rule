@@ -1640,3 +1640,4 @@ payload:
   - DOMAIN,api.extensionplay.com
   - DOMAIN,geolocation.onetrust.com
   - DOMAIN-SUFFIX,sony.tv
+  - DOMAIN,ftp.jaist.ac.jp
