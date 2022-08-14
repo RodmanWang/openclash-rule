@@ -435,6 +435,7 @@ payload:
   - IP-CIDR,108.59.2.24/32,no-resolve
   - IP-CIDR,144.76.76.107/32,no-resolve
   - IP-CIDR,162.159.200.123/32,no-resolve
+  - IP-CIDR,185.125.190.57/32,no-resolve
   - IP-CIDR,209.58.185.100/32,no-resolve
   - IP-CIDR6,2001:df1:801:a005:3::1/128,no-resolve
   - IP-CIDR6,2001:1af8:4700:b210::34/128,no-resolve
