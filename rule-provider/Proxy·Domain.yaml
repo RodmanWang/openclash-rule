@@ -1641,3 +1641,4 @@ payload:
   - DOMAIN,geolocation.onetrust.com
   - DOMAIN-SUFFIX,sony.tv
   - DOMAIN,ftp.jaist.ac.jp
+  - DOMAIN-SUFFIX,webpkgcache.com
