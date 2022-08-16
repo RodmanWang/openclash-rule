@@ -59,3 +59,7 @@ payload:
 # >Epicgames
   - '.rtcp.on.epicgames.com'
   - '.epicgames.dev'
+# >Playstation
+  - '.np.community.playstation.net'
+  - '.np.communication.playstation.net'
+  - 'smetrics.aem.playstation.com'
