@@ -1644,3 +1644,4 @@ payload:
   - DOMAIN,ftp.jaist.ac.jp
   - DOMAIN-SUFFIX,webpkgcache.com
   - DOMAIN-SUFFIX,snapcraftcontent.com
+  - DOMAIN-SUFFIX,easylist.to
