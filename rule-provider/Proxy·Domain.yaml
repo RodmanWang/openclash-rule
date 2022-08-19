@@ -494,7 +494,9 @@ payload:
   - DOMAIN-SUFFIX,zmk.pw
 # > Synology
   - DOMAIN-SUFFIX,synology.com
-  - DOMAIN-SUFFIX,sy.to
+  - DOMAIN-SUFFIX,gofile.me
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
