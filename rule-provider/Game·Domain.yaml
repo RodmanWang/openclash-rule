@@ -48,6 +48,9 @@ payload:
   - '.aws.2ksports.com'
   - '.nba-cdn2.2ksports.com'
   - '.w22.cf.2ksports.com'
+  - 'cdn.2kgames.com'
+  - '.cdn.2kgames.com'
+  - '.2k.com'
 # > Easports
   - '.easports.com'
   - '.ea.com'
