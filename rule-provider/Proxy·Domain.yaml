@@ -338,6 +338,8 @@ payload:
   - DOMAIN,ipv4.duiadns.net
 # > Kaspersky
   - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,marketlinc.com
+  - DOMAIN-SUFFIX,kaspersky.com.hk
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN,kaspersky.d3.sc.omtrdc.net
   - IP-CIDR,77.74.176.0/24,no-resolve
