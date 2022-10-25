@@ -531,6 +531,7 @@ payload:
   - PROCESS-NAME,org.telegram.messenger
   - PROCESS-NAME,Telegram
   - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegra.ph
   - DOMAIN-SUFFIX,telegram.me
