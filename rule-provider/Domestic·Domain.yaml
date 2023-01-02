@@ -3505,3 +3505,5 @@ payload:
   - DOMAIN,widget.qweather.net
   - DOMAIN,favicon.rss.ink
   - DOMAIN-SUFFIX,heweather.com
+  - DOMAIN-SUFFIX,ecovacs.com
+  - DOMAIN-SUFFIX,zookingsoft.com
