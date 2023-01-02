@@ -1434,6 +1434,9 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
+# > Covacs
+  - DOMAIN-SUFFIX,ecovacs.com
+  - DOMAIN-SUFFIX,ecouser.net
 # >extfans
   - DOMAIN-SUFFIX,extfans.com
   - DOMAIN-SUFFIX,lemurbrowser.com
@@ -3505,5 +3508,5 @@ payload:
   - DOMAIN,widget.qweather.net
   - DOMAIN,favicon.rss.ink
   - DOMAIN-SUFFIX,heweather.com
-  - DOMAIN-SUFFIX,ecovacs.com
   - DOMAIN-SUFFIX,zookingsoft.com
+  - DOMAIN-SUFFIXibimuyu.com
