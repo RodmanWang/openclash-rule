@@ -1671,3 +1671,6 @@ payload:
   - DOMAIN-SUFFIX,appcenter.ms
   - DOMAIN-SUFFIX,fsdn.com
   - DOMAIN-SUFFIX,host.io
+  - DOMAIN-SUFFIX,chatlio.com
+  - DOMAIN-SUFFIX,starwindsoftware.com
+  - DOMAIN-SUFFIX,williamlam.com
