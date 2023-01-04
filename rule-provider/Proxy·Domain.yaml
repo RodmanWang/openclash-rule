@@ -1676,3 +1676,4 @@ payload:
   - DOMAIN-SUFFIX,williamlam.com
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,freesion.com
+  - DOMAIN-SUFFIX,python.org
