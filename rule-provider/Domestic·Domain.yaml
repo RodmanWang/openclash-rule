@@ -1377,6 +1377,7 @@ payload:
   - DOMAIN-SUFFIX,cn-east.ovo.glass
   - DOMAIN-SUFFIX,i.233py.com
   - DOMAIN-SUFFIX,doh.18bit.cn
+  - DOMAIN-SUFFIX,public.dns.iij.jp
   - IP-CIDR,101.6.6.6/32,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
@@ -1386,6 +1387,9 @@ payload:
   - IP-CIDR,119.28.28.28/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
   - IP-CIDR,120.53.53.53/32,no-resolve
+  - IP-CIDR,202.141.162.123/32,no-resolve
+  - IP-CIDR,202.141.178.13/32,no-resolve
+  - IP-CIDR,202.38.93.153/32,no-resolve
   - IP-CIDR,202.38.93.153/32,no-resolve
   - IP-CIDR,202.141.178.13/32,no-resolve
   - IP-CIDR,202.141.162.123/32,no-resolve
