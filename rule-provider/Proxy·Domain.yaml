@@ -117,6 +117,7 @@ payload:
   - DOMAIN-SUFFIX,dns.google
   - DOMAIN-SUFFIX,public.dns.iij.jp
   - DOMAIN-SUFFIX,doh.dns.sb
+  - DOMAIN-SUFFIX,one.one.one.one
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
   - IP-CIDR,208.67.222.222/32,no-resolve
