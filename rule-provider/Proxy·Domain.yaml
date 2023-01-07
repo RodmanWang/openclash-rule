@@ -2,6 +2,7 @@ payload:
 # > Adguard
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,adguard.com
+  - IP-CIDR,176.103.133.77/32,no-resolve
 # > Android-App
   - DOMAIN-SUFFIX,apkpure.com
   - DOMAIN-SUFFIX,apk-dl.com
