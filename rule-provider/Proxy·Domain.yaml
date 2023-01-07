@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaistream.net
   - DOMAIN-SUFFIX,akamaized.net
+  - IP-CIDR,23.223.120.0/21,no-resolve
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.uk
@@ -312,6 +313,7 @@ payload:
   - IP-CIDR,142.251.42.0/23,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR6,2607:f8b0:4002::/48,no-resolve
   - IP-CIDR6,2404:6800:4008::/48,no-resolve
   - IP-CIDR6,2600:1900::/28,no-resolve
 # > GoogleCN
