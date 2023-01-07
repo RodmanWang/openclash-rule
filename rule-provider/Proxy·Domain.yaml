@@ -1645,7 +1645,6 @@ payload:
   - DOMAIN-SUFFIX,northplan.org
   - DOMAIN-SUFFIX,postimg.cc
   - DOMAIN-SUFFIX,ibb.co
-  - DOMAIN-SUFFIX,zhiboche.me
   - DOMAIN-SUFFIX,fosshub.com
   - DOMAIN,rene.margar.fr
   - DOMAIN-SUFFIX,cookielaw.org
@@ -1688,3 +1687,4 @@ payload:
   - DOMAIN-SUFFIX,1024.day
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,ntunhs.net
+  - DOMAIN-KEYWORD,.zhiboche.
