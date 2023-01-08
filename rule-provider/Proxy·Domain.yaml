@@ -101,6 +101,7 @@ payload:
   - IP-CIDR,104.21.65.0/25,no-resolve
   - IP-CIDR,104.22.29.0/25,no-resolve
   - IP-CIDR,104.26.0.0/20,no-resolve
+  - IP-CIDR6,2606:4700:20::/44,no-resolve
   - IP-CIDR6,2606:4700:3033::/48,no-resolve
   - IP-CIDR6,2606:4700:3036::/48,no-resolve
 # > CDN
@@ -306,6 +307,7 @@ payload:
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,108.177.97.0/24,no-resolve
   - IP-CIDR,108.177.125.0/24,no-resolve
+  - IP-CIDR,142.250.0.0/15,no-resolve
   - IP-CIDR,142.250.72.0/23,no-resolve
   - IP-CIDR,142.250.101.0/24,no-resolve
   - IP-CIDR,142.250.141.0/24,no-resolve
