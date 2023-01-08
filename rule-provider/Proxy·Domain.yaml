@@ -369,6 +369,7 @@ payload:
   - IP-CIDR,185.85.12.0/24,no-resolve
   - IP-CIDR,185.85.14.0/24,no-resolve
   - IP-CIDR,185.85.15.0/24,no-resolve
+  - IP-CIDR,213.155.128.0/19,no-resolve
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -440,6 +441,8 @@ payload:
   - IP-CIDR,203.104.144.0/21,no-resolve
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
+# >Level 3
+  - IP-CIDR,212.73.235.0/24,no-resolve
 # > Malwarebytes
   - DOMAIN,uc.chatra-usercontent.com
   - DOMAIN-SUFFIX,malwarebytes.com
