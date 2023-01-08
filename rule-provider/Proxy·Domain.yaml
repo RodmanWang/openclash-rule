@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,akamaistream.net
   - DOMAIN-SUFFIX,akamaized.net
   - IP-CIDR,23.223.120.0/21,no-resolve
+  - IP-CIDR,104.91.68.0/23,no-resolve
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.uk
@@ -304,6 +305,7 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - IP-CIDR,35.190.0.0/16,no-resolve
   - IP-CIDR,64.233.187.0/24,no-resolve
+  - IP-CIDR,64.233.188.0/24,no-resolve
   - IP-CIDR,74.125.0.0/16,no-resolve
   - IP-CIDR,108.177.97.0/24,no-resolve
   - IP-CIDR,108.177.125.0/24,no-resolve
@@ -356,6 +358,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com.hk
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN,kaspersky.d3.sc.omtrdc.net
+  - IP-CIDR,38.0.0.0/8,no-resolve
   - IP-CIDR,77.74.176.0/24,no-resolve
   - IP-CIDR,77.74.177.0/24,no-resolve
   - IP-CIDR,77.74.178.0/23,no-resolve
