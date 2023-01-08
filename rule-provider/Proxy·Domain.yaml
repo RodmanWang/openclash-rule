@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,akamaized.net
   - IP-CIDR,23.223.120.0/21,no-resolve
   - IP-CIDR,104.91.68.0/23,no-resolve
+  - IP-CIDR6,2600:1417:e800::/48,no-resolve
 # > Amazon
   - DOMAIN-SUFFIX,amazon.co
   - DOMAIN-SUFFIX,amazon.co.uk
