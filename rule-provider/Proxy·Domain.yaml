@@ -321,6 +321,7 @@ payload:
   - IP-CIDR,172.217.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
   - IP-CIDR6,2607:f8b0:4002::/48,no-resolve
+  - IP-CIDR6,2404:6800:4004::/48,no-resolve
   - IP-CIDR6,2404:6800:4008::/48,no-resolve
   - IP-CIDR6,2600:1900::/28,no-resolve
   - IP-CIDR6,2607:f8b0:4005::/48,no-resolve
