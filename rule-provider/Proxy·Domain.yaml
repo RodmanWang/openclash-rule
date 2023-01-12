@@ -1700,3 +1700,4 @@ payload:
   - DOMAIN-SUFFIX,1024.day
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,ntunhs.net
+  - DOMAIN-KEYWORD,.zhiboche.
