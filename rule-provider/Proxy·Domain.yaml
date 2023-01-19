@@ -1704,3 +1704,6 @@ payload:
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,ntunhs.net
   - DOMAIN-KEYWORD,.zhiboche.
+  - DOMAIN-SUFFIX,dnslytics.com
+  - DOMAIN-SUFFIX,dnslytics.net
+  - DOMAIN-SUFFIX,researchgate.net
