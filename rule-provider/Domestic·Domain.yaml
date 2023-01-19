@@ -1374,9 +1374,10 @@ payload:
   - DOMAIN-SUFFIX,dot.pub
   - DOMAIN-SUFFIX,alidns.com
   - DOMAIN-SUFFIX,lele233.com
-  - DOMAIN-SUFFIX,cn-east.ovo.glass
   - DOMAIN-SUFFIX,i.233py.com
   - DOMAIN-SUFFIX,doh.18bit.cn
+  - DOMAIN-SUFFIX,iqiqzz.com
+  - DOMAIN-SUFFIX,ovo.glass
   - IP-CIDR,101.6.6.6/32,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
