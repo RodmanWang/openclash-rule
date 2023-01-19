@@ -100,6 +100,7 @@ payload:
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,pages.dev
   - DOMAIN-SUFFIX,imagedelivery.net
+  - IP-CIDR,104.21.32.0/20,no-resolve
   - IP-CIDR,104.21.65.0/25,no-resolve
   - IP-CIDR,104.22.29.0/25,no-resolve
   - IP-CIDR,104.26.0.0/20,no-resolve
@@ -506,6 +507,8 @@ payload:
   - IP-CIDR,13.251.41.203/24,no-resolve
   - IP-CIDR,17.252.156.147/24,no-resolve
   - IP-CIDR,17.252.157.26/24,no-resolve
+# > Performive LLC
+  - IP-CIDR,107.181.166.0/24,no-resolve
 # > Riot Games
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
