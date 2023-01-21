@@ -118,8 +118,8 @@ payload:
   - DOMAIN-SUFFIX,bunediy.com
   - DOMAIN-SUFFIX,88zy.site
 # > DNS
-  - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,dns.quad9.net
+  - DOMAIN-SUFFIX,opendns.com
+  - DOMAIN-SUFFIX,quad9.net
   - DOMAIN-SUFFIX,dns.google
   - DOMAIN-SUFFIX,dns.iij.jp
   - DOMAIN-SUFFIX,dns.sb
