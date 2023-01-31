@@ -697,6 +697,8 @@ payload:
 # > Asus
   - DOMAIN-SUFFIX,asus.com
   - DOMAIN-SUFFIX,acmlife.org
+# > Akamai JP
+  - IP-CIDR,23.44.51.0/24,no-resolve
 # > Baidu
   - DOMAIN-SUFFIX,17swan.com
   - DOMAIN-SUFFIX,37swan.com
