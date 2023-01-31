@@ -193,6 +193,9 @@ payload:
 # > Exception
   - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,chalungu.cn
+# > Edgecast
+  - DOMAIN-SUFFIX,edgecastcdn.net
+  - IP-CIDR,117.18.237.0/24,no-resolve
 # > Facebook
   - DOMAIN-KEYWORD,.facebook.
   - DOMAIN-SUFFIX,facebookmail.com
@@ -932,7 +935,6 @@ payload:
   - DOMAIN-SUFFIX,ebookservice.tw
   - DOMAIN-SUFFIX,economist.com
   - DOMAIN-SUFFIX,edditstatic.com
-  - DOMAIN-SUFFIX,edgecastcdn.net
   - DOMAIN-SUFFIX,edgekey.net
   - DOMAIN-SUFFIX,edgesuite.net
   - DOMAIN-SUFFIX,edu
