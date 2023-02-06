@@ -1716,3 +1716,4 @@ payload:
   - DOMAIN-SUFFIX,dnschecker.org
   - DOMAIN-SUFFIX,sms-activate.org
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,gitpod.io
