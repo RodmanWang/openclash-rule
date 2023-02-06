@@ -1714,3 +1714,5 @@ payload:
   - DOMAIN-SUFFIX,researchgate.net
   - DOMAIN-SUFFIX,tawk.to
   - DOMAIN-SUFFIX,dnschecker.org
+  - DOMAIN-SUFFIX,sms-activate.org
+  - DOMAIN-SUFFIX,openai.com
