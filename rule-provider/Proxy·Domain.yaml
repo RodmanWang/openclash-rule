@@ -1717,3 +1717,4 @@ payload:
   - DOMAIN-SUFFIX,sms-activate.org
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,gitpod.io
+  - DOMAIN-SUFFIX,lpinelinux.org
