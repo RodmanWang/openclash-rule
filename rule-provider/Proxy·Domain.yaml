@@ -1718,3 +1718,4 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,gitpod.io
   - DOMAIN-SUFFIX,alpinelinux.org
+  - DOMAIN-SUFFIX,mozgcp.net
