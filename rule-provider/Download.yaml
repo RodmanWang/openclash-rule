@@ -1,9 +1,21 @@
 payload:
 #>BT Soft
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,IDMan.exe
+  - PROCESS-NAME,NetTransport.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,transmission-daemon.exe
+  - PROCESS-NAME,transmission-qt.exe
+  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,WebTorrent.exe
   - PROCESS-NAME,aria2c
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,NetTransport
   - PROCESS-NAME,qbittorrent
+  - PROCESS-NAME,qbittorrent-nox
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,ThunderVIP
   - PROCESS-NAME,DownloadSDKServer
@@ -18,12 +30,6 @@ payload:
 # > Private Tracker
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,tracker
-  - DOMAIN-KEYWORD,find_node
-  - DOMAIN-KEYWORD,get_peers
-  - DOMAIN-KEYWORD,info_hash
-  - DOMAIN-KEYWORD,peer_id=
-  - DOMAIN-KEYWORD,aria2
   - DOMAIN-SUFFIX,6ahddutb1ucc3cp.ru
   - DOMAIN-SUFFIX,9.rarbg.com
   - DOMAIN-SUFFIX,1337.abcvg.info
