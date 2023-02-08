@@ -29,6 +29,7 @@ payload:
   - '.underlords.com'
   - 'valvesoftware.com'
   - '.valvesoftware.com'
+  - 'steamserver.net'
   - '.steamserver.net'
 # > xbox
   - '.xboxlive.com'
