@@ -3515,7 +3515,7 @@ payload:
   - DOMAIN-SUFFIX,zhongqifont.com
   - DOMAIN-SUFFIX,youziku.com
   - DOMAIN,widget.qweather.net
-  - DOMAIN,favicon.rss.ink
+  - DOMAIN-SUFFIX,rss.ink
   - DOMAIN-SUFFIX,heweather.com
   - DOMAIN-SUFFIX,zookingsoft.com
   - DOMAIN-SUFFIX,ibimuyu.com
