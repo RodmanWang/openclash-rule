@@ -7,13 +7,15 @@ payload:
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,abematv.akamaized.net
 # > Hulu JP
-  - DOMAIN-SUFFIX,hulu.jp
+  - PROCESS-NAME,jp.happyon.android
   - DOMAIN-SUFFIX,happyon.jp
+  - DOMAIN-SUFFIX,hulu.jp
+  - DOMAIN-SUFFIX,prod.hjholdings.tv
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,yb.uncn.jp
-  - DOMAIN-SUFFIX,hjholdings.jp
-  - DOMAIN-SUFFIX,prod.hjholdings.tv
 # > Japonx
+  - DOMAIN-KEYWORD,japonx
+  - DOMAIN-KEYWORD,japronx
   - DOMAIN-SUFFIX,japonx.com
   - DOMAIN-SUFFIX,japonx.tv
   - DOMAIN-SUFFIX,japonx.net
@@ -25,4 +27,10 @@ payload:
 # > niconico
   - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicovideo.jp
+  - DOMAIN-SUFFIX,nicodic.jp
+  - DOMAIN-SUFFIX,nicomanga.jp
+  - DOMAIN-SUFFIX,niconico.com
+  - DOMAIN-SUFFIX,nicoseiga.jp
   - DOMAIN-SUFFIX,nimg.jp
+  - DOMAIN-SUFFIX,simg.jp
+  - DOMAIN-SUFFIX,socdm.com
