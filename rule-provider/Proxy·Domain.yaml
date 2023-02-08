@@ -1724,3 +1724,4 @@ payload:
   - DOMAIN-SUFFIX,gitpod.io
   - DOMAIN-SUFFIX,alpinelinux.org
   - DOMAIN-SUFFIX,mozgcp.net
+  - DOMAIN-SUFFIX,telegram-sms.com
