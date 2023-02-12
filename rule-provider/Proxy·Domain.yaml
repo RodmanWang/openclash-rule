@@ -1725,3 +1725,4 @@ payload:
   - DOMAIN-SUFFIX,alpinelinux.org
   - DOMAIN-SUFFIX,mozgcp.net
   - DOMAIN-SUFFIX,telegram-sms.com
+  - IP-CIDR,213.155.156.0/24,no-resolve
