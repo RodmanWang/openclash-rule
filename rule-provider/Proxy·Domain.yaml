@@ -1728,3 +1728,4 @@ payload:
   - DOMAIN-SUFFIX,telegram-sms.com
   - IP-CIDR,213.155.156.0/24,no-resolve
   - DOMAIN-SUFFIX,lookip.net
+  - DOMAIN-SUFFIX,ip-tracker.org
