@@ -1735,3 +1735,9 @@ payload:
   - DOMAIN-SUFFIX,frontiersin.org
   - DOMAIN-SUFFIX,measurlink.com
   - DOMAIN-SUFFIX,frontiersin.org
+  - DOMAIN-SUFFIX,blankenship.io
+  - DOMAIN-SUFFIX,stackexchange.com
+  - DOMAIN-SUFFIX,huan.ga
+  - DOMAIN-SUFFIX,dockeri.co
+  - DOMAIN-SUFFIX,js.org
+  - DOMAIN-SUFFIX,gitter.im
