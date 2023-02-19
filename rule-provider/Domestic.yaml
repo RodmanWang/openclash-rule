@@ -1380,6 +1380,9 @@ payload:
   - DOMAIN-SUFFIX,doh.18bit.cn
   - DOMAIN-SUFFIX,iqiqzz.com
   - DOMAIN-SUFFIX,ovo.glass
+  - DOMAIN-SUFFIX,dns.iij.jp
+  - DOMAIN-SUFFIX,dns.sb
+  - DOMAIN-SUFFIX,doh.sb
   - IP-CIDR,101.6.6.6/32,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
