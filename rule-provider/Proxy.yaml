@@ -1742,3 +1742,7 @@ payload:
   - DOMAIN-SUFFIX,tappaysdk.com
   - DOMAIN-SUFFIX,kaltura.com
   - DOMAIN-SUFFIX,threatminer.org
+  - DOMAIN-SUFFIX,similartech.com
+  - DOMAIN-SUFFIX,attica-group.com
+  - DOMAIN-SUFFIX,vermeer.com
+  - DOMAIN-SUFFIX,parentpay.com
