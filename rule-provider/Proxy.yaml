@@ -126,6 +126,9 @@ payload:
   - DOMAIN-SUFFIX,quad9.net
   - DOMAIN-SUFFIX,dns.google
   - DOMAIN-SUFFIX,one.one.one.one
+  - DOMAIN-SUFFIX,dns.iij.jp
+  - DOMAIN-SUFFIX,dns.sb
+  - DOMAIN-SUFFIX,doh.sb
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
   - IP-CIDR,208.67.222.222/32,no-resolve
