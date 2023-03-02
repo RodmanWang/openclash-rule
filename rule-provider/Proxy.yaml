@@ -1751,3 +1751,4 @@ payload:
   - DOMAIN-SUFFIX,parentpay.com
   - DOMAIN-SUFFIX,loli.net
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,npmjs.org
