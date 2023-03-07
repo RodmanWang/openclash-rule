@@ -1752,6 +1752,8 @@ payload:
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,yiyaojd.com
   - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,healthjd.com
+  - DOMAIN-SUFFIX,tjjt360.com
 # > Jomashop
   - DOMAIN-SUFFIX,jomashop.com
   - DOMAIN,jomashop.cdn.prismic.io
@@ -3535,3 +3537,4 @@ payload:
   - DOMAIN-SUFFIX,kupao.com
   - DOMAIN-SUFFIX,chinassl.net
   - DOMAIN-SUFFIX,shuzhiduo.com
+  - DOMAIN-SUFFIX,7fresh.com
