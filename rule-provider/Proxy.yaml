@@ -1772,3 +1772,6 @@ payload:
   - DOMAIN-SUFFIX,smartcleaner.online
   - DOMAIN-SUFFIX,comodoca4.com
   - DOMAIN-SUFFIX,tbs-certificates.co.uk
+  - DOMAIN-SUFFIX,intercomassets.com
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercom.io
