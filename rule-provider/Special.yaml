@@ -79,9 +79,6 @@ payload:
   - IP-CIDR6,fd00::/8,no-resolve
 # > Router
   - DOMAIN-SUFFIX,tplogin.cn
-# > Google
-  - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,dl.google.com
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
