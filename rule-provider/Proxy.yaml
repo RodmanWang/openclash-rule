@@ -478,8 +478,6 @@ payload:
   - IP-CIDR6,2001:df1:801:a005:3::1/128,no-resolve
   - IP-CIDR6,2001:1af8:4700:b210::34/128,no-resolve
   - IP-CIDR6,2620:2d:4000:1::3f/128,no-resolve
-# > NTT
-  - IP-CIDR,81.19.104.128/25,no-resolve
 # > OneDrive
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
