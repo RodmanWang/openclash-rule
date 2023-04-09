@@ -1759,3 +1759,13 @@ payload:
   - DOMAIN,sponsor.ajay.app
   - DOMAIN,faststone.org
   - DOMAIN,sonny.net
+  - DOMAIN-SUFFIX,3shape.com
+  - DOMAIN-SUFFIX,aberle-software.com
+  - DOMAIN-SUFFIX,ctl.io
+  - DOMAIN-SUFFIX,impaxam.com
+  - DOMAIN-SUFFIX,koerber-supplychain.com
+  - DOMAIN-SUFFIX,languagewire.com
+  - DOMAIN-SUFFIX,mktoweb.com
+  - DOMAIN-SUFFIX,neo4j.com
+  - DOMAIN-SUFFIX,paxworldfunds.com
+  - DOMAIN-SUFFIX,xilinx.com
