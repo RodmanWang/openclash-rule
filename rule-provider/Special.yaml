@@ -1,4 +1,6 @@
 payload:
+# > Adguard
+  - DOMAIN,local.adguard.org
 # > DNS（domestic）
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
