@@ -67,12 +67,8 @@ payload:
   - DOMAIN-SUFFIX,pubgbluehole.com
   - DOMAIN-SUFFIX,playbattlegrounds.com
 # > 2K
-  - DOMAIN-SUFFIX,nba-cdn.2ksports.com
-  - DOMAIN-SUFFIX,nba2k21-svc.2ksports.com
-  - DOMAIN-SUFFIX,aws.2ksports.com
-  - DOMAIN-SUFFIX,nba-cdn2.2ksports.com
-  - DOMAIN-SUFFIX,w22.cf.2ksports.com
-  - DOMAIN-SUFFIX,cdn.2kgames.com
+  - DOMAIN-SUFFIX,2ksports.com
+  - DOMAIN-SUFFIX,2kgames.com
   - DOMAIN-SUFFIX,2k.com
   - IP-CIDR,3.34.13.0/24,no-resolve
   - IP-CIDR,3.34.172.0/24,no-resolve
