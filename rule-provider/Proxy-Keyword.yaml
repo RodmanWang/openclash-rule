@@ -4,10 +4,6 @@ payload:
 # > Google
   - DOMAIN-KEYWORD,.google.
   - DOMAIN-KEYWORD,.youtube.
-# > OneDrive
-  - DOMAIN-KEYWORD,1drv
-  - DOMAIN-KEYWORD,onedrive
-  - DOMAIN-KEYWORD,skydrive
 # > TikTok
   - DOMAIN-KEYWORD,tiktokcdn-
   - DOMAIN-KEYWORD,-tiktok-common.ttwstatic.com
