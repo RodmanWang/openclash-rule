@@ -15,7 +15,6 @@ payload:
   - IP-CIDR6,2400:3200::1/128,no-resolve
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
 # > DNS（abroad）
-  - DOMAIN,1dot1dot1dot1.cloudflare-dns.com
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,one.one.one.one
   - DOMAIN,opendns.com
