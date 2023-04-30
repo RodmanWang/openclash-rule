@@ -1,0 +1,17 @@
+payload:
+# > Facebook
+  - DOMAIN-KEYWORD,.facebook.
+# > Google
+  - DOMAIN-KEYWORD,.google.
+  - DOMAIN-KEYWORD,.youtube.
+# > TikTok
+  - DOMAIN-KEYWORD,tiktokcdn-
+  - DOMAIN-KEYWORD,-tiktok-common.ttwstatic.com
+  - DOMAIN-KEYWORD,-tiktok-web.ttwstatic.com
+  - DOMAIN-KEYWORD,-secsdk.ttwstatic.com
+  - DOMAIN-KEYWORD,-short-va.bytedapm.com
+# > Other
+  - DOMAIN-KEYWORD,xnxx
+  - DOMAIN-KEYWORD,xvideos
+  - DOMAIN-KEYWORD,biquge.
+  - DOMAIN-KEYWORD,.zhiboche.
