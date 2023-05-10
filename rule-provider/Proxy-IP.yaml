@@ -26,6 +26,9 @@ payload:
   - IP-CIDR,104.21.65.0/25,no-resolve
   - IP-CIDR,104.22.29.0/25,no-resolve
   - IP-CIDR,104.26.0.0/20,no-resolve
+  - IP-CIDR6,2606:4700:20::/44,no-resolve
+  - IP-CIDR6,2606:4700:3033::/48,no-resolve
+  - IP-CIDR6,2606:4700:3036::/48,no-resolve
 # > DNS
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
@@ -38,6 +41,21 @@ payload:
   - IP-CIDR,146.112.41.2/32,no-resolve
   - IP-CIDR,104.16.248.249/32,no-resolve
   - IP-CIDR,104.16.249.249/32,no-resolve
+  - IP-CIDR6,2620:fe::9/128,no-resolve
+  - IP-CIDR6,2620:fe::fe/128,no-resolve
+  - IP-CIDR6,2620:119:35::35/128,no-resolve
+  - IP-CIDR6,2620:119:53::53/128,no-resolve
+  - IP-CIDR6,2620:119:fc::2/128,no-resolve
+  - IP-CIDR6,2606:4700::6810:f8f9/128,no-resolve
+  - IP-CIDR6,2606:4700::6810:f9f9/128,no-resolve
+  - IP-CIDR6,2001:4860:4860::8888/128,no-resolve
+  - IP-CIDR6,2001:4860:4860::64/128,no-resolve
+  - IP-CIDR6,2001:4860:4860::6464/128,no-resolve
+  - IP-CIDR6,2001:4860:4860::8844/128,no-resolve
+  - IP-CIDR6,2606:4700:4700::1111/128,no-resolve
+  - IP-CIDR6,2606:4700:4700::1001/128,no-resolve
+  - IP-CIDR6,2606:4700:4700::64/128,no-resolve
+  - IP-CIDR6,2606:4700:4700::6464/128,no-resolve
 # > Edgecast
   - IP-CIDR,117.18.237.0/24,no-resolve
 # > Facebook
@@ -77,6 +95,12 @@ payload:
   - IP-CIDR,142.251.42.0/23,no-resolve
   - IP-CIDR,172.217.0.0/16,no-resolve
   - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR6,2607:f8b0:4002::/48,no-resolve
+  - IP-CIDR6,2404:6800:4003::/48,no-resolve
+  - IP-CIDR6,2404:6800:4004::/48,no-resolve
+  - IP-CIDR6,2404:6800:4008::/48,no-resolve
+  - IP-CIDR6,2600:1900::/28,no-resolve
+  - IP-CIDR6,2607:f8b0:4005::/48,no-resolve
 # > GoogleCN
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
@@ -95,6 +119,15 @@ payload:
   - IP-CIDR,220.181.174.162/32,no-resolve
   - IP-CIDR,220.181.174.226/32,no-resolve
   - IP-CIDR,220.181.174.34/32,no-resolve
+# > Github
+  - IP-CIDR6,2602:fd3f:3:ff01::ca/128,no-resolve
+  - IP-CIDR6,2606:50c0:8001::153/128,no-resolve
+  - IP-CIDR6,2606:50c0:8002::153/128,no-resolve
+  - IP-CIDR6,2606:50c0:8003::153/128,no-resolve
+  - IP-CIDR6,2606:50c0:8000::154/128,no-resolve 
+  - IP-CIDR6,2606:50c0:8001::154/128,no-resolve
+  - IP-CIDR6,2606:50c0:8002::154/128,no-resolve
+  - IP-CIDR6,2606:50c0:8003::154/128,no-resolve
 # > Kakao Talk
   - IP-CIDR,1.201.0.0/24,no-resolve
   - IP-CIDR,27.0.236.0/22,no-resolve
