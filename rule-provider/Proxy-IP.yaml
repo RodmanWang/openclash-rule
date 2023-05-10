@@ -4,6 +4,7 @@ payload:
 # > Akamai
   - IP-CIDR,23.223.120.0/21,no-resolve
   - IP-CIDR,104.91.68.0/23,no-resolve
+  - IP-CIDR6,2600:1417:e800::/48,no-resolve
 # > Amazon
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
