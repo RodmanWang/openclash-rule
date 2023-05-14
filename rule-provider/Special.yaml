@@ -135,8 +135,6 @@ payload:
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
 # > Private Tracker
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-KEYWORD,announce
   - DOMAIN-SUFFIX,1337.abcvg.info
   - DOMAIN-SUFFIX,6ahddutb1ucc3cp.ru
   - DOMAIN-SUFFIX,9.rarbg.com
