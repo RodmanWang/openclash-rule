@@ -92,8 +92,6 @@ payload:
   - DOMAIN,errlog.umeng.com
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
-# > SMTP
-  - DOMAIN-KEYWORD,SMTP
 # > SteamCN
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamchina.com
