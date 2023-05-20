@@ -1,5 +1,5 @@
 payload:
-# > Adguard
+  - DOMAIN,find.synology.com
   - DOMAIN,local.adguard.org
 # > DNS（domestic）
   - DOMAIN,doh.pub
