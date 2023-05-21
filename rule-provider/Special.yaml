@@ -1,14 +1,14 @@
 payload:
-  - DOMAIN,find.synology.com
-  - DOMAIN,local.adguard.org
+  - DOMAIN-SUFFIX,find.synology.com
+  - DOMAIN-SUFFIX,local.adguard.org
 # > DNS（domestic）
-  - DOMAIN,doh.pub
-  - DOMAIN,dot.pub
-  - DOMAIN,dns.alidns.com
-  - DOMAIN,dns.rubyfish.cn
-  - DOMAIN,cn-east.iqiqzz.com
-  - DOMAIN,i.233py.com
-  - DOMAIN,doh.18bit.cn
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dot.pub
+  - DOMAIN-SUFFIX,dns.alidns.com
+  - DOMAIN-SUFFIX,dns.rubyfish.cn
+  - DOMAIN-SUFFIX,cn-east.iqiqzz.com
+  - DOMAIN-SUFFIX,i.233py.com
+  - DOMAIN-SUFFIX,doh.18bit.cn
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
@@ -17,13 +17,13 @@ payload:
   - IP-CIDR6,2400:3200::1/128,no-resolve
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
 # > DNS（abroad）
-  - DOMAIN,cloudflare-dns.com
-  - DOMAIN,one.one.one.one
-  - DOMAIN,opendns.com
-  - DOMAIN,quad9.net
-  - DOMAIN,dns.google
-  - DOMAIN,public.dns.iij.jp
-  - DOMAIN,doh.dns.sb
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,one.one.one.one
+  - DOMAIN-SUFFIX,opendns.com
+  - DOMAIN-SUFFIX,quad9.net
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,public.dns.iij.jp
+  - DOMAIN-SUFFIX,doh.dns.sb
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
   - IP-CIDR,208.67.222.222/32,no-resolve
