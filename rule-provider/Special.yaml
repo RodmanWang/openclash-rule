@@ -85,6 +85,8 @@ payload:
   - DOMAIN,errlog.umeng.com
   - DOMAIN,msg.umeng.com
   - DOMAIN,msg.umengcloud.com
+# > WiFiman
+  - DOMAIN-SUFFIX,app-measurement.com
 # > SteamCN
   - DOMAIN-SUFFIX,pinyuncloud.com
   - DOMAIN-SUFFIX,steamchina.com
@@ -99,6 +101,11 @@ payload:
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
+# > Google
+  - DOMAIN,safebrowsing.googleapis.com
+# > Microsoft
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
 #>BT Soft
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,BitComet.exe
