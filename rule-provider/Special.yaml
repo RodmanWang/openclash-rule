@@ -18,6 +18,7 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,fd00::/8,no-resolve
   - DOMAIN,find.synology.com
+  - DOMAIN,finds.synology.com
   - DOMAIN,local.adguard.org
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
