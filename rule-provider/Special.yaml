@@ -31,6 +31,11 @@ payload:
   - DOMAIN,dns.rubyfish.cn
   - DOMAIN,cn-east.iqiqzz.com
   - DOMAIN,doh.18bit.cn
+  - IP-CIDR,202.141.162.123/32,no-resolve
+  - IP-CIDR,202.38.93.153/32,no-resolve
+  - IP-CIDR,202.141.176.93/32,no-resolve
+  - IP-CIDR,101.6.6.6/32,no-resolve
+  - IP-CIDR6,2001:da8::666/128,no-resolve
   - IP-CIDR,223.5.5.5/32,no-resolve
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
