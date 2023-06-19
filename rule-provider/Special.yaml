@@ -78,7 +78,6 @@ payload:
   - IP-CIDR6,2606:4700:4700::64/128,no-resolve
   - IP-CIDR6,2606:4700:4700::6464/128,no-resolve
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
-  - IP-CIDR6,2001:300::6/128,no-resolve
 # > Mugglepay
   - DOMAIN-SUFFIX,invoice.mugglepay.com
 # > Proxy plugin
