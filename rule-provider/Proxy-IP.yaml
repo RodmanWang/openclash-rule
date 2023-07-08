@@ -226,4 +226,5 @@ payload:
   - IP-CIDR,208.43.122.128/27,no-resolve
 # > ubuntu
   - IP-CIDR,91.189.94.4/32,no-resolve
+  - IP-CIDR,185.125.190.58/32,no-resolve
 # > Other
