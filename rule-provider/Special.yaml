@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
   - DOMAIN-SUFFIX,cn.pool.ntp.org
+  - DOMAIN-SUFFIX,ubuntu.pool.ntp.org
 # > DNS（domestic）
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
