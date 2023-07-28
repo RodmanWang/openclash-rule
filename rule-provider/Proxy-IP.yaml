@@ -63,7 +63,6 @@ payload:
 # > Edgecast
   - '117.18.237.0/24'
 # > Facebook
-  - DOMAIN-KEYWORD,.facebook.
   - '31.13.24.0/21'
   - '31.13.64.0/18'
   - '31.13.64.0/19'
