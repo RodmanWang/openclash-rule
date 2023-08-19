@@ -30,7 +30,7 @@ payload:
   - DOMAIN,dot.pub
   - DOMAIN,dns.alidns.com
   - DOMAIN,dns.rubyfish.cn
-  - DOMAIN,cn-east.iqiqzz.com
+  - DOMAIN,cn-a.iqiqz.com
   - DOMAIN,doh.18bit.cn
   - IP-CIDR,202.141.162.123/32,no-resolve
   - IP-CIDR,202.38.93.153/32,no-resolve
