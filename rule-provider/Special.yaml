@@ -32,6 +32,9 @@ payload:
   - DOMAIN,dns.rubyfish.cn
   - DOMAIN,cn-a.iqiqz.com
   - DOMAIN,doh.18bit.cn
+  - DOMAIN,dns.twnic.tw
+  - DOMAIN,public.dns.iij.jp
+  - DOMAIN,doh.dns.sb
   - IP-CIDR,202.141.162.123/32,no-resolve
   - IP-CIDR,202.38.93.153/32,no-resolve
   - IP-CIDR,202.141.176.93/32,no-resolve
@@ -50,8 +53,6 @@ payload:
   - DOMAIN,opendns.com
   - DOMAIN,quad9.net
   - DOMAIN,dns.google
-  - DOMAIN,public.dns.iij.jp
-  - DOMAIN,doh.dns.sb
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
   - IP-CIDR,208.67.222.222/32,no-resolve
