@@ -88,6 +88,7 @@ payload:
 # > Game
   - DOMAIN-SUFFIX,cdn2-prod-cfn.akamaized.net
   - DOMAIN-SUFFIX,cdn.gamefuel.info
+  - DOMAIN-SUFFIX,fallguys-assets.gamefuel.info
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > Umeng
