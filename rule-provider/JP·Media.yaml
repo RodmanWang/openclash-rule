@@ -4,7 +4,6 @@ payload:
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp
   - DOMAIN-SUFFIX,hayabusa.io
-  - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,abematv.akamaized.net
 # > Hulu JP
   - PROCESS-NAME,jp.happyon.android
