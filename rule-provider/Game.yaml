@@ -1,7 +1,7 @@
 payload:
 # > CapCom
   - DOMAIN-SUFFIX,capcomfighters.net
-  - DOMAIN-KEYWORD,us-west-2.compute.amazonaws.com
+  - DOMAIN-SUFFIX,,us-west-2.compute.amazonaws.com
 # > Steam,Steam-社区
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
