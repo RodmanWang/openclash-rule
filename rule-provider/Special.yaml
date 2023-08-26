@@ -85,8 +85,9 @@ payload:
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-# > Playstation
+# > Game
   - DOMAIN-SUFFIX,cdn2-prod-cfn.akamaized.net
+  - DOMAIN-SUFFIX,cdn.gamefuel.info
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > Umeng
