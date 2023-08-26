@@ -1,4 +1,6 @@
 payload:
+# > CapCom
+  - DOMAIN-SUFFIX,capcomfighters.net
 # > Steam,Steam-社区
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
