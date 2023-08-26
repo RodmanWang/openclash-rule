@@ -67,8 +67,8 @@ payload:
   - 'rtcp.on.epicgames.com'
   - 'epicgames.dev'
 # >Playstation
-  - '44-234-156-34-pushcl.np.communication.playstation.net'
-  - 'uds-edge.np.community.playstation.net'
+  - '.44-234-156-34-pushcl.np.communication.playstation.net'
+  - '.uds-edge.np.community.playstation.net'
 # >Other
   - '.gamefuel.info'
   - '.oncatapult.com'
