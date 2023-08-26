@@ -43,6 +43,7 @@ payload:
   - DOMAIN-KEYWORD,pushcl.np.communication.playstation.net
   - DOMAIN-SUFFIX,uds-edge.np.community.playstation.net
   - DOMAIN-SUFFIX,us.np.stun.playstation.net
+  - DOMAIN-SUFFIX,np.matching.playstation.net
 # >Other
   - DOMAIN-SUFFIX,gamefuel.info
   - DOMAIN-SUFFIX,oncatapult.com
