@@ -35,7 +35,6 @@ payload:
   - DOMAIN,dualstack.pefs-alb-266603904.eu-west-1.elb.amazonaws.com
 # > Disney+
   - PROCESS-NAME,com.disney.disneyplus
-  - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,bam.nr-date.net
   - DOMAIN-SUFFIX,bamgrid.com
   - DOMAIN-SUFFIX,braze.com
