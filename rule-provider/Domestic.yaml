@@ -1180,6 +1180,19 @@ payload:
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,kuaidadi.com
   - DOMAIN-SUFFIX,udache.com
+# > Douban
+  - DOMAIN-SUFFIX,douban.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,yizu.com
+  - DOMAIN-SUFFIX,douc.cc	
+  - DOMAIN-SUFFIX,9taps.com
+  - DOMAIN-SUFFIX,douban.fm
+  - DOMAIN-SUFFIX,alphatown.com
+  - DOMAIN-SUFFIX,alphacity.com
+  - DOMAIN-SUFFIX,duijiao.com
+  - DOMAIN-SUFFIX,sanlipo.com
+  - DOMAIN-SUFFIX,daluo.com
+  - DOMAIN-SUFFIX,zhuaxia.com
 # > Douyu
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
@@ -1219,6 +1232,13 @@ payload:
   - DOMAIN-SUFFIX,geevisit.com
   - DOMAIN-SUFFIX,gsensebot.com
   - DOMAIN-SUFFIX,rebuildtraffic.com
+# > GlobalSign
+  - DOMAIN-SUFFIX,alphassl.com
+  - DOMAIN-SUFFIX,easy-signing.com
+  - DOMAIN-SUFFIX,globalsign.com
+  - DOMAIN-SUFFIX,globalsign.net
+  - DOMAIN-SUFFIX,globalsigncdn.com
+  - DOMAIN-SUFFIX,infodefend.com
 # > Hikvision
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hik-online.com
@@ -1884,10 +1904,6 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
-# > Prior
-  - DOMAIN-SUFFIX,client.amplifi.com
-  - DOMAIN,ip.bjango.com
-  - DOMAIN-SUFFIX,alphassl.com
 # > PPTV、PPLive
   - DOMAIN-SUFFIX,pplive.com
   - DOMAIN-SUFFIX,pptv.com
@@ -2872,3 +2888,9 @@ payload:
   - DOMAIN-SUFFIX,58.com
   - DOMAIN-SUFFIX,58che.com
 # > Other
+  - DOMAIN-SUFFIX,qiumibao.com
+  - DOMAIN-SUFFIX,qiumijia.com
+  - DOMAIN-SUFFIX,lanqiushuo.com
+  - DOMAIN-SUFFIX,188hi.com
+  - DOMAIN-SUFFIX,gwdang.com
+  - DOMAIN-SUFFIX,dingxiang-inc.com
