@@ -1058,6 +1058,15 @@ payload:
   - DOMAIN-SUFFIX,wsgtm2.com
   - DOMAIN-SUFFIX,dnsgtm.com
   - DOMAIN-SUFFIX,qtlcdn.net
+# > CIBN
+  - DOMAIN-SUFFIX,cibn-intl.com
+  - DOMAIN-SUFFIX,cibn.cc
+  - DOMAIN-SUFFIX,cibnlive.com
+  - DOMAIN-SUFFIX,cibnott.net
+  - DOMAIN-SUFFIX,cibntv.net
+  - DOMAIN-SUFFIX,cibntv.tv
+  - DOMAIN-SUFFIX,cri-on.com
+  - DOMAIN-SUFFIX,nihaotv.net
 # > Chinaz
   - DOMAIN-SUFFIX,chinaz.com
   - DOMAIN-SUFFIX,china-z.com
