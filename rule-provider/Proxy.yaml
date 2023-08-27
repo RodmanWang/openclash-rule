@@ -346,6 +346,8 @@ payload:
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
+# > Jomashop
+  - DOMAIN-SUFFIX,jomashop.prismic.io
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -590,3 +592,4 @@ payload:
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,hifini.com
   - DOMAIN-SUFFIX,abetterinternet.org
+  - DOMAIN-SUFFIX,zdassets.com
