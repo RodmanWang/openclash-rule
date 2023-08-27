@@ -26,6 +26,7 @@ payload:
   - DOMAIN-KEYWORD,amazon.co
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazontrust.com
   - IP-CIDR,3.101.0.0/16,no-resolve
   - IP-CIDR,13.32.0.0/16,no-resolve
   - IP-CIDR,13.33.0.0/16,no-resolve
@@ -633,3 +634,5 @@ payload:
   - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,zdassets.com
+  - DOMAIN-SUFFIX,jquery.com
+  - DOMAIN-SUFFIX,gebi1.com
