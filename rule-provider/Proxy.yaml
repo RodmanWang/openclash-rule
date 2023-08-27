@@ -344,6 +344,7 @@ payload:
   - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,abuseipdb.com
   - DOMAIN,ipv4.duiadns.net
+  - DOMAIN-SUFFIX,ip.sb
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
@@ -626,3 +627,6 @@ payload:
   - DOMAIN-SUFFIX,stripecdn.com
   - DOMAIN-SUFFIX,g2.com
   - DOMAIN-SUFFIX,getapp.com
+  - DOMAIN-SUFFIX,hsforms.net
+  - DOMAIN-SUFFIX,paddle.com
+  - DOMAIN-SUFFIX,capterra.com
