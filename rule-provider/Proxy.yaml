@@ -505,6 +505,8 @@ payload:
   - IP-CIDR,75.126.0.0/16,no-resolve
   - IP-CIDR,174.37.0.0/16,no-resolve
   - IP-CIDR,208.43.0.0/16,no-resolve
+# > Sports
+  - DOMAIN-SUFFIX,yoozhibo.net
 # > Spark
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,smartmailcloud.com
@@ -519,7 +521,7 @@ payload:
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
-# > Soft
+# > SoftDown
   - DOMAIN-SUFFIX,greasyfork.org
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
