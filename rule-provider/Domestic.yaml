@@ -2094,7 +2094,7 @@ payload:
   - DOMAIN-SUFFIX,sony.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,worldpay.com
-# > sports
+# > Sports
   - DOMAIN-KEYWORD,zhiboche.
 # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
