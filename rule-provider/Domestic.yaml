@@ -1124,7 +1124,6 @@ payload:
   - DOMAIN-SUFFIX,cppblog.com
   - DOMAIN-SUFFIX,cnitblog.com
   - DOMAIN-SUFFIX,phpweblog.net
-  - DOMAIN-SUFFIX,me-sa.cnblogs.com
 # > Ctrip
   - DOMAIN-SUFFIX,chinatravel.net
   - DOMAIN-SUFFIX,ctrip.com
@@ -1176,6 +1175,20 @@ payload:
 # > Covacs
   - DOMAIN-SUFFIX,ecovacs.com
   - DOMAIN-SUFFIX,ecouser.net
+# > CSDN
+  - DOMAIN-SUFFIX,csdn.net
+  - DOMAIN-SUFFIX,csdn.com
+  - DOMAIN-SUFFIX,iteye.com
+  - DOMAIN-SUFFIX,csto.com
+  - DOMAIN-SUFFIX,gitcode.net
+  - DOMAIN-SUFFIX,inscode.cc
+  - DOMAIN-SUFFIX,inscode.run
+  - DOMAIN-SUFFIX,kaifayun.com
+  - DOMAIN-SUFFIX,codechina.net
+  - DOMAIN-SUFFIX,inscode.net
+  - DOMAIN-SUFFIX,topcto50.com
+  - DOMAIN-SUFFIX,qualcomm-challenge.com
+  - DOMAIN-SUFFIX,tinymind.com
 # > Dangbei
   - DOMAIN-SUFFIX,znds.com
   - DOMAIN-SUFFIX,dangbei.com
@@ -3016,3 +3029,4 @@ payload:
   - DOMAIN-SUFFIX,kukushouhou.com
   - DOMAIN-SUFFIX,ezhuji.com
   - DOMAIN-SUFFIX,dinghui.org
+emojiall.com
