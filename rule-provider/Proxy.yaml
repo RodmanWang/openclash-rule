@@ -100,6 +100,7 @@ payload:
 # > Coudflare
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflarestream.com
+  - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,pages.dev
   - DOMAIN-SUFFIX,imagedelivery.net
@@ -616,3 +617,9 @@ payload:
   - DOMAIN-SUFFIX,polyfill.io
   - DOMAIN-SUFFIX,coveo.com
   - DOMAIN-SUFFIX,fonts.net
+  - DOMAIN-SUFFIX,icon-icons.com
+  - DOMAIN-SUFFIX,dnschecker.org
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,sms-activate.org
+  - DOMAIN-SUFFIX,smspva.com
+  - DOMAIN-SUFFIX,proxydocker.com
