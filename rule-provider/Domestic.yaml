@@ -1180,6 +1180,8 @@ payload:
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,kuaidadi.com
   - DOMAIN-SUFFIX,udache.com
+# > Dingxiang-inc
+  - DOMAIN-SUFFIX,dingxiang-inc.com
 # > Douban
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,doubanio.com
@@ -1239,6 +1241,8 @@ payload:
   - DOMAIN-SUFFIX,globalsign.net
   - DOMAIN-SUFFIX,globalsigncdn.com
   - DOMAIN-SUFFIX,infodefend.com
+# > Gwdang
+  - DOMAIN-SUFFIX,gwdang.com
 # > Hikvision
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hik-online.com
@@ -1869,6 +1873,11 @@ payload:
   - DOMAIN-SUFFIX,qnlinking.com
   - DOMAIN-SUFFIX,qiniucs.com
   - DOMAIN-SUFFIX,cdnhub.net
+# > Qiumibao
+  - DOMAIN-SUFFIX,qiumibao.com
+  - DOMAIN-SUFFIX,qiumijia.com
+  - DOMAIN-SUFFIX,lanqiushuo.com
+  - DOMAIN-SUFFIX,188hi.com
 # > Xiaogou
   - DOMAIN-SUFFIX,xgdq.com
   - DOMAIN-SUFFIX,xiaogou555.com
@@ -2894,9 +2903,3 @@ payload:
   - DOMAIN-SUFFIX,58.com
   - DOMAIN-SUFFIX,58che.com
 # > Other
-  - DOMAIN-SUFFIX,qiumibao.com
-  - DOMAIN-SUFFIX,qiumijia.com
-  - DOMAIN-SUFFIX,lanqiushuo.com
-  - DOMAIN-SUFFIX,188hi.com
-  - DOMAIN-SUFFIX,gwdang.com
-  - DOMAIN-SUFFIX,dingxiang-inc.com
