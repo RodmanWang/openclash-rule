@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,agrd.io
+  - DOMAIN-SUFFIX,adtidy.org
 # > Adobe
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobe.net
