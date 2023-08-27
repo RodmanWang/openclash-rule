@@ -1268,6 +1268,12 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
+# > Edu
+  - DOMAIN-SUFFIX,cuplfil.com
+  - DOMAIN-SUFFIX,cuploeru.com
+  - DOMAIN-SUFFIX,cuplce.com
+  - DOMAIN-SUFFIX,cupldebate.com
+  - DOMAIN-SUFFIX,rcargol.com
 # > Feizhu
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
