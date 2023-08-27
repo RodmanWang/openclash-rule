@@ -1084,6 +1084,15 @@ payload:
   - DOMAIN-SUFFIX,chinaz.net
   - DOMAIN-SUFFIX,wangmeng.com
   - DOMAIN-SUFFIX,crsky.com
+# > Cnblogs
+  - DOMAIN-SUFFIX,cnblogs.com
+  - DOMAIN-SUFFIX,teachblog.net
+  - DOMAIN-SUFFIX,blogjava.net
+  - DOMAIN-SUFFIX,cnweblog.com
+  - DOMAIN-SUFFIX,cppblog.com
+  - DOMAIN-SUFFIX,cnitblog.com
+  - DOMAIN-SUFFIX,phpweblog.net
+  - DOMAIN-SUFFIX,me-sa.cnblogs.com
 # > Ctrip
   - DOMAIN-SUFFIX,chinatravel.net
   - DOMAIN-SUFFIX,ctrip.com
@@ -1620,6 +1629,7 @@ payload:
   - DOMAIN-SUFFIX,lanzouh.com
   - DOMAIN-SUFFIX,lanzous.com
   - DOMAIN-SUFFIX,lanzou.com
+  - DOMAIN-SUFFIX,lanzoue.com
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
@@ -1708,6 +1718,33 @@ payload:
 # > Mydrivers  
   - DOMAIN-SUFFIX,mydrivers.com
   - DOMAIN-SUFFIX,kkeji.com
+# > Mingfuyun
+  - DOMAIN-SUFFIX,p2pcdn.com
+  - DOMAIN-SUFFIX,mingfucloud.com
+  - DOMAIN-SUFFIX,xaidc.com
+  - DOMAIN-SUFFIX,meaningfulcloud.com
+  - DOMAIN-SUFFIX,mingfuyun.com
+  - DOMAIN-SUFFIX,cjjd08.com
+  - DOMAIN-SUFFIX,cjjd01.com
+  - DOMAIN-SUFFIX,cjjd09.com
+  - DOMAIN-SUFFIX,cjjd06.com
+  - DOMAIN-SUFFIX,cjjd15.com
+  - DOMAIN-SUFFIX,cjjd05.com
+  - DOMAIN-SUFFIX,cjjd07.com
+  - DOMAIN-SUFFIX,cjjd03.com
+  - DOMAIN-SUFFIX,mingfudns.com
+  - DOMAIN-SUFFIX,cjjd16.com
+  - DOMAIN-SUFFIX,cjjd19.com
+  - DOMAIN-SUFFIX,cjjd13.com
+  - DOMAIN-SUFFIX,cjjd12.com
+  - DOMAIN-SUFFIX,cjjd17.com
+  - DOMAIN-SUFFIX,cjjd14.com
+  - DOMAIN-SUFFIX,cjjd02.com
+  - DOMAIN-SUFFIX,cjjd04.com
+  - DOMAIN-SUFFIX,cjjd20.com
+  - DOMAIN-SUFFIX,cjjd18.com
+  - DOMAIN-SUFFIX,cjjd10.com
+  - DOMAIN-SUFFIX,cjjd11.com
 # > NetEase
   - DOMAIN-SUFFIX,126.am
   - DOMAIN-SUFFIX,126.com
@@ -2837,6 +2874,8 @@ payload:
   - DOMAIN-SUFFIX,haohuola.com
   - DOMAIN-SUFFIX,infinitybrowser.com
   - DOMAIN-SUFFIX,macfans.com
+# > Xinchacha
+  - DOMAIN-SUFFIX,xinchacha.com
 # > Zhibo8
   - DOMAIN-SUFFIX,zhibopi.com
   - DOMAIN-SUFFIX,zhibo8.cc
@@ -2849,6 +2888,8 @@ payload:
   - DOMAIN-SUFFIX,zhimg.com
   - DOMAIN-SUFFIX,yanyangushi.com
   - DOMAIN-SUFFIX,yanyanstory.com
+# > 123pan
+  - DOMAIN-SUFFIX,123pan.com
 # > 21
   - DOMAIN-SUFFIX,21cnsales.com
   - DOMAIN-SUFFIX,21cn.com
