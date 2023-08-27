@@ -476,7 +476,7 @@ payload:
 # > AMD
   - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,ati.com
-# > ali213
+# > Ali213
   - DOMAIN-SUFFIX,qu2345.com
   - DOMAIN-SUFFIX,fengyx.com
   - DOMAIN-SUFFIX,wy213.com
@@ -684,7 +684,7 @@ payload:
   - DOMAIN-SUFFIX,citicbank.com
   - DOMAIN-SUFFIX,citicbank.net
   - DOMAIN-SUFFIX,citicbank.org
-# > bilibili
+# > Bilibili
   - DOMAIN-KEYWORD,biliapi.
   - DOMAIN-KEYWORD,bilibili.
   - DOMAIN-KEYWORD,bilibilipay.
@@ -1121,6 +1121,9 @@ payload:
   - DOMAIN-SUFFIX,10010.net
   - DOMAIN-SUFFIX,cu5gaia.com
   - DOMAIN-SUFFIX,unicomvi.com
+# > Covacs
+  - DOMAIN-SUFFIX,ecovacs.com
+  - DOMAIN-SUFFIX,ecouser.net
 # > Dangbei
   - DOMAIN-SUFFIX,znds.com
   - DOMAIN-SUFFIX,dangbei.com
@@ -1213,17 +1216,6 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
-# > Covacs
-  - DOMAIN-SUFFIX,ecovacs.com
-  - DOMAIN-SUFFIX,ecouser.net
-# > xtfans
-  - DOMAIN-SUFFIX,extfans.com
-  - DOMAIN-SUFFIX,lemurbrowser.com
-  - DOMAIN-SUFFIX,infinitytab.com
-  - DOMAIN-SUFFIX,inftab.com
-  - DOMAIN-SUFFIX,haohuola.com
-  - DOMAIN-SUFFIX,infinitybrowser.com
-  - DOMAIN-SUFFIX,macfans.com
 # > Feizhu
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
@@ -1363,10 +1355,6 @@ payload:
   - IP-CIDR,203.135.43.0/24,no-resolve
   - IP-CIDR,203.135.48.0/24,no-resolve
   - IP-CIDR,203.135.50.0/24,no-resolve
-# > Lflytek
-  - DOMAIN-SUFFIX,iflyink.com
-  - DOMAIN-SUFFIX,iflyrec.com
-  - DOMAIN-SUFFIX,iflytek.com
 # > iQiyi
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,qy.com
@@ -1661,6 +1649,10 @@ payload:
   - DOMAIN-SUFFIX,r6cq.com
   - DOMAIN-SUFFIX,178fuwu.com
   - DOMAIN-SUFFIX,lvjian.net
+# > Lflytek
+  - DOMAIN-SUFFIX,iflyink.com
+  - DOMAIN-SUFFIX,iflyrec.com
+  - DOMAIN-SUFFIX,iflytek.com
 # > Meitu
   - DOMAIN-SUFFIX,meitu.com
   - DOMAIN-SUFFIX,meitudata.com
@@ -1827,92 +1819,6 @@ payload:
   - IP-CIDR,115.238.76.0/22,no-resolve
   - IP-CIDR,123.58.160.0/19,no-resolve
   - IP-CIDR,223.252.192.0/19,no-resolve
-# > Qiniu
-  - DOMAIN-SUFFIX,qiniu.com
-  - DOMAIN-SUFFIX,qbox.me
-  - DOMAIN-SUFFIX,qbox.net
-  - DOMAIN-SUFFIX,qiniutek.com
-  - DOMAIN-SUFFIX,qiniup.com
-  - DOMAIN-SUFFIX,qiniu.io
-  - DOMAIN-SUFFIX,qiniucc.com
-  - DOMAIN-SUFFIX,qiniuapi.com
-  - DOMAIN-SUFFIX,qiniurs.com
-  - DOMAIN-SUFFIX,qiniug.com
-  - DOMAIN-SUFFIX,qiniudns.com
-  - DOMAIN-SUFFIX,qiniupkg.com
-  - DOMAIN-SUFFIX,doxygen.io
-  - DOMAIN-SUFFIX,qiniu.org
-  - DOMAIN-SUFFIX,qiniu.in
-  - DOMAIN-SUFFIX,qiniudns2.com
-  - DOMAIN-SUFFIX,qiniu.us
-  - DOMAIN-SUFFIX,qnssl.com
-  - DOMAIN-SUFFIX,staticfile.org
-  - DOMAIN-SUFFIX,qiniu-solutions.com
-  - DOMAIN-SUFFIX,qiniu-enterprise.com
-  - DOMAIN-SUFFIX,cloudvdn.com
-  - DOMAIN-SUFFIX,pilidns.com
-  - DOMAIN-SUFFIX,qiniudns.net
-  - DOMAIN-SUFFIX,qnydns.net
-  - DOMAIN-SUFFIX,qnydns.com
-  - DOMAIN-SUFFIX,cloudappl.com
-  - DOMAIN-SUFFIX,qnfcdn.com
-  - DOMAIN-SUFFIX,qiniucloud.net
-  - DOMAIN-SUFFIX,atlab.ai
-  - DOMAIN-SUFFIX,qiniukodo.com
-  - DOMAIN-SUFFIX,kirkcloud.com
-  - DOMAIN-SUFFIX,qibox.com
-  - DOMAIN-SUFFIX,qiniuinc.com
-  - DOMAIN-SUFFIX,qiniuimg.com
-  - DOMAIN-SUFFIX,qiniublob.com
-  - DOMAIN-SUFFIX,qiniuapp.com
-  - DOMAIN-SUFFIX,qiniu.work
-  - DOMAIN-SUFFIX,qiniu.co
-  - DOMAIN-SUFFIX,fusionappl.com
-  - DOMAIN-SUFFIX,everbox.net
-  - DOMAIN-SUFFIX,niuclass.net
-  - DOMAIN-SUFFIX,qnlinking.com
-  - DOMAIN-SUFFIX,qiniucs.com
-  - DOMAIN-SUFFIX,cdnhub.net
-# > Qiumibao
-  - DOMAIN-SUFFIX,qiumibao.com
-  - DOMAIN-SUFFIX,qiumijia.com
-  - DOMAIN-SUFFIX,lanqiushuo.com
-  - DOMAIN-SUFFIX,188hi.com
-# > Xiaogou
-  - DOMAIN-SUFFIX,xgdq.com
-  - DOMAIN-SUFFIX,xiaogou555.com
-  - DOMAIN-SUFFIX,xiaogou888.com
-  - DOMAIN-SUFFIX,xiaogou999.com
-  - DOMAIN-SUFFIX,puppy888.com
-  - DOMAIN-SUFFIX,xiaogou666.com
-  - DOMAIN-SUFFIX,xiaogou777.com
-  - DOMAIN-SUFFIX,xiaogouds.com
-  - DOMAIN-SUFFIX,8moom.com
-  - DOMAIN-SUFFIX,xiaogou111.com
-  - DOMAIN-SUFFIX,xiaogou333.com
-  - DOMAIN-SUFFIX,xiaogou444.com
-  - DOMAIN-SUFFIX,xiaogou222.com
-  - DOMAIN-SUFFIX,moomv.com
-  - DOMAIN-SUFFIX,zhongyangweixiu.com
-  - DOMAIN-SUFFIX,xiaogouzhineng.com
-  - DOMAIN-SUFFIX,xgdqsn.com
-# > YYeTs
-  - DOMAIN-SUFFIX,jstucdn.com
-  - DOMAIN-SUFFIX,got001.com
-  - DOMAIN-SUFFIX,p4pfile.com
-  - DOMAIN-SUFFIX,rrys.tv
-  - DOMAIN-SUFFIX,rrys2020.com
-  - DOMAIN-SUFFIX,yyets.com
-  - DOMAIN-SUFFIX,zimuzu.io
-  - DOMAIN-SUFFIX,zimuzu.tv
-  - DOMAIN-SUFFIX,zmz001.com
-  - DOMAIN-SUFFIX,zmz002.com
-  - DOMAIN-SUFFIX,zmz003.com
-  - DOMAIN-SUFFIX,zmz004.com
-  - DOMAIN-SUFFIX,zmz2019.com
-  - DOMAIN-SUFFIX,zmzapi.com
-  - DOMAIN-SUFFIX,zmzapi.net
-  - DOMAIN-SUFFIX,zmzfile.com
 # > PPTV、PPLive
   - DOMAIN-SUFFIX,pplive.com
   - DOMAIN-SUFFIX,pptv.com
@@ -1964,6 +1870,57 @@ payload:
   - DOMAIN-SUFFIX,biaozhaozhao.com
   - DOMAIN-SUFFIX,qcc.cn
   - DOMAIN-SUFFIX,qcckyc.com
+# > Qiniu
+  - DOMAIN-SUFFIX,qiniu.com
+  - DOMAIN-SUFFIX,qbox.me
+  - DOMAIN-SUFFIX,qbox.net
+  - DOMAIN-SUFFIX,qiniutek.com
+  - DOMAIN-SUFFIX,qiniup.com
+  - DOMAIN-SUFFIX,qiniu.io
+  - DOMAIN-SUFFIX,qiniucc.com
+  - DOMAIN-SUFFIX,qiniuapi.com
+  - DOMAIN-SUFFIX,qiniurs.com
+  - DOMAIN-SUFFIX,qiniug.com
+  - DOMAIN-SUFFIX,qiniudns.com
+  - DOMAIN-SUFFIX,qiniupkg.com
+  - DOMAIN-SUFFIX,doxygen.io
+  - DOMAIN-SUFFIX,qiniu.org
+  - DOMAIN-SUFFIX,qiniu.in
+  - DOMAIN-SUFFIX,qiniudns2.com
+  - DOMAIN-SUFFIX,qiniu.us
+  - DOMAIN-SUFFIX,qnssl.com
+  - DOMAIN-SUFFIX,staticfile.org
+  - DOMAIN-SUFFIX,qiniu-solutions.com
+  - DOMAIN-SUFFIX,qiniu-enterprise.com
+  - DOMAIN-SUFFIX,cloudvdn.com
+  - DOMAIN-SUFFIX,pilidns.com
+  - DOMAIN-SUFFIX,qiniudns.net
+  - DOMAIN-SUFFIX,qnydns.net
+  - DOMAIN-SUFFIX,qnydns.com
+  - DOMAIN-SUFFIX,cloudappl.com
+  - DOMAIN-SUFFIX,qnfcdn.com
+  - DOMAIN-SUFFIX,qiniucloud.net
+  - DOMAIN-SUFFIX,atlab.ai
+  - DOMAIN-SUFFIX,qiniukodo.com
+  - DOMAIN-SUFFIX,kirkcloud.com
+  - DOMAIN-SUFFIX,qibox.com
+  - DOMAIN-SUFFIX,qiniuinc.com
+  - DOMAIN-SUFFIX,qiniuimg.com
+  - DOMAIN-SUFFIX,qiniublob.com
+  - DOMAIN-SUFFIX,qiniuapp.com
+  - DOMAIN-SUFFIX,qiniu.work
+  - DOMAIN-SUFFIX,qiniu.co
+  - DOMAIN-SUFFIX,fusionappl.com
+  - DOMAIN-SUFFIX,everbox.net
+  - DOMAIN-SUFFIX,niuclass.net
+  - DOMAIN-SUFFIX,qnlinking.com
+  - DOMAIN-SUFFIX,qiniucs.com
+  - DOMAIN-SUFFIX,cdnhub.net
+# > Qiumibao
+  - DOMAIN-SUFFIX,qiumibao.com
+  - DOMAIN-SUFFIX,qiumijia.com
+  - DOMAIN-SUFFIX,lanqiushuo.com
+  - DOMAIN-SUFFIX,188hi.com
 # > SamSung
   - DOMAIN-SUFFIX,samsung.com
   - DOMAIN-SUFFIX,samsungchina.cc
@@ -2009,6 +1966,62 @@ payload:
   - DOMAIN-SUFFIX,samsungcic.com
   - DOMAIN-SUFFIX,seagulllocker.com
   - DOMAIN-SUFFIX,srcgsre.com
+# > Scholar
+  - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,aip.org
+  - DOMAIN-SUFFIX,ams.org
+  - DOMAIN-SUFFIX,annualreviews.org
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,asm.org
+  - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,astm.org
+  - DOMAIN-SUFFIX,bmj.com
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,cas.org
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,emerald.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,icevirtuallibrary.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,imf.org
+  - DOMAIN-SUFFIX,iop.org
+  - DOMAIN-SUFFIX,jamanetwork.com
+  - DOMAIN-SUFFIX,jhu.edu
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,karger.com
+  - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,mpg.de
+  - DOMAIN-SUFFIX,myilibrary.com
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,oecd-ilibrary.org
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,ovid.com
+  - DOMAIN-SUFFIX,oxfordartonline.com
+  - DOMAIN-SUFFIX,oxfordbibliographies.com
+  - DOMAIN-SUFFIX,oxfordmusiconline.com
+  - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN-SUFFIX,proquest.com
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,spiedigitallibrary.org
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springerlink.com
+  - DOMAIN-SUFFIX,tandfonline.com
+  - DOMAIN-SUFFIX,un.org
+  - DOMAIN-SUFFIX,uni-bielefeld.de
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,westlaw.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,worldbank.org
+  - DOMAIN-SUFFIX,worldscientific.com
 # > Sina
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,wapone.net
@@ -2094,6 +2107,16 @@ payload:
   - DOMAIN-SUFFIX,sony.com
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
   - DOMAIN-SUFFIX,worldpay.com
+# > SoftDown
+  - DOMAIN-SUFFIX,downga.com
+  - DOMAIN-SUFFIX,downg0.com
+  - DOMAIN-SUFFIX,423down.com
+# > Softether
+  - DOMAIN-SUFFIX,softether-network.net
+  - DOMAIN-SUFFIX,softether.co.jp
+  - DOMAIN-SUFFIX,flets-east.jp
+  - DOMAIN-SUFFIX,flets-west.jp
+  - DOMAIN-SUFFIX,ddns.uxcom.jp
 # > Sports
   - DOMAIN-KEYWORD,zhiboche.
 # > Speed Test
@@ -2101,72 +2124,6 @@ payload:
   - DOMAIN,speedtest.macpaw.com
   - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,speedtest.net
-# > Scholar
-  - DOMAIN-SUFFIX,acm.org
-  - DOMAIN-SUFFIX,acs.org
-  - DOMAIN-SUFFIX,aip.org
-  - DOMAIN-SUFFIX,ams.org
-  - DOMAIN-SUFFIX,annualreviews.org
-  - DOMAIN-SUFFIX,aps.org
-  - DOMAIN-SUFFIX,ascelibrary.org
-  - DOMAIN-SUFFIX,asm.org
-  - DOMAIN-SUFFIX,asme.org
-  - DOMAIN-SUFFIX,astm.org
-  - DOMAIN-SUFFIX,bmj.com
-  - DOMAIN-SUFFIX,cambridge.org
-  - DOMAIN-SUFFIX,cas.org
-  - DOMAIN-SUFFIX,clarivate.com
-  - DOMAIN-SUFFIX,ebscohost.com
-  - DOMAIN-SUFFIX,emerald.com
-  - DOMAIN-SUFFIX,engineeringvillage.com
-  - DOMAIN-SUFFIX,icevirtuallibrary.com
-  - DOMAIN-SUFFIX,ieee.org
-  - DOMAIN-SUFFIX,imf.org
-  - DOMAIN-SUFFIX,iop.org
-  - DOMAIN-SUFFIX,jamanetwork.com
-  - DOMAIN-SUFFIX,jhu.edu
-  - DOMAIN-SUFFIX,jstor.org
-  - DOMAIN-SUFFIX,karger.com
-  - DOMAIN-SUFFIX,libguides.com
-  - DOMAIN-SUFFIX,mpg.de
-  - DOMAIN-SUFFIX,myilibrary.com
-  - DOMAIN-SUFFIX,nature.com
-  - DOMAIN-SUFFIX,oecd-ilibrary.org
-  - DOMAIN-SUFFIX,osapublishing.org
-  - DOMAIN-SUFFIX,oup.com
-  - DOMAIN-SUFFIX,ovid.com
-  - DOMAIN-SUFFIX,oxfordartonline.com
-  - DOMAIN-SUFFIX,oxfordbibliographies.com
-  - DOMAIN-SUFFIX,oxfordmusiconline.com
-  - DOMAIN-SUFFIX,pnas.org
-  - DOMAIN-SUFFIX,proquest.com
-  - DOMAIN-SUFFIX,rsc.org
-  - DOMAIN-SUFFIX,sagepub.com
-  - DOMAIN-SUFFIX,sciencedirect.com
-  - DOMAIN-SUFFIX,sciencemag.org
-  - DOMAIN-SUFFIX,scopus.com
-  - DOMAIN-SUFFIX,siam.org
-  - DOMAIN-SUFFIX,spiedigitallibrary.org
-  - DOMAIN-SUFFIX,springer.com
-  - DOMAIN-SUFFIX,springerlink.com
-  - DOMAIN-SUFFIX,tandfonline.com
-  - DOMAIN-SUFFIX,un.org
-  - DOMAIN-SUFFIX,uni-bielefeld.de
-  - DOMAIN-SUFFIX,webofknowledge.com
-  - DOMAIN-SUFFIX,westlaw.com
-  - DOMAIN-SUFFIX,wiley.com
-  - DOMAIN-SUFFIX,worldbank.org
-  - DOMAIN-SUFFIX,worldscientific.com
-# > Softether
-  - DOMAIN-SUFFIX,softether-network.net
-  - DOMAIN-SUFFIX,softether.co.jp
-  - DOMAIN-SUFFIX,flets-east.jp
-  - DOMAIN-SUFFIX,flets-west.jp
-  - DOMAIN-SUFFIX,ddns.uxcom.jp
-# > Soft
-  - DOMAIN-SUFFIX,downga.com
-  - DOMAIN-SUFFIX,downg0.com
-  - DOMAIN-SUFFIX,423down.com
 # > Tencent
   - DOMAIN-KEYWORD,accessibility-union.
   - DOMAIN-KEYWORD,accessibilityunion.
@@ -2803,6 +2760,41 @@ payload:
   - DOMAIN-SUFFIX,xlyouxi.net
   - DOMAIN-SUFFIX,xunlei.com
   - DOMAIN-SUFFIX,xunlei.net
+# > Xiaogou
+  - DOMAIN-SUFFIX,xgdq.com
+  - DOMAIN-SUFFIX,xiaogou555.com
+  - DOMAIN-SUFFIX,xiaogou888.com
+  - DOMAIN-SUFFIX,xiaogou999.com
+  - DOMAIN-SUFFIX,puppy888.com
+  - DOMAIN-SUFFIX,xiaogou666.com
+  - DOMAIN-SUFFIX,xiaogou777.com
+  - DOMAIN-SUFFIX,xiaogouds.com
+  - DOMAIN-SUFFIX,8moom.com
+  - DOMAIN-SUFFIX,xiaogou111.com
+  - DOMAIN-SUFFIX,xiaogou333.com
+  - DOMAIN-SUFFIX,xiaogou444.com
+  - DOMAIN-SUFFIX,xiaogou222.com
+  - DOMAIN-SUFFIX,moomv.com
+  - DOMAIN-SUFFIX,zhongyangweixiu.com
+  - DOMAIN-SUFFIX,xiaogouzhineng.com
+  - DOMAIN-SUFFIX,xgdqsn.com
+# > YYeTs
+  - DOMAIN-SUFFIX,jstucdn.com
+  - DOMAIN-SUFFIX,got001.com
+  - DOMAIN-SUFFIX,p4pfile.com
+  - DOMAIN-SUFFIX,rrys.tv
+  - DOMAIN-SUFFIX,rrys2020.com
+  - DOMAIN-SUFFIX,yyets.com
+  - DOMAIN-SUFFIX,zimuzu.io
+  - DOMAIN-SUFFIX,zimuzu.tv
+  - DOMAIN-SUFFIX,zmz001.com
+  - DOMAIN-SUFFIX,zmz002.com
+  - DOMAIN-SUFFIX,zmz003.com
+  - DOMAIN-SUFFIX,zmz004.com
+  - DOMAIN-SUFFIX,zmz2019.com
+  - DOMAIN-SUFFIX,zmzapi.com
+  - DOMAIN-SUFFIX,zmzapi.net
+  - DOMAIN-SUFFIX,zmzfile.com
  # > Youku
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,ykimg.com
@@ -2820,12 +2812,20 @@ payload:
   - DOMAIN-SUFFIX,kumiao.tv
   - DOMAIN-SUFFIX,wenyupages.com
   - DOMAIN-SUFFIX,gamenow.club
-# > ys168
+# > Ys168
   - DOMAIN-SUFFIX,ys168.com
   - DOMAIN-SUFFIX,ys-168.com
   - DOMAIN-SUFFIX,uepan.com
   - DOMAIN-SUFFIX,cccpan.com
-# > zhibo8
+# > Xtfans
+  - DOMAIN-SUFFIX,extfans.com
+  - DOMAIN-SUFFIX,lemurbrowser.com
+  - DOMAIN-SUFFIX,infinitytab.com
+  - DOMAIN-SUFFIX,inftab.com
+  - DOMAIN-SUFFIX,haohuola.com
+  - DOMAIN-SUFFIX,infinitybrowser.com
+  - DOMAIN-SUFFIX,macfans.com
+# > Zhibo8
   - DOMAIN-SUFFIX,zhibopi.com
   - DOMAIN-SUFFIX,zhibo8.cc
   - DOMAIN-SUFFIX,wanjiashe.com
