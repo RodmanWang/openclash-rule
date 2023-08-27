@@ -930,6 +930,17 @@ payload:
   - DOMAIN-SUFFIX,chinahsly.com
   - DOMAIN-SUFFIX,cctvxtxd.com
   - DOMAIN-SUFFIX,livechina.com
+# > CECDC
+  - DOMAIN-SUFFIX,cecdc.com
+  - DOMAIN-SUFFIX,szfw.org
+  - DOMAIN-SUFFIX,cecdc.net
+  - DOMAIN-SUFFIX,cecdc.org
+  - DOMAIN-SUFFIX,cxwz.org
+  - DOMAIN-SUFFIX,tianyant.com
+  - DOMAIN-SUFFIX,honestchina.net	
+  - DOMAIN-SUFFIX,panshizhaopin.com
+  - DOMAIN-SUFFIX,cdslm.org
+  - DOMAIN-SUFFIX,bjpanshi.com
 # > Chinalife
   - DOMAIN-SUFFIX,gpic-sslvpn.com
   - DOMAIN-SUFFIX,e-chinalife.com
@@ -2084,6 +2095,7 @@ payload:
   - DOMAIN-SUFFIX,faxianpindao.com
   - DOMAIN-SUFFIX,smzdm.com
   - DOMAIN-SUFFIX,smzdmimg.com
+  - DOMAIN-SUFFIX,zdmimg.com
   - DOMAIN-SUFFIX,quaolai.com
   - DOMAIN-SUFFIX,wanwuzhinan.com
   - DOMAIN-SUFFIX,valueq-sea.com
@@ -2832,6 +2844,11 @@ payload:
   - DOMAIN-SUFFIX,zhibo8.com
   - DOMAIN-SUFFIX,mylivecdn.com
   - DOMAIN-SUFFIX,duoduocdn.com
+# > Zhihu
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN-SUFFIX,yanyangushi.com
+  - DOMAIN-SUFFIX,yanyanstory.com
 # > 21
   - DOMAIN-SUFFIX,21cnsales.com
   - DOMAIN-SUFFIX,21cn.com
@@ -2905,3 +2922,4 @@ payload:
   - DOMAIN-SUFFIX,58.com
   - DOMAIN-SUFFIX,58che.com
 # > Other
+  - DOMAIN-SUFFIX,soboten.com
