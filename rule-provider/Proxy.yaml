@@ -200,6 +200,11 @@ payload:
   - IP-CIDR,204.15.20.0/22,no-resolve
   - IP-CIDR6,2404:6800::/32,no-resolve
   - IP-CIDR6,2404:6800:4008::/48,no-resolve
+# > GenRocket
+  - DOMAIN-SUFFIX,helplook.net
+  - DOMAIN-SUFFIX,partnersales.net
+  - DOMAIN-SUFFIX,partnershare.net
+  - DOMAIN-SUFFIX,partnershare.com
 # > Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
@@ -573,3 +578,5 @@ payload:
   - DOMAIN-KEYWORD,yandex.
   - DOMAIN-SUFFIX,yastatic.net
 # > Other
+  - DOMAIN-SUFFIX,himg.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
