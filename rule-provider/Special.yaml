@@ -86,10 +86,8 @@ payload:
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
 # > Game
-  - DOMAIN-SUFFIX,cdn2-prod-cfn.akamaized.net
   - DOMAIN-SUFFIX,cdn.gamefuel.info
   - DOMAIN-SUFFIX,fallguys-assets.gamefuel.info
-  - DOMAIN-KEYWORD,cdn3.2ksports.com
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > Umeng
