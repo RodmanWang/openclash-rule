@@ -2964,3 +2964,5 @@ payload:
   - DOMAIN-SUFFIX,58che.com
 # > Other
   - DOMAIN-SUFFIX,soboten.com
+  - DOMAIN-SUFFIX,wordpress.com
+  - DOMAIN-SUFFIX,docsbot.ai
