@@ -566,6 +566,7 @@ payload:
   - DOMAIN-SUFFIX,greencloudvps.com
   - DOMAIN-SUFFIX,misaka.io
   - DOMAIN-SUFFIX,misaka2.net
+  - DOMAIN-SUFFIX,cccat.io
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,vmware.tt.omtrdc.net
@@ -636,3 +637,7 @@ payload:
   - DOMAIN-SUFFIX,zdassets.com
   - DOMAIN-SUFFIX,jquery.com
   - DOMAIN-SUFFIX,gebi1.com
+  - DOMAIN-SUFFIX,caddyserver.com
+  - DOMAIN-SUFFIX,v1.mk
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-SUFFIX,tawk.to
