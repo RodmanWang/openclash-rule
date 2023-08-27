@@ -1201,7 +1201,7 @@ payload:
 # > Covacs
   - DOMAIN-SUFFIX,ecovacs.com
   - DOMAIN-SUFFIX,ecouser.net
-# >Extfans
+# > xtfans
   - DOMAIN-SUFFIX,extfans.com
   - DOMAIN-SUFFIX,lemurbrowser.com
   - DOMAIN-SUFFIX,infinitytab.com
@@ -1213,11 +1213,12 @@ payload:
   - DOMAIN-SUFFIX,feizhu.com
   - DOMAIN-SUFFIX,fliggy.com
   - DOMAIN-SUFFIX,alitrip.com
-# > GoogleCN
-  - DOMAIN-SUFFIX,googlenav.com
-  - DOMAIN-SUFFIX,googlevoice.org
-  - DOMAIN-SUFFIX,googlefonts.net
-  - DOMAIN-SUFFIX,fonts.gstatic.font.im  
+# > Geetest
+  - DOMAIN-SUFFIX,geetest.com
+  - DOMAIN-SUFFIX,gtapp.xyz
+  - DOMAIN-SUFFIX,geevisit.com
+  - DOMAIN-SUFFIX,gsensebot.com
+  - DOMAIN-SUFFIX,rebuildtraffic.com
 # > Hikvision
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hik-online.com
@@ -1604,6 +1605,24 @@ payload:
   - DOMAIN-SUFFIX,letvimg.com
   - DOMAIN-SUFFIX,letvlive.com
   - DOMAIN-SUFFIX,letvstore.com
+# > Leju
+  - DOMAIN-SUFFIX,leju.com
+  - DOMAIN-SUFFIX,fangdudu.com
+  - DOMAIN-SUFFIX,quanup.com
+  - DOMAIN-SUFFIX,xhaiwai.com
+  - DOMAIN-SUFFIX,91leju.net
+  - DOMAIN-SUFFIX,dichan.com
+  - DOMAIN-SUFFIX,dichan.net
+  - DOMAIN-SUFFIX,yiqisooimg.com
+  - DOMAIN-SUFFIX,jiajuimg.com
+  - DOMAIN-SUFFIX,ljimg.com
+  - DOMAIN-SUFFIX,sousea.com
+  - DOMAIN-SUFFIX,houseimg.com
+  - DOMAIN-SUFFIX,ileju.com
+  - DOMAIN-SUFFIX,esfimg.com
+  - DOMAIN-SUFFIX,xhwhouse.com
+  - DOMAIN-SUFFIX,winfang.com
+  - DOMAIN-SUFFIX,fangyou.com
 # > LG(CN)
   - DOMAIN-SUFFIX,lg.com
   - DOMAIN-SUFFIX,lge.com
@@ -1911,6 +1930,15 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,trontv.com
+# > Qichacha
+  - DOMAIN-SUFFIX,qcc.com
+  - DOMAIN-SUFFIX,qichacha.com
+  - DOMAIN-SUFFIX,qichacha.net
+  - DOMAIN-SUFFIX,qichacha.co
+  - DOMAIN-SUFFIX,greatld.com
+  - DOMAIN-SUFFIX,biaozhaozhao.com
+  - DOMAIN-SUFFIX,qcc.cn
+  - DOMAIN-SUFFIX,qcckyc.com
 # > SamSung
   - DOMAIN-SUFFIX,samsung.com
   - DOMAIN-SUFFIX,samsungchina.cc
