@@ -50,14 +50,6 @@ payload:
   - IP-CIDR,54.245.128.0/17,no-resolve
   - IP-CIDR,108.138.88.0/21,no-resolve
   - IP-CIDR6,2600:9000:2135::/48,no-resolve
-# > Android
-  - DOMAIN-SUFFIX,apkpure.com
-  - DOMAIN-SUFFIX,apk-dl.com
-  - DOMAIN-SUFFIX,apkfind.com
-  - DOMAIN-SUFFIX,apkmirror.com
-  - DOMAIN-SUFFIX,memberful.com
-  - DOMAIN-SUFFIX,apkmonk.com
-  - DOMAIN-SUFFIX,aapks.com
 # > Apple
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,appleid.apple.com
@@ -528,6 +520,14 @@ payload:
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
 # > SoftDown
+  - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,apk-dl.com
+  - DOMAIN-SUFFIX,apkfind.com
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,memberful.com
+  - DOMAIN-SUFFIX,apkmonk.com
+  - DOMAIN-SUFFIX,aapks.com
+  - DOMAIN-SUFFIX,fosshub.com
   - DOMAIN-SUFFIX,greasyfork.org
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
