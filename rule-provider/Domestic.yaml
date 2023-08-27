@@ -494,6 +494,13 @@ payload:
   - DOMAIN-SUFFIX,acmlife.org
 # > Akamai JP
   - IP-CIDR,23.44.51.0/24,no-resolve
+# > A9vg
+  - DOMAIN-SUFFIX,a9vg.com
+  - DOMAIN-SUFFIX,tgbus.com
+  - DOMAIN-SUFFIX,dospy.com
+  - DOMAIN-SUFFIX,psnine.com
+  - DOMAIN-SUFFIX,stargame.com
+  - DOMAIN-SUFFIX,dianwanbus.net
 # > Baidu
   - DOMAIN-KEYWORD,baidu-
   - DOMAIN-KEYWORD,baidu.
