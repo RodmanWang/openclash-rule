@@ -206,7 +206,10 @@ payload:
   - DOMAIN-SUFFIX,partnersales.net
   - DOMAIN-SUFFIX,partnershare.net
   - DOMAIN-SUFFIX,partnershare.com
-# > Github
+# > Certificate
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,letsencrypt.org
+  # > Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
   - DOMAIN-SUFFIX,githubapp.com
@@ -584,6 +587,4 @@ payload:
   - DOMAIN-SUFFIX,himg.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,hifini.com
-  - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,abetterinternet.org
-  - DOMAIN-SUFFIX,letsencrypt.org
