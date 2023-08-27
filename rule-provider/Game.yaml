@@ -19,8 +19,6 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,steamserver.net
-# > xbox
-  - DOMAIN-SUFFIX,xboxlive.com
 # > PUBG Asia & Southeast Asia
   - DOMAIN-SUFFIX,pubgha.com
   - DOMAIN-SUFFIX,battleye.com
