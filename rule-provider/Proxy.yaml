@@ -516,6 +516,8 @@ payload:
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
+# > Soft
+  - DOMAIN-SUFFIX,greasyfork.org
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
@@ -582,3 +584,6 @@ payload:
   - DOMAIN-SUFFIX,himg.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,hifini.com
+  - DOMAIN-SUFFIX,lencr.org
+  - DOMAIN-SUFFIX,abetterinternet.org
+  - DOMAIN-SUFFIX,letsencrypt.org
