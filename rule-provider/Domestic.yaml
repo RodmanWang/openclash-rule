@@ -909,6 +909,30 @@ payload:
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
+# > Bootcdn
+  - DOMAIN-SUFFIX,7wan8.com
+  - DOMAIN-SUFFIX,8du.cc
+  - DOMAIN-SUFFIX,ajstat.net
+  - DOMAIN-SUFFIX,bootcdn.net
+  - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,dadui.com
+  - DOMAIN-SUFFIX,dadui.net
+  - DOMAIN-SUFFIX,daluoyang.com
+  - DOMAIN-SUFFIX,duanhun.com
+  - DOMAIN-SUFFIX,enaifuqi.com
+  - DOMAIN-SUFFIX,fuqienai.com
+  - DOMAIN-SUFFIX,jiumeng.com
+  - DOMAIN-SUFFIX,jiumeng.net
+  - DOMAIN-SUFFIX,liqinghui.com
+  - DOMAIN-SUFFIX,lyshufa.com
+  - DOMAIN-SUFFIX,niufen.com
+  - DOMAIN-SUFFIX,rosestory.net
+  - DOMAIN-SUFFIX,tongcn.com
+  - DOMAIN-SUFFIX,xiangxiaqinqi.com
+  - DOMAIN-SUFFIX,yangdui.com
+  - DOMAIN-SUFFIX,yfanpa.com
+  - DOMAIN-SUFFIX,zitian.net
+  - DOMAIN-SUFFIX,zitianidc.com
 # > Canon
   - DOMAIN-SUFFIX,canon.com
   - DOMAIN-SUFFIX,c-wss.com
@@ -2979,3 +3003,6 @@ payload:
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN-SUFFIX,dbmer.com
   - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,imnks.com
+  - DOMAIN-SUFFIX,panda995.xyz
+  - DOMAIN-SUFFIX,gxnas.com
