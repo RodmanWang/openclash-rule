@@ -2809,6 +2809,7 @@ payload:
   - DOMAIN-SUFFIX,qhupdate.com
   - DOMAIN-SUFFIX,qhmsg.com
   - DOMAIN-SUFFIX,qhsetup.com
+  - DOMAIN-SUFFIX,qhimg.com
   - DOMAIN-SUFFIX,qh-lb.com
   - DOMAIN-SUFFIX,qhcdn.com
   - DOMAIN-SUFFIX,qss-lb.com
