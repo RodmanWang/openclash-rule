@@ -476,6 +476,7 @@ payload:
 # > AMD
   - DOMAIN-SUFFIX,amd.com
   - DOMAIN-SUFFIX,ati.com
+  - DOMAIN-SUFFIX,xilinx.com
 # > Ali213
   - DOMAIN-SUFFIX,qu2345.com
   - DOMAIN-SUFFIX,fengyx.com
