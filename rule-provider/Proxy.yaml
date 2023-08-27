@@ -610,3 +610,5 @@ payload:
   - DOMAIN-SUFFIX,abetterinternet.org
   - DOMAIN-SUFFIX,zdassets.com
   - DOMAIN-SUFFIX,cookielaw.org
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,polyfill.io
