@@ -77,9 +77,13 @@ payload:
   - DOMAIN-SUFFIX,bt529.com
   - DOMAIN-SUFFIX,bt5298.com
   - DOMAIN-SUFFIX,btdig.com
+  - DOMAIN-SUFFIX,btdig.com
   - DOMAIN-SUFFIX,proxyrarbg.org
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,rarbgprx.org
+  - DOMAIN-SUFFIX,torrentbay.net
+  - DOMAIN-SUFFIX,unblockit.mov
+  - DOMAIN-SUFFIX,unblockit.vegas
 # > CDN
   - DOMAIN-SUFFIX,cdn.annnibb.me
   - DOMAIN-SUFFIX,cdn.iframe.ly
@@ -435,6 +439,11 @@ payload:
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
   - DOMAIN-SUFFIX,settings-win.data.microsoft.com
   - DOMAIN-SUFFIX,slscr.update.microsoft.com
+# > Media
+  - DOMAIN-SUFFIX,cnlang.org
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,zmk.pw
 # > NTP
   - DOMAIN-SUFFIX,ntppool.org
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -529,6 +538,9 @@ payload:
   - DOMAIN-SUFFIX,aapks.com
   - DOMAIN-SUFFIX,fosshub.com
   - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-SUFFIX,7-zip.org
+  - DOMAIN-SUFFIX,f-droid.org
+  - DOMAIN-SUFFIX,crx4chrome.com
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
