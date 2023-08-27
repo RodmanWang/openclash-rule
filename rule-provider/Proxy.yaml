@@ -207,6 +207,7 @@ payload:
   - DOMAIN-SUFFIX,partnershare.net
   - DOMAIN-SUFFIX,partnershare.com
 # > Certificate
+  - DOMAIN-SUFFIX,rapidssl.com
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,letsencrypt.org
   # > Github
