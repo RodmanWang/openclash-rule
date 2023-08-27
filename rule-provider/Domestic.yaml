@@ -2152,6 +2152,10 @@ payload:
   - DOMAIN-SUFFIX,flets-east.jp
   - DOMAIN-SUFFIX,flets-west.jp
   - DOMAIN-SUFFIX,ddns.uxcom.jp
+# > Soft
+  - DOMAIN-SUFFIX,downga.com
+  - DOMAIN-SUFFIX,downg0.com
+  - DOMAIN-SUFFIX,423down.com
 # > Tencent
   - DOMAIN-KEYWORD,accessibility-union.
   - DOMAIN-KEYWORD,accessibilityunion.
@@ -2759,33 +2763,35 @@ payload:
   - DOMAIN-SUFFIX,ximalaya.com
   - DOMAIN-SUFFIX,xmcdn.com
 # > Xunlei
-  - DOMAIN-SUFFIX,xlisp.net
-  - DOMAIN-SUFFIX,n0808.com
-  - DOMAIN-SUFFIX,geilijiasu.com
-  - DOMAIN-SUFFIX,geilijiasu.net
+  - DOMAIN-SUFFIX,00cdn.com
   - DOMAIN-SUFFIX,155.com
   - DOMAIN-SUFFIX,2sonar.com
   - DOMAIN-SUFFIX,88cdn.com
-  - DOMAIN-SUFFIX,00cdn.com
-  - DOMAIN-SUFFIX,p2cdn.com
-  - DOMAIN-SUFFIX,thundercdn.com
-  - DOMAIN-SUFFIX,szxlxzb.com
   - DOMAIN-SUFFIX,fontong.com
-  - DOMAIN-SUFFIX,thunderurl.com
-  - DOMAIN-SUFFIX,xlyouxi.net
+  - DOMAIN-SUFFIX,geilijiasu.com
+  - DOMAIN-SUFFIX,geilijiasu.net
+  - DOMAIN-SUFFIX,gigaget.com
+  - DOMAIN-SUFFIX,ibangtiao.com
   - DOMAIN-SUFFIX,kanimg.com
   - DOMAIN-SUFFIX,kankan.com
-  - DOMAIN-SUFFIX,sandai.net
-  - DOMAIN-SUFFIX,xunlei.com
-  - DOMAIN-SUFFIX,gigaget.com
-  - DOMAIN-SUFFIX,xlpan.com
-  - DOMAIN-SUFFIX,sjzhushou.com
+  - DOMAIN-SUFFIX,n0808.com
   - DOMAIN-SUFFIX,newvr.com
-  - DOMAIN-SUFFIX,xunlei.net
-  - DOMAIN-SUFFIX,xcloudbase.com
-  - DOMAIN-SUFFIX,xbase.xyz
+  - DOMAIN-SUFFIX,p2cdn.com
+  - DOMAIN-SUFFIX,sandai.net
+  - DOMAIN-SUFFIX,sjzhushou.com
+  - DOMAIN-SUFFIX,sjzhushou.com	
+  - DOMAIN-SUFFIX,szxlxzb.com
   - DOMAIN-SUFFIX,taogepian.com
-  - DOMAIN-SUFFIX,ibangtiao.com
+  - DOMAIN-SUFFIX,thundercdn.com
+  - DOMAIN-SUFFIX,thunderurl.com
+  - DOMAIN-SUFFIX,xbase.cloud
+  - DOMAIN-SUFFIX,xbase.xyz
+  - DOMAIN-SUFFIX,xcloudbase.com
+  - DOMAIN-SUFFIX,xlisp.net
+  - DOMAIN-SUFFIX,xlpan.com
+  - DOMAIN-SUFFIX,xlyouxi.net
+  - DOMAIN-SUFFIX,xunlei.com
+  - DOMAIN-SUFFIX,xunlei.net
  # > Youku
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,ykimg.com
@@ -2894,6 +2900,3 @@ payload:
   - DOMAIN-SUFFIX,188hi.com
   - DOMAIN-SUFFIX,gwdang.com
   - DOMAIN-SUFFIX,dingxiang-inc.com
-  - DOMAIN-SUFFIX,downga.com
-  - DOMAIN-SUFFIX,downg0.com
-  - DOMAIN-SUFFIX,423down.com
