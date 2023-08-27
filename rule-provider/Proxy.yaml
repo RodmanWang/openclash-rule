@@ -608,25 +608,28 @@ payload:
   - DOMAIN-KEYWORD,yandex.
   - DOMAIN-SUFFIX,yastatic.net
 # > Other
-  - DOMAIN-SUFFIX,himg.com
-  - DOMAIN-SUFFIX,immersivetranslate.com
-  - DOMAIN-SUFFIX,hifini.com
   - DOMAIN-SUFFIX,abetterinternet.org
-  - DOMAIN-SUFFIX,zdassets.com
+  - DOMAIN-SUFFIX,capterra.com
   - DOMAIN-SUFFIX,cookielaw.org
-  - DOMAIN-SUFFIX,gravatar.com
-  - DOMAIN-SUFFIX,polyfill.io
   - DOMAIN-SUFFIX,coveo.com
-  - DOMAIN-SUFFIX,fonts.net
-  - DOMAIN-SUFFIX,icon-icons.com
   - DOMAIN-SUFFIX,dnschecker.org
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,sms-activate.org
-  - DOMAIN-SUFFIX,smspva.com
-  - DOMAIN-SUFFIX,proxydocker.com
-  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,fonts.net
   - DOMAIN-SUFFIX,g2.com
   - DOMAIN-SUFFIX,getapp.com
+  - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,hifini.com
+  - DOMAIN-SUFFIX,himg.com
   - DOMAIN-SUFFIX,hsforms.net
+  - DOMAIN-SUFFIX,icon-icons.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,paddle.com
-  - DOMAIN-SUFFIX,capterra.com
+  - DOMAIN-SUFFIX,polyfill.io
+  - DOMAIN-SUFFIX,proxydocker.com
+  - DOMAIN-SUFFIX,sms-activate.org
+  - DOMAIN-SUFFIX,smspva.com
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,stripe.network
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,typekit.net
+  - DOMAIN-SUFFIX,typekit.net
+  - DOMAIN-SUFFIX,zdassets.com
