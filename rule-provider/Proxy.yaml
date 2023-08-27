@@ -623,3 +623,6 @@ payload:
   - DOMAIN-SUFFIX,sms-activate.org
   - DOMAIN-SUFFIX,smspva.com
   - DOMAIN-SUFFIX,proxydocker.com
+  - DOMAIN-SUFFIX,stripecdn.com
+  - DOMAIN-SUFFIX,g2.com
+  - DOMAIN-SUFFIX,getapp.com
