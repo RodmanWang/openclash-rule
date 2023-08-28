@@ -59,6 +59,7 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,ttvnw.net
   - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,ext-twitch.tv
 # > Twitter
   - DOMAIN-KEYWORD,twimg.
   - DOMAIN-KEYWORD,twitter.
