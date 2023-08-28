@@ -512,6 +512,11 @@ payload:
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
   - DOMAIN-SUFFIX,riotgames.com
+# > Razer
+  - DOMAIN-SUFFIX,razerapi.com
+  - DOMAIN-SUFFIX,razerofficial.com
+  - DOMAIN-SUFFIX,razersynapse.com
+  - DOMAIN-SUFFIX,razerzone.com
 # > SoftLayer
   - IP-CIDR,74.86.0.0/16,no-resolve
   - IP-CIDR,75.126.0.0/16,no-resolve
@@ -546,6 +551,7 @@ payload:
   - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,f-droid.org
   - DOMAIN-SUFFIX,crx4chrome.com
+  - DOMAIN-SUFFIX,tampermonkey.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
@@ -644,3 +650,4 @@ payload:
   - DOMAIN-SUFFIX,margar.fr
   - DOMAIN-SUFFIX,kaltura.com
   - DOMAIN-SUFFIX,iqcdn.com
+  - DOMAIN-SUFFIX,restream.io
