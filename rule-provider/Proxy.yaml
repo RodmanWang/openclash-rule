@@ -358,6 +358,7 @@ payload:
   - DOMAIN-SUFFIX,abuseipdb.com
   - DOMAIN,ipv4.duiadns.net
   - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,host.io
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
