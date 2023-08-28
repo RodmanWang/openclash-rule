@@ -1433,7 +1433,7 @@ payload:
   - IP-CIDR,203.135.43.0/24,no-resolve
   - IP-CIDR,203.135.48.0/24,no-resolve
   - IP-CIDR,203.135.50.0/24,no-resolve
-# > iQiyi
+# > IQiyi
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,qy.com
   - DOMAIN-SUFFIX,qy.net
@@ -2905,7 +2905,7 @@ payload:
   - DOMAIN-SUFFIX,zmzapi.com
   - DOMAIN-SUFFIX,zmzapi.net
   - DOMAIN-SUFFIX,zmzfile.com
- # > Youku
+# > Youku
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,yoqoo.com
