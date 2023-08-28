@@ -234,7 +234,7 @@ payload:
   - DOMAIN-SUFFIX,rapidssl.com
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,letsencrypt.org
-  # > Github
+# > Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
   - DOMAIN-SUFFIX,githubapp.com
@@ -375,6 +375,18 @@ payload:
   - DOMAIN-SUFFIX,intel.com
 # > Jomashop
   - DOMAIN-SUFFIX,jomashop.prismic.io
+# > Kaspersky
+  - DOMAIN-SUFFIX,83.ucp-ntfy.kaspersky-labs.com
+  - DOMAIN-SUFFIX,click.kaspersky.com
+  - DOMAIN-SUFFIX,content.kaspersky-labs.com
+  - DOMAIN-SUFFIX,dc1-st.ksn.kaspersky-labs.com
+  - DOMAIN-SUFFIX,ipm-klca.kaspersky.com
+  - DOMAIN-SUFFIX,kaspersky.de
+  - DOMAIN-SUFFIX,my.kaspersky.com
+  - DOMAIN-SUFFIX,pki.kaspersky.com
+  - DOMAIN-SUFFIX,redirect.kaspersky.com
+  - DOMAIN-SUFFIX,statistics.securelist.com
+  - DOMAIN-SUFFIX,touch.kaspersky.com
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
@@ -471,6 +483,7 @@ payload:
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
   - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,emby.media
 # > NTP
   - DOMAIN-SUFFIX,ntppool.org
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -539,6 +552,7 @@ payload:
   - DOMAIN-SUFFIX,razerofficial.com
   - DOMAIN-SUFFIX,razersynapse.com
   - DOMAIN-SUFFIX,razerzone.com
+  - DOMAIN-SUFFIX,ec.razer.com
 # > SoftLayer
   - IP-CIDR,74.86.0.0/16,no-resolve
   - IP-CIDR,75.126.0.0/16,no-resolve
@@ -562,6 +576,9 @@ payload:
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
+# > Sony
+  - DOMAIN-SUFFIX,update.biv.sony.tv
+  - DOMAIN-SUFFIX,sonny.net
 # > SoftDown
   - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,caddyserver.com
