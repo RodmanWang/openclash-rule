@@ -1741,6 +1741,9 @@ payload:
   - DOMAIN-SUFFIX,r6cq.com
   - DOMAIN-SUFFIX,178fuwu.com
   - DOMAIN-SUFFIX,lvjian.net
+# > Linked
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,licdn.com
 # > Lflytek
   - DOMAIN-SUFFIX,iflyink.com
   - DOMAIN-SUFFIX,iflyrec.com
