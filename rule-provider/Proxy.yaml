@@ -543,6 +543,7 @@ payload:
   - DOMAIN-SUFFIX,readdle.com
 # > Subtitle
   - DOMAIN-SUFFIX,zimuku.org
+  - DOMAIN-SUFFIX,zimuzimu.net
   - DOMAIN-SUFFIX,zmk.pw
 # > Synology
   - DOMAIN-SUFFIX,synology.com
