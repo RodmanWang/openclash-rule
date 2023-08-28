@@ -86,7 +86,6 @@ payload:
   - DOMAIN-SUFFIX,bt529.com
   - DOMAIN-SUFFIX,bt5298.com
   - DOMAIN-SUFFIX,btdig.com
-  - DOMAIN-SUFFIX,btdig.com
   - DOMAIN-SUFFIX,proxyrarbg.org
   - DOMAIN-SUFFIX,rarbgmirror.com
   - DOMAIN-SUFFIX,rarbgprx.org
@@ -284,7 +283,6 @@ payload:
   - DOMAIN-SUFFIX,gv.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,gwtproject.org
@@ -339,9 +337,7 @@ payload:
   - IP-CIDR6,2607:f8b0:4002::/48,no-resolve
   - IP-CIDR6,2404:6800:4003::/48,no-resolve
   - IP-CIDR6,2404:6800:4004::/48,no-resolve
-  - IP-CIDR6,2404:6800:4008::/48,no-resolve
   - IP-CIDR6,2600:1900::/28,no-resolve
-  - IP-CIDR6,2404:6800::/32,no-resolve
   - IP-CIDR6,2607:f8b0:4005::/48,no-resolve
 # > GoogleCN
   - DOMAIN,services.googleapis.cn
@@ -458,7 +454,6 @@ payload:
   - DOMAIN-SUFFIX,slscr.update.microsoft.com
 # > Media
   - DOMAIN-SUFFIX,cnlang.org
-  - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,thetvdb.com
   - DOMAIN-SUFFIX,zmk.pw
 # > NTP
@@ -545,7 +540,6 @@ payload:
 # > Subtitle
   - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,zimuzimu.net
-  - DOMAIN-SUFFIX,zmk.pw
 # > Synology
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,gofile.me
@@ -641,7 +635,6 @@ payload:
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripe.network
   - DOMAIN-SUFFIX,stripecdn.com
-  - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,typekit.net
   - DOMAIN-SUFFIX,zdassets.com
   - DOMAIN-SUFFIX,jquery.com
