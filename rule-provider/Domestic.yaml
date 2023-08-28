@@ -1493,11 +1493,10 @@ payload:
   - DOMAIN-KEYWORD,360buy
   - DOMAIN-KEYWORD,jcloud
   - DOMAIN-KEYWORD,jdcloud
+  - DOMAIN-SUFFIX,360cec.com
   - DOMAIN-SUFFIX,360top.com
   - DOMAIN-SUFFIX,blackdragon.com
   - DOMAIN-SUFFIX,buyjingxi.com
-  - DOMAIN-SUFFIX,ccc-x.jd.com
-  - DOMAIN-SUFFIX,cigr-8.jd.com
   - DOMAIN-SUFFIX,cloud-beijing.com
   - DOMAIN-SUFFIX,cloud-hebi.com
   - DOMAIN-SUFFIX,cloud-ningbo.com
@@ -1575,6 +1574,10 @@ payload:
   - DOMAIN-SUFFIX,cloudzhongshan.com
   - DOMAIN-SUFFIX,cloudzhuhai.com
   - DOMAIN-SUFFIX,dao123.com
+  - DOMAIN-SUFFIX,dd-advisor.com
+  - DOMAIN-SUFFIX,gphcdn.com
+  - DOMAIN-SUFFIX,gphcs.com
+  - DOMAIN-SUFFIX,gphyun.net
   - DOMAIN-SUFFIX,healthjd.com
   - DOMAIN-SUFFIX,isvjcloud.com
   - DOMAIN-SUFFIX,isvjd.com
@@ -1598,11 +1601,22 @@ payload:
   - DOMAIN-SUFFIX,jdfw1.com
   - DOMAIN-SUFFIX,jdgslb.com
   - DOMAIN-SUFFIX,jdgslb.net
+  - DOMAIN-SUFFIX,jdh.com
+  - DOMAIN-SUFFIX,jdhealth.com
+  - DOMAIN-SUFFIX,jdhealthimage.com
+  - DOMAIN-SUFFIX,jdhealthimg.com
+  - DOMAIN-SUFFIX,jdhimage.com
+  - DOMAIN-SUFFIX,jdjiankang.com
   - DOMAIN-SUFFIX,jdjinrong.com
+  - DOMAIN-SUFFIX,jdl.com
   - DOMAIN-SUFFIX,jdpay.com
+  - DOMAIN-SUFFIX,jdpharmexpo.com
   - DOMAIN-SUFFIX,jdsmartkf.com
   - DOMAIN-SUFFIX,jdwl.com
   - DOMAIN-SUFFIX,jdx.com
+  - DOMAIN-SUFFIX,jdyunpei.com
+  - DOMAIN-SUFFIX,jdyunxiu.com
+  - DOMAIN-SUFFIX,jhscm.com
   - DOMAIN-SUFFIX,jingdong.com
   - DOMAIN-SUFFIX,jingdongjinrong.com
   - DOMAIN-SUFFIX,jingpinhui.com
@@ -1610,6 +1624,7 @@ payload:
   - DOMAIN-SUFFIX,jkcsjd.com
   - DOMAIN-SUFFIX,joybuy.com
   - DOMAIN-SUFFIX,linglonglife.com
+  - DOMAIN-SUFFIX,logiseasy.com
   - DOMAIN-SUFFIX,logiseasy.com
   - DOMAIN-SUFFIX,mayshijia.com
   - DOMAIN-SUFFIX,minitiao.com
@@ -1624,14 +1639,20 @@ payload:
   - DOMAIN-SUFFIX,tong-tai.jd.com
   - DOMAIN-SUFFIX,toplife.com
   - DOMAIN-SUFFIX,vg.com
+  - DOMAIN-SUFFIX,vipmro.com
+  - DOMAIN-SUFFIX,vipmro.net
+  - DOMAIN-SUFFIX,vipmro.org
   - DOMAIN-SUFFIX,wanggou.com
   - DOMAIN-SUFFIX,wangyin.com
+  - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,xianjiqun.com
   - DOMAIN-SUFFIX,xjoycity.com
   - DOMAIN-SUFFIX,yixun.com
   - DOMAIN-SUFFIX,yiyaojd.com
   - DOMAIN-SUFFIX,yizhitou.com
+  - DOMAIN-SUFFIX,yunpei.com
+  - DOMAIN-SUFFIX,yunxiu.com
 # > Jomashop
   - DOMAIN-SUFFIX,jomashop.com
   - DOMAIN,jomashop.cdn.prismic.io
