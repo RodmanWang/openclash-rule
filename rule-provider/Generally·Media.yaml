@@ -14,6 +14,9 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
+# > Vimeo
+  - DOMAIN-SUFFIX,vimeo.com
+  - DOMAIN-SUFFIX,vimeocdn
 # > Telegram
   - PROCESS-NAME,Telegram
   - PROCESS-NAME,org.telegram.messenger
@@ -129,4 +132,3 @@ payload:
   - DOMAIN-SUFFIX,eporner.com
   - DOMAIN-SUFFIX,javhdporn.net
   - DOMAIN-SUFFIX,javcdn.info
-  - DOMAIN-SUFFIX,vimeo.com
