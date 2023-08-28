@@ -51,6 +51,14 @@ payload:
   - IP-CIDR,54.245.128.0/17,no-resolve
   - IP-CIDR,108.138.88.0/21,no-resolve
   - IP-CIDR6,2600:9000:2135::/48,no-resolve
+# > Android
+  - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,apk-dl.com
+  - DOMAIN-SUFFIX,apkfind.com
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,apkmonk.com
+  - DOMAIN-SUFFIX,aapks.com
+  - DOMAIN-SUFFIX,f-droid.org
 # > Apple
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,appleid.apple.com
@@ -85,6 +93,10 @@ payload:
   - DOMAIN-SUFFIX,torrentbay.net
   - DOMAIN-SUFFIX,unblockit.mov
   - DOMAIN-SUFFIX,unblockit.vegas
+# > Chrome Extensions
+  - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-SUFFIX,crx4chrome.com
+  - DOMAIN-SUFFIX,tampermonkey.net
 # > CDN
   - DOMAIN-SUFFIX,cdn.annnibb.me
   - DOMAIN-SUFFIX,cdn.iframe.ly
@@ -539,19 +551,11 @@ payload:
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
 # > SoftDown
-  - DOMAIN-SUFFIX,apkpure.com
-  - DOMAIN-SUFFIX,apk-dl.com
-  - DOMAIN-SUFFIX,apkfind.com
-  - DOMAIN-SUFFIX,apkmirror.com
   - DOMAIN-SUFFIX,memberful.com
-  - DOMAIN-SUFFIX,apkmonk.com
-  - DOMAIN-SUFFIX,aapks.com
   - DOMAIN-SUFFIX,fosshub.com
-  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,7-zip.org
-  - DOMAIN-SUFFIX,f-droid.org
-  - DOMAIN-SUFFIX,crx4chrome.com
-  - DOMAIN-SUFFIX,tampermonkey.net
+  - DOMAIN-SUFFIX,caddyserver.com
+  - DOMAIN-SUFFIX,margar.fr
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
@@ -632,9 +636,6 @@ payload:
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,paddle.com
   - DOMAIN-SUFFIX,polyfill.io
-  - DOMAIN-SUFFIX,proxydocker.com
-  - DOMAIN-SUFFIX,sms-activate.org
-  - DOMAIN-SUFFIX,smspva.com
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,stripe.network
   - DOMAIN-SUFFIX,stripecdn.com
@@ -643,11 +644,9 @@ payload:
   - DOMAIN-SUFFIX,zdassets.com
   - DOMAIN-SUFFIX,jquery.com
   - DOMAIN-SUFFIX,gebi1.com
-  - DOMAIN-SUFFIX,caddyserver.com
   - DOMAIN-SUFFIX,v1.mk
   - DOMAIN-SUFFIX,hcaptcha.com
   - DOMAIN-SUFFIX,tawk.to
-  - DOMAIN-SUFFIX,margar.fr
   - DOMAIN-SUFFIX,kaltura.com
   - DOMAIN-SUFFIX,iqcdn.com
   - DOMAIN-SUFFIX,restream.io
