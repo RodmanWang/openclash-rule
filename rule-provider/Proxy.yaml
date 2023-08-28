@@ -557,6 +557,8 @@ payload:
   - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,caddyserver.com
   - DOMAIN-SUFFIX,margar.fr
+# > Sports
+  - DOMAIN-KEYWORD,zhiboche.
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
