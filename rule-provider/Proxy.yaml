@@ -103,6 +103,7 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,crx4chrome.com
   - DOMAIN-SUFFIX,tampermonkey.net
+  - DOMAIN-SUFFIX,ieability.com
 # > CDN
   - DOMAIN-SUFFIX,cdn.annnibb.me
   - DOMAIN-SUFFIX,cdn.iframe.ly
