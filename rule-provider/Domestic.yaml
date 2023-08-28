@@ -1306,6 +1306,13 @@ payload:
   - DOMAIN-SUFFIX,infodefend.com
 # > Gwdang
   - DOMAIN-SUFFIX,gwdang.com
+# > Gitee
+  - DOMAIN-SUFFIX,gitee.com
+  - DOMAIN-SUFFIX,gitee.io
+  - DOMAIN-SUFFIX,giteeassets.com
+  - DOMAIN-SUFFIX,giteeusercontent.com
+  - DOMAIN-SUFFIX,osc.cool	
+  - DOMAIN-SUFFIX,oschina.net
 # > Hikvision
   - DOMAIN-SUFFIX,hikvision.com
   - DOMAIN-SUFFIX,hik-online.com
@@ -3046,3 +3053,4 @@ payload:
   - DOMAIN-SUFFIX,qweather.net
   - DOMAIN-SUFFIX,png.pub
   - DOMAIN-SUFFIX,ftp.jaist.ac.jp
+  - DOMAIN-SUFFIX,heweather.net
