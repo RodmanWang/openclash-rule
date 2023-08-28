@@ -2020,6 +2020,8 @@ payload:
   - DOMAIN-SUFFIX,qiumijia.com
   - DOMAIN-SUFFIX,lanqiushuo.com
   - DOMAIN-SUFFIX,188hi.com
+# > Razer
+  - DOMAIN-SUFFIX,razer.com
 # > SamSung
   - DOMAIN-SUFFIX,samsung.com
   - DOMAIN-SUFFIX,samsungchina.cc
@@ -2211,6 +2213,7 @@ payload:
   - DOMAIN-SUFFIX,downga.com
   - DOMAIN-SUFFIX,downg0.com
   - DOMAIN-SUFFIX,423down.com
+  - DOMAIN-SUFFIX,creative.com
 # > Softether
   - DOMAIN-SUFFIX,softether-network.net
   - DOMAIN-SUFFIX,softether.co.jp
@@ -2939,6 +2942,13 @@ payload:
   - DOMAIN-SUFFIX,zhimg.com
   - DOMAIN-SUFFIX,yanyangushi.com
   - DOMAIN-SUFFIX,yanyanstory.com
+# > ZooKing
+  - DOMAIN-SUFFIX,bestdatachain.com
+  - DOMAIN-SUFFIX,shiquaner.com
+  - DOMAIN-SUFFIX,zadsdk.com
+  - DOMAIN-SUFFIX,zkadsdk.com
+  - DOMAIN-SUFFIX,zkdatachain.com
+  - DOMAIN-SUFFIX,zookingsoft.com
 # > 123pan
   - DOMAIN-SUFFIX,123pan.com
 # > 21
@@ -3035,3 +3045,4 @@ payload:
   - DOMAIN-SUFFIX,useragentinfo.com
   - DOMAIN-SUFFIX,qweather.net
   - DOMAIN-SUFFIX,png.pub
+  - DOMAIN-SUFFIX,ftp.jaist.ac.jp
