@@ -536,6 +536,7 @@ payload:
   - IP-CIDR,208.43.0.0/16,no-resolve
 # > Sports
   - DOMAIN-SUFFIX,yoozhibo.net
+  - DOMAIN-KEYWORD,zhiboche.
 # > Spark
   - DOMAIN-SUFFIX,amplitude.com
   - DOMAIN-SUFFIX,smartmailcloud.com
@@ -557,8 +558,6 @@ payload:
   - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,caddyserver.com
   - DOMAIN-SUFFIX,margar.fr
-# > Sports
-  - DOMAIN-KEYWORD,zhiboche.
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
