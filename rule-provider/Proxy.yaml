@@ -118,6 +118,7 @@ payload:
   - DOMAIN-SUFFIX,imagedelivery.net
   - IP-CIDR,104.16.80.0/20,no-resolve
   - IP-CIDR,104.18.0.0/20,no-resolve
+  - IP-CIDR,104.18.64.0/20,no-resolve
   - IP-CIDR,104.21.32.0/20,no-resolve
   - IP-CIDR,104.21.65.0/25,no-resolve
   - IP-CIDR,104.22.29.0/25,no-resolve
