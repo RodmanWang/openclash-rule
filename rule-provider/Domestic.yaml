@@ -2074,6 +2074,7 @@ payload:
   - DOMAIN-SUFFIX,samsungmcs.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,samqaicongen.com
+  - DOMAIN-SUFFIX,samsungrs.com
   - DOMAIN-SUFFIX,galaxyappstore.com
   - DOMAIN-SUFFIX,samsungapps.com
   - DOMAIN-SUFFIX,samsunghealthcn.com
