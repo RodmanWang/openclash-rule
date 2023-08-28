@@ -1,12 +1,19 @@
 payload:
+# > Ad
+  - DOMAIN-SUFFIX,ajay.app
+  - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,easylist.to
+  - DOMAIN-SUFFIX,adblockplus.org
+  - DOMAIN-SUFFIX,fanboy.co.nz
+  - DOMAIN-SUFFIX,lanik.us
 # > Adguard
+  - DOMAIN-SUFFIX,adguard.info
   - DOMAIN-SUFFIX,adguard-dns.io
   - DOMAIN-SUFFIX,adguard-vpn.com
   - DOMAIN-SUFFIX,adguard-vpn.info
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,agrd.io
-  - DOMAIN-SUFFIX,adtidy.org
 # > Adobe
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobe.net
@@ -104,6 +111,8 @@ payload:
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,keycdn.com
   - DOMAIN-SUFFIX,kxcdn.com
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,githack.com
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
