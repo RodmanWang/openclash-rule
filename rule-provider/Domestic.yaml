@@ -2227,8 +2227,6 @@ payload:
   - DOMAIN-SUFFIX,flets-east.jp
   - DOMAIN-SUFFIX,flets-west.jp
   - DOMAIN-SUFFIX,ddns.uxcom.jp
-# > Sports
-  - DOMAIN-KEYWORD,zhiboche.
 # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
