@@ -16,7 +16,7 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
 # > Vimeo
   - DOMAIN-SUFFIX,vimeo.com
-  - DOMAIN-SUFFIX,vimeocdn
+  - DOMAIN-SUFFIX,vimeocdn.com
 # > Telegram
   - PROCESS-NAME,Telegram
   - PROCESS-NAME,org.telegram.messenger
