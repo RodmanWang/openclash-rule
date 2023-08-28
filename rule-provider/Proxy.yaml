@@ -125,6 +125,8 @@ payload:
   - IP-CIDR6,2606:4700:20::/44,no-resolve
   - IP-CIDR6,2606:4700:3033::/48,no-resolve
   - IP-CIDR6,2606:4700:3036::/48,no-resolve
+# > Domain Registrar
+  - DOMAIN-SUFFIX,godaddy.com
 # > Dandanzan
   - DOMAIN-SUFFIX,88zy.site
   - DOMAIN-SUFFIX,baobuzz.com
@@ -275,6 +277,7 @@ payload:
   - DOMAIN-SUFFIX,goog
   - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
   - DOMAIN-SUFFIX,googleusercontent.com
