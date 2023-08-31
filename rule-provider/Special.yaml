@@ -30,7 +30,6 @@ payload:
   - DOMAIN,dns.alidns.com
   - DOMAIN,dns.rubyfish.cn
   - DOMAIN,dns.twnic.tw
-  - DOMAIN,doh.18bit.cn
   - DOMAIN,doh.dns.sb
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
