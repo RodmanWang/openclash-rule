@@ -35,6 +35,7 @@ payload:
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
   - DOMAIN,public.dns.iij.jp
+  - DOMAIN,dns.twnic.tw
   - IP-CIDR,1.12.12.12/32,no-resolve
   - IP-CIDR,45.125.0.26/32,no-resolve
   - IP-CIDR,101.6.6.6/32,no-resolve
