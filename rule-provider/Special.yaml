@@ -26,15 +26,12 @@ payload:
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,ubuntu.pool.ntp.org
 # > DNS（domestic）
-  - DOMAIN,cn-a.iqiqz.com
   - DOMAIN,dns.alidns.com
   - DOMAIN,dns.rubyfish.cn
-  - DOMAIN,dns.twnic.tw
   - DOMAIN,doh.dns.sb
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
   - DOMAIN,public.dns.iij.jp
-  - DOMAIN,dns.twnic.tw
   - IP-CIDR,1.12.12.12/32,no-resolve
   - IP-CIDR,45.125.0.26/32,no-resolve
   - IP-CIDR,101.6.6.6/32,no-resolve
