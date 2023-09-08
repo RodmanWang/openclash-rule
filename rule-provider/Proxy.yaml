@@ -370,6 +370,7 @@ payload:
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,host.io
   - DOMAIN-SUFFIX,ipify.org
+  - DOMAIN-SUFFIX,duiadns.net
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
