@@ -1,4 +1,5 @@
 payload:
 # > ChatGPT
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,statsigapi.net
