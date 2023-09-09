@@ -2073,6 +2073,7 @@ payload:
   - DOMAIN-SUFFIX,samsungchina.net
   - DOMAIN-SUFFIX,samsungmcs.com
   - DOMAIN-SUFFIX,samsungcloud.com
+  - DOMAIN-SUFFIX,samsungcloudcn.com
   - DOMAIN-SUFFIX,samqaicongen.com
   - DOMAIN-SUFFIX,samsungrs.com
   - DOMAIN-SUFFIX,galaxyappstore.com
