@@ -8,10 +8,10 @@ on:
       - "**/README.md"
 jobs:
   build:
-    name: Generate GeoIP2 database
+    name: Update
     runs-on: ubuntu-latest
     steps:
-        
+
     - name: Push artifacts to release branch
       run: |
         git config --local user.email "action@github.com"
