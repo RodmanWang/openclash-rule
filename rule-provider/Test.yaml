@@ -6,5 +6,4 @@ payload:
   - DOMAIN-KEYWORD,test-ipv6
   - DOMAIN-KEYWORD,ipv4-test
   - DOMAIN-KEYWORD,ipv6-test
-  - DOMAIN-SUFFIX,speedtest.cn
-  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-KEYWORD,speedtest.
