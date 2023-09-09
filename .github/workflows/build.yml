@@ -1,10 +1,17 @@
 name: Update
 on:
   workflow_dispatch:
+  push:
     branches:
       - main
     paths-ignore:
       - "**/README.md"
+jobs:
+  build:
+    name: Generate GeoIP2 database
+    runs-on: ubuntu-latest
+    steps:
+        
     - name: Push artifacts to release branch
       run: |
         git config --local user.email "action@github.com"
