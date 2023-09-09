@@ -2,7 +2,6 @@ name: Update ChinaIP-and-GFW database
 
 on:
   workflow_dispatch:
-  push:
     branches:
       - main
     paths-ignore:
