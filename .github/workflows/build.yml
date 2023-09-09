@@ -1,5 +1,4 @@
-name: Update ChinaIP-and-GFW database
-
+name: Update
 on:
   workflow_dispatch:
     branches:
