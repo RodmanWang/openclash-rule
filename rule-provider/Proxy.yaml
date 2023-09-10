@@ -581,7 +581,7 @@ payload:
   - DOMAIN,database.clamav.net
 # > Sony
   - DOMAIN-SUFFIX,update.biv.sony.tv
-  - DOMAIN-SUFFIX,sonny.net
+  - DOMAIN-SUFFIX,sony.net
 # > SoftDown
   - DOMAIN-SUFFIX,7-zip.org
   - DOMAIN-SUFFIX,caddyserver.com
