@@ -2258,7 +2258,6 @@ payload:
 # > SoftDown
   - DOMAIN-SUFFIX,downga.com
   - DOMAIN-SUFFIX,downg0.com
-  - DOMAIN-SUFFIX,423down.com
   - DOMAIN-SUFFIX,creative.com
 # > Softether
   - DOMAIN-SUFFIX,softether-network.net
