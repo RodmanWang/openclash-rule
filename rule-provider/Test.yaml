@@ -7,3 +7,4 @@ payload:
   - DOMAIN-KEYWORD,ipv4-test
   - DOMAIN-KEYWORD,ipv6-test
   - DOMAIN-KEYWORD,speedtest.
+  - DOMAIN-KEYWORD,/speedtest/
