@@ -613,6 +613,9 @@ payload:
   - DOMAIN-SUFFIX,misaka.io
   - DOMAIN-SUFFIX,misaka2.net
   - DOMAIN-SUFFIX,cccat.io
+  - DOMAIN-SUFFIX,bwg.net
+  - DOMAIN-SUFFIX,bwh81.net
+  - DOMAIN-SUFFIX,it7.net
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,vmware.tt.omtrdc.net
