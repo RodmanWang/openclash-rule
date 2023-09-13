@@ -592,6 +592,11 @@ payload:
   - DOMAIN-SUFFIX,423down.com
   - DOMAIN-SUFFIX,memberful.com
   - DOMAIN-SUFFIX,mkvtoolnix.download
+  - DOMAIN-SUFFIX,lrepacks.net
+  - DOMAIN-SUFFIX,lrepacks.ru
+  - DOMAIN-SUFFIX,mrgreekroad.com
+  - DOMAIN-SUFFIX,yadro.ru
+  - DOMAIN-SUFFIX,mastercodepink.com
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
