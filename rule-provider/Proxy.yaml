@@ -597,6 +597,8 @@ payload:
   - DOMAIN-SUFFIX,mrgreekroad.com
   - DOMAIN-SUFFIX,yadro.ru
   - DOMAIN-SUFFIX,mastercodepink.com
+  - DOMAIN,emeditor.blob.core.windows.net
+  - DOMAIN,edge.avangate.net
 # > TapTa
   - DOMAIN-SUFFIX,tatacommunications.com
   - IP-CIDR,180.87.0.0/17,no-resolve
