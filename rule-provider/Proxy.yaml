@@ -482,6 +482,8 @@ payload:
   - DOMAIN-SUFFIX,slscr.update.microsoft.com
   - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
   - DOMAIN-SUFFIX,vortex.data.microsoft.com
+  - DOMAIN-SUFFIX,fe3cr.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,manage.devcenter.microsoft.com
 # > Media
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,imdb.com
