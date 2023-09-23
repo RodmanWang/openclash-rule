@@ -390,6 +390,7 @@ payload:
   - DOMAIN-SUFFIX,redirect.kaspersky.com
   - DOMAIN-SUFFIX,statistics.securelist.com
   - DOMAIN-SUFFIX,touch.kaspersky.com
+  - DOMAIN-SUFFIX,dc1-file.ksn.kaspersky-labs.com
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
