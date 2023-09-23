@@ -480,6 +480,7 @@ payload:
   - DOMAIN-SUFFIX,settings-win.data.microsoft.com
   - DOMAIN-SUFFIX,slscr.update.microsoft.com
   - DOMAIN-SUFFIX,xsts.auth.xboxlive.com
+  - DOMAIN-SUFFIX,vortex.data.microsoft.com
 # > Media
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,imdb.com
@@ -751,3 +752,19 @@ payload:
   - DOMAIN-SUFFIX,zooqle.com
   - DOMAIN-SUFFIX,aoaostar.com
   - DOMAIN-SUFFIX,gitmirror.com
+  - DOMAIN-SUFFIX,aidouer.net
+  - DOMAIN-SUFFIX,attakids.com
+  - DOMAIN-SUFFIX,blbo.cc
+  - DOMAIN-SUFFIX,dj6u.com
+  - DOMAIN-SUFFIX,gai4.com
+  - DOMAIN-SUFFIX,im1907.top
+  - DOMAIN-SUFFIX,jsonplayer.com
+  - DOMAIN-SUFFIX,okjx.cc
+  - DOMAIN-SUFFIX,rdhk.net
+  - DOMAIN-SUFFIX,thefilehosting.com
+  - DOMAIN-SUFFIX,yangtu.top
+  - DOMAIN-SUFFIX,iconify.design
+  - DOMAIN-SUFFIX,64clouds.com
+  - DOMAIN-SUFFIX,fakermetaverse.xyz
+  - DOMAIN-SUFFIX,xiaozhaolaila.com
+  - DOMAIN-SUFFIX,btdx8.vip
