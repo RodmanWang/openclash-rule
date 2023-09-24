@@ -86,9 +86,6 @@ payload:
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
-# > Game
-  - DOMAIN-SUFFIX,cdn.gamefuel.info
-  - DOMAIN-SUFFIX,fallguys-assets.gamefuel.info
 # > UUBooster
   - PROCESS-NAME,UUBooster
 # > SteamCN
