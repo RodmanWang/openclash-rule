@@ -496,6 +496,7 @@ payload:
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,ntp.leaseweb.us
   - DOMAIN-SUFFIX,clock.isc.org
+  - DOMAIN-SUFFIX,time.nist.gov
   - IP-CIDR,5.79.108.34/32,no-resolve
   - IP-CIDR,23.106.249.200/32,no-resolve
   - IP-CIDR,62.212.76.57/32,no-resolve
