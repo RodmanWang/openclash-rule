@@ -579,12 +579,15 @@ payload:
   - DOMAIN-SUFFIX,zmk.pw
   - DOMAIN-SUFFIX,zimuku.org
   - DOMAIN-SUFFIX,zimuzimu.net
+  - DOMAIN-SUFFIX,zimuku.vip
+  - DOMAIN-SUFFIX,zmk.lol
 # > Synology
   - DOMAIN-SUFFIX,synology.com
   - DOMAIN-SUFFIX,gofile.me
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN,update.nai.com
   - DOMAIN,database.clamav.net
+  - DOMAIN,global.synologydownload.com
 # > Sony
   - DOMAIN-SUFFIX,update.biv.sony.tv
   - DOMAIN-SUFFIX,sony.net
@@ -772,3 +775,9 @@ payload:
   - DOMAIN-SUFFIX,fakermetaverse.xyz
   - DOMAIN-SUFFIX,xiaozhaolaila.com
   - DOMAIN-SUFFIX,btdx8.vip
+  - DOMAIN-SUFFIX,ax1x.com
+  - DOMAIN-SUFFIX,94speed.com
+  - DOMAIN-SUFFIX,imgs.ovh
+  - DOMAIN-SUFFIX,imgtp.com
+  - DOMAIN-SUFFIX,uy5.net
+  - DOMAIN-SUFFIX,mji.rip
