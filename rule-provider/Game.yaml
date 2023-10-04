@@ -38,6 +38,7 @@ payload:
   - IP-CIDR,163.163.0.0/24,no-resolve
   - IP-CIDR,188.166.128.0/24,no-resolve
   - IP-CIDR,198.211.120.0/24,no-resolve
+  
 # > CapCom
   - DOMAIN-SUFFIX,capcomfighters.net
   - DOMAIN-SUFFIX,us-west-2.compute.amazonaws.com
@@ -129,3 +130,5 @@ payload:
   - DOMAIN-SUFFIX,us.np.stun.playstation.net
   - DOMAIN-SUFFIX,np.matching.playstation.net
 # >Other
+  - DOMAIN-SUFFIX,unity.com
+  - DOMAIN-SUFFIX,unity3dusercontent.com
