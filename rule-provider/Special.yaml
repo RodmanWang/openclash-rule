@@ -32,6 +32,7 @@ payload:
   - DOMAIN,dot.pub
   - DOMAIN,doh.apad.pro
   - DOMAIN,cn-a.iqiqz.com
+  - DOMAIN-SUFFIX,nextdns.io
   - IP-CIDR,1.12.12.12/32,no-resolve
   - IP-CIDR,45.125.0.26/32,no-resolve
   - IP-CIDR,101.6.6.6/32,no-resolve
