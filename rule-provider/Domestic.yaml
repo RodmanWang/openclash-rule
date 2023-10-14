@@ -1750,6 +1750,8 @@ payload:
   - DOMAIN-SUFFIX,lanzous.com
   - DOMAIN-SUFFIX,lanzou.com
   - DOMAIN-SUFFIX,lanzoue.com
+  - DOMAIN-SUFFIX,lanosso.com
+  - DOMAIN-SUFFIX,lanzouc.com
 # > LeTV
   - DOMAIN-SUFFIX,le.com
   - DOMAIN-SUFFIX,lecloud.com
