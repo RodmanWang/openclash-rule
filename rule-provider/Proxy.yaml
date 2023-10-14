@@ -633,6 +633,9 @@ payload:
   - DOMAIN-SUFFIX,bwg.net
   - DOMAIN-SUFFIX,bwh81.net
   - DOMAIN-SUFFIX,it7.net
+  - DOMAIN-SUFFIX,baibianxiaoying.com
+  - DOMAIN-SUFFIX,baibianxiaoying.top
+  - DOMAIN-SUFFIX,bbxy.shop
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
   - DOMAIN-SUFFIX,vmware.tt.omtrdc.net
