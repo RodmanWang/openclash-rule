@@ -1,6 +1,7 @@
 payload:
 # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,cdn.oaistatic.com
