@@ -17,6 +17,7 @@ payload:
   - IP-CIDR,13.225.2.0/24,no-resolve
   - IP-CIDR,13.209.34.0/24,no-resolve
   - IP-CIDR,13.226.238.0/24,no-resolve
+  - IP-CIDR,15.164.223.0/24,no-resolve
   - IP-CIDR,15.165.220.0/24,no-resolve
   - IP-CIDR,18.210.76.0/24,no-resolve
   - IP-CIDR,18.65.211.0/24,no-resolve
@@ -38,7 +39,11 @@ payload:
   - IP-CIDR,163.163.0.0/24,no-resolve
   - IP-CIDR,188.166.128.0/24,no-resolve
   - IP-CIDR,198.211.120.0/24,no-resolve
-  
+  - IP-CIDR,104.114.76.0/24,no-resolve
+  - IP-CIDR,184.25.56.0/24,no-resolve
+  - IP-CIDR,23.192.228.0/24,no-resolve
+  - IP-CIDR,23.44.133.0/24,no-resolve
+  - IP-CIDR,15.164.223.30/24,no-resolve
 # > CapCom
   - DOMAIN-SUFFIX,capcomfighters.net
   - DOMAIN-SUFFIX,us-west-2.compute.amazonaws.com
