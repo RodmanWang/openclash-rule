@@ -1,14 +1,19 @@
 payload:
 # > myTV_SUPER
-  - DOMAIN-KEYWORD,nowtv100
-  - DOMAIN-KEYWORD,rthklive
-  - DOMAIN-SUFFIX,mytvsuper.com
-  - DOMAIN-SUFFIX,tvb.com
-# > encoreTVB
-  - PROCESS-NAME,com.tvbusa.encore
   - DOMAIN-SUFFIX,encoretvb.com
-  - DOMAIN,content.jwplatform.com
-  - DOMAIN,videos-f.jwpsrv.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvb.com.au
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbanywhere.com.sg
+  - DOMAIN-SUFFIX,tvbc.com.cn
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk
+  - DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
+  - DOMAIN-SUFFIX,tvmedia.net.au
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
 # > HBO GO HKG
   - DOMAIN,players.brightcove.net
   - DOMAIN-SUFFIX,hbogoasia.hk
