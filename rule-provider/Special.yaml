@@ -43,6 +43,8 @@ payload:
   - DOMAIN,one.one.one.one
   - DOMAIN,dns.adguard.com
   - DOMAIN,dns.nextdns.io
+  - IP-CIDR,103.121.210.210/32,no-resolve
+  - IP-CIDR,101.101.101.101/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
   - IP-CIDR,45.125.0.26/32,no-resolve
   - IP-CIDR,101.6.6.6/32,no-resolve
