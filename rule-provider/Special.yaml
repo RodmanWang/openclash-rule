@@ -108,6 +108,8 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
   - DOMAIN-SUFFIX,steamusercontent.com
+# > Microsoft
+  - DOMAIN-SUFFIX,msftconnecttest.com
 #>BT Soft
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,BitComet.exe
