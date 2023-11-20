@@ -26,23 +26,27 @@ payload:
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,ubuntu.pool.ntp.org
 # > DNS
+  - DOMAIN,cloudflare-dns.com
+  - DOMAIN,cn-a.iqiqz.com
+  - DOMAIN,dns.adguard.com
+  - DOMAIN,dns.adguard.com
   - DOMAIN,dns.alidns.com
+  - DOMAIN,dns.google
+  - DOMAIN,dns.nextdns.io
+  - DOMAIN,dns.quad9.net
   - DOMAIN,dns.rubyfish.cn
+  - DOMAIN,dns.twnic.tw
+  - DOMAIN,dns11.quad9.net
+  - DOMAIN,doh-jp.blahdns.com
+  - DOMAIN,doh.18bit.cn
+  - DOMAIN,doh.apad.pro
+  - DOMAIN,doh.dns.sb
+  - DOMAIN,doh.opendns.com
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
-  - DOMAIN,doh.apad.pro
-  - DOMAIN,cn-a.iqiqz.com
-  - DOMAIN,dns.twnic.tw
-  - DOMAIN,public.dns.iij.jp
-  - DOMAIN,doh.dns.sb
-  - DOMAIN,dns.google
-  - DOMAIN,cloudflare-dns.com
-  - DOMAIN,dns.quad9.net
-  - DOMAIN,dns11.quad9.net
-  - DOMAIN,doh.opendns.com
+  - DOMAIN,i.233py.com
   - DOMAIN,one.one.one.one
-  - DOMAIN,dns.adguard.com
-  - DOMAIN,dns.nextdns.io
+  - DOMAIN,public.dns.iij.jp
   - IP-CIDR,103.121.210.210/32,no-resolve
   - IP-CIDR,101.101.101.101/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
