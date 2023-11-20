@@ -29,7 +29,6 @@ payload:
   - DOMAIN,cloudflare-dns.com
   - DOMAIN,cn-a.iqiqz.com
   - DOMAIN,dns.adguard.com
-  - DOMAIN,dns.adguard.com
   - DOMAIN,dns.alidns.com
   - DOMAIN,dns.google
   - DOMAIN,dns.nextdns.io
