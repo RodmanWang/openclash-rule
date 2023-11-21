@@ -12,3 +12,5 @@ payload:
   - DOMAIN-KEYWORD,ipv6.
   - DOMAIN-KEYWORD,test6.
   - DOMAIN-KEYWORD,test4.
+  - DOMAIN-KEYWORD,v4-only.
+  - DOMAIN-KEYWORD,v6-only.
