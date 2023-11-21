@@ -9,7 +9,6 @@ payload:
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,cdn.auth0.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
