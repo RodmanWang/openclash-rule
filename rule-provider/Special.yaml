@@ -141,3 +141,5 @@ payload:
   - PROCESS-NAME,transmission-qt.exe
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
+# > SMTP
+  - DOMAIN-KEYWORD,SMTP
