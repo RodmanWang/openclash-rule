@@ -6,7 +6,7 @@ payload:
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,cintercom.io
+  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
