@@ -4,7 +4,13 @@ payload:
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,csentry.io
+  - DOMAIN-SUFFIX,cintercomcdn.com
+  - DOMAIN-SUFFIX,cintercom.io
+  - DOMAIN-SUFFIX,coaistatic.com
+  - DOMAIN-SUFFIX,coaiusercontent.com
   - DOMAIN-SUFFIX,cdn.oaistatic.com
+  - DOMAIN-SUFFIX,cdn.auth0.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
