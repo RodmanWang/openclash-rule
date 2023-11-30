@@ -46,6 +46,7 @@ payload:
   - DOMAIN,i.233py.com
   - DOMAIN,one.one.one.one
   - DOMAIN,public.dns.iij.jp
+  - DOMAIN,unfiltered.adguard-dns.com
   - IP-CIDR,103.121.210.210/32,no-resolve
   - IP-CIDR,101.101.101.101/32,no-resolve
   - IP-CIDR,1.12.12.12/32,no-resolve
