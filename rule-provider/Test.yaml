@@ -10,3 +10,7 @@ payload:
   - DOMAIN-KEYWORD,/speedtest/
   - DOMAIN-KEYWORD,test6.
   - DOMAIN-KEYWORD,test4.
+  - DOMAIN-KEYWORD,v4-only.
+  - DOMAIN-KEYWORD,v6-only.
+  - DOMAIN-KEYWORD,ipv4.
+  - DOMAIN-KEYWORD,ipv6.
