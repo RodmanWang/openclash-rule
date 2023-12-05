@@ -25,7 +25,3 @@
   - DOMAIN-SUFFIX,astockcdn.net
   - DOMAIN-SUFFIX,s3.amazonaws.com
   - DOMAIN-SUFFIX,elb.amazonaws.com
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,crashlytics.com
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,arkoselabs.com
