@@ -1,3 +1,5 @@
+payload:
+# > Adobe
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobecc.com
