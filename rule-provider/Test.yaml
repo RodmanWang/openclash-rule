@@ -14,3 +14,4 @@ payload:
   - DOMAIN-KEYWORD,v6-only.
   - DOMAIN-KEYWORD,ipv4.
   - DOMAIN-KEYWORD,ipv6.
+  - DOMAIN-SUFFIX,speed.misaka.one
