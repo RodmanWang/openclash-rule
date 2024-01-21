@@ -1,4 +1,9 @@
 payload:
+# > Cloudflare ip-alias
+  - IP-CIDR,104.19.26.22/32,no-resolve
+  - IP-CIDR,172.64.85.33/32,no-resolve
+  - IP-CIDR6,2a06:98c1:3106:be2f:efa7:ca7d:122b:8643/128,no-resolve
+  - IP-CIDR6,2a06:98c1:3106:f216:6a97:c664:c4c6:8ccc/128,no-resolve
 # > local
   - DOMAIN,find.synology.com
   - DOMAIN,finds.synology.com
