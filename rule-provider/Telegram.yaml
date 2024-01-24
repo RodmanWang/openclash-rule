@@ -3,11 +3,14 @@ payload:
   - PROCESS-NAME,Telegram
   - PROCESS-NAME,org.telegram.messenger
   - DOMAIN-KEYWORD,telegram.
+  - DOMAIN-SUFFIX,cdn-telegram.org
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telecomspace.com
   - DOMAIN-SUFFIX,telegra.ph
   - DOMAIN-SUFFIX,telegram-cdn.org
-  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,telegramdownload.com
+  - DOMAIN-SUFFIX,telegraph.co.uk
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tx.me
