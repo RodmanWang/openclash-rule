@@ -1,1 +1,1 @@
-# openclash-rule
+# 。。。自用
