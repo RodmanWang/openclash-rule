@@ -1,0 +1,28 @@
+payload:
+# > Bahamut
+  - PROCESS-NAME,tw.com.gamer.android.animad
+  - DOMAIN-SUFFIX,bahamut.com.tw
+  - DOMAIN-SUFFIX,gamer.com.tw
+  - DOMAIN,gamer-cds.cdn.hinet.net
+  - DOMAIN,gamer2-cds.cdn.hinet.net
+# > LiTV
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN-SUFFIX,profile.line-scdn.net
+# > Line TV
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-SUFFIX,profile.line-scdn.net
+  - DOMAIN-SUFFIX,linetv.tw
+# > KKTV
+  - PROCESS-NAME,com.kktv.kktv
+  - DOMAIN-SUFFIX,kktv.me
+  - DOMAIN-SUFFIX,kktv.com.tw
+  - DOMAIN,kktv-theater.kk.stream
+# > JOOX
+  - PROCESS-NAME,com.tencent.ibg.joox
+  - PROCESS-NAME,com.tencent.ibg.jooxtv
+  - DOMAIN-SUFFIX,joox.com
+  - DOMAIN-KEYWORD,jooxweb-api
+# > 华文电视
+  - DOMAIN-SUFFIX,5itv.tv
+  - DOMAIN-SUFFIX,ocnttv.com

@@ -1,0 +1,17 @@
+payload:
+# > TEST
+  - DOMAIN-KEYWORD,testipv4
+  - DOMAIN-KEYWORD,testipv6
+  - DOMAIN-KEYWORD,test-ipv4
+  - DOMAIN-KEYWORD,test-ipv6
+  - DOMAIN-KEYWORD,ipv4-test
+  - DOMAIN-KEYWORD,ipv6-test
+  - DOMAIN-KEYWORD,speedtest.
+  - DOMAIN-KEYWORD,/speedtest/
+  - DOMAIN-KEYWORD,test6.
+  - DOMAIN-KEYWORD,test4.
+  - DOMAIN-KEYWORD,v4-only.
+  - DOMAIN-KEYWORD,v6-only.
+  - DOMAIN-KEYWORD,ipv4.
+  - DOMAIN-KEYWORD,ipv6.
+  - DOMAIN-SUFFIX,speed.misaka.one
