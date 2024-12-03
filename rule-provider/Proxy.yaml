@@ -970,3 +970,4 @@ payload:
   - DOMAIN-SUFFIX,lua.org
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,spamhaus.org
+  - DOMAIN-SUFFIX,bugsnag.com
