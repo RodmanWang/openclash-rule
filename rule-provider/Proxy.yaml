@@ -130,7 +130,6 @@ payload:
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
-# > Cogent
 # > Coudflare
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudflarestream.com
@@ -160,6 +159,8 @@ payload:
   - IP-CIDR6,2405:8100::/32,no-resolve
   - IP-CIDR6,2a06:98c0::/29,no-resolve
   - IP-CIDR6,2c0f:f248::/32,no-resolve
+# > Code
+  - DOMAIN-SUFFIX,gitea.com
 # > Domain Registrar
   - DOMAIN-SUFFIX,godaddy.com
 # > Dandanzan
