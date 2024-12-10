@@ -972,3 +972,4 @@ payload:
   - DOMAIN-SUFFIX,imgur.com
   - DOMAIN-SUFFIX,spamhaus.org
   - DOMAIN-SUFFIX,bugsnag.com
+  - DOMAIN-SUFFIX,geotrust.com
