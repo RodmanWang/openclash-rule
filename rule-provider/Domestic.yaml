@@ -1245,6 +1245,7 @@ payload:
   - DOMAIN-SUFFIX,znds.net
   - DOMAIN-SUFFIX,qun7.com
   - DOMAIN-SUFFIX,downbei.com
+  - DOMAIN-SUFFIX,tymcdn.com
 # > Dns
   - DOMAIN-SUFFIX,doh.pub
   - DOMAIN-SUFFIX,dns.pub
