@@ -973,3 +973,4 @@ payload:
   - DOMAIN-SUFFIX,bugsnag.com
   - DOMAIN-SUFFIX,geotrust.com
   - DOMAIN-SUFFIX,pgl.yoyo.org
+  - DOMAIN-SUFFIX,openstreetmap.org
