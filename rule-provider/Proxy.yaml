@@ -781,6 +781,7 @@ payload:
   - DOMAIN-SUFFIX,bbxy.shop
   - DOMAIN-SUFFIX,mcwy.pro
   - DOMAIN-SUFFIX,ovhcloud.com
+  - DOMAIN-SUFFIX,bandwagonhost.net
   - IP-CIDR,91.90.193.0/24,no-resolve
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
