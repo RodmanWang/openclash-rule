@@ -564,6 +564,7 @@ payload:
   - DOMAIN-SUFFIX,prod.client.wosc.services.microsoft.com
   - DOMAIN-SUFFIX,t-ring-fallback.msedge.net
   - DOMAIN,nevoaibutlerapi-prod.azurewebsites.net
+  - DOMAIN-SUFFIX,internetdownloadmanager.com
   - IP-CIDR,172.160.0.0/11,no-resolve
   - IP-CIDR6,2620:1ec:46::/48,no-resolve
   - IP-CIDR6,a04:fa87:fffe::/48,no-resolve
