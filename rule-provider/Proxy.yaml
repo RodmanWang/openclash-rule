@@ -487,6 +487,7 @@ payload:
   - DOMAIN-SUFFIX,statistics.securelist.com
   - DOMAIN-SUFFIX,touch.kaspersky.com
   - DOMAIN-SUFFIX,ds.kaspersky.com
+  - DOMAIN,s19.upd.kaspersky.com
   - IP-CIDR,62.67.238.208/32,no-resolve
   - IP-CIDR,62.128.100.0/23,no-resolve
   - IP-CIDR,77.74.177.0/24,no-resolve
