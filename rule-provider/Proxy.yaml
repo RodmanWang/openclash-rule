@@ -101,6 +101,7 @@ payload:
   - DOMAIN,podcasts.apple.com
   - DOMAIN,bookkeeper.itunes.apple.com
   - DOMAIN,play.itunes.apple.com
+  - IP-CIDR6,2403:300:a30:4000::1f2/128,no-resolve
 # > BT
   - DOMAIN-KEYWORD,www.1lou.
   - DOMAIN-SUFFIX,Rarbgprx.org
