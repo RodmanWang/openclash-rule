@@ -3,3 +3,4 @@ payload:
 #- DOMAIN-SUFFIX,google.com
 #- DOMAIN-KEYWORD,google
 #- IP-CIDR,127.0.0.0/8,no-resolve
+- IP-CIDR,61.128.145.34/32,no-resolve
