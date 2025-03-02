@@ -83,6 +83,10 @@ payload:
   - DOMAIN-SUFFIX,f-droid.org
 # > Apple
   - DOMAIN-KEYWORD,courier.push.apple.com
+  - DOMAIN,amp-account.itunes.apple.com
+  - DOMAIN,p151-quota.icloud.com
+  - DOMAIN,p151-quota.icloud.com
+  - DOMAIN,p151-acsegateway.icloud.com
   - DOMAIN,gateway.icloud.com
   - DOMAIN,kt-prod.ess.apple.com
   - DOMAIN,idmsa.apple.com
