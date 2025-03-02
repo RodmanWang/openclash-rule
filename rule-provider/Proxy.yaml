@@ -85,6 +85,7 @@ payload:
   - DOMAIN-KEYWORD,courier.push.apple.com
   - DOMAIN,apptrailers-ssl.itunes.apple.com
   - DOMAIN,amp-account.itunes.apple.com
+  - DOMAIN,mask.icloud.com
   - DOMAIN,p151-quota.icloud.com
   - DOMAIN,p151-quota.icloud.com
   - DOMAIN,p151-acsegateway.icloud.com
