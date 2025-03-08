@@ -111,6 +111,7 @@ payload:
   - DOMAIN,itunes.apple.com
   - DOMAIN,lookup-api.apple.com
   - DOMAIN,ocsp.apple.com
+  - DOMAIN,init.push.apple.com
   - DOMAIN,testflight.apple.com
   - DOMAIN,tv.apple.com
   - DOMAIN,uts-api.itunes.apple.com
