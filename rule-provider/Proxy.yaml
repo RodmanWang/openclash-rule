@@ -124,7 +124,7 @@ payload:
   - DOMAIN,play.itunes.apple.com
   - IP-CIDR6,2403:300:a30:4000::1f2/128,no-resolve
 # > Asus
-  - DOMAIN-SUFFIX,asuscomm.com
+  - DOMAIN-KEYWORD,asuscomm.com
   - DOMAIN-SUFFIX,bazaarvoice.com
 # > BT
   - DOMAIN-KEYWORD,www.1lou.
