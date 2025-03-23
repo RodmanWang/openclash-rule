@@ -214,6 +214,8 @@ payload:
   - DOMAIN-SUFFIX,spring.io
   - DOMAIN-SUFFIX,spring.net
   - DOMAIN-SUFFIX,stackoverflow.com
+  - DOMAIN-SUFFIX,dockerstatic.com
+  - DOMAIN-SUFFIX,redditstatic.com
 # > DNS
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN,common.dot.dns.yandex.net
