@@ -1007,3 +1007,5 @@ payload:
   - DOMAIN-SUFFIX,openstreetmap.org
   - DOMAIN-SUFFIX,shuax.com
   - DOMAIN-SUFFIX,firefox.com
+  - DOMAIN-SUFFIX,verisign.com
+  - DOMAIN-SUFFIX,symcb.com
