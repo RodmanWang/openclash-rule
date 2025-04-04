@@ -1009,3 +1009,4 @@ payload:
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,verisign.com
   - DOMAIN-SUFFIX,symcb.com
+  - DOMAIN-SUFFIX,python.org
