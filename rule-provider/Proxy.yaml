@@ -1010,3 +1010,4 @@ payload:
   - DOMAIN-SUFFIX,verisign.com
   - DOMAIN-SUFFIX,symcb.com
   - DOMAIN-SUFFIX,python.org
+  - DOMAIN-SUFFIX,faststone.org
