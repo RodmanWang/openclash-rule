@@ -3583,3 +3583,4 @@ payload:
   - DOMAIN-SUFFIX,176001.tv
   - DOMAIN-SUFFIX,hjenglish.com
   - DOMAIN-SUFFIX,hjapi.com
+  - DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
