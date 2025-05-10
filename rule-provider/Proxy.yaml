@@ -691,6 +691,7 @@ payload:
   - DOMAIN-SUFFIX,ec.razer.com
 # > SamSung
   - DOMAIN-SUFFIX,sbixby.com
+  - DOMAIN-SUFFIX,samsungsds.com
   - DOMAIN-SUFFIX,samsungcloud.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,vas.samsungapps.com
