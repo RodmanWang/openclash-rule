@@ -3336,6 +3336,7 @@ payload:
 # > Wondershare
   - DOMAIN-SUFFIX,wondershare.cn
   - DOMAIN-SUFFIX,wondershare.cc
+  - DOMAIN-SUFFIX,wondershare.com
 # > Xtfans
   - DOMAIN-SUFFIX,extfans.com
   - DOMAIN-SUFFIX,lemurbrowser.com
