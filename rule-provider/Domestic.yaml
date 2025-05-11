@@ -3333,6 +3333,9 @@ payload:
 # > WordPress
   - DOMAIN-SUFFIX,wordpress.com
   - DOMAIN-SUFFIX,wp.com
+# > Wondershare
+  - DOMAIN-SUFFIX,wondershare.cn
+  - DOMAIN-SUFFIX,wondershare.cc
 # > Xtfans
   - DOMAIN-SUFFIX,extfans.com
   - DOMAIN-SUFFIX,lemurbrowser.com
