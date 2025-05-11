@@ -573,6 +573,7 @@ payload:
   - DOMAIN-SUFFIX,malwarebytes.com
   - DOMAIN-SUFFIX,chatra.io
 # > Microsoft
+  - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,cdn.odc.officeapps.live.com
   - DOMAIN-SUFFIX,cxcs.microsoft.net
   - DOMAIN-SUFFIX,fe2cr.update.microsoft.com
@@ -598,8 +599,8 @@ payload:
   - DOMAIN,gsa.view.api.account.microsoft.com
   - DOMAIN,admin.microsoft.com
   - DOMAIN,fpt.microsoft.com
-  - DOMAIN,activity.windows.com
-  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN,activity.windows.com=
+  - DOMAIN,194320-ipv4.gr.global.aa-rt.sharepoint.com
   - IP-CIDR,172.160.0.0/11,no-resolve
   - IP-CIDR6,2620:1ec:46::/48,no-resolve
   - IP-CIDR6,a04:fa87:fffe::/48,no-resolve
