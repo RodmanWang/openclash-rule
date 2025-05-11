@@ -593,7 +593,13 @@ payload:
   - DOMAIN-SUFFIX,prod.client.wosc.services.microsoft.com
   - DOMAIN-SUFFIX,t-ring-fallback.msedge.net
   - DOMAIN,nevoaibutlerapi-prod.azurewebsites.net
+  - DOMAIN,subs-paynow.msdxcdn.microsoft.com
   - DOMAIN-SUFFIX,internetdownloadmanager.com
+  - DOMAIN,gsa.view.api.account.microsoft.com
+  - DOMAIN,admin.microsoft.com
+  - DOMAIN,fpt.microsoft.com
+  - DOMAIN,activity.windows.com
+  - DOMAIN-SUFFIX,skype.com
   - IP-CIDR,172.160.0.0/11,no-resolve
   - IP-CIDR6,2620:1ec:46::/48,no-resolve
   - IP-CIDR6,a04:fa87:fffe::/48,no-resolve
