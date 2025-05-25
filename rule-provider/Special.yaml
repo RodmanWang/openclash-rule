@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,pro.xns.one
   - DOMAIN-SUFFIX,pro.xns.rodeo
   - DOMAIN-SUFFIX,hk.nxns.link
+  - DOMAIN-SUFFIX,xns.rodeo
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
