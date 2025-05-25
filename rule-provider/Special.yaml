@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,adguard-dns.io
   - DOMAIN-SUFFIX,pro.xns.one
   - DOMAIN-SUFFIX,pro.xns.rodeo
+  - DOMAIN-SUFFIX,hk.nxns.link
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
