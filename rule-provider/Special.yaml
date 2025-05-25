@@ -32,6 +32,7 @@ payload:
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
 # > DNS（abroad-direct）
   - DOMAIN-SUFFIX,adguard-dns.com
+  - DOMAIN-SUFFIX,adguard-dns.io
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
