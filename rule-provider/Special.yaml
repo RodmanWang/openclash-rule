@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,xns.rodeo
   - IP-CIDR,8.217.246.48/32,no-resolve
   - IP-CIDR,45.249.245.247/32,no-resolve
+  - IP-CIDR,103.150.8.98/32,no-resolve
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
