@@ -32,11 +32,9 @@ payload:
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
 # > DNS
   - DOMAIN-SUFFIX,adguard-dns.com
-  - DOMAIN-SUFFIX,adguard-dns.io
   - DOMAIN-SUFFIX,pro.xns.one
   - DOMAIN-SUFFIX,pro.xns.rodeo
   - DOMAIN-SUFFIX,hk.nxns.link
-  - DOMAIN-SUFFIX,xns.rodeo
   - IP-CIDR,8.217.246.48/32,no-resolve
   - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,103.150.8.98/32,no-resolve
