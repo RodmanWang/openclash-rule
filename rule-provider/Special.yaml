@@ -25,8 +25,8 @@ payload:
   - IP-CIDR6,2001:300::6/128,no-resolve
 # > DNS
   - DOMAIN-SUFFIX,adguard-dns.com
-  - DOMAIN-SUFFIX,xns.one
-  - DOMAIN-SUFFIX,xns.rodeo
+  - DOMAIN-SUFFIX,pro.xns.one
+  - DOMAIN-SUFFIX,pro.xns.rodeo
   - DOMAIN-SUFFIX,nxns.link
   - IP-CIDR,103.143.81.71/32,no-resolve
   - IP-CIDR,8.217.246.48/32,no-resolve
