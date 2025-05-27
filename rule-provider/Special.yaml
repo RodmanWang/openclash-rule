@@ -12,8 +12,6 @@ payload:
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR6,2400:3200::1/128,no-resolve
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
-  - DOMAIN,doh.apad.pro
-  - IP-CIDR,220.185.184.18/32,no-resolve
 # > DNS（abroad-direct）
   - DOMAIN,dns.twnic.tw
   - IP-CIDR,101.101.101.101/32,no-resolve
@@ -25,11 +23,6 @@ payload:
   - IP-CIDR,103.2.57.6/32,no-resolve
   - IP-CIDR6,2001:300::5/128,no-resolve
   - IP-CIDR6,2001:300::6/128,no-resolve
-  - DOMAIN,doh.dns.sb
-  - IP-CIDR,103.121.210.210/32,no-resolve
-  - IP-CIDR,45.125.0.26/32,no-resolve
-  - IP-CIDR6,2400:6180:0:d0::45a:b001/128,no-resolve
-  - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
 # > DNS
   - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,pro.xns.one
