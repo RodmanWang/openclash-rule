@@ -30,6 +30,9 @@ payload:
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
   - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,pro.xns.one
+  - DOMAIN-SUFFIX,bata.xns.one
+  - DOMAIN-SUFFIX,raito.xns.one
+  - DOMAIN-SUFFIX,kahkee.xns.one
   - DOMAIN-SUFFIX,pro.xns.rodeo
   - DOMAIN-SUFFIX,nxns.link
   - IP-CIDR,103.143.81.71/32,no-resolve
