@@ -41,6 +41,8 @@ payload:
   - DOMAIN-SUFFIX,cn.ntppool.org
   - DOMAIN-SUFFIX,cn.pool.ntp.org
   - DOMAIN-SUFFIX,ubuntu.pool.ntp.org
+  # > NTP(apple)
+  - IP-CIDR6,2403:300:a30:3000::1f2/128,no-resolve
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
