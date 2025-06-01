@@ -222,6 +222,7 @@ payload:
   - DOMAIN-SUFFIX,xns.rodeo
   - DOMAIN-SUFFIX,nxns.link
   - DOMAIN-SUFFIX,xns.my.id
+  - DOMAIN-SUFFIX,novaxns.one
   - DOMAIN,common.dot.dns.yandex.net
   - DOMAIN,dns.google
   - DOMAIN,dns.quad9.net
