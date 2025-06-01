@@ -30,14 +30,17 @@ payload:
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
   - DOMAIN-SUFFIX,adguard-dns.com
 # > DNS（NovaXNS）
-  - DOMAIN-SUFFIX,pro.xns.one
-  - DOMAIN-SUFFIX,novaxns.one
-  - DOMAIN-SUFFIX,beta.xns.one
-  - DOMAIN-SUFFIX,raito.xns.one
-  - DOMAIN-SUFFIX,kahkee.xns.one
-  - DOMAIN-SUFFIX,pro.xns.rodeo
-  - DOMAIN-SUFFIX,nxns.link
-  - DOMAIN-SUFFIX,xns.my.id
+  - DOMAIN-SUFFIX,hk.pro.xns.one
+  - DOMAIN-SUFFIX,hk1.pro.xns.one
+  - DOMAIN-SUFFIX,hk2.pro.xns.one
+  - DOMAIN-SUFFIX,hk.kahkee.xns.one
+  - DOMAIN-SUFFIX,hk-pro.nxns.link
+  - DOMAIN-SUFFIX,jp.nxns.link
+  - DOMAIN-SUFFIX,hk-kahkee.nxns.link
+  - DOMAIN-SUFFIX,hk.pro.xns.rodeo
+  - DOMAIN-SUFFIX,hk1.pro.xns.rodeo
+  - DOMAIN-SUFFIX,jp.pro.xns.rodeo
+  - DOMAIN-SUFFIX,jp.kahkee.xns.rodeo
   - IP-CIDR,103.143.81.71/32,no-resolve
   - IP-CIDR,8.217.246.48/32,no-resolve
   - IP-CIDR,47.239.81.175/32,no-resolve
