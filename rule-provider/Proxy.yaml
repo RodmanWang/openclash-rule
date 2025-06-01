@@ -8,7 +8,6 @@ payload:
   - DOMAIN-SUFFIX,lanik.us
 # > Adguard
   - DOMAIN-SUFFIX,adguard.info
-  - DOMAIN-SUFFIX,adguard-dns.io
   - DOMAIN-SUFFIX,adguard-vpn.com
   - DOMAIN-SUFFIX,adguard-vpn.info
   - DOMAIN-SUFFIX,adguard.com
