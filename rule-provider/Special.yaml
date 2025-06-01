@@ -28,7 +28,9 @@ payload:
   - IP-CIDR,45.125.0.26/32,no-resolve
   - IP-CIDR6,2400:6180:0:d0::45a:b001/128,no-resolve
   - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
+# > DNS（AdGuardDNS）
   - DOMAIN-SUFFIX,adguard-dns.com
+  - DOMAIN-SUFFIX,adguard-dns.io
 # > DNS（NovaXNS）
   - DOMAIN-SUFFIX,hk.pro.xns.one
   - DOMAIN-SUFFIX,hk1.pro.xns.one
