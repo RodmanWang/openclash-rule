@@ -218,7 +218,10 @@ payload:
   - DOMAIN-SUFFIX,redditstatic.com
 # > DNS
   - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,dash.xns.one
+  - DOMAIN-SUFFIX,xns.one
+  - DOMAIN-SUFFIX,xns.rodeo
+  - DOMAIN-SUFFIX,nxns.link
+  - DOMAIN-SUFFIX,xns.my.id
   - DOMAIN,common.dot.dns.yandex.net
   - DOMAIN,dns.google
   - DOMAIN,dns.quad9.net
