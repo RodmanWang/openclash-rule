@@ -619,6 +619,8 @@ payload:
   - DOMAIN-SUFFIX,imdbws.com
   - DOMAIN-SUFFIX,rapidapi.com
   - DOMAIN-SUFFIX,media-imdb.com
+  - DOMAIN-SUFFIX,ofdb.de
+  - DOMAIN-SUFFIX,fanart.tv
 # > NTP
   - DOMAIN-SUFFIX,ntppool.org
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -791,7 +793,6 @@ payload:
   - DOMAIN,www.mirrorservice.org
   - DOMAIN,xbmc.os6.org
   - DOMAIN-SUFFIX,dotsrc.org
-  - DOMAIN-SUFFIX,fanart.tv
   - DOMAIN-SUFFIX,halifax.rwth-aachen.de
   - DOMAIN-SUFFIX,kodi.tv
   - DOMAIN-SUFFIX,nluug.nl
