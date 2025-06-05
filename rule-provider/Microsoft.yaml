@@ -564,3 +564,4 @@ payload:
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
   - DOMAIN-SUFFIX,microsoft
+  - DOMAIN-SUFFIX,my.microsoftpersonalcontent.com
