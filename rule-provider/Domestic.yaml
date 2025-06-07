@@ -2457,6 +2457,7 @@ payload:
   - DOMAIN-SUFFIX,srcgsre.com
   - DOMAIN-SUFFIX,samsungcloudsolution.com
   - DOMAIN-SUFFIX,samsunghealth.com
+  - DOMAIN-SUFFIX,samsungosp.com
 # > Scholar
   - DOMAIN-SUFFIX,acm.org
   - DOMAIN-SUFFIX,acs.org
