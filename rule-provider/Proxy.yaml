@@ -131,6 +131,8 @@ payload:
   - DOMAIN,uts-api.itunes.apple.com
   - DOMAIN,weather-edge.apple.com
   - DOMAIN,www.icloud.com
+  - DOMAIN,p146-fmf.icloud.com
+  - DOMAIN,p40-buy.itunes.apple.com
   - IP-CIDR6,2403:300:a30:4000::1f2/128,no-resolve
 # > Asus
   - DOMAIN-KEYWORD,asuscomm.com
