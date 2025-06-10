@@ -85,6 +85,9 @@ payload:
   - DOMAIN,apptrailers-ssl.itunes.apple.com
   - DOMAIN,amp-account.itunes.apple.com
   - DOMAIN,mask.icloud.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,captive.apple.com
+  - DOMAIN,setup.icloud.com
   - DOMAIN,p151-quota.icloud.com
   - DOMAIN,p151-quota.icloud.com
   - DOMAIN,p151-acsegateway.icloud.com
