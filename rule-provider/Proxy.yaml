@@ -123,6 +123,7 @@ payload:
   - DOMAIN,partiality.itunes.apple.com
   - DOMAIN,profile.gc.apple.com
   - DOMAIN,sandbox.itunes.apple.com
+  - DOMAIN,sb.music.apple.com
   - DOMAIN,setup.icloud.com
   - DOMAIN,speedysub.apps.apple.com
   - DOMAIN,tdms.apple.com
