@@ -96,8 +96,10 @@ payload:
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.itunes.apple.com
   - DOMAIN,buy.apps.apple.com
+  - DOMAIN,buy.itunes.apple.com
   - DOMAIN,captive.apple.com
   - DOMAIN,developer.apple.com
+  - DOMAIN,entitlements.itunes.apple.com
   - DOMAIN,familyws.icloud.apple.com
   - DOMAIN,fpinit.itunes.apple.com
   - DOMAIN,gateway.icloud.com
@@ -108,6 +110,7 @@ payload:
   - DOMAIN,gsp-ssl.ls.apple.com
   - DOMAIN,gsp85-ssl.ls.apple.com
   - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,gspe19-2-ssl.ls.apple.com
   - DOMAIN,idmsa.apple.com
   - DOMAIN,init.push.apple.com
   - DOMAIN,kt-prod.ess.apple.com
