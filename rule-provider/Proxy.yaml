@@ -82,7 +82,8 @@ payload:
   - DOMAIN-SUFFIX,f-droid.org
 # > Apple
   - DOMAIN-KEYWORD,courier.push.apple.com
-  - DOMAIN-KEYWORD,ssl.ls.apple.com
+  - DOMAIN,gsp-ssl.ls.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,gdmf-ados.apple.com
   - DOMAIN,apptrailers-ssl.itunes.apple.com
   - DOMAIN,gsa.apple.com
