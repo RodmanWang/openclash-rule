@@ -82,48 +82,50 @@ payload:
   - DOMAIN-SUFFIX,f-droid.org
 # > Apple
   - DOMAIN-KEYWORD,courier.push.apple.com
-  - DOMAIN,gsp-ssl.ls.apple.com
-  - DOMAIN,gspe1-ssl.ls.apple.com
-  - DOMAIN,gdmf-ados.apple.com
-  - DOMAIN,apptrailers-ssl.itunes.apple.com
-  - DOMAIN,gsa.apple.com
-  - DOMAIN,fpinit.itunes.apple.com
-  - DOMAIN,afs.ampaeservices.com
-  - DOMAIN,tdms.apple.com
-  - DOMAIN,amp-account.itunes.apple.com
-  - DOMAIN,mask.icloud.com
-  - DOMAIN,gspe1-ssl.ls.apple.com
-  - DOMAIN,captive.apple.com
-  - DOMAIN,setup.icloud.com
-  - DOMAIN,p151-quota.icloud.com
-  - DOMAIN,p151-quota.icloud.com
-  - DOMAIN,p151-acsegateway.icloud.com
-  - DOMAIN,gateway.icloud.com
-  - DOMAIN,kt-prod.ess.apple.com
-  - DOMAIN,idmsa.apple.com
-  - DOMAIN,speedysub.apps.apple.com
-  - DOMAIN,familyws.icloud.apple.com
-  - DOMAIN,gateway.icloud.com
-  - DOMAIN,kt-prod.ess.apple.com
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN,account.apple.com
+  - DOMAIN,afs.ampaeservices.com
   - DOMAIN,amp-account.apps.apple.com
-  - DOMAIN,auth.apps.apple.com
-  - DOMAIN,buy.apps.apple.com
-  - DOMAIN,gdmf.apple.com
-  - DOMAIN,gsas.apple.com
+  - DOMAIN,amp-account.itunes.apple.com
   - DOMAIN,api-glb-sea.smoot.apple.com
   - DOMAIN,appleid.apple.com
   - DOMAIN,apps.apple.com
+  - DOMAIN,apptrailers-ssl.itunes.apple.com
+  - DOMAIN,auth.apps.apple.com
   - DOMAIN,beta.music.apple.com
   - DOMAIN,books.itunes.apple.com
+  - DOMAIN,buy.apps.apple.com
+  - DOMAIN,captive.apple.com
   - DOMAIN,developer.apple.com
-  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,familyws.icloud.apple.com
+  - DOMAIN,fpinit.itunes.apple.com
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,gdmf-ados.apple.com
+  - DOMAIN,gdmf.apple.com
+  - DOMAIN,gsa.apple.com
+  - DOMAIN,gsas.apple.com
+  - DOMAIN,gsp-ssl.ls.apple.com
+  - DOMAIN,gsp85-ssl.ls.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,idmsa.apple.com
   - DOMAIN,init.push.apple.com
+  - DOMAIN,kt-prod.ess.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,mask-api.icloud.com
+  - DOMAIN,mask.icloud.com
+  - DOMAIN,p146-quota.icloud.com
+  - DOMAIN,p151-acsegateway.icloud.com
+  - DOMAIN,p151-quota.icloud.com
+  - DOMAIN,partiality.itunes.apple.com
+  - DOMAIN,sandbox.itunes.apple.com
+  - DOMAIN,setup.icloud.com
+  - DOMAIN,speedysub.apps.apple.com
+  - DOMAIN,tdms.apple.com
   - DOMAIN,testflight.apple.com
   - DOMAIN,uts-api.itunes.apple.com
+  - DOMAIN,weather-edge.apple.com
   - DOMAIN,www.icloud.com
-  - DOMAIN-SUFFIX,appsto.re
-  - DOMAIN-SUFFIX,smoot.apple.com
   - IP-CIDR6,2403:300:a30:4000::1f2/128,no-resolve
 # > Asus
   - DOMAIN-KEYWORD,asuscomm.com
