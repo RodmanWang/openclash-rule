@@ -511,6 +511,7 @@ payload:
   - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,goodnotescloud.com
   - DOMAIN-SUFFIX,ml-goodnotes.com
+  - DOMAIN-SUFFIX,goodnotes-devops.com
 # > Instagram
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
