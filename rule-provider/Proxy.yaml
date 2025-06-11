@@ -133,6 +133,8 @@ payload:
   - DOMAIN,www.icloud.com
   - DOMAIN,p146-fmf.icloud.com
   - DOMAIN,p40-buy.itunes.apple.com
+  - DOMAIN,gspe19-ssl.ls.apple.com
+  - DOMAIN,mask-h2.icloud.com
   - IP-CIDR6,2403:300:a30:4000::1f2/128,no-resolve
 # > Asus
   - DOMAIN-KEYWORD,asuscomm.com
@@ -1047,3 +1049,4 @@ payload:
   - DOMAIN-SUFFIX,noohub.ru
   - DOMAIN-SUFFIX,clash.wiki
   - DOMAIN-SUFFIX,dmv.org
+  - DOMAIN-SUFFIX,code.org
