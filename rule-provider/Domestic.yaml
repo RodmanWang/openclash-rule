@@ -3327,6 +3327,10 @@ payload:
   - DOMAIN-SUFFIX,wondershare.cn
   - DOMAIN-SUFFIX,wondershare.cc
   - DOMAIN-SUFFIX,wondershare.com
+  - DOMAIN-SUFFIX,pcwatch.com
+  - DOMAIN-SUFFIX,300624.com
+  - DOMAIN-SUFFIX,wondershare.de
+  - DOMAIN-SUFFIX,wondershare.com.br
 # > Xtfans
   - DOMAIN-SUFFIX,extfans.com
   - DOMAIN-SUFFIX,lemurbrowser.com
