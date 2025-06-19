@@ -49,6 +49,7 @@ payload:
   - DOMAIN-SUFFIX,hk1.pro.xns.rodeo
   - DOMAIN-SUFFIX,jp.pro.xns.rodeo
   - DOMAIN-SUFFIX,jp.kahkee.xns.rodeo
+  - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - IP-CIDR,103.143.81.71/32,no-resolve
   - IP-CIDR,8.217.246.48/32,no-resolve
   - IP-CIDR,8.217.206.155/32,no-resolve
