@@ -3584,3 +3584,4 @@ payload:
   - DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN-SUFFIX,daocloud.io
   - DOMAIN-SUFFIX,shouhougou.com
+  - DOMAIN-SUFFIX,collegeboard.org
