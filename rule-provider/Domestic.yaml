@@ -1503,6 +1503,8 @@ payload:
   - IP-CIDR,203.135.43.0/24,no-resolve
   - IP-CIDR,203.135.48.0/24,no-resolve
   - IP-CIDR,203.135.50.0/24,no-resolve
+# > Hupu
+  - DOMAIN-SUFFIX,hupu.com
 # > IQiyi
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,qy.com
