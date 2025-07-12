@@ -97,6 +97,8 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com.8686c.com
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com
   - DOMAIN-SUFFIX,steamusercontent.com
+# > Game
+  - DOMAIN,dl.listdl.com
 #> Download
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
