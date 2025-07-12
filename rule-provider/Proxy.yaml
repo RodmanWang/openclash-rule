@@ -235,6 +235,7 @@ payload:
   - DOMAIN-SUFFIX,xns.rodeo
   - DOMAIN-SUFFIX,nxns.link
   - DOMAIN-SUFFIX,xns.my.id
+  - IP-CIDR,199.232.151.52/32,no-resolve
   - DOMAIN-SUFFIX,novaxns.one
   - DOMAIN,common.dot.dns.yandex.net
   - DOMAIN,dns.google
