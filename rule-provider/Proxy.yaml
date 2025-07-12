@@ -686,14 +686,7 @@ payload:
 # > Performive LLC
   - IP-CIDR,107.181.166.0/24,no-resolve
 # > Pinterest
-  - DOMAIN-SUFFIX,pinterest.at
-  - DOMAIN-SUFFIX,pinterest.ca
-  - DOMAIN-SUFFIX,pinterest.co.uk
-  - DOMAIN-SUFFIX,pinterest.com
-  - DOMAIN-SUFFIX,pinterest.de
-  - DOMAIN-SUFFIX,pinterest.fr
-  - DOMAIN-SUFFIX,pinterest.jp
-  - DOMAIN-SUFFIX,pinterest.se
+  - DOMAIN-KEYWORD,pinterest.
 # > Pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pximg.net
