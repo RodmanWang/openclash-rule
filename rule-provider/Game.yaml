@@ -65,6 +65,7 @@ payload:
   - DOMAIN-SUFFIX,battleye.com
   - DOMAIN-SUFFIX,pubgbluehole.com
   - DOMAIN-SUFFIX,playbattlegrounds.com
+  - DOMAIN-SUFFIX,gjacky.com
 # > Steam
   - DOMAIN-SUFFIX,fanatical.com
   - DOMAIN-SUFFIX,humblebundle.com
