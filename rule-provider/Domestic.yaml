@@ -2431,7 +2431,7 @@ payload:
   - DOMAIN-KEYWORD,discuz.
   - DOMAIN-KEYWORD,qq.
   - DOMAIN-KEYWORD,tencent-
-  - DOMAIN-KEYWORD,tencent.
+  - DOMAIN-REGEX,tencent*.com
   - DOMAIN-KEYWORD,tencentcloud
   - DOMAIN-KEYWORD,wechat.
   - DOMAIN-REGEX,qcloud*.com
