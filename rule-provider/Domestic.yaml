@@ -2437,7 +2437,6 @@ payload:
   - DOMAIN-REGEX,qcloud*.com
   - DOMAIN-REGEX,dcloud*.com
   - DOMAIN-REGEX,dcloud*.net
-  - DOMAIN-REGEX,tencent*.com
   - DOMAIN-WILDCARD,tdnsv?.com
   - DOMAIN-REGEX,tcloud*.net
   - DOMAIN-REGEX,tcloud*.com
