@@ -236,6 +236,7 @@ payload:
   - DOMAIN-SUFFIX,nxns.link
   - DOMAIN-SUFFIX,xns.my.id
   - IP-CIDR,199.232.151.52/32,no-resolve
+  - IP-CIDR,151.101.111.52/32,no-resolve
   - DOMAIN-SUFFIX,novaxns.one
   - DOMAIN,common.dot.dns.yandex.net
   - DOMAIN,dns.google
@@ -1048,3 +1049,4 @@ payload:
   - DOMAIN-SUFFIX,code.org
   - DOMAIN-SUFFIX,wordpress.org
   - DOMAIN-SUFFIX,crates.io
+
