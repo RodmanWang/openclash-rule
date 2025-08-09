@@ -144,6 +144,7 @@ payload:
   - DOMAIN-SUFFIX,unity.com
   - DOMAIN-SUFFIX,unity3dusercontent.com
 # >Other
+  - DOMAIN-SUFFIX,glulive.com
   - IP-CIDR,5.42.161.129/32,no-resolve
   - IP-CIDR,5.42.161.193/32,no-resolve
   - IP-CIDR,24.105.30.129/32,no-resolve
