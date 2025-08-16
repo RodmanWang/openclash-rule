@@ -135,3 +135,6 @@ payload:
 # > UUBooster
   - PROCESS-NAME,uugamebooster
   - DOMAIN-SUFFIX,uu.163.com
+# > Qiyoubooster
+  - PROCESS-NAME,qy_acc
+  - DOMAIN-SUFFIX,ljbmq.qiyou.cn
