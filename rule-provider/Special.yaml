@@ -52,6 +52,7 @@ payload:
   - DOMAIN-SUFFIX,sg.kahkee.xns.one
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - DOMAIN-SUFFIX,v.xns.one
+  - IP-CIDR,46.3.26.20/32,no-resolve
   - IP-CIDR,103.150.8.98/32,no-resolve
   - IP-CIDR,103.143.81.71/32,no-resolve
   - IP-CIDR,47.239.81.175/32,no-resolve
@@ -139,4 +140,5 @@ payload:
 # > Qiyoubooster
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+
 
