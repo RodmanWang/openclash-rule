@@ -1062,3 +1062,5 @@ payload:
   - DOMAIN-SUFFIX,online-metrix.net
   - DOMAIN-SUFFIX,npr.org
   - DOMAIN-SUFFIX,bugsplat.com
+  - DOMAIN-SUFFIX,videolan.org
+  - DOMAIN,neveragain.allstatics.com
