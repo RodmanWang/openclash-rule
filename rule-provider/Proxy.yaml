@@ -876,6 +876,16 @@ payload:
   - DOMAIN-SUFFIX,wikiversity.org
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wiktionary.org
+# > Wondershare
+  - DOMAIN,images.wondershare.es
+  - DOMAIN,images.wondershare.fr
+  - DOMAIN,images.wondershare.kr
+  - DOMAIN,images.wondershare.net
+  - DOMAIN,pdf.wondershare.jp
+  - DOMAIN,cbs.wondershare.com
+  - DOMAIN,images.wondershare.com
+  - DOMAIN,resource.wondershare.com
+  - DOMAIN,sparrow.wondershare.com
 # > Yandex
   - DOMAIN-KEYWORD,yandex.
   - DOMAIN-SUFFIX,yastatic.net
@@ -1051,3 +1061,4 @@ payload:
   - DOMAIN-SUFFIX,crates.io
   - DOMAIN-SUFFIX,online-metrix.net
   - DOMAIN-SUFFIX,npr.org
+
