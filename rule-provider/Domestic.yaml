@@ -832,6 +832,7 @@ payload:
   - DOMAIN-SUFFIX,yfanpa.com
   - DOMAIN-SUFFIX,zitian.net
   - DOMAIN-SUFFIX,zitianidc.com
+  - DOMAIN-SUFFIX,byteeffecttos.com
 # > Canon
   - DOMAIN-SUFFIX,canon.com
   - DOMAIN-SUFFIX,c-wss.com
@@ -3304,3 +3305,4 @@ payload:
   - DOMAIN-SUFFIX,tdatamaster.com
   - DOMAIN-SUFFIX,onethingpcs.com
   - DOMAIN-SUFFIX,qixin.com
+
