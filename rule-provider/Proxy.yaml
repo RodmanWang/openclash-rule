@@ -716,6 +716,7 @@ payload:
   - DOMAIN-SUFFIX,sbixby.com
   - DOMAIN-SUFFIX,samsungsds.com
   - DOMAIN-SUFFIX,samsungcloud.com
+  - DOMAIN-SUFFIX,samsungmobile.com
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,vas.samsungapps.com
   - DOMAIN-SUFFIX,v3.account.samsung.com
@@ -1064,3 +1065,4 @@ payload:
   - DOMAIN-SUFFIX,bugsplat.com
   - DOMAIN-SUFFIX,videolan.org
   - DOMAIN,neveragain.allstatics.com
+
