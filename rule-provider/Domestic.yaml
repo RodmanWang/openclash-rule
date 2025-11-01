@@ -837,6 +837,7 @@ payload:
   - DOMAIN-SUFFIX,canon.com
   - DOMAIN-SUFFIX,c-wss.com
   - DOMAIN-SUFFIX,canon
+  - DOMAIN-SUFFIX,ciggws.net
 # > Cainiao
   - DOMAIN-SUFFIX,cainiao.com
   - DOMAIN-SUFFIX,guoguo-app.com
@@ -3305,4 +3306,5 @@ payload:
   - DOMAIN-SUFFIX,tdatamaster.com
   - DOMAIN-SUFFIX,onethingpcs.com
   - DOMAIN-SUFFIX,qixin.com
+
 
