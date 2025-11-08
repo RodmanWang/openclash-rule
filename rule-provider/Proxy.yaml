@@ -13,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
   - DOMAIN-SUFFIX,agrd.io
-  - DOMAIN-SUFFIX,adguardcdn.com
 # > Adobe
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobe.net
@@ -1066,5 +1065,6 @@ payload:
   - DOMAIN-SUFFIX,bugsplat.com
   - DOMAIN-SUFFIX,videolan.org
   - DOMAIN,neveragain.allstatics.com
+
 
 
