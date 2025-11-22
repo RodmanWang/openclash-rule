@@ -43,16 +43,20 @@ payload:
   - DOMAIN-SUFFIX,hk1.pro.xns.one
   - DOMAIN-SUFFIX,hk1.pro.xns.rodeo
   - DOMAIN-SUFFIX,hk2.pro.xns.one
+  - DOMAIN-SUFFIX,hk1.beta.xns.one
+  - DOMAIN-SUFFIX,hk2.beta.xns.one
+  - DOMAIN-SUFFIX,hk.raito.xns.one
   - DOMAIN-SUFFIX,jp.kahkee.xns.one
   - DOMAIN-SUFFIX,jp.kahkee.xns.rodeo
   - DOMAIN-SUFFIX,jp.nxns.link
   - DOMAIN-SUFFIX,jp.pro.xns.one
   - DOMAIN-SUFFIX,jp.pro.xns.rodeo
+  - DOMAIN-SUFFIX,jp.beta.xns.one
   - DOMAIN-SUFFIX,kr.pro.xns.one
   - DOMAIN-SUFFIX,sg.kahkee.xns.one
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - DOMAIN-SUFFIX,v.xns.one
-  - DOMAIN-SUFFIX,212.102.50.50/32,no-resolve
+  - IP-CIDR,212.102.50.50/32,no-resolve
   - IP-CIDR,46.3.26.20/32,no-resolve
   - IP-CIDR,103.150.8.98/32,no-resolve
   - IP-CIDR,103.143.81.71/32,no-resolve
@@ -141,6 +145,7 @@ payload:
 # > Qiyoubooster
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+
 
 
 
