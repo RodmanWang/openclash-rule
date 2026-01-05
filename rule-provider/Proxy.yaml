@@ -168,6 +168,7 @@ payload:
   - DOMAIN-SUFFIX,kxcdn.com
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,githack.com
+  - DOMAIN-SUFFIX,cartocdn.com
 # > Clubhouse
   - DOMAIN-SUFFIX,clubhouseapi.com
   - DOMAIN-SUFFIX,joinclubhouse.com
@@ -1068,3 +1069,4 @@ payload:
   - DOMAIN-SUFFIX,bugsplat.com
   - DOMAIN-SUFFIX,videolan.org
   - DOMAIN,neveragain.allstatics.com
+
