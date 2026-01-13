@@ -86,6 +86,13 @@ payload:
   - DOMAIN,www.playstation.com
   - DOMAIN,manuals.playstation.net
   - DOMAIN,dcn01.ps5.update.playstation.net
+  - DOMAIN,id.sonyentertainmentnetwork.com
+  - DOMAIN,ca.account.sony.com
+  - DOMAIN,my.account.sony.com
+  - DOMAIN,reference-data.api.playstation.com
+  - DOMAIN,static.playstation.com
+  - DOMAIN,telemetry-web.api.playstation.com
+  - DOMAIN,web.np.playstation.com
 # > SteamCN
   - DOMAIN,dl.steam.clngaa.com
   - DOMAIN,st.dl.bscstorage.net
@@ -140,3 +147,4 @@ payload:
 # > Qiyoubooster
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+
