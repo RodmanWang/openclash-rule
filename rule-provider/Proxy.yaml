@@ -1069,4 +1069,5 @@ payload:
   - DOMAIN-SUFFIX,bugsplat.com
   - DOMAIN-SUFFIX,videolan.org
   - DOMAIN,neveragain.allstatics.com
-
+  - DOMAIN-SUFFIX,55kp.app
+  - DOMAIN-SUFFIX,tudoutudou.top
