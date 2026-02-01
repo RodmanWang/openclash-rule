@@ -1071,3 +1071,5 @@ payload:
   - DOMAIN,neveragain.allstatics.com
   - DOMAIN-SUFFIX,55kp.app
   - DOMAIN-SUFFIX,tudoutudou.top
+  - DOMAIN-SUFFIX,api.tvmatze.com
+  - DOMAIN-SUFFIX,blocklist.de
