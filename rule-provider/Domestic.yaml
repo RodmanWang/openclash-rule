@@ -2414,6 +2414,7 @@ payload:
   - DOMAIN-SUFFIX,downg0.com
   - DOMAIN-SUFFIX,creative.com
   - DOMAIN-SUFFIX,softcenter.site
+  - DOMAIN-SUFFIX,lizhi.shop
 # > SSL
   - DOMAIN-SUFFIX,ocsp-certum.com
 # > Softether
