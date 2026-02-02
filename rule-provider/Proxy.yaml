@@ -770,6 +770,12 @@ payload:
   - DOMAIN,emeditor.blob.core.windows.net
   - DOMAIN,edge.avangate.net
   - DOMAIN-SUFFIX,faststonesoft.net
+  - DOMAIN-SUFFIX,stardock.com
+  - DOMAIN-SUFFIX,impactcdn.com
+  - DOMAIN-SUFFIX,cachefly.net
+  - DOMAIN-SUFFIX,onfastspring.com
+  - DOMAIN-SUFFIX,stardock.us
+  - DOMAIN-SUFFIX,bali6nora.com
 # > Sony
   - DOMAIN-SUFFIX,sony.tv
   - DOMAIN-SUFFIX,ndmdhs.com
@@ -1076,3 +1082,4 @@ payload:
   - DOMAIN-SUFFIX,228088.xyz
   - DOMAIN-SUFFIX,lazhaiwu.com
   - DOMAIN-SUFFIX,woo15.com
+
