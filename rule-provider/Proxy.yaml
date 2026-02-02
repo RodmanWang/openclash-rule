@@ -776,6 +776,8 @@ payload:
   - DOMAIN-SUFFIX,onfastspring.com
   - DOMAIN-SUFFIX,stardock.us
   - DOMAIN-SUFFIX,bali6nora.com
+  - DOMAIN-SUFFIX,stardock.net
+  - DOMAIN-SUFFIX,pendo.io
 # > Sony
   - DOMAIN-SUFFIX,sony.tv
   - DOMAIN-SUFFIX,ndmdhs.com
@@ -1082,4 +1084,3 @@ payload:
   - DOMAIN-SUFFIX,228088.xyz
   - DOMAIN-SUFFIX,lazhaiwu.com
   - DOMAIN-SUFFIX,woo15.com
-
