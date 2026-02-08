@@ -825,6 +825,8 @@ payload:
   - DOMAIN-SUFFIX,vectranet.pl
   - DOMAIN-SUFFIX,zidoo.tv
   - DOMAIN-SUFFIX,zidoo.net
+  - DOMAIN-SUFFIX,kodinerds.net
+  - DOMAIN-SUFFIX,acdb.tv
 # > Ubuntu
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,snapcraft.io
