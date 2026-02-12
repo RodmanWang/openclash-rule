@@ -1537,7 +1537,6 @@ payload:
   - DOMAIN-SUFFIX,joybuy.com
   - DOMAIN-SUFFIX,linglonglife.com
   - DOMAIN-SUFFIX,logiseasy.com
-  - DOMAIN-SUFFIX,logiseasy.com
   - DOMAIN-SUFFIX,mayshijia.com
   - DOMAIN-SUFFIX,minitiao.com
   - DOMAIN-SUFFIX,missjia.net
@@ -1556,7 +1555,6 @@ payload:
   - DOMAIN-SUFFIX,vipmro.org
   - DOMAIN-SUFFIX,wanggou.com
   - DOMAIN-SUFFIX,wangyin.com
-  - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,wuliujie.com
   - DOMAIN-SUFFIX,xianjiqun.com
   - DOMAIN-SUFFIX,xjoycity.com
@@ -1713,7 +1711,6 @@ payload:
   - DOMAIN-SUFFIX,hifly.tv
   - DOMAIN-SUFFIX,hnbntv.tv
   - DOMAIN-SUFFIX,hunaniptv.com
-# > MGTV
   - DOMAIN-SUFFIX,miguvideo.com
   - DOMAIN-SUFFIX,migufun.com
 # > Mydrivers  
@@ -3179,11 +3176,6 @@ payload:
   - DOMAIN-SUFFIX,api.rzv.cc
   - DOMAIN-SUFFIX,lianggexinxi.xyz
   - DOMAIN-SUFFIX,cmcc-ecs.com
-  - DOMAIN-SUFFIX,secomtrust.net
-  - DOMAIN-SUFFIX,playwoool.com
-  - DOMAIN-SUFFIX,zitidi.com
-  - DOMAIN-SUFFIX,miankousucai.com
-  - DOMAIN-SUFFIX,moqu8.com
   - DOMAIN-SUFFIX,394tv.com
   - DOMAIN-SUFFIX,4k-m.com
   - DOMAIN-SUFFIX,5266ys.com
