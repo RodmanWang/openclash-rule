@@ -1976,7 +1976,6 @@ payload:
   - DOMAIN-SUFFIX,hetushu.com
   - DOMAIN-SUFFIX,hjwzw.com
   - DOMAIN-SUFFIX,hsjsby.com
-  - DOMAIN-SUFFIX,http:
   - DOMAIN-SUFFIX,isiluke.net
   - DOMAIN-SUFFIX,isiluke.org
   - DOMAIN-SUFFIX,ixdzs8.com
@@ -1988,7 +1987,6 @@ payload:
   - DOMAIN-SUFFIX,lianjianxsw.com
   - DOMAIN-SUFFIX,lingdiankanshu.com
   - DOMAIN-SUFFIX,linovelib.com
-  - DOMAIN-SUFFIX,localhost:5000
   - DOMAIN-SUFFIX,loubiqu.net
   - DOMAIN-SUFFIX,lucifer-club.com
   - DOMAIN-SUFFIX,luoqiuzw.com
