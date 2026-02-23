@@ -364,6 +364,7 @@ payload:
   - DOMAIN-SUFFIX,rapidssl.com
   - DOMAIN-SUFFIX,lencr.org
   - DOMAIN-SUFFIX,letsencrypt.org
+  - DOMAIN-SUFFIX,sectigo.com
 # > Github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
@@ -1091,3 +1092,4 @@ payload:
   - DOMAIN-SUFFIX,sentry-cdn.com
   - DOMAIN-SUFFIX,canny.io
   - DOMAIN-SUFFIX,payssion.com
+
