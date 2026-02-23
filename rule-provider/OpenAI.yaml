@@ -28,3 +28,6 @@ payload:
   - DOMAIN-SUFFIX,gamma.app
   - DOMAIN-SUFFIX,honeycomb.io
   - DOMAIN-SUFFIX,knock.app
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,intercom.help
+  - DOMAIN-SUFFIX,intercom.io
