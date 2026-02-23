@@ -24,3 +24,5 @@ payload:
   - DOMAIN-SUFFIX,meta.ai
 # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
+# > Gamma AI
+  - DOMAIN-SUFFIX,gamma.app
