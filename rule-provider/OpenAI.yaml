@@ -26,3 +26,5 @@ payload:
   - DOMAIN-SUFFIX,perplexity.ai
 # > Gamma AI
   - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,honeycomb.io
+  - DOMAIN-SUFFIX,knock.app
