@@ -853,6 +853,7 @@ payload:
   - DOMAIN-SUFFIX,mcwy.pro
   - DOMAIN-SUFFIX,ovhcloud.com
   - DOMAIN-SUFFIX,bandwagonhost.net
+  - DOMAIN-SUFFIX, bwhstats.com
   - IP-CIDR,91.90.193.0/24,no-resolve
 # > Vmware
   - DOMAIN-SUFFIX,vmware.com
@@ -1093,3 +1094,4 @@ payload:
   - DOMAIN-SUFFIX,canny.io
   - DOMAIN-SUFFIX,payssion.com
   - DOMAIN-SUFFIX,radio-browser.info
+
