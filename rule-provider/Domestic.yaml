@@ -804,6 +804,7 @@ payload:
   - DOMAIN-SUFFIX,ksapisrv.com
   - DOMAIN-SUFFIX,kwaicdn.com
   - DOMAIN-SUFFIX,hypercachenode.com
+  - DOMAIN-SUFFIX,applogcdn.com
 # > Blizzard
   - DOMAIN-SUFFIX,battle.net
   - DOMAIN-SUFFIX,battlenet.com
@@ -3309,3 +3310,4 @@ payload:
   - DOMAIN-SUFFIX,4366.com
   - DOMAIN-SUFFIX,ctobsnssdk.com
   - DOMAIN-SUFFIX,marmot-cloud.com
+
