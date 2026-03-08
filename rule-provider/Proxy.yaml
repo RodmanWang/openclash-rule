@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,adguardaccount.com
   - DOMAIN-SUFFIX,adguardcdn.com
   - DOMAIN-SUFFIX,adguardcdn.net
+  - DOMAIN-SUFFIX,adguard-mail.com
 # > Adobe
   - DOMAIN-SUFFIX,adobe.io
   - DOMAIN-SUFFIX,adobe.net
@@ -1096,3 +1097,4 @@ payload:
   - DOMAIN-SUFFIX,radio-browser.info
   - DOMAIN-SUFFIX,vlemonsqueezy.com
   - DOMAIN-SUFFIX,ipfind.com
+
