@@ -57,12 +57,15 @@ payload:
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - DOMAIN-SUFFIX,v.xns.one
   - IP-CIDR,45.141.139.16/32,no-resolve
-  - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,46.3.26.20/32,no-resolve
   - IP-CIDR,46.3.43.21/32,no-resolve
   - IP-CIDR,148.178.21.17/32,no-resolve
   - IP-CIDR,172.93.220.162/32,no-resolve
   - IP-CIDR,206.237.31.237/32,no-resolve
+  - IP-CIDR,45.141.139.16/32,no-resolve
+  - IP-CIDR,45.249.245.247/32,no-resolve
+  - IP-CIDR,217.217.33.20/32,no-resolve
+  - IP-CIDR,142.248.150.166/32,no-resolve
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
@@ -140,3 +143,4 @@ payload:
 # > Qiyoubooster
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+
