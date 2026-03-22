@@ -1099,3 +1099,7 @@ payload:
   - DOMAIN-SUFFIX,ipfind.com
   - DOMAIN-SUFFIX,autorefresh.io
   - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,ssl.com
+  - DOMAIN-SUFFIX,idcflare.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,beyondwickedmapping.org
