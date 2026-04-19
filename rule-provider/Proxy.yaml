@@ -646,6 +646,7 @@ payload:
   - DOMAIN-SUFFIX,media-imdb.com
   - DOMAIN-SUFFIX,ofdb.de
   - DOMAIN-SUFFIX,fanart.tv
+  - DOMAIN-SUFFIX,tvmaze.com
 # > NTP
   - DOMAIN-SUFFIX,ntppool.org
   - DOMAIN-SUFFIX,pool.ntp.org
