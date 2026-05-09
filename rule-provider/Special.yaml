@@ -66,6 +66,7 @@ payload:
   - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,217.217.33.20/32,no-resolve
   - IP-CIDR,142.248.150.166/32,no-resolve
+  - IP-CIDR,64.49.44.119/32,no-resolve
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
