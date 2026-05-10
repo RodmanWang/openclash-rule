@@ -57,16 +57,16 @@ payload:
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - DOMAIN-SUFFIX,v.xns.one
   - IP-CIDR,45.141.139.16/32,no-resolve
+  - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,46.3.26.20/32,no-resolve
   - IP-CIDR,46.3.43.21/32,no-resolve
+  - IP-CIDR,64.49.44.119/32,no-resolve
+  - IP-CIDR,70.39.204.10/32,no-resolve
+  - IP-CIDR,142.248.150.166/32,no-resolve
   - IP-CIDR,148.178.21.17/32,no-resolve
   - IP-CIDR,172.93.220.162/32,no-resolve
   - IP-CIDR,206.237.31.237/32,no-resolve
-  - IP-CIDR,45.141.139.16/32,no-resolve
-  - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,217.217.33.20/32,no-resolve
-  - IP-CIDR,142.248.150.166/32,no-resolve
-  - IP-CIDR,64.49.44.119/32,no-resolve
   - IP-CIDR6,2405:84c0:8018:1400::/128,no-resolve
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
@@ -75,9 +75,9 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.pool.ntp.org
   - IP-CIDR,114.118.7.163/32,no-resolve
   - IP-CIDR,106.55.184.199/32,no-resolve
+  - IP-CIDR,203.107.6.88/32,no-resolve
   - IP-CIDR6,2403:300:a30:3000::1f2/128,no-resolve
   - IP-CIDR6,2403:300:a16:4000::21/128,no-resolv
-  - IP-CIDR,203.107.6.88/32,no-resolve
 # > Proxy plugin
   - PROCESS-NAME,v2ray
   - PROCESS-NAME,ss-local
