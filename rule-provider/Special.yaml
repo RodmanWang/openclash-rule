@@ -68,6 +68,8 @@ payload:
   - IP-CIDR,206.237.31.237/32,no-resolve
   - IP-CIDR,217.217.33.20/32,no-resolve
   - IP-CIDR6,2405:84c0:8018:1400::/128,no-resolve
+# > Google
+  - DOMAIN,www.gstatic.com
 # > NTP(CN)
   - DOMAIN-SUFFIX,android.pool.ntp.org
   - DOMAIN-SUFFIX,cn.ntppool.org
