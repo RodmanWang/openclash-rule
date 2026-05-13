@@ -58,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,sg.kahkee.xns.one
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
   - DOMAIN-SUFFIX,v.xns.one
+  - DOMAIN-SUFFIX,n.xns.one
   - IP-CIDR,45.141.139.16/32,no-resolve
   - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,46.3.26.20/32,no-resolve
