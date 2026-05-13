@@ -498,6 +498,7 @@ payload:
   - IP-CIDR6,2600:1900::/28,no-resolve
   - IP-CIDR6,2607:f8b0:4005::/48,no-resolve
   - IP-CIDR6,2607:f8b0:4007::/48,no-resolve
+  - IP-CIDR6,2607:f8b0:400e::/48,no-resolve
 # > GoogleCN
   - DOMAIN,services.googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
