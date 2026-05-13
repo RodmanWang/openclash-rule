@@ -12,6 +12,8 @@ payload:
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR6,2400:3200::1/128,no-resolve
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
+# > 114
+  - IP-CIDR,114.114.114.114/32,no-resolve
 # > DNS（abroad-direct）
   - DOMAIN,dns.twnic.tw
   - IP-CIDR,101.101.101.101/32,no-resolve
