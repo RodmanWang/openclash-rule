@@ -149,4 +149,4 @@ payload:
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
 # > Lan
-  - AND,((DST-PORT,3478),(NETWORK,UDP))
+  - DST-PORT,3478
