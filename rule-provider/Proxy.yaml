@@ -256,6 +256,7 @@ payload:
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,9.9.9.9/32,no-resolve
   - IP-CIDR,9.9.9.10/32,no-resolve
+  - IP-CIDR,23.237.116.4/32,no-resolve
   - IP-CIDR,77.88.8.1/32,no-resolve
   - IP-CIDR,77.88.8.8/32,no-resolve
   - IP-CIDR,94.140.14.140/32,no-resolve
