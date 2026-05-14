@@ -14,6 +14,22 @@ payload:
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
 # > 114
   - IP-CIDR,114.114.114.114/32,no-resolve
+# > DNS（abroad-direct）
+  - DOMAIN,dns.twnic.tw
+  - IP-CIDR,101.101.101.101/32,no-resolve
+  - IP-CIDR,101.102.103.104/32,no-resolve
+  - IP-CIDR6,2001:de4::101/128,no-resolve
+  - IP-CIDR6,2001:de4::102/128,no-resolve
+  - DOMAIN,public.dns.iij.jp
+  - IP-CIDR,103.2.57.5/32,no-resolve
+  - IP-CIDR,103.2.57.6/32,no-resolve
+  - IP-CIDR6,2001:300::5/128,no-resolve
+  - IP-CIDR6,2001:300::6/128,no-resolve
+  - DOMAIN,doh.dns.sb
+  - IP-CIDR,103.121.210.210/32,no-resolve
+  - IP-CIDR,45.125.0.26/32,no-resolve
+  - IP-CIDR6,2400:6180:0:d0::45a:b001/128,no-resolve
+  - IP-CIDR6,2403:fbc0:1000::babe/128,no-resolve
 # > DNS（AdGuardDNS）
   - DOMAIN-SUFFIX,adguard-dns.com
   - DOMAIN-SUFFIX,adguard-dns.io
@@ -41,6 +57,8 @@ payload:
   - DOMAIN-SUFFIX,kr.pro.xns.one
   - DOMAIN-SUFFIX,sg.kahkee.xns.one
   - DOMAIN-SUFFIX,vxcdn.novaxns.one
+  - DOMAIN-SUFFIX,v.xns.one
+  - DOMAIN-SUFFIX,n.xns.one
   - IP-CIDR,45.141.139.16/32,no-resolve
   - IP-CIDR,45.249.245.247/32,no-resolve
   - IP-CIDR,46.3.26.20/32,no-resolve
@@ -130,3 +148,5 @@ payload:
 # > Qiyoubooster
   - PROCESS-NAME,qy_acc
   - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+# > Lan
+  - AND,((DST-PORT,3478),(NETWORK,UDP))
