@@ -1,4 +1,17 @@
 payload:
+# > local
+  - DOMAIN,find.synology.com
+  - DOMAIN,finds.synology.com
+# > UUBooster
+  - PROCESS-NAME,uugamebooster
+  - DOMAIN-SUFFIX,uu.163.com
+# > Qiyoubooster
+  - PROCESS-NAME,qy_acc
+  - DOMAIN-SUFFIX,ljbmq.qiyou.cn
+# > Continuity Test
+  - DOMAIN,www.gstatic.com
+  - DOMAIN,cp.cloudflare.com
+  - DOMAIN,captive.apple.com
 # > DNS（domestic）
   - DOMAIN,doh.pub
   - DOMAIN,dot.pub
@@ -9,7 +22,6 @@ payload:
   - IP-CIDR,223.6.6.6/32,no-resolve
   - IP-CIDR6,2400:3200::1/128,no-resolve
   - IP-CIDR6,2400:3200:baba::1/128,no-resolve
-# > 114
   - IP-CIDR,114.114.114.114/32,no-resolve
 # > DNS（abroad-direct）
   - DOMAIN,dns.twnic.tw
