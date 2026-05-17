@@ -555,6 +555,7 @@ payload:
   - IP-CIDR,46.8.206.0/24,no-resolve
   - IP-CIDR,82.202.185.0/24,no-resolve
   - IP-CIDR,185.201.0.0/24,no-resolve
+  - IP-CIDR,185.201.2.0/24,no-resolve
 # > Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
