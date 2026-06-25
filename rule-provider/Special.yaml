@@ -96,10 +96,8 @@ payload:
   - DOMAIN,image.api.playstation.com
   - DOMAIN,gs2.ww.prod.dl.playstation.net
   - DOMAIN,gst.prod.dl.playstation.net
-  - DOMAIN,ps5.np.playstation.net
   - DOMAIN,vulcan.dl.playstation.net
   - DOMAIN,image.api.np.km.playstation.net
-  - DOMAIN,www.playstation.com
   - DOMAIN,manuals.playstation.net
   - DOMAIN,dcn01.ps5.update.playstation.net
 # > SteamCN
