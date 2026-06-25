@@ -136,10 +136,8 @@ payload:
   - DOMAIN-SUFFIX,playstation.com
   - DOMAIN-SUFFIX,playstation.net
   - DOMAIN-SUFFIX,playstationnetwork.com
-  - DOMAIN,ca.account.sony.com
-  - DOMAIN,id.sonyentertainmentnetwork.com
-  - DOMAIN,my.account.sony.com
-  - DOMAIN,sky-srlc.account.sony.com
+  - DOMAIN-SUFFIX,account.sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 # >Unity
   - DOMAIN-SUFFIX,unity.com
   - DOMAIN-SUFFIX,unity3dusercontent.com
