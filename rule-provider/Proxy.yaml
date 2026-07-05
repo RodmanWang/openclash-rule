@@ -984,6 +984,7 @@ payload:
   - DOMAIN-SUFFIX,releases.com
   - DOMAIN-SUFFIX,rottentomatoes.com
   - DOMAIN-SUFFIX,subscene.com
+  - DOMAIN-SUFFIX,futbin.com
   - DOMAIN-SUFFIX,t.jiayoushichang.com
   - DOMAIN-SUFFIX,tgx.rs
   - DOMAIN-SUFFIX,torlock2.com
