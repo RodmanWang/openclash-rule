@@ -734,6 +734,7 @@ payload:
   - DOMAIN-SUFFIX,samsungknox.com
   - DOMAIN-SUFFIX,vas.samsungapps.com
   - DOMAIN-SUFFIX,v3.account.samsung.com
+  - DOMAIN-SUFFIX,samsungcloudsolution.net
 # > SoftLayer
   - IP-CIDR,74.86.0.0/16,no-resolve
   - IP-CIDR,75.126.0.0/16,no-resolve
