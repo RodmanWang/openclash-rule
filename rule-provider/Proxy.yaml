@@ -735,6 +735,7 @@ payload:
   - DOMAIN-SUFFIX,vas.samsungapps.com
   - DOMAIN-SUFFIX,v3.account.samsung.com
   - DOMAIN-SUFFIX,samsungcloudsolution.net
+  - DOMAIN-SUFFIX,samsungcloudsolution.ne
 # > SoftLayer
   - IP-CIDR,74.86.0.0/16,no-resolve
   - IP-CIDR,75.126.0.0/16,no-resolve
@@ -1116,3 +1117,4 @@ payload:
   - DOMAIN-SUFFIX,kempt.net
   - DOMAIN-SUFFIX,spameatingmonkey.net
   - DOMAIN-SUFFIX,efnet.org
+  - DOMAIN-SUFFIX,symcd.com
