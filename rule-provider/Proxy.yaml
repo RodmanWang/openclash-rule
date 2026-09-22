@@ -636,6 +636,7 @@ payload:
   - DOMAIN,activity.windows.com=
   - DOMAIN,194320-ipv4.gr.global.aa-rt.sharepoint.com
   - IP-CIDR,172.160.0.0/11,no-resolve
+  - IP-CIDR,103.46.230.0/24,no-resolve
   - IP-CIDR6,2620:1ec:46::/48,no-resolve
   - IP-CIDR6,a04:fa87:fffe::/48,no-resolve
 # > Media
