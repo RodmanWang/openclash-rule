@@ -156,6 +156,7 @@ payload:
   - DOMAIN-SUFFIX,unblockit.mov
   - DOMAIN-SUFFIX,unblockit.vegas
   - DOMAIN-SUFFIX,1337x.to
+  - DOMAIN,bt.26512.com
 # > Chrome Extensions
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,crx4chrome.com
