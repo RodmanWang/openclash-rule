@@ -94,6 +94,7 @@ payload:
   - DOMAIN-SUFFIX,bazai.com
   - DOMAIN-SUFFIX,bhuvgy.com
   - DOMAIN-SUFFIX,bohu.co
+  - DOMAIN-SUFFIX,caoliao.net
   - DOMAIN-SUFFIX,c1a0.com
   - DOMAIN-SUFFIX,c1a2.com
   - DOMAIN-SUFFIX,c1a3.com
@@ -2863,6 +2864,8 @@ payload:
   - DOMAIN-SUFFIX,wxlagame.com
   - DOMAIN-SUFFIX,wxpayui.com
   - DOMAIN-SUFFIX,wxutil.com
+  - DOMAIN-SUFFIX,wxcloudrun.com
+  - DOMAIN-SUFFIX,wxgateway.com
   - DOMAIN-SUFFIX,xgamecenter.com
   - DOMAIN-SUFFIX,xindongdinglv.com
   - DOMAIN-SUFFIX,xinyueclub.com
@@ -3313,3 +3316,8 @@ payload:
   - DOMAIN-SUFFIX,marmot-cloud.com
   - DOMAIN-SUFFIX,trustasia.com
   - DOMAIN-SUFFIX,fontdo.com
+  - DOMAIN-SUFFIX,lockin.com
+  - DOMAIN-SUFFIX,flashcat.cloud
+  - DOMAIN-SUFFIX,book118.com
+  - DOMAIN-SUFFIX,cli.im
+  - DOMAIN-SUFFIX,clewm.net
