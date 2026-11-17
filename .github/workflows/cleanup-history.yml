@@ -1,0 +1,147 @@
+
+name: Cleanup Git History
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: cleanup-git-history
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    name: Clean Git History and Actions
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      # 2. Configure Git
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      # 3. Delete Actions runs older than 7 days
+      - name: Delete old Actions runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          CUTOFF=$(date -u -d "7 days ago" +%s)
+
+          echo "Deleting Actions runs older than 7 days..."
+
+          # Collect all run IDs before deleting anything
+          gh api --paginate \
+            "repos/$GH_REPO/actions/runs?per_page=100" \
+            --jq '.workflow_runs[] | [.id, .created_at] | @tsv' \
+            > /tmp/actions-runs.tsv
+
+          DELETED=0
+
+          while IFS=$'\t' read -r run_id created_at; do
+            [ -z "${run_id:-}" ] && continue
+
+            # Never delete the currently executing workflow
+            if [ "$run_id" = "$CURRENT_RUN_ID" ]; then
+              continue
+            fi
+
+            CREATED=$(date -u -d "$created_at" +%s)
+
+            if [ "$CREATED" -lt "$CUTOFF" ]; then
+              echo "Deleting run: $run_id ($created_at)"
+
+              gh api \
+                --method DELETE \
+                "repos/$GH_REPO/actions/runs/$run_id"
+
+              DELETED=$((DELETED + 1))
+            fi
+          done < /tmp/actions-runs.tsv
+
+          echo "Deleted $DELETED old Actions runs."
+
+      # 4. Get all remote branches
+      - name: Get all branches
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin --prune
+
+          git branch -r --format='%(refname:strip=3)' \
+            | grep -v '^HEAD$' \
+            > /tmp/branches.txt || true
+
+          if [ ! -s /tmp/branches.txt ]; then
+            echo "No branches found."
+            exit 1
+          fi
+
+          echo "Branches to clean:"
+          cat /tmp/branches.txt
+
+      # 5. Reset history of every branch
+      - name: Clean every branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          INDEX=0
+
+          while IFS= read -r branch; do
+            [ -z "$branch" ] && continue
+
+            INDEX=$((INDEX + 1))
+
+            echo "================================"
+            echo "Cleaning branch: $branch"
+            echo "================================"
+
+            git checkout --detach "refs/remotes/origin/$branch"
+
+            TEMP_BRANCH="cleanup-history-${GITHUB_RUN_ID}-${INDEX}"
+
+            git checkout --orphan "$TEMP_BRANCH"
+
+            git add -A
+
+            if git diff --cached --quiet; then
+              git commit --allow-empty -m "chore: reset git history"
+            else
+              git commit -m "chore: reset git history"
+            fi
+
+            git push \
+              --force-with-lease="refs/heads/$branch" \
+              origin \
+              "HEAD:refs/heads/$branch"
+
+            echo "Successfully cleaned: $branch"
+
+          done < /tmp/branches.txt
+
+      # 6. Finish
+      - name: Finish
+        run: |
+          echo "================================"
+          echo "Cleanup completed successfully."
+          echo "Old Actions runs deleted."
+          echo "All branch histories reset."
+          echo "All branch names preserved."
+          echo "================================"
