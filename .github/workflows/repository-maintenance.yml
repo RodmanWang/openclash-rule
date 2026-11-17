@@ -1,0 +1,538 @@
+
+name: Repository Maintenance
+
+permissions:
+  contents: read
+  actions: read
+
+on:
+  workflow_dispatch:
+    inputs:
+      workflow_runs_keep_days:
+        description: "Workflow Runs retention (days)"
+        required: false
+        default: 7 # RETENTION_DEFAULT_RUNS
+        type: number
+
+      commits_keep_days:
+        description: "Git Commits retention (days)"
+        required: false
+        default: 180 # RETENTION_DEFAULT_COMMITS
+        type: number
+
+      update_interval_hours:
+        description: "Automatic execution interval (hours)"
+        required: false
+        default: 3 # RETENTION_DEFAULT_INTERVAL
+        type: number
+
+  schedule:
+    - cron: '*/15 * * * *'
+
+concurrency:
+  group: openclash-rule-maintenance
+  cancel-in-progress: false
+
+jobs:
+  maintenance:
+    name: Clean Workflow Runs and Git History
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+
+      DEFAULT_RUNS_DAYS: "7" # RETENTION_DEFAULT_RUNS
+      DEFAULT_COMMITS_DAYS: "180" # RETENTION_DEFAULT_COMMITS
+      DEFAULT_UPDATE_INTERVAL: "3" # RETENTION_DEFAULT_INTERVAL
+
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+
+    steps:
+      # 1. Check PERSON_TOKEN
+      - name: Validate PERSON_TOKEN
+        shell: bash
+        env:
+          PERSON_TOKEN: ${{ secrets.PERSON_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$PERSON_TOKEN" ]; then
+            echo "::error::PERSON_TOKEN is missing."
+            exit 1
+          fi
+
+          echo "PERSON_TOKEN is configured."
+
+      # 2. Checkout default branch
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          token: ${{ secrets.PERSON_TOKEN }}
+          persist-credentials: true
+
+      # 3. Configure Git
+      - name: Configure Git
+        run: |
+          set -euo pipefail
+
+          git config user.name "GitHub Actions Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 4. Resolve settings
+      - name: Set maintenance settings
+        id: settings
+        shell: bash
+        env:
+          INPUT_RUNS_DAYS: ${{ inputs.workflow_runs_keep_days }}
+          INPUT_COMMITS_DAYS: ${{ inputs.commits_keep_days }}
+          INPUT_UPDATE_INTERVAL: ${{ inputs.update_interval_hours }}
+        run: |
+          set -euo pipefail
+
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            RUNS_DAYS="${INPUT_RUNS_DAYS:-$DEFAULT_RUNS_DAYS}"
+            COMMITS_DAYS="${INPUT_COMMITS_DAYS:-$DEFAULT_COMMITS_DAYS}"
+            UPDATE_INTERVAL="${INPUT_UPDATE_INTERVAL:-$DEFAULT_UPDATE_INTERVAL}"
+          else
+            RUNS_DAYS="$DEFAULT_RUNS_DAYS"
+            COMMITS_DAYS="$DEFAULT_COMMITS_DAYS"
+            UPDATE_INTERVAL="$DEFAULT_UPDATE_INTERVAL"
+          fi
+
+          for VALUE in "$RUNS_DAYS" "$COMMITS_DAYS" "$UPDATE_INTERVAL"; do
+            if ! [[ "$VALUE" =~ ^[1-9][0-9]*$ ]]; then
+              echo "::error::All settings must be positive integers."
+              exit 1
+            fi
+          done
+
+          echo "runs_days=$RUNS_DAYS" >> "$GITHUB_OUTPUT"
+          echo "commits_days=$COMMITS_DAYS" >> "$GITHUB_OUTPUT"
+          echo "update_interval=$UPDATE_INTERVAL" >> "$GITHUB_OUTPUT"
+
+          echo "Workflow Runs retention: $RUNS_DAYS days"
+          echo "Git Commits retention: $COMMITS_DAYS days"
+          echo "Automatic interval: $UPDATE_INTERVAL hours"
+
+          {
+            echo "## Maintenance Settings"
+            echo ""
+            echo "- Workflow Runs: $RUNS_DAYS days"
+            echo "- Git Commits: $COMMITS_DAYS days"
+            echo "- Automatic interval: $UPDATE_INTERVAL hours"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 5. Save manual settings into workflow defaults
+      - name: Remember manual settings
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        shell: bash
+        env:
+          NEW_RUNS_DAYS: ${{ steps.settings.outputs.runs_days }}
+          NEW_COMMITS_DAYS: ${{ steps.settings.outputs.commits_days }}
+          NEW_UPDATE_INTERVAL: ${{ steps.settings.outputs.update_interval }}
+        run: |
+          set -euo pipefail
+
+          WORKFLOW_FILE=".github/workflows/repository-maintenance.yml"
+
+          if [ ! -f "$WORKFLOW_FILE" ]; then
+            echo "::error::Workflow file not found: $WORKFLOW_FILE"
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          path = Path(".github/workflows/repository-maintenance.yml")
+          content = path.read_text()
+
+          settings = [
+              ("RETENTION_DEFAULT_RUNS", os.environ["NEW_RUNS_DAYS"],
+               "DEFAULT_RUNS_DAYS"),
+              ("RETENTION_DEFAULT_COMMITS", os.environ["NEW_COMMITS_DAYS"],
+               "DEFAULT_COMMITS_DAYS"),
+              ("RETENTION_DEFAULT_INTERVAL", os.environ["NEW_UPDATE_INTERVAL"],
+               "DEFAULT_UPDATE_INTERVAL"),
+          ]
+
+          for marker, value, env_name in settings:
+              input_pattern = (
+                  r'(?m)^(\s*default:\s*)\d+(\s+# '
+                  + re.escape(marker) + r')$'
+              )
+
+              content, count = re.subn(
+                  input_pattern,
+                  lambda m: m.group(1) + value + m.group(2),
+                  content
+              )
+
+              if count != 1:
+                  raise SystemExit(
+                      f"Expected exactly one input default for {marker}, found {count}"
+                  )
+
+              env_pattern = (
+                  r'(?m)^(\s*' + re.escape(env_name)
+                  + r':\s*)"\d+"(\s+# '
+                  + re.escape(marker) + r')$'
+              )
+
+              content, count = re.subn(
+                  env_pattern,
+                  lambda m: m.group(1) + '"' + value + '"' + m.group(2),
+                  content
+              )
+
+              if count != 1:
+                  raise SystemExit(
+                      f"Expected exactly one environment default for {marker}, found {count}"
+                  )
+
+          path.write_text(content)
+          print("All manual settings saved.")
+          PY
+
+          git add "$WORKFLOW_FILE"
+
+          if git diff --cached --quiet; then
+            echo "Settings unchanged."
+          else
+            git commit -m "chore: update maintenance defaults"
+            git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+            echo "New defaults pushed successfully."
+          fi
+
+      # 6. Check whether automatic maintenance is due
+      - name: Check automatic execution interval
+        id: gate
+        shell: bash
+        env:
+          UPDATE_INTERVAL: ${{ steps.settings.outputs.update_interval }}
+        run: |
+          set -euo pipefail
+
+          SHOULD_RUN=false
+          NOW=$(date -u +%s)
+          STATE_FILE=".github/maintenance-state.json"
+
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            SHOULD_RUN=true
+            echo "Manual execution: maintenance starts immediately."
+
+          else
+            if [ -f "$STATE_FILE" ]; then
+              LAST_UPDATE=$(python3 -c '
+          import json
+          with open(".github/maintenance-state.json") as f:
+              print(json.load(f).get("last_update_epoch", 0))
+          ')
+            else
+              LAST_UPDATE=0
+            fi
+
+            if ! [[ "$LAST_UPDATE" =~ ^[0-9]+$ ]]; then
+              LAST_UPDATE=0
+            fi
+
+            INTERVAL_SECONDS=$((UPDATE_INTERVAL * 3600))
+            ELAPSED=$((NOW - LAST_UPDATE))
+
+            echo "Last update: $LAST_UPDATE"
+            echo "Elapsed: $ELAPSED seconds"
+            echo "Required: $INTERVAL_SECONDS seconds"
+
+            if [ "$LAST_UPDATE" -eq 0 ] ||
+               [ "$ELAPSED" -ge "$INTERVAL_SECONDS" ]; then
+              SHOULD_RUN=true
+              echo "Automatic maintenance is due."
+            else
+              echo "Not yet due."
+            fi
+          fi
+
+          echo "run_maintenance=$SHOULD_RUN" >> "$GITHUB_OUTPUT"
+
+      # 7. Delete old Workflow Runs
+      - name: Delete old Workflow Runs
+        if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
+        env:
+          KEEP_DAYS: ${{ steps.settings.outputs.runs_days }}
+          CURRENT_RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+
+          CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
+
+          echo "Deleting completed Workflow Runs older than $KEEP_DAYS days."
+
+          gh api --paginate \
+            "repos/$GH_REPO/actions/runs?per_page=100" \
+            --jq '.workflow_runs[] | select(.status == "completed") | [.id, .created_at] | @tsv' \
+            > "$RUNNER_TEMP/actions-runs.tsv"
+
+          DELETED=0
+          KEPT=0
+
+          while IFS=$'\t' read -r RUN_ID CREATED_AT; do
+            [ -z "${RUN_ID:-}" ] && continue
+
+            if [ "$RUN_ID" = "$CURRENT_RUN_ID" ]; then
+              echo "Keeping current run: $RUN_ID"
+              continue
+            fi
+
+            CREATED=$(date -u -d "$CREATED_AT" +%s)
+
+            if [ "$CREATED" -lt "$CUTOFF" ]; then
+              echo "Deleting run: $RUN_ID ($CREATED_AT)"
+
+              gh api \
+                --method DELETE \
+                "repos/$GH_REPO/actions/runs/$RUN_ID"
+
+              DELETED=$((DELETED + 1))
+            else
+              KEPT=$((KEPT + 1))
+            fi
+          done < "$RUNNER_TEMP/actions-runs.tsv"
+
+          echo "Deleted: $DELETED"
+          echo "Kept: $KEPT"
+
+          {
+            echo "## Workflow Runs Cleanup"
+            echo ""
+            echo "- Retention: $KEEP_DAYS days"
+            echo "- Deleted: $DELETED"
+            echo "- Kept: $KEPT"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 8. Install git-filter-repo
+      - name: Install git-filter-repo
+        if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 -m venv "$RUNNER_TEMP/filter-repo-venv"
+
+          "$RUNNER_TEMP/filter-repo-venv/bin/pip" install \
+            --disable-pip-version-check \
+            git-filter-repo
+
+          echo "$RUNNER_TEMP/filter-repo-venv/bin" >> "$GITHUB_PATH"
+
+          git-filter-repo --version
+
+      # 9. Clean old history of every branch
+      - name: Clean every branch by commit date
+        if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
+        env:
+          KEEP_DAYS: ${{ steps.settings.outputs.commits_days }}
+        run: |
+          set -euo pipefail
+
+          CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
+
+          echo "Git history retention: $KEEP_DAYS days"
+          echo "Cutoff timestamp: $CUTOFF"
+
+          # Refresh all remote branches.
+          git fetch origin --prune \
+            '+refs/heads/*:refs/remotes/origin/*'
+
+          # Detach before creating local branch references.
+          git checkout --detach HEAD
+
+          mapfile -t BRANCHES < <(
+            git for-each-ref \
+              --format='%(refname:strip=3)' \
+              refs/remotes/origin \
+            | grep -v '^HEAD$'
+          )
+
+          if [ "${#BRANCHES[@]}" -eq 0 ]; then
+            echo "::error::No remote branches found."
+            exit 1
+          fi
+
+          BRANCH_REFS=()
+
+          for BRANCH in "${BRANCHES[@]}"; do
+            echo "Preparing branch: $BRANCH"
+
+            git branch -f "$BRANCH" "refs/remotes/origin/$BRANCH"
+
+            BRANCH_REFS+=("refs/heads/$BRANCH")
+          done
+
+          # Record each branch's original tip and tree.
+          git for-each-ref \
+            --format='%(refname:strip=2)%09%(objectname)%09%(objectname^{tree})' \
+            refs/heads > "$RUNNER_TEMP/branches-before.tsv"
+
+          # Protect branch tips even if a branch has no commits
+          # within the retention window.
+          PROTECTED_TIPS=$(
+            git for-each-ref \
+              --format='%(objectname)' refs/heads \
+            | paste -sd, -
+          )
+
+          export CUTOFF_EPOCH="$CUTOFF"
+          export PROTECTED_TIPS
+
+          # Commit callback:
+          # Skip commits older than the cutoff, except branch tips.
+          cat > "$RUNNER_TEMP/commit-callback.py" <<'PY'
+          import os
+
+          cutoff = int(os.environ["CUTOFF_EPOCH"])
+
+          protected_tips = set(
+              filter(None, os.environ["PROTECTED_TIPS"].split(","))
+          )
+
+          original_id = commit.original_id.decode("ascii")
+
+          committer_timestamp = int(
+              commit.committer_date.split()[0]
+          )
+
+          if (
+              committer_timestamp < cutoff
+              and original_id not in protected_tips
+          ):
+              commit.skip()
+          PY
+
+          echo "Branches to clean:"
+          printf '%s\n' "${BRANCHES[@]}"
+
+          echo "Rewriting old commit history..."
+
+          git-filter-repo \
+            --force \
+            --refs "${BRANCH_REFS[@]}" \
+            --commit-callback "$RUNNER_TEMP/commit-callback.py"
+
+          # Restore remote URL because git-filter-repo removes origin.
+          git remote remove origin 2>/dev/null || true
+
+          REMOTE_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
+
+          git remote add origin "$REMOTE_URL"
+
+          # Verify every branch before pushing anything.
+          while IFS=$'\t' read -r BRANCH OLD_SHA OLD_TREE; do
+            [ -z "${BRANCH:-}" ] && continue
+
+            if ! git show-ref --verify --quiet "refs/heads/$BRANCH"; then
+              echo "::error::Branch disappeared after filtering: $BRANCH"
+              exit 1
+            fi
+
+            NEW_TREE=$(git rev-parse "refs/heads/$BRANCH^{tree}")
+
+            if [ "$OLD_TREE" != "$NEW_TREE" ]; then
+              echo "::error::File snapshot changed on branch: $BRANCH"
+              exit 1
+            fi
+
+            echo "Verified identical file snapshot: $BRANCH"
+
+          done < "$RUNNER_TEMP/branches-before.tsv"
+
+          echo "All branch snapshots verified."
+
+          # Push rewritten branches with lease protection.
+          while IFS=$'\t' read -r BRANCH OLD_SHA OLD_TREE; do
+            [ -z "${BRANCH:-}" ] && continue
+
+            NEW_SHA=$(git rev-parse "refs/heads/$BRANCH")
+
+            if [ "$OLD_SHA" = "$NEW_SHA" ]; then
+              echo "No history changes needed: $BRANCH"
+              continue
+            fi
+
+            echo "Pushing cleaned branch: $BRANCH"
+
+            git push \
+              --force-with-lease="refs/heads/$BRANCH:$OLD_SHA" \
+              origin \
+              "refs/heads/$BRANCH:refs/heads/$BRANCH"
+
+            echo "Successfully cleaned: $BRANCH"
+
+          done < "$RUNNER_TEMP/branches-before.tsv"
+
+          {
+            echo "## Git History Cleanup"
+            echo ""
+            echo "- Retention: $KEEP_DAYS days"
+            echo "- Branches processed: ${#BRANCHES[@]}"
+            echo "- Method: Remove commits older than cutoff"
+            echo "- Current branch snapshots: verified identical"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 10. Save last successful maintenance timestamp
+      - name: Save automatic execution timestamp
+        if: ${{ steps.gate.outputs.run_maintenance == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin \
+            "+refs/heads/$DEFAULT_BRANCH:refs/remotes/origin/$DEFAULT_BRANCH"
+
+          git checkout -B "$DEFAULT_BRANCH" \
+            "refs/remotes/origin/$DEFAULT_BRANCH"
+
+          mkdir -p .github
+
+          python3 - <<'PY'
+          import json
+          import time
+          from pathlib import Path
+
+          state = {
+              "last_update_epoch": int(time.time())
+          }
+
+          Path(".github/maintenance-state.json").write_text(
+              json.dumps(state, indent=2) + "\n"
+          )
+          PY
+
+          git add .github/maintenance-state.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: record maintenance timestamp"
+            git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+          fi
+
+          echo "Maintenance timestamp saved."
+
+      # 11. Final summary
+      - name: Maintenance summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Repository Maintenance Result"
+            echo ""
+            echo "- Workflow Runs retention: ${{ steps.settings.outputs.runs_days }} days"
+            echo "- Git Commits retention: ${{ steps.settings.outputs.commits_days }} days"
+            echo "- Automatic interval: ${{ steps.settings.outputs.update_interval }} hours"
+            echo "- Maintenance executed: ${{ steps.gate.outputs.run_maintenance }}"
+          } >> "$GITHUB_STEP_SUMMARY"
