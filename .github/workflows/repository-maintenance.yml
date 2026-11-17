@@ -328,9 +328,17 @@ jobs:
             --disable-pip-version-check \
             git-filter-repo
 
-          echo "$RUNNER_TEMP/filter-repo-venv/bin" >> "$GITHUB_PATH"
+          FILTER_REPO_BIN="$RUNNER_TEMP/filter-repo-venv/bin"
 
+          echo "$FILTER_REPO_BIN" >> "$GITHUB_PATH"
+
+          # 当前 Step 立即使用安装路径
+          export PATH="$FILTER_REPO_BIN:$PATH"
+
+          command -v git-filter-repo
           git-filter-repo --version
+
+          echo "git-filter-repo installed successfully."
 
       # 9. Clean old history of every branch
       - name: Clean every branch by commit date
