@@ -17,13 +17,13 @@ on:
       commits_keep_days:
         description: "Git Commits retention (days)"
         required: false
-        default: 180 # RETENTION_DEFAULT_COMMITS
+        default: 30 # RETENTION_DEFAULT_COMMITS
         type: number
 
       update_interval_hours:
         description: "Automatic execution interval (hours)"
         required: false
-        default: 3 # RETENTION_DEFAULT_INTERVAL
+        default: 24 # RETENTION_DEFAULT_INTERVAL
         type: number
 
   schedule:
@@ -44,8 +44,8 @@ jobs:
       GH_REPO: ${{ github.repository }}
 
       DEFAULT_RUNS_DAYS: "7" # RETENTION_DEFAULT_RUNS
-      DEFAULT_COMMITS_DAYS: "180" # RETENTION_DEFAULT_COMMITS
-      DEFAULT_UPDATE_INTERVAL: "3" # RETENTION_DEFAULT_INTERVAL
+      DEFAULT_COMMITS_DAYS: "30" # RETENTION_DEFAULT_COMMITS
+      DEFAULT_UPDATE_INTERVAL: "24" # RETENTION_DEFAULT_INTERVAL
 
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
