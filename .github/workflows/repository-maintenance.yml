@@ -384,10 +384,25 @@ jobs:
           done
 
           # Record each branch's original tip and tree.
-          git for-each-ref \
-            --format='%(refname:strip=2)%09%(objectname)%09%(objectname^{tree})' \
-            refs/heads > "$RUNNER_TEMP/branches-before.tsv"
+                    # Record each branch's original commit and tree.
+          : > "$RUNNER_TEMP/branches-before.tsv"
 
+          while IFS= read -r BRANCH; do
+            [ -z "$BRANCH" ] && continue
+
+            OLD_SHA=$(git rev-parse "refs/heads/$BRANCH")
+            OLD_TREE=$(git rev-parse "refs/heads/$BRANCH^{tree}")
+
+            printf '%s\t%s\t%s\n' \
+              "$BRANCH" "$OLD_SHA" "$OLD_TREE" \
+              >> "$RUNNER_TEMP/branches-before.tsv"
+
+          done < <(
+            git for-each-ref \
+              --format='%(refname:strip=2)' \
+              refs/heads
+          )
+          
           # Protect branch tips even if a branch has no commits
           # within the retention window.
           PROTECTED_TIPS=$(
