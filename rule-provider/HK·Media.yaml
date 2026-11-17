@@ -1,0 +1,31 @@
+payload:
+# > myTV_SUPER
+  - DOMAIN-SUFFIX,encoretvb.com
+  - DOMAIN-SUFFIX,mytvsuper.com
+  - DOMAIN-SUFFIX,mytvsuperlimited.hb.omtrdc.net
+  - DOMAIN-SUFFIX,mytvsuperlimited.sc.omtrdc.net
+  - DOMAIN-SUFFIX,tvb.com
+  - DOMAIN-SUFFIX,tvb.com.au
+  - DOMAIN-SUFFIX,tvbanywhere.com
+  - DOMAIN-SUFFIX,tvbanywhere.com.sg
+  - DOMAIN-SUFFIX,tvbc.com.cn
+  - DOMAIN-SUFFIX,tvbeventpower.com.hk
+  - DOMAIN-SUFFIX,tvbusa.com
+  - DOMAIN-SUFFIX,tvbweekly.com
+  - DOMAIN-SUFFIX,tvmedia.net.au
+  - DOMAIN-SUFFIX,videos-f.jwpsrv.com
+  - DOMAIN-SUFFIX,run.app
+# > HBO GO HKG
+  - DOMAIN,players.brightcove.net
+  - DOMAIN-SUFFIX,hbogoasia.hk
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN,hboasia1-i.akamaihd.net
+  - DOMAIN,hboasia2-i.akamaihd.net
+  - DOMAIN,hboasia3-i.akamaihd.net
+  - DOMAIN,hboasia4-i.akamaihd.net
+  - DOMAIN,hboasia5-i.akamaihd.net
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
+  - DOMAIN,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com

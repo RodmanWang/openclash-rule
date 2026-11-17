@@ -1,0 +1,5 @@
+payload:
+# > 置顶规则，禁止访问（适用局域网访问控制）
+#- DOMAIN-SUFFIX,google.com
+#- DOMAIN-KEYWORD,google
+#- IP-CIDR,127.0.0.0/8,no-resolve
