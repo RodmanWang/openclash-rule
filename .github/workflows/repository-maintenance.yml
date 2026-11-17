@@ -27,7 +27,7 @@ on:
         type: number
 
   schedule:
-    - cron: '*/15 * * * *'
+  - cron: '7,22,37,52 * * * *'
 
 concurrency:
   group: openclash-rule-maintenance
