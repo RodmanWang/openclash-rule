@@ -17,7 +17,7 @@ on:
       保留数量:
         description: "在保留天数范围内，最多保留多少条 Actions 运行记录，以及每个分支多少个 Git 提交？"
         required: true
-        default: 100
+        default: 30
         type: number
 
   # 每天北京时间 03:30
@@ -126,7 +126,8 @@ jobs:
           echo "保留天数：$RETENTION_DAYS"
           echo "保留数量：$RETENTION_COUNT"
 
-      # 5. 将手动输入保存为下次默认值
+      
+      # 5. 将手动设置保存为下次默认值
       - name: 保存手动设置
         if: ${{ github.event_name == 'workflow_dispatch' }}
         shell: bash
@@ -138,67 +139,100 @@ jobs:
 
           WORKFLOW_FILE=".github/workflows/repository-maintenance.yml"
 
+          if [ ! -f "$WORKFLOW_FILE" ]; then
+            echo "::error::找不到工作流文件：$WORKFLOW_FILE"
+            exit 1
+          fi
+
           python3 - <<'PY'
           import os
           import re
           from pathlib import Path
 
           path = Path(".github/workflows/repository-maintenance.yml")
-          content = path.read_text()
-
-          def replace_one(content, pattern, replacement, label):
-              updated, count = re.subn(
-                  pattern,
-                  replacement,
-                  content,
-                  count=1,
-                  flags=re.MULTILINE
-              )
-
-              if count != 1:
-                  raise SystemExit(
-                      f"更新 {label} 失败：预期匹配 1 处，实际匹配 {count} 处。"
-                  )
-
-              return updated
+          lines = path.read_text().splitlines(keepends=True)
 
           days = os.environ["NEW_DAYS"]
           count = os.environ["NEW_COUNT"]
 
-          # 更新手动运行界面的默认值
-          content = replace_one(
-              content,
-              r'(^\s*default:\s*)\d+(\s+# RETENTION_DAYS_INPUT\s*$)',
-              lambda m: m.group(1) + days + m.group(2),
-              "手动运行保留天数默认值"
-          )
+          if not days.isdigit() or int(days) <= 0:
+              raise SystemExit("保留天数必须是正整数。")
 
-          content = replace_one(
-              content,
-              r'(^\s*default:\s*)\d+(\s+# RETENTION_COUNT_INPUT\s*$)',
-              lambda m: m.group(1) + count + m.group(2),
-              "手动运行保留数量默认值"
-          )
+          if not count.isdigit() or int(count) <= 0:
+              raise SystemExit("保留数量必须是正整数。")
+
+          def update_input_default(name, value):
+              key = "      " + name + ":"
+              matches = [
+                  i for i, line in enumerate(lines)
+                  if line.rstrip("\r\n") == key
+              ]
+
+              if len(matches) != 1:
+                  raise SystemExit(
+                      f"输入项 {name} 应出现一次，实际出现 {len(matches)} 次。"
+                  )
+
+              start = matches[0] + 1
+              end = len(lines)
+
+              for i in range(start, len(lines)):
+                  line = lines[i]
+
+                  if re.match(r"^      [^\s#]", line):
+                      end = i
+                      break
+
+              defaults = [
+                  i for i in range(start, end)
+                  if re.match(r"^        default:\s*", lines[i])
+              ]
+
+              if len(defaults) != 1:
+                  raise SystemExit(
+                      f"输入项 {name} 的 default 应出现一次，"
+                      f"实际出现 {len(defaults)} 次。"
+                  )
+
+              i = defaults[0]
+              newline = "\n" if lines[i].endswith("\n") else ""
+              lines[i] = f"        default: {value}{newline}"
+
+          def update_env_default(name, value):
+              prefix = "      " + name + ":"
+              matches = [
+                  i for i, line in enumerate(lines)
+                  if line.startswith(prefix)
+              ]
+
+              if len(matches) != 1:
+                  raise SystemExit(
+                      f"环境变量 {name} 应出现一次，"
+                      f"实际出现 {len(matches)} 次。"
+                  )
+
+              i = matches[0]
+              newline = "\n" if lines[i].endswith("\n") else ""
+
+              lines[i] = (
+                  f'      {name}: "{value}"'
+                  f" # {name}_UPDATED"
+                  f"{newline}"
+              )
+
+          # 更新手动运行界面的默认值
+          update_input_default("保留天数", days)
+          update_input_default("保留数量", count)
 
           # 更新定时任务使用的默认值
-          content = replace_one(
-              content,
-              r'(^\s*DEFAULT_RETENTION_DAYS:\s*)"[^"]*"(\s+# RETENTION_DAYS_ENV\s*$)',
-              lambda m: m.group(1) + '"' + days + '"' + m.group(2),
-              "定时任务保留天数默认值"
-          )
+          update_env_default("DEFAULT_RETENTION_DAYS", days)
+          update_env_default("DEFAULT_RETENTION_COUNT", count)
 
-          content = replace_one(
-              content,
-              r'(^\s*DEFAULT_RETENTION_COUNT:\s*)"[^"]*"(\s+# RETENTION_COUNT_ENV\s*$)',
-              lambda m: m.group(1) + '"' + count + '"' + m.group(2),
-              "定时任务保留数量默认值"
-          )
+          path.write_text("".join(lines))
 
-          path.write_text(content)
-
-          print(f"已保存默认保留天数：{days}")
-          print(f"已保存默认保留数量：{count}")
+          print("默认设置更新成功：")
+          print(f"保留天数：{days}")
+          print(f"保留数量：{count}")
           PY
 
           git add "$WORKFLOW_FILE"
@@ -206,6 +240,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "chore: update maintenance retention settings"
             git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+            echo "已将新的清理设置保存到仓库。"
           else
             echo "清理设置没有变化，无需提交。"
           fi
