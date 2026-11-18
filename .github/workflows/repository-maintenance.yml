@@ -357,7 +357,13 @@ jobs:
               commit.skip()
           PY
 
-          git-filter-repo --force --refs "${BRANCH_REFS[@]}" \
+          # Keep empty and degenerate commits during rewriting. Otherwise,
+          # pruning can remove a branch-tip commit after its ancestors are
+          # filtered, changing the branch's final file snapshot.
+          git-filter-repo --force \
+            --prune-empty never \
+            --prune-degenerate never \
+            --refs "${BRANCH_REFS[@]}" \
             --commit-callback "$RUNNER_TEMP/commit-callback.py"
 
           git remote remove origin 2>/dev/null || true
