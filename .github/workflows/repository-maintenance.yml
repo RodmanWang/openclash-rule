@@ -17,7 +17,7 @@ on:
       保留数量:
         description: "在保留天数范围内，最多保留多少条 Actions 运行记录，以及每个分支多少个 Git 提交？"
         required: true
-        default: 30
+        default: 100
         type: number
 
   # 每天北京时间 03:30
@@ -40,7 +40,7 @@ jobs:
 
       # 定时任务和手动运行的默认值
       DEFAULT_RETENTION_DAYS: "30" # DEFAULT_RETENTION_DAYS_UPDATED
-      DEFAULT_RETENTION_COUNT: "30" # DEFAULT_RETENTION_COUNT_UPDATED
+      DEFAULT_RETENTION_COUNT: "100" # DEFAULT_RETENTION_COUNT_UPDATED
 
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
