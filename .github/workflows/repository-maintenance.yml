@@ -39,8 +39,8 @@ jobs:
       GH_REPO: ${{ github.repository }}
 
       # 定时任务和手动运行的默认值
-      DEFAULT_RETENTION_DAYS: "30" # RETENTION_DAYS_ENV
-      DEFAULT_RETENTION_COUNT: "100" # RETENTION_COUNT_ENV
+      DEFAULT_RETENTION_DAYS: "30" # DEFAULT_RETENTION_DAYS_UPDATED
+      DEFAULT_RETENTION_COUNT: "30" # DEFAULT_RETENTION_COUNT_UPDATED
 
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
