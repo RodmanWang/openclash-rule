@@ -1,4 +1,5 @@
-name: Repository Maintenance
+
+name: 仓库自动清理维护
 
 permissions:
   contents: write
@@ -7,26 +8,16 @@ permissions:
 on:
   workflow_dispatch:
     inputs:
-      workflow_runs_keep_days:
-        description: "Workflow Runs retention (days)"
-        required: false
-        default: 7
-        type: number
-
-      commits_keep_days:
-        description: "Git Commits retention (days)"
-        required: false
+      保留天数:
+        description: "保留最近多少天的 Actions 运行记录和 Git 提交？"
+        required: true
         default: 30
         type: number
 
-      commits_keep_count:
-        description: "Keep the most recent N commits per branch (0 = keep only the latest; empty = disabled)"
-        required: false
-        type: number
-
-      actions_keep_count:
-        description: "Keep the most recent N workflow runs in total (0 = keep only the current run; empty = disabled)"
-        required: false
+      保留数量:
+        description: "在保留天数范围内，最多保留多少条 Actions 运行记录，以及每个分支多少个 Git 提交？"
+        required: true
+        default: 100
         type: number
 
   # 每天北京时间 03:30
@@ -39,7 +30,7 @@ concurrency:
 
 jobs:
   maintenance:
-    name: Clean Workflow Runs and Git History
+    name: 清理 Actions 和 Git 历史
     runs-on: ubuntu-24.04
     timeout-minutes: 60
 
@@ -47,15 +38,15 @@ jobs:
       GH_TOKEN: ${{ secrets.PERSON_TOKEN }}
       GH_REPO: ${{ github.repository }}
 
-      DEFAULT_RUNS_DAYS: "7" # RETENTION_DEFAULT_RUNS
-      DEFAULT_COMMITS_DAYS: "30" # RETENTION_DEFAULT_COMMITS
+      # 定时任务和手动运行的默认值
+      DEFAULT_RETENTION_DAYS: "30" # RETENTION_DAYS_ENV
+      DEFAULT_RETENTION_COUNT: "100" # RETENTION_COUNT_ENV
 
       DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
 
     steps:
-
-      # 1. 检查 PERSON_TOKEN
-      - name: Validate PERSON_TOKEN
+      # 1. 检查 Token
+      - name: 检查 PERSON_TOKEN
         shell: bash
         env:
           PERSON_TOKEN: ${{ secrets.PERSON_TOKEN }}
@@ -63,14 +54,14 @@ jobs:
           set -euo pipefail
 
           if [ -z "$PERSON_TOKEN" ]; then
-            echo "::error::PERSON_TOKEN is missing."
+            echo "::error::未配置 PERSON_TOKEN。"
             exit 1
           fi
 
-          echo "PERSON_TOKEN is configured."
+          echo "PERSON_TOKEN 检查通过。"
 
-      # 2. Checkout 默认分支
-      - name: Checkout repository
+      # 2. Checkout
+      - name: 检出仓库
         uses: actions/checkout@v5
         with:
           ref: ${{ github.event.repository.default_branch }}
@@ -79,7 +70,7 @@ jobs:
           persist-credentials: true
 
       # 3. 配置 Git
-      - name: Configure Git
+      - name: 配置 Git
         shell: bash
         run: |
           set -euo pipefail
@@ -87,156 +78,154 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 4. 读取并验证设置
-      - name: Set maintenance settings
+      # 4. 读取并验证两个设置
+      - name: 读取清理设置
         id: settings
         shell: bash
         env:
-          INPUT_RUNS_DAYS: ${{ inputs.workflow_runs_keep_days }}
-          INPUT_COMMITS_DAYS: ${{ inputs.commits_keep_days }}
-          INPUT_COMMITS_COUNT: ${{ inputs.commits_keep_count }}
-          INPUT_ACTIONS_COUNT: ${{ inputs.actions_keep_count }}
+          INPUT_DAYS: ${{ inputs['保留天数'] }}
+          INPUT_COUNT: ${{ inputs['保留数量'] }}
         run: |
           set -euo pipefail
 
-          RUNS_DAYS="${INPUT_RUNS_DAYS:-$DEFAULT_RUNS_DAYS}"
-          COMMITS_DAYS="${INPUT_COMMITS_DAYS:-$DEFAULT_COMMITS_DAYS}"
+          # 手动运行优先使用输入值，定时运行使用保存的默认值
+          if [ -n "$INPUT_DAYS" ]; then
+            RETENTION_DAYS="$INPUT_DAYS"
+          else
+            RETENTION_DAYS="$DEFAULT_RETENTION_DAYS"
+          fi
 
-          COMMITS_COUNT="$INPUT_COMMITS_COUNT"
-          ACTIONS_COUNT="$INPUT_ACTIONS_COUNT"
+          if [ -n "$INPUT_COUNT" ]; then
+            RETENTION_COUNT="$INPUT_COUNT"
+          else
+            RETENTION_COUNT="$DEFAULT_RETENTION_COUNT"
+          fi
 
-          if ! [[ "$RUNS_DAYS" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Workflow Runs retention must be a positive integer."
+          if ! [[ "$RETENTION_DAYS" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::保留天数必须是大于 0 的整数。"
             exit 1
           fi
 
-          if ! [[ "$COMMITS_DAYS" =~ ^[1-9][0-9]*$ ]]; then
-            echo "::error::Git Commits retention must be a positive integer."
+          if ! [[ "$RETENTION_COUNT" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::保留数量必须是大于 0 的整数。"
             exit 1
           fi
 
-          for VALUE in "$COMMITS_COUNT" "$ACTIONS_COUNT"; do
-            if [ -n "$VALUE" ] && ! [[ "$VALUE" =~ ^[0-9]+$ ]]; then
-              echo "::error::Optional count inputs must be non-negative integers."
-              exit 1
-            fi
-          done
-
-          echo "runs_days=$RUNS_DAYS" >> "$GITHUB_OUTPUT"
-          echo "commits_days=$COMMITS_DAYS" >> "$GITHUB_OUTPUT"
-          echo "commits_count=$COMMITS_COUNT" >> "$GITHUB_OUTPUT"
-          echo "actions_count=$ACTIONS_COUNT" >> "$GITHUB_OUTPUT"
+          echo "days=$RETENTION_DAYS" >> "$GITHUB_OUTPUT"
+          echo "count=$RETENTION_COUNT" >> "$GITHUB_OUTPUT"
 
           {
-            echo "## Maintenance Settings"
+            echo "## 清理设置"
             echo ""
-            echo "- Workflow Runs retention: $RUNS_DAYS days"
-            echo "- Git Commits retention: $COMMITS_DAYS days"
-            echo "- Commits count limit: ${COMMITS_COUNT:-not set}"
-            echo "- Actions count limit: ${ACTIONS_COUNT:-not set}"
+            echo "- 保留天数：$RETENTION_DAYS 天"
+            echo "- 保留数量：$RETENTION_COUNT 条"
+            echo ""
+            echo "执行顺序：先按天数筛选，再按数量限制。"
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 5. 保存手动设置的天数默认值
-      - name: Remember manual retention settings
+          echo "保留天数：$RETENTION_DAYS"
+          echo "保留数量：$RETENTION_COUNT"
+
+      # 5. 将手动输入保存为下次默认值
+      - name: 保存手动设置
         if: ${{ github.event_name == 'workflow_dispatch' }}
         shell: bash
         env:
-          NEW_RUNS_DAYS: ${{ steps.settings.outputs.runs_days }}
-          NEW_COMMITS_DAYS: ${{ steps.settings.outputs.commits_days }}
+          NEW_DAYS: ${{ steps.settings.outputs.days }}
+          NEW_COUNT: ${{ steps.settings.outputs.count }}
         run: |
           set -euo pipefail
 
           WORKFLOW_FILE=".github/workflows/repository-maintenance.yml"
 
-          if [ ! -f "$WORKFLOW_FILE" ]; then
-            echo "::error::Workflow file not found: $WORKFLOW_FILE"
-            exit 1
-          fi
-
+          python3 - <<'PY'
+          import os
           import re
           from pathlib import Path
 
           path = Path(".github/workflows/repository-maintenance.yml")
           content = path.read_text()
 
-          def update_input_default(content, input_name, value):
-              pattern = (
-                  r'(?ms)(^      ' + re.escape(input_name) + r':\n'
-                  r'(?:(?!^      [A-Za-z0-9_-]+:).*\n)*?'
-                  r'^        default:\s*)\d+'
-              )
+          def replace_one(content, pattern, replacement, label):
               updated, count = re.subn(
                   pattern,
-                  lambda m: m.group(1) + value,
+                  replacement,
                   content,
+                  count=1,
+                  flags=re.MULTILINE
               )
+
               if count != 1:
                   raise SystemExit(
-                      f"Expected one default for input {input_name}, found {count}"
+                      f"更新 {label} 失败：预期匹配 1 处，实际匹配 {count} 处。"
                   )
+
               return updated
 
-          def update_env_default(content, env_name, value):
-              pattern = (
-                  r'(?m)(^      ' + re.escape(env_name) + r':\s*)"[^"]*"'
-              )
-              updated, count = re.subn(
-                  pattern,
-                  lambda m: m.group(1) + '"' + value + '"',
-                  content,
-              )
-              if count != 1:
-                  raise SystemExit(
-                      f"Expected one environment default for {env_name}, found {count}"
-                  )
-              return updated
+          days = os.environ["NEW_DAYS"]
+          count = os.environ["NEW_COUNT"]
 
-          content = update_input_default(
-              content, "workflow_runs_keep_days",
-              os.environ["NEW_RUNS_DAYS"]
+          # 更新手动运行界面的默认值
+          content = replace_one(
+              content,
+              r'(^\s*default:\s*)\d+(\s+# RETENTION_DAYS_INPUT\s*$)',
+              lambda m: m.group(1) + days + m.group(2),
+              "手动运行保留天数默认值"
           )
-          content = update_input_default(
-              content, "commits_keep_days",
-              os.environ["NEW_COMMITS_DAYS"]
+
+          content = replace_one(
+              content,
+              r'(^\s*default:\s*)\d+(\s+# RETENTION_COUNT_INPUT\s*$)',
+              lambda m: m.group(1) + count + m.group(2),
+              "手动运行保留数量默认值"
           )
-          content = update_env_default(
-              content, "DEFAULT_RUNS_DAYS",
-              os.environ["NEW_RUNS_DAYS"]
+
+          # 更新定时任务使用的默认值
+          content = replace_one(
+              content,
+              r'(^\s*DEFAULT_RETENTION_DAYS:\s*)"[^"]*"(\s+# RETENTION_DAYS_ENV\s*$)',
+              lambda m: m.group(1) + '"' + days + '"' + m.group(2),
+              "定时任务保留天数默认值"
           )
-          content = update_env_default(
-              content, "DEFAULT_COMMITS_DAYS",
-              os.environ["NEW_COMMITS_DAYS"]
+
+          content = replace_one(
+              content,
+              r'(^\s*DEFAULT_RETENTION_COUNT:\s*)"[^"]*"(\s+# RETENTION_COUNT_ENV\s*$)',
+              lambda m: m.group(1) + '"' + count + '"' + m.group(2),
+              "定时任务保留数量默认值"
           )
 
           path.write_text(content)
 
+          print(f"已保存默认保留天数：{days}")
+          print(f"已保存默认保留数量：{count}")
+          PY
+
           git add "$WORKFLOW_FILE"
 
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update maintenance retention defaults"
-
+            git commit -m "chore: update maintenance retention settings"
             git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
           else
-            echo "Retention defaults unchanged."
+            echo "清理设置没有变化，无需提交。"
           fi
 
-      # 6. 删除旧 Actions Runs
-      - name: Delete old Workflow Runs
+      # 6. 清理 Actions
+      - name: 清理 Actions 运行记录
         shell: bash
         env:
-          KEEP_DAYS: ${{ steps.settings.outputs.runs_days }}
-          KEEP_COUNT: ${{ steps.settings.outputs.actions_count }}
+          KEEP_DAYS: ${{ steps.settings.outputs.days }}
+          KEEP_COUNT: ${{ steps.settings.outputs.count }}
           CURRENT_RUN_ID: ${{ github.run_id }}
         run: |
           set -euo pipefail
 
           CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
 
-          echo "Workflow Runs retention: $KEEP_DAYS days"
-          echo "Workflow Runs count limit: ${KEEP_COUNT:-not set}"
+          echo "Actions 保留天数：$KEEP_DAYS"
+          echo "Actions 保留数量：$KEEP_COUNT"
 
-          # 获取所有已完成的 Workflow Runs。
-          # 先按创建时间倒序排列，再进行数量判断。
+          # 获取所有已完成的运行记录，并按创建时间倒序排列
           gh api --paginate \
             "repos/$GH_REPO/actions/runs?per_page=100" \
             --jq '
@@ -251,43 +240,36 @@ jobs:
           DELETED=0
           ALREADY_ABSENT=0
           KEPT=0
-          INDEX=0
+          RECENT_INDEX=0
 
           while IFS=$'\t' read -r CREATED_AT RUN_ID; do
-
             [ -z "${RUN_ID:-}" ] && continue
 
-            # 当前运行永远保留。
+            # 当前运行永远保留
             if [ "$RUN_ID" = "$CURRENT_RUN_ID" ]; then
-              echo "Keeping current run: $RUN_ID"
               continue
             fi
 
-            INDEX=$((INDEX + 1))
-
             CREATED=$(date -u -d "$CREATED_AT" +%s)
 
-            EXCEEDS_COUNT=false
+            # 第一步：优先按天数判断
+            if [ "$CREATED" -lt "$CUTOFF" ]; then
+              SHOULD_DELETE=true
+            else
+              # 只有在天数范围内的记录才参与数量计算
+              RECENT_INDEX=$((RECENT_INDEX + 1))
 
-            # KEEP_COUNT 表示总保留数量，包含当前正在运行的任务。
-            #
-            # 0：只保留当前运行。
-            # 1：只保留当前运行。
-            # 2：当前运行 + 最近一条已完成运行。
-            # 3：当前运行 + 最近两条已完成运行。
-            #
-            # INDEX 从 1 开始，因此 INDEX >= KEEP_COUNT 时删除。
-            if [ -n "$KEEP_COUNT" ] &&
-               [ "$INDEX" -ge "$KEEP_COUNT" ]; then
-              EXCEEDS_COUNT=true
+              # 数量包含当前正在运行的任务
+              # 因此已完成记录最多保留 KEEP_COUNT - 1 条
+              if [ "$RECENT_INDEX" -ge "$KEEP_COUNT" ]; then
+                SHOULD_DELETE=true
+              else
+                SHOULD_DELETE=false
+              fi
             fi
 
-            # 年限和数量是同时生效的限制。
-            # 任意一项不满足，就删除该运行记录。
-            if [ "$CREATED" -lt "$CUTOFF" ] ||
-               [ "$EXCEEDS_COUNT" = "true" ]; then
-
-              echo "Deleting run: $RUN_ID ($CREATED_AT)"
+            if [ "$SHOULD_DELETE" = "true" ]; then
+              echo "删除 Actions 运行记录：$RUN_ID ($CREATED_AT)"
 
               DELETE_ERROR_FILE="$RUNNER_TEMP/delete-run-error.txt"
 
@@ -299,14 +281,11 @@ jobs:
                 DELETED=$((DELETED + 1))
 
               else
-
                 DELETE_ERROR=$(cat "$DELETE_ERROR_FILE")
 
                 if [[ "$DELETE_ERROR" == *"404"* ]] ||
                    [[ "$DELETE_ERROR" == *"Not Found"* ]]; then
 
-                  # 404 可能是其他操作已经删除了这条记录。
-                  # 再查询一次，确认它是否仍然存在。
                   GET_ERROR_FILE="$RUNNER_TEMP/get-run-error.txt"
 
                   if gh api \
@@ -314,64 +293,55 @@ jobs:
                     --silent \
                     > /dev/null 2> "$GET_ERROR_FILE"; then
 
-                    echo "::error::DELETE returned 404, but run $RUN_ID is still accessible."
-                    echo "::error::Check PERSON_TOKEN Actions write permission."
+                    echo "::error::删除返回 404，但记录仍然可以访问：$RUN_ID"
                     cat "$DELETE_ERROR_FILE"
                     exit 1
 
                   else
-
                     GET_ERROR=$(cat "$GET_ERROR_FILE")
 
                     if [[ "$GET_ERROR" == *"404"* ]] ||
                        [[ "$GET_ERROR" == *"Not Found"* ]]; then
 
-                      echo "::warning::Run $RUN_ID is already absent or inaccessible. Skipping."
+                      echo "::warning::记录已不存在或当前不可访问：$RUN_ID"
                       ALREADY_ABSENT=$((ALREADY_ABSENT + 1))
 
                     else
-
-                      echo "::error::Failed to verify run $RUN_ID after DELETE returned 404."
+                      echo "::error::无法确认记录状态：$RUN_ID"
                       cat "$DELETE_ERROR_FILE"
                       cat "$GET_ERROR_FILE"
                       exit 1
-
                     fi
                   fi
 
                 else
-
-                  echo "::error::Failed to delete workflow run $RUN_ID."
+                  echo "::error::删除 Actions 记录失败：$RUN_ID"
                   cat "$DELETE_ERROR_FILE"
                   exit 1
-
                 fi
               fi
-
             else
-
               KEPT=$((KEPT + 1))
-
             fi
 
           done < "$RUNNER_TEMP/actions-runs.tsv"
 
-          echo "Deleted: $DELETED"
-          echo "Already absent or inaccessible: $ALREADY_ABSENT"
-          echo "Kept: $KEPT"
+          echo "已删除：$DELETED"
+          echo "已不存在或无法访问：$ALREADY_ABSENT"
+          echo "保留的已完成记录：$KEPT"
 
           {
-            echo "## Workflow Runs Cleanup"
+            echo "## Actions 清理结果"
             echo ""
-            echo "- Age retention: $KEEP_DAYS days"
-            echo "- Count limit: ${KEEP_COUNT:-not set}"
-            echo "- Deleted: $DELETED"
-            echo "- Already absent or inaccessible: $ALREADY_ABSENT"
-            echo "- Kept: $KEPT"
+            echo "- 保留天数：$KEEP_DAYS"
+            echo "- 保留数量：$KEEP_COUNT（包含当前运行）"
+            echo "- 已删除：$DELETED"
+            echo "- 已不存在或无法访问：$ALREADY_ABSENT"
+            echo "- 保留的已完成记录：$KEPT"
           } >> "$GITHUB_STEP_SUMMARY"
 
       # 7. 安装 git-filter-repo
-      - name: Install git-filter-repo
+      - name: 安装 Git 历史清理工具
         shell: bash
         run: |
           set -euo pipefail
@@ -385,31 +355,29 @@ jobs:
           FILTER_REPO_BIN="$RUNNER_TEMP/filter-repo-venv/bin"
 
           echo "$FILTER_REPO_BIN" >> "$GITHUB_PATH"
-
           export PATH="$FILTER_REPO_BIN:$PATH"
 
           command -v git-filter-repo
           git-filter-repo --version
 
-      # 8. 清理所有分支的 Git 历史
-      - name: Clean Git history
+      # 8. 清理 Git 历史
+      - name: 清理 Git Commits
         shell: bash
         env:
-          KEEP_DAYS: ${{ steps.settings.outputs.commits_days }}
-          KEEP_COUNT: ${{ steps.settings.outputs.commits_count }}
+          KEEP_DAYS: ${{ steps.settings.outputs.days }}
+          KEEP_COUNT: ${{ steps.settings.outputs.count }}
         run: |
           set -euo pipefail
 
           CUTOFF=$(date -u -d "$KEEP_DAYS days ago" +%s)
 
-          echo "Git history age retention: $KEEP_DAYS days"
-          echo "Git commit count limit: ${KEEP_COUNT:-not set}"
+          echo "Git 提交保留天数：$KEEP_DAYS"
+          echo "每个分支最多保留提交数：$KEEP_COUNT"
 
-          # 获取远程所有分支。
+          # 获取所有远程分支
           git fetch origin --prune \
             '+refs/heads/*:refs/remotes/origin/*'
 
-          # 进入 detached HEAD，避免当前分支被重写时发生冲突。
           git checkout --detach HEAD
 
           mapfile -t BRANCHES < <(
@@ -421,49 +389,40 @@ jobs:
           )
 
           if [ "${#BRANCHES[@]}" -eq 0 ]; then
-            echo "::error::No remote branches found."
+            echo "::error::没有找到远程分支。"
             exit 1
           fi
 
-          echo "Branches found: ${#BRANCHES[@]}"
+          echo "找到分支数量：${#BRANCHES[@]}"
 
-          # 建立所有远程分支对应的本地分支。
           BRANCH_REFS=()
 
           for BRANCH in "${BRANCHES[@]}"; do
-
             git branch -f \
               "$BRANCH" \
               "refs/remotes/origin/$BRANCH"
 
             BRANCH_REFS+=("refs/heads/$BRANCH")
-
           done
 
-          # 保存每个分支原始 SHA 和 tree。
-          # 同时建立临时保护引用，避免原始对象在重写期间被回收。
+          # 保存原始分支快照
           : > "$RUNNER_TEMP/branches-before.tsv"
 
           for BRANCH in "${BRANCHES[@]}"; do
-
             OLD_SHA=$(git rev-parse "refs/heads/$BRANCH")
-
             OLD_TREE=$(git rev-parse "refs/heads/$BRANCH^{tree}")
 
             printf '%s\t%s\t%s\n' \
-              "$BRANCH" \
-              "$OLD_SHA" \
-              "$OLD_TREE" \
+              "$BRANCH" "$OLD_SHA" "$OLD_TREE" \
               >> "$RUNNER_TEMP/branches-before.tsv"
 
+            # 临时保护原始提交对象
             git update-ref \
               "refs/maintenance-snapshots/$BRANCH" \
               "$OLD_SHA"
-
-            echo "Protected snapshot: $BRANCH"
           done
 
-          # 所有分支 tip 都必须保留。
+          # 保护每个分支最新提交
           PROTECTED_TIPS=$(
             git for-each-ref \
               --format='%(objectname)' \
@@ -471,42 +430,41 @@ jobs:
             | paste -sd, -
           )
 
-          # 构建每个分支最近 N 个提交的并集。
-          if [ -n "$KEEP_COUNT" ]; then
+          # 第一步：按天数筛选
+          # 第二步：在天数范围内，按每个分支最近提交数量筛选
+          : > "$RUNNER_TEMP/keep-commit-ids.txt"
 
-            : > "$RUNNER_TEMP/keep-commit-ids.txt"
+          for BRANCH in "${BRANCHES[@]}"; do
+            echo "筛选分支：$BRANCH"
 
-            if [ "$KEEP_COUNT" != "0" ]; then
+            git rev-list --timestamp "refs/heads/$BRANCH" |
+            while read -r COMMIT_TIME COMMIT_SHA; do
+              [ -z "${COMMIT_SHA:-}" ] && continue
 
-              for BRANCH in "${BRANCHES[@]}"; do
+              # 超过天数范围的提交不参与数量保留
+              if [ "$COMMIT_TIME" -lt "$CUTOFF" ]; then
+                continue
+              fi
 
-                git rev-list \
-                  --max-count="$KEEP_COUNT" \
-                  "refs/heads/$BRANCH" \
-                  >> "$RUNNER_TEMP/keep-commit-ids.txt"
+              echo "$COMMIT_SHA"
+            done |
+            head -n "$KEEP_COUNT" \
+              >> "$RUNNER_TEMP/keep-commit-ids.txt"
+          done
 
-              done
-
-            fi
-
-            sort -u \
-              "$RUNNER_TEMP/keep-commit-ids.txt" \
-              -o "$RUNNER_TEMP/keep-commit-ids.txt"
-
-          fi
+          sort -u \
+            "$RUNNER_TEMP/keep-commit-ids.txt" \
+            -o "$RUNNER_TEMP/keep-commit-ids.txt"
 
           export CUTOFF_EPOCH="$CUTOFF"
           export PROTECTED_TIPS
-          export KEEP_COUNT
           export KEEP_IDS_FILE="$RUNNER_TEMP/keep-commit-ids.txt"
 
-          # 生成提交过滤回调。
+          # 生成提交过滤回调
           cat > "$RUNNER_TEMP/commit-callback.py" <<'PY'
           import os
 
           cutoff = int(os.environ["CUTOFF_EPOCH"])
-
-          keep_count = os.environ.get("KEEP_COUNT", "")
 
           protected_tips = set(
               filter(
@@ -515,15 +473,12 @@ jobs:
               )
           )
 
-          keep_ids = set()
-
-          if keep_count != "":
-              with open(os.environ["KEEP_IDS_FILE"]) as f:
-                  keep_ids = {
-                      line.strip()
-                      for line in f
-                      if line.strip()
-                  }
+          with open(os.environ["KEEP_IDS_FILE"]) as f:
+              keep_ids = {
+                  line.strip()
+                  for line in f
+                  if line.strip()
+              }
 
           original_id = commit.original_id.decode("ascii")
 
@@ -531,16 +486,9 @@ jobs:
               commit.committer_date.split()[0]
           )
 
-          # 规则一：超过保留天数的提交需要删除。
           remove_by_age = committer_timestamp < cutoff
+          remove_by_count = original_id not in keep_ids
 
-          # 规则二：不在最近 N 个提交列表中的提交需要删除。
-          remove_by_count = (
-              keep_count != ""
-              and original_id not in keep_ids
-          )
-
-          # 分支最新 tip 无论如何都不能删除。
           is_protected_tip = original_id in protected_tips
 
           if not is_protected_tip and (
@@ -549,10 +497,8 @@ jobs:
               commit.skip()
           PY
 
-          echo "Starting Git history rewrite..."
+          echo "开始重写 Git 历史..."
 
-          # 显式禁止自动修剪空提交和退化合并提交。
-          # 避免过滤后意外改变分支 tip 的文件快照。
           git-filter-repo \
             --force \
             --prune-empty never \
@@ -560,22 +506,18 @@ jobs:
             --refs "${BRANCH_REFS[@]}" \
             --commit-callback "$RUNNER_TEMP/commit-callback.py"
 
-          echo "Git history rewrite completed."
+          echo "Git 历史重写完成。"
 
-          # git-filter-repo 可能移除 origin。
-          # 如果 origin 仍存在，保留原有配置和凭据。
+          # 恢复 origin（如果工具移除了远程配置）
           if ! git remote get-url origin >/dev/null 2>&1; then
             git remote add origin \
               "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git"
           fi
 
-          # 第一阶段：检查所有分支。
-          # 任何一个分支文件快照不一致，都立即中止。
-          # 在全部检查完成前，不允许推送任何分支。
+          # 检查所有分支的文件快照
           CHANGED_BRANCHES=0
 
           while IFS=$'\t' read -r BRANCH OLD_SHA OLD_TREE; do
-
             [ -z "${BRANCH:-}" ] && continue
 
             if ! git show-ref \
@@ -583,25 +525,21 @@ jobs:
               --quiet \
               "refs/heads/$BRANCH"; then
 
-              echo "::error::Branch disappeared after filtering: $BRANCH"
+              echo "::error::重写后分支消失：$BRANCH"
               exit 1
             fi
 
             NEW_SHA=$(git rev-parse "refs/heads/$BRANCH")
-
             NEW_TREE=$(git rev-parse "refs/heads/$BRANCH^{tree}")
 
             if [ "$OLD_TREE" != "$NEW_TREE" ]; then
+              echo "::error::分支文件快照发生变化：$BRANCH"
 
-              echo "::error::File snapshot changed on branch: $BRANCH"
+              echo "原始提交：$OLD_SHA"
+              echo "新提交：$NEW_SHA"
 
-              echo "Original commit: $OLD_SHA"
-              echo "New commit:      $NEW_SHA"
-
-              echo "Original tree: $OLD_TREE"
-              echo "New tree:      $NEW_TREE"
-
-              echo "Changed files:"
+              echo "原始 Tree：$OLD_TREE"
+              echo "新 Tree：$NEW_TREE"
 
               git diff \
                 --no-ext-diff \
@@ -609,8 +547,7 @@ jobs:
                 "$OLD_TREE" \
                 "$NEW_TREE" || true
 
-              echo "::error::No branches have been pushed. Git history cleanup aborted."
-
+              echo "::error::没有推送任何分支，Git 历史清理已中止。"
               exit 1
             fi
 
@@ -618,24 +555,22 @@ jobs:
               CHANGED_BRANCHES=$((CHANGED_BRANCHES + 1))
             fi
 
-            echo "Verified snapshot: $BRANCH"
+            echo "快照检查通过：$BRANCH"
 
           done < "$RUNNER_TEMP/branches-before.tsv"
 
-          echo "All branch snapshots verified."
+          echo "所有分支文件快照检查通过。"
 
-          # 第二阶段：准备所有分支的推送参数。
+          # 所有分支检查通过后，准备原子推送
           PUSH_LEASES=()
           PUSH_REFS=()
 
           while IFS=$'\t' read -r BRANCH OLD_SHA OLD_TREE; do
-
             [ -z "${BRANCH:-}" ] && continue
 
             NEW_SHA=$(git rev-parse "refs/heads/$BRANCH")
 
             if [ "$OLD_SHA" != "$NEW_SHA" ]; then
-
               PUSH_LEASES+=(
                 "--force-with-lease=refs/heads/$BRANCH:$OLD_SHA"
               )
@@ -643,16 +578,12 @@ jobs:
               PUSH_REFS+=(
                 "refs/heads/$BRANCH:refs/heads/$BRANCH"
               )
-
             fi
-
           done < "$RUNNER_TEMP/branches-before.tsv"
 
-          # 第三阶段：原子推送。
-          # 任意一个分支推送失败，服务器不会只更新其中一部分。
+          # 原子推送，避免部分分支更新成功
           if [ "${#PUSH_REFS[@]}" -gt 0 ]; then
-
-            echo "Pushing ${#PUSH_REFS[@]} rewritten branches atomically..."
+            echo "正在原子推送 ${#PUSH_REFS[@]} 个分支..."
 
             git push \
               --atomic \
@@ -660,46 +591,39 @@ jobs:
               origin \
               "${PUSH_REFS[@]}"
 
-            echo "All branches pushed successfully."
-
+            echo "所有分支推送成功。"
           else
-
-            echo "No Git history changes required."
-
+            echo "无需修改 Git 历史。"
           fi
 
-          # 推送成功后清理临时保护引用。
+          # 推送成功后清理临时保护引用
           while IFS=$'\t' read -r BRANCH OLD_SHA OLD_TREE; do
-
             [ -z "${BRANCH:-}" ] && continue
 
             git update-ref \
               -d \
               "refs/maintenance-snapshots/$BRANCH"
-
           done < "$RUNNER_TEMP/branches-before.tsv"
 
           {
-            echo "## Git History Cleanup"
+            echo "## Git 提交清理结果"
             echo ""
-            echo "- Age retention: $KEEP_DAYS days"
-            echo "- Per-branch count limit: ${KEEP_COUNT:-not set}"
-            echo "- Branches processed: ${#BRANCHES[@]}"
-            echo "- Branches rewritten: $CHANGED_BRANCHES"
-            echo "- File snapshots: all verified identical"
-            echo "- Push method: atomic"
+            echo "- 保留天数：$KEEP_DAYS"
+            echo "- 每个分支保留数量：$KEEP_COUNT"
+            echo "- 处理分支数：${#BRANCHES[@]}"
+            echo "- 重写分支数：$CHANGED_BRANCHES"
+            echo "- 文件快照：全部验证一致"
+            echo "- 推送方式：原子推送"
           } >> "$GITHUB_STEP_SUMMARY"
 
-      # 9. 最终执行结果
-      - name: Maintenance summary
+      # 9. 最终报告
+      - name: 清理结果
         if: always()
         shell: bash
         run: |
           {
-            echo "## Repository Maintenance Result"
+            echo "## 仓库维护执行结果"
             echo ""
-            echo "- Workflow Runs retention: ${{ steps.settings.outputs.runs_days }} days"
-            echo "- Git Commits retention: ${{ steps.settings.outputs.commits_days }} days"
-            echo "- Keep latest commits per branch: ${{ steps.settings.outputs.commits_count }}"
-            echo "- Keep latest Actions runs: ${{ steps.settings.outputs.actions_count }}"
+            echo "- 保留天数：${{ steps.settings.outputs.days }}"
+            echo "- 保留数量：${{ steps.settings.outputs.count }}"
           } >> "$GITHUB_STEP_SUMMARY"
