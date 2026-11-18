@@ -153,67 +153,62 @@ jobs:
             exit 1
           fi
 
-          python3 - <<'PY'
-          import os
           import re
           from pathlib import Path
 
           path = Path(".github/workflows/repository-maintenance.yml")
           content = path.read_text()
 
-          settings = [
-              (
-                  "RETENTION_DEFAULT_RUNS",
-                  os.environ["NEW_RUNS_DAYS"],
-                  "DEFAULT_RUNS_DAYS"
-              ),
-              (
-                  "RETENTION_DEFAULT_COMMITS",
-                  os.environ["NEW_COMMITS_DAYS"],
-                  "DEFAULT_COMMITS_DAYS"
-              ),
-          ]
-
-          for marker, value, env_name in settings:
-
-              input_pattern = (
-                  r'(?m)^(\s*default:\s*)\d+(\s+# '
-                  + re.escape(marker)
-                  + r')$'
+          def update_input_default(content, input_name, value):
+              pattern = (
+                  r'(?ms)(^      ' + re.escape(input_name) + r':\n'
+                  r'(?:(?!^      [A-Za-z0-9_-]+:).*\n)*?'
+                  r'^        default:\s*)\d+'
               )
-
-              content, count = re.subn(
-                  input_pattern,
-                  lambda m: m.group(1) + value + m.group(2),
-                  content
+              updated, count = re.subn(
+                  pattern,
+                  lambda m: m.group(1) + value,
+                  content,
               )
-
               if count != 1:
                   raise SystemExit(
-                      f"Expected one input default for {marker}, found {count}"
+                      f"Expected one default for input {input_name}, found {count}"
                   )
+              return updated
 
-              env_pattern = (
-                  r'(?m)^(\s*'
-                  + re.escape(env_name)
-                  + r':\s*)"\d+"(\s+# '
-                  + re.escape(marker)
-                  + r')$'
+          def update_env_default(content, env_name, value):
+              pattern = (
+                  r'(?m)(^      ' + re.escape(env_name) + r':\s*)"[^"]*"'
               )
-
-              content, count = re.subn(
-                  env_pattern,
-                  lambda m: m.group(1) + '"' + value + '"' + m.group(2),
-                  content
+              updated, count = re.subn(
+                  pattern,
+                  lambda m: m.group(1) + '"' + value + '"',
+                  content,
               )
-
               if count != 1:
                   raise SystemExit(
-                      f"Expected one environment default for {marker}, found {count}"
+                      f"Expected one environment default for {env_name}, found {count}"
                   )
+              return updated
+
+          content = update_input_default(
+              content, "workflow_runs_keep_days",
+              os.environ["NEW_RUNS_DAYS"]
+          )
+          content = update_input_default(
+              content, "commits_keep_days",
+              os.environ["NEW_COMMITS_DAYS"]
+          )
+          content = update_env_default(
+              content, "DEFAULT_RUNS_DAYS",
+              os.environ["NEW_RUNS_DAYS"]
+          )
+          content = update_env_default(
+              content, "DEFAULT_COMMITS_DAYS",
+              os.environ["NEW_COMMITS_DAYS"]
+          )
 
           path.write_text(content)
-          PY
 
           git add "$WORKFLOW_FILE"
 
